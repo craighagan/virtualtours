@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.0.0",
+  "id": "brookline-aspinwall-hill",
+  "version": "0.2.0",
+  "title": "Aspinwall Hill: Four Stops from the Front Door",
+  "description": "A deliberately small tour of the block around 107 Colbourne Crescent: the ground under the house, Schick Park at the crest, the Addington Path stairway down the north slope, and Winthrop Path at the bottom of it. Roughly 260 metres end to end, fifteen to twenty minutes at a stroll. Built as a walkable trigger test that can be repeated any evening without driving anywhere — which is exactly what POC-4 needs and what the Coolidge Corner route cannot give you. Winthrop Path added August 2026 after research found Schick Park's civic history much richer than first thought and turned up a well-documented fourth stop at the same intersection this route already treats as a boundary.",
+  "locale": "en-US",
+  "kind": "urban",
+  "distance": 260,
+  "duration_estimate": 1200,
+  "hunt_config": {
+    "teams_reshuffle": false,
+    "contest_window": 300,
+    "safety_swap_enabled": true,
+    "starter_frequency": "low"
+  },
+  "credits": [
+    {
+      "source": "Brookline Historical Society — Linda Olson Pehlke, 'In Step: Brookline's Paths', Our Town Brookline (2005)",
+      "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+      "license": "used by permission, research reference only",
+      "credit": "Brookline Historical Society"
+    },
+    {
+      "source": "OpenStreetMap contributors",
+      "source_url": "https://osm.org/copyright",
+      "license": "ODbL 1.0",
+      "credit": "© OpenStreetMap contributors"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "wp-home-colbourne",
+      "name": "The front door",
+      "address": "107 Colbourne Crescent, Brookline, MA 02445",
+      "position": {
+        "lat": 42.33542,
+        "lon": -71.13431
+      },
+      "order": 1,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Head uphill toward the crest. Schick Park is about a minute away, off Addington Road.",
+      "hunt_items": [
+        {
+          "id": "hunt-house-date",
+          "prompt": "Find out what year this house was built — assessor record, deed, or a neighbour who remembers. Photograph your evidence.",
+          "capture_type": "photo"
+        }
+      ],
+      "dossier": {
+        "summary": "A house on Aspinwall Hill, on land that was part of 87 acres until 1880. The curve of Colbourne Crescent is not topography — it is a design decision made by whoever laid out this hill, and who that was is genuinely disputed.",
+        "text": "## 107 Colbourne Crescent\n\nStart with the ground rather than the building, because the ground has the older story and the building's own dates are not yet researched.\n\nThe Aspinwall family shows up in this part of Brookline in 1650, when Peter Aspinwall purchased land near what is now St. Paul and Aspinwall Avenue. Five generations later his great-great grandson, Dr. William Aspinwall, owned 87 acres covering this hill. In 1880 he sold it. The Aspinwall Hill Land Company formed, laid out roadways, house lots, and footpaths as the framework for development, and residential building on the hill began that year.\n\nSo every lot line on this street, including this one, descends from a single 1880 subdivision of one family's pasture.\n\nThe curving streets are the interesting part. Aspinwall Hill's roads wind rather than grid, and Addington Road in particular forms a giant S with each half traversing opposite sides of the hill. Who chose that is contested — see the facts list. The consequence is not contested at all: walking anywhere on this hill by road takes much longer than the distance suggests, which is precisely why the footpaths exist.\n\n(Fixture note: this dossier is abridged, and deliberately contains nothing about the house itself. FR-1.2 targets 2,000-3,000 words.)",
+        "facts": [
+          {
+            "claim": "Peter Aspinwall purchased land near St. Paul and Aspinwall Avenue in 1650.",
+            "verified": true,
+            "verification_note": "Brookline Historical Society, Addington Path page.",
+            "source": {
+              "source": "Brookline Historical Society — Linda Olson Pehlke",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "Dr. William Aspinwall owned 87 acres covering the hill and sold the land in 1880; the Aspinwall Hill Land Company then formed and residential development began that year.",
+            "verified": true,
+            "verification_note": "Brookline Historical Society, Addington Path page.",
+            "source": {
+              "source": "Brookline Historical Society — Linda Olson Pehlke",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "The winding roads of Aspinwall Hill trace to an 1883 plan Frederick Law Olmsted drew up jointly for Boston University and the Aspinwall Hill Land Company, later revised by Ernest Bowditch to better fit existing property lines.",
+            "verified": false,
+            "verification_note": "Better-sourced than the earlier hedge. The Brookline Historical Society's own Winthrop Path page (a different page in the same series as the Addington Path page already cited here) states directly that BU and the Land Company jointly commissioned Olmsted in 1883, and that Bowditch later revised the plan. This is corroborated indirectly by a Brookline Preservation Commission demolition-report primary-source quote (a resident's 1870s childhood recollection of the same street layout). Worth noting: the Addington Path page — the source this dossier originally cited — does not mention Olmsted at all, so within the Historical Society's own output there is real inconsistency about whether to credit him. Narrate the Winthrop Path account as the better-sourced version, but keep some hedge: it is not unanimous even within one publisher's own series.",
+            "attribution_required": true,
+            "source": {
+              "source": "Brookline Historical Society — Winthrop Path page",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/winthrop/winthropPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "The construction date of 107 Colbourne Crescent.",
+            "verified": false,
+            "verification_note": "Not researched. Needs the Brookline assessor record or the deed chain. Deliberately left blank rather than guessed from neighbouring houses — see hunt-house-date.",
+            "attribution_required": true
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society — Linda Olson Pehlke, 'In Step: Brookline's Paths'",
+            "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "Coordinates from OpenStreetMap geocoding of the street address (OSM way 29933317), not GPS-surveyed. This is the start point and it is Craig's own house — stand on the sidewalk and record the real fix from the Diagnostics screen to replace this. Nothing in the narration describes the building, because no fact about the building has been verified."
+    },
+    {
+      "id": "wp-schick-park",
+      "name": "Schick Park",
+      "address": "129 Addington Rd, Brookline, MA 02445",
+      "position": {
+        "lat": 42.33592,
+        "lon": -71.13351
+      },
+      "order": 2,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Cross to the park entrance and look for the stairway heading down the far side. That is Addington Path.",
+      "hunt_items": [
+        {
+          "id": "hunt-lotta-plaque",
+          "prompt": "Find the plaque and photograph what it says Lotta Bradburn Schick did. Compare it against what the town's own website says about her — the plaque is not the whole story.",
+          "capture_type": "photo"
+        }
+      ],
+      "dossier": {
+        "summary": "A pocket park at the crest of Aspinwall Hill. The land was bought by the town in 1945, opened for recreation in 1950 as Addington Park, and renamed in 1955 for Lotta Bradburn Shick — a Wellsley-educated civic figure who served fifteen years on the School Committee, founded the neighborhood's own Aspinwall Hill Associates, and championed Brookline's first municipal golf course. Fully renovated 2024-2026.",
+        "text": "## Lotta Bradburn Shick Park\n\nThe full name is Lotta Bradburn Shick Park, which almost nobody uses. It sits at the top of the hill: ball field, playgrounds, basketball court, picnic seating. The 2024-2026 renovation removed the stone table with the chess and checkers board that used to sit here — field-confirmed August 2026, after this dossier first went to print citing it as still present. Part of Brookline's Green Dog program.\n\nThe park's own history has three dates, not one. The town bought this land, along with five other lots atop the hill, in 1945 for recreational purposes. It opened for recreation in October 1950, under the name Addington Park. It was renamed in 1955 for Lotta Bradburn Shick. An earlier version of this dossier compressed all three into \"dedicated in 1945\" — the Brookline Historical Society's own path page does exactly that, while the Town's own parks page gives the fuller three-stage sequence. Both are the town's own sources; they simply tell it at different levels of detail.\n\nShick herself, once you actually look, turns out to be well documented — the plaque undersells her. A Wellsley College graduate with a master's in French, she taught French before turning to civic work: fifteen years on Brookline's School Committee, first elected in 1929 after an earlier run in 1925; a Town Meeting member from 1925; an advocate for school lunch standards, school nursing, and school pensions. In the mid-1920s she established the Katherine Bradburn Cup, in memory of her daughter, awarded to a graduating student excelling in scholarship and athletics — no cause of death for her daughter is recorded anywhere found, and none should be guessed at. She helped found the Aspinwall Hill Associates, the neighborhood association for the very ground this walk covers, and pushed for Brookline's first municipal golf course, driving the ceremonial first ball at its opening. She ran for the Massachusetts House twice in the early 1930s and for Selectman in 1942; no source found records whether she won either race.\n\nThe park itself was fully renovated between 2024 and 2026: design review through 2024, a construction contract signed May 2025, groundbreaking that July, a winter shutdown, and completion in spring 2026, with a formal reopening planned for fall 2026.\n\n(Fixture note: abridged.)",
+        "facts": [
+          {
+            "claim": "The town bought this and five other lots atop Aspinwall Hill in 1945 for recreational purposes; the park opened for recreation as \"Addington Park\" in October 1950; it was renamed for Lotta Bradburn Shick in 1955.",
+            "verified": true,
+            "verification_note": "Town of Brookline's own park renovation page gives this three-stage sequence, which is more detailed than the Brookline Historical Society's Addington Path page (which compresses it to 'dedicated in 1945'). Both are legitimate Town/Historical-Society sources; they disagree on compression, not on substance — narrate the fuller sequence, and note the discrepancy rather than picking one silently.",
+            "source": {
+              "source": "Town of Brookline, Lotta Bradburn Schick Park Renovation page",
+              "source_url": "https://www.brooklinema.gov/3714/Lotta-Bradburn-Schick-Park-Renovation",
+              "license": "municipal record"
+            }
+          },
+          {
+            "claim": "Lotta Bradburn Shick was a Wellsley College graduate, taught French, served fifteen years on Brookline's School Committee (first elected 1929, after an earlier 1925 run), was a Town Meeting member from 1925, founded the Katherine Bradburn Cup in memory of her daughter, helped found the Aspinwall Hill Associates, championed Brookline's first municipal golf course, and ran unsuccessfully or with unrecorded outcome for the Massachusetts House (1932, 1934) and Selectman (1942).",
+            "verified": true,
+            "verification_note": "All from the Town of Brookline's own park page, which reads as staff-written local history rather than a footnoted document — treat as a reputable secondary source, not a primary one. No birth year, death year, or family details beyond her daughter's memorial cup were found anywhere. Do not narrate a cause of death for Katherine Bradburn; none is recorded in any source found.",
+            "source": {
+              "source": "Town of Brookline, Lotta Bradburn Schick Park Renovation page",
+              "source_url": "https://www.brooklinema.gov/3714/Lotta-Bradburn-Schick-Park-Renovation",
+              "license": "municipal record"
+            }
+          },
+          {
+            "claim": "The park's 2024-2026 renovation: design review through 2024, construction contract signed May 20, 2025, groundbreaking July 7, 2025, tree removal July 22-23, 2025, winter shutdown December 2025, spring resume March 2026, play equipment complete April 2026, reopened July 2026 with the central lawn still closed for grass establishment; contractor Mountain View Landscapes and Lawncare, Inc.; contact Aaron Kraemer, Landscape Architect, Parks and Open Space Division.",
+            "verified": true,
+            "verification_note": "Direct municipal renovation-timeline record.",
+            "source": {
+              "source": "Town of Brookline, Parks and Open Space Division",
+              "license": "municipal record"
+            }
+          },
+          {
+            "claim": "The park has a stone table with a chess/checkers board.",
+            "verified": false,
+            "verification_note": "Confirmed removed during the 2024-2026 renovation — field-checked by Craig in person, August 2026. The table existed before the renovation (per commercial listing aggregators, never a town record) but is gone now. Do not narrate it as present.",
+            "attribution_required": true
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of Brookline, Lotta Bradburn Schick Park Renovation page",
+            "source_url": "https://www.brooklinema.gov/3714/Lotta-Bradburn-Schick-Park-Renovation",
+            "license": "municipal record"
+          },
+          {
+            "source": "Brookline Historical Society — Linda Olson Pehlke",
+            "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "Coordinates from OpenStreetMap (Lotta Bradburn Schick Park way centroid). Four independent sources put the park between 42.3357-42.3361 N and -71.1333 to -71.1337 W, so the centroid is good to about 30m — adequate for a 30m radius but worth replacing with a real fix at the entrance. Park is public; photography is fine, but it is a playground, so the hunt items point at a plaque and a stone table rather than at children."
+    },
+    {
+      "id": "wp-addington-path",
+      "name": "Addington Path",
+      "address": "Addington Path, Brookline, MA 02445 — the stairway between Schick Park and Winthrop Road",
+      "position": {
+        "lat": 42.33643,
+        "lon": -71.13328
+      },
+      "order": 3,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "The path runs down to Winthrop Road. Turn around and climb back up, or carry on down toward Beacon Street near Washington Square.",
+      "dossier": {
+        "summary": "A public stairway path accepted by the town in 1894, one of seven on Aspinwall Hill. It climbs the north slope in 294.45 feet, connecting Winthrop Road to the Shick Park entrance, and exists because the hill's curving roads make walking absurdly indirect.",
+        "text": "## Addington Path\n\nA pedestrian stairway climbing the north slope of Aspinwall Hill: alternating short flights of steps and flat inclined stretches, iron handrails on both sides. Midway up, stone retaining walls under moss and vines show what it cost to build anything on this grade.\n\nIt is one of seven paths on Aspinwall Hill, and the town accepted it in 1894 — fourteen years after development began.\n\nIt begins at Winthrop Road near the intersection with Colbourne Crescent and Addington Road, and ends across from the Shick Park entrance. It climbs the hill in 294.45 feet.\n\nWhy it exists: Addington Road forms a giant S, each half of the S traversing opposite sides of the hill. Following it on foot is slow and indirect. The path cuts straight up instead, which makes it a genuine shortcut for people on the hill who are walking rather than driving — and from the bottom, Winthrop Road runs down to Beacon Street near Washington Square.\n\nThomas Aspinwall, Dr. William Aspinwall's eldest son, was a partner in the engineering firm that drew up the plan for the hill, and pushed to have the paths included.\n\n(Fixture note: abridged.)",
+        "facts": [
+          {
+            "claim": "Addington Path is one of seven paths on Aspinwall Hill and was accepted by the town in 1894.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society — Linda Olson Pehlke",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "The path climbs the hill in 294.45 feet, begins at Winthrop Road near Colbourne Crescent and Addington Road, and ends across from the Shick Park entrance.",
+            "verified": true,
+            "verification_note": "Brookline Historical Society. The figure is quoted to two decimal places in the source; the narration treats that precision as a joke rather than pretending it is meaningful.",
+            "source": {
+              "source": "Brookline Historical Society — Linda Olson Pehlke",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "Addington Road forms a giant S with each half traversing opposite sides of the hill, making the path a meaningful shortcut for pedestrians.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society — Linda Olson Pehlke",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "Thomas Aspinwall, eldest son of Dr. William Aspinwall, was a partner in the engineering firm that drew up the plan and pushed to include the paths.",
+            "verified": true,
+            "verification_note": "Stated by the Brookline Historical Society. Note that the source's further suggestion that he 'may deserve credit' for the paths is the author's inference, not a documented fact — narrate the advocacy, not the credit.",
+            "source": {
+              "source": "Brookline Historical Society — Linda Olson Pehlke",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society — Linda Olson Pehlke, 'In Step: Brookline's Paths', Our Town Brookline (2005)",
+            "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "Coordinates are an OpenStreetMap node on the mapped 'steps' way (OSM way 1184319142), partway up rather than at either end — chosen so the 30m radius catches a walker on the stairs regardless of direction of travel. Note that OSM carries three ways named 'Addington Path': a residential road, a footway, and the steps. There is a separate residential street called Addington Path with house numbers on it, which is a real geocoding trap; this waypoint is the stairway. Stairs plus handrails, so this is the one stop where audio arriving mid-descent is a genuine safety consideration — worth watching during POC-4."
+    },
+    {
+      "id": "wp-winthrop-path",
+      "name": "Winthrop Path",
+      "address": "Winthrop Path, Brookline, MA 02445 — the footway between Winthrop Road and Washington Street",
+      "position": {
+        "lat": 42.337227,
+        "lon": -71.131608
+      },
+      "order": 4,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "This is the end of the loop. Head back up to Colbourne Crescent, or continue down to Washington Street if you want the longer way home.",
+      "dossier": {
+        "summary": "Brookline's third-longest pedestrian path, accepted as a public way by a specific 1893 town meeting alongside University Road — crossing land once owned by Boston University, the same institution whose 1883 land deal with the Aspinwall Hill Land Company produced the S-curve street plan seen at the previous stop.",
+        "text": "## Winthrop Path\n\nRuns from Winthrop Road down to Washington Street, crossing land once owned by Boston University, and divided into two sections by University Road. Three hundred seventy-nine feet long — Brookline's third-longest path, behind only Summit and Rawson.\n\nOn October 10, 1893, Brookline's Selectmen held a special meeting and accepted both Winthrop Path and University Road as public ways, appropriating $950 for a wooden plank walk and a crossing. That is a town-meeting record, not folklore — dated to the day.\n\nA distinctive lollipop-shaped cable marker sits at the top, labeled for an old underground-cable company; a cast-aluminum sign from 1937 marks the Winthrop Road end; a stone retaining wall and iron handrails mark the University Road crossing.\n\nThis path and the previous stop's Addington Path are two of seventeen public pedestrian paths in Brookline, most built between 1886 and 1926 to shortcut the same problem: steep hill roads that wind rather than grid.\n\n(Fixture note: abridged.)",
+        "facts": [
+          {
+            "claim": "Winthrop Path is 379 feet long, Brookline's third-longest pedestrian path after Summit and Rawson paths, crossing land once owned by Boston University and divided into two sections by University Road.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society — Winthrop Path page",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/winthrop/winthropPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "Brookline's Selectmen held a special meeting on October 10, 1893, accepting both Winthrop Path and University Road as public ways, with a $950 appropriation for a wooden plank walk and a crossing.",
+            "verified": true,
+            "verification_note": "A specific, dated municipal record — stronger sourcing than most facts already used elsewhere in this tour.",
+            "source": {
+              "source": "Brookline Historical Society — Winthrop Path page",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/winthrop/winthropPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "Brookline has 17 pedestrian paths, ranging from 69 to 791 feet, many built between 1886 and 1926 to shortcut steep hill routes.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society — path series",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society — Winthrop Path page",
+            "source_url": "https://brooklinehistoricalsociety.org/paths/winthrop/winthropPath.asp",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "Coordinates GPS-surveyed by Craig 2026-08-04 (was a desk estimate from the Historical Society's description (runs from Winthrop Road, near the Addington Path lower end, down to Washington Street), not GPS-surveyed — needs a real fix walked on site before POC-4, same as every other waypoint in this bundle. Added August 2026 alongside the Schick Park research refresh; not part of the original three-waypoint POC-4 harness."
+    }
+  ]
+}

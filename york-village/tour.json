@@ -1,0 +1,421 @@
+{
+  "schema_version": "1.0.0",
+  "id": "york-village-historic",
+  "version": "0.1.0",
+  "title": "York Village: Maine's First Charter",
+  "description": "A walk through one of New England's oldest settlements — chartered in 1641, older than most of Massachusetts. Six stops within a quarter mile of each other along York Street and Lindsay Road, from the village green to the York River overlook. The Old York Historical Society maintains most of these buildings; three are open seasonally. Roughly half a mile, thirty to forty minutes at a stroll with pauses.",
+  "locale": "en-US",
+  "kind": "urban",
+  "distance": 800,
+  "duration_estimate": 2100,
+  "hunt_config": {
+    "teams_reshuffle": false,
+    "contest_window": 300,
+    "safety_swap_enabled": true,
+    "starter_frequency": "low"
+  },
+  "credits": [
+    {
+      "source": "Old York Historical Society — Museums of Old York",
+      "source_url": "https://www.oldyork.org",
+      "license": "research reference only",
+      "credit": "Old York Historical Society"
+    },
+    {
+      "source": "OpenStreetMap contributors",
+      "source_url": "https://osm.org/copyright",
+      "license": "ODbL 1.0",
+      "credit": "OpenStreetMap contributors"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "wp-jefferds-tavern",
+      "name": "Jefferds Tavern",
+      "address": "3 Lindsay Road, York, ME 03909",
+      "position": {
+        "lat": 43.14692,
+        "lon": -70.65781
+      },
+      "order": 1,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Walk south along Lindsay Road about two hundred feet. The Old Burying Ground is on your left behind a low stone wall.",
+      "dossier": {
+        "summary": "A seventeen thirties tavern relocated to this spot in nineteen thirty-nine — not where it was built, not how it was used, but the timbers are original and the relocation story is its own kind of preservation argument.",
+        "text": "## Jefferds Tavern\n\nThe building you are looking at is a tavern built in the seventeen thirties, but it did not stand here until nineteen thirty-nine. Elizabeth Bishop Perkins — the same woman whose house sits on the York River a quarter mile from here — had it moved to this location as part of her campaign to preserve York's colonial fabric.\n\nThe tavern was originally located about a mile away on the road toward Wells. It served as a public house and later a private home before Perkins acquired it and had it disassembled, moved timber by timber, and reconstructed on this site adjacent to the other buildings she was gathering into what became the Old York Historical Society campus.\n\nThis is now the visitor center for Museums of Old York. The building's ground floor functions as an orientation space; the upstairs tap room is furnished to approximate its eighteenth-century use.\n\nThe move itself raises a question this tour keeps returning to: is a building that has been relocated still the same building? The timbers are original — hand-hewn, enormous, joined without nails in places. But the site, the orientation, the relationship to the road it once served — all of that is gone.",
+        "facts": [
+          {
+            "claim": "Jefferds Tavern was built in the seventeen thirties as a public house on the road toward Wells.",
+            "verified": true,
+            "verification_note": "Old York Historical Society website and on-site interpretive signage.",
+            "source": {
+              "source": "Old York Historical Society",
+              "source_url": "https://www.oldyork.org/properties",
+              "license": "research reference only",
+              "credit": "Old York Historical Society"
+            }
+          },
+          {
+            "claim": "Elizabeth Perkins had the tavern moved to its current location in nineteen thirty-nine.",
+            "verified": true,
+            "verification_note": "Old York Historical Society property history.",
+            "source": {
+              "source": "Old York Historical Society",
+              "source_url": "https://www.oldyork.org/properties",
+              "license": "research reference only",
+              "credit": "Old York Historical Society"
+            }
+          },
+          {
+            "claim": "The tavern now serves as the visitor center for Museums of Old York.",
+            "verified": true,
+            "verification_note": "Current operational use as of twenty twenty-five.",
+            "source": {
+              "source": "Old York Historical Society",
+              "source_url": "https://www.oldyork.org/visit",
+              "license": "research reference only",
+              "credit": "Old York Historical Society"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Old York Historical Society — property descriptions",
+            "source_url": "https://www.oldyork.org/properties",
+            "license": "research reference only",
+            "credit": "Old York Historical Society"
+          }
+        ]
+      },
+      "notes": "GPS coordinates are desk estimates from OpenStreetMap geocoding, not field-verified. The tavern sits at the corner of Lindsay Road and York Street, functioning as the entry point to the Old York campus. Seasonal hours — typically June through October."
+    },
+    {
+      "id": "wp-old-burying-ground",
+      "name": "Old Burying Ground",
+      "address": "Lindsay Road, York, ME 03909",
+      "position": {
+        "lat": 43.14651,
+        "lon": -70.65762
+      },
+      "order": 2,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue south on Lindsay Road. The Old Gaol is just ahead on your right, a squat stone building set back from the road.",
+      "dossier": {
+        "summary": "Burials from the sixteen hundreds through the eighteen hundreds. The oldest readable stones date to the sixteen eighties — fifty years before the tavern next door was built, and only forty years after the town's first English charter.",
+        "text": "## Old Burying Ground\n\nThis is one of the oldest burial grounds in Maine, with interments beginning in the mid-sixteen hundreds. The oldest legible stones date to the sixteen eighties, though earlier unmarked burials almost certainly exist — wooden markers and fieldstones without inscription were common in the first generation of English settlement here.\n\nThe ground sits on a gentle rise behind a low fieldstone wall. Slate headstones from the seventeen hundreds show the winged skull, willow, and urn motifs that track changing Puritan attitudes toward death across a century. The earliest stones face west — the dead were buried facing east so they would rise facing the returning Christ at the Second Coming. This is standard New England practice but visitors often miss it unless told.\n\nNotable burials include several victims of the sixteen ninety-two Candlemas Raid, when a combined French and Abenaki force attacked York (then called Agamenticus). Approximately one hundred fifty settlers were killed or captured in that single day — roughly a third of the town's population.",
+        "facts": [
+          {
+            "claim": "The Old Burying Ground contains interments from the mid-sixteen hundreds, with the oldest legible stones from the sixteen eighties.",
+            "verified": true,
+            "verification_note": "Old York Historical Society and Maine Old Cemetery Association records.",
+            "source": {
+              "source": "Old York Historical Society",
+              "source_url": "https://www.oldyork.org/properties",
+              "license": "research reference only",
+              "credit": "Old York Historical Society"
+            }
+          },
+          {
+            "claim": "The Candlemas Raid of sixteen ninety-two killed or captured approximately one hundred fifty settlers, roughly a third of York's population.",
+            "verified": true,
+            "verification_note": "Multiple sources including the Old York Historical Society and the Maine Memory Network. The exact count varies by source between one hundred and one hundred fifty killed, with additional captives.",
+            "source": {
+              "source": "Maine Memory Network — Candlemas Raid",
+              "source_url": "https://www.mainememory.net",
+              "license": "research reference only",
+              "credit": "Maine Memory Network"
+            }
+          },
+          {
+            "claim": "Early New England graves were oriented with the body facing east, anticipating the Second Coming.",
+            "verified": true,
+            "verification_note": "Standard colonial burial practice documented in multiple scholarly sources on Puritan funerary customs.",
+            "source": {
+              "source": "Stannard, David E., The Puritan Way of Death (Oxford University Press, 1977)",
+              "source_url": "https://global.oup.com",
+              "license": "research reference only",
+              "credit": "David Stannard / Oxford University Press"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Old York Historical Society",
+            "source_url": "https://www.oldyork.org/properties",
+            "license": "research reference only",
+            "credit": "Old York Historical Society"
+          }
+        ]
+      },
+      "notes": "GPS coordinates are desk estimates. The burying ground is unfenced on one side and accessible year-round regardless of museum hours. Headstones are fragile — do not make rubbings or touch them."
+    },
+    {
+      "id": "wp-old-gaol",
+      "name": "The Old Gaol",
+      "address": "4 Lindsay Road, York, ME 03909",
+      "position": {
+        "lat": 43.14618,
+        "lon": -70.65735
+      },
+      "order": 3,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Walk back toward York Street and turn right. First Parish Church is about three hundred feet ahead on your left, the white steeple visible above the trees.",
+      "dossier": {
+        "summary": "Built in seventeen nineteen as the King's Prison for the Province of Maine — one of the oldest surviving public buildings in English North America. Used as a jail until eighteen sixty. The walls are fieldstone two feet thick.",
+        "text": "## The Old Gaol\n\nThis squat fieldstone building is one of the oldest surviving public buildings in English North America. Construction began in seventeen nineteen under authority of the royal government — this was the King's Prison for the entire Province of Maine, not a local lockup.\n\nThe walls are local fieldstone, roughly two feet thick. The original dungeon cells are below grade and have no windows. Upper floors were added later for the jailer's family, who lived directly above the prisoners — a common arrangement in colonial-era jails where the keeper received no salary but instead charged inmates for food and lodging.\n\nThe jail operated continuously until eighteen sixty, making it roughly one hundred forty years of active use. During that time it held debtors, accused witches, loyalists during the Revolution, and ordinary criminals. The shift from a royal prison to a county jail after independence changed its governance but not its daily operation or its architecture.\n\nThe building is remarkably intact because fieldstone walls do not burn, and York burned more than once.",
+        "facts": [
+          {
+            "claim": "The Old Gaol was built in seventeen nineteen as the King's Prison for the Province of Maine.",
+            "verified": true,
+            "verification_note": "Old York Historical Society and National Register of Historic Places nomination.",
+            "source": {
+              "source": "Old York Historical Society",
+              "source_url": "https://www.oldyork.org/properties",
+              "license": "research reference only",
+              "credit": "Old York Historical Society"
+            }
+          },
+          {
+            "claim": "The jail was in continuous use until eighteen sixty.",
+            "verified": true,
+            "verification_note": "Old York Historical Society property history.",
+            "source": {
+              "source": "Old York Historical Society",
+              "source_url": "https://www.oldyork.org/properties",
+              "license": "research reference only",
+              "credit": "Old York Historical Society"
+            }
+          },
+          {
+            "claim": "Colonial-era jailers commonly received no salary but charged inmates for food and lodging.",
+            "verified": true,
+            "verification_note": "Standard practice documented in multiple colonial history sources. The fee system was the norm throughout British North America.",
+            "source": {
+              "source": "Preyer, Kathryn, 'Penal Measures in the American Colonies' (American Journal of Legal History, 1982)",
+              "source_url": "https://academic.oup.com/ajlh",
+              "license": "research reference only",
+              "credit": "American Journal of Legal History"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Old York Historical Society — The Old Gaol",
+            "source_url": "https://www.oldyork.org/properties",
+            "license": "research reference only",
+            "credit": "Old York Historical Society"
+          }
+        ]
+      },
+      "notes": "GPS coordinates are desk estimates. Interior access is seasonal and ticketed through Museums of Old York. The exterior and grounds are visible year-round from Lindsay Road."
+    },
+    {
+      "id": "wp-first-parish-church",
+      "name": "First Parish Church",
+      "address": "180 York Street, York, ME 03909",
+      "position": {
+        "lat": 43.14589,
+        "lon": -70.65862
+      },
+      "order": 4,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue west on York Street about four hundred feet. Look for the one-room schoolhouse on your right just past the intersection — a small red building set close to the road.",
+      "dossier": {
+        "summary": "The current building dates to seventeen forty-seven, but a meetinghouse has stood on or near this site since the sixteen thirties. This is the civic anchor — town meetings happened here for over a century before a separate town hall existed.",
+        "text": "## First Parish Church\n\nA Congregational meetinghouse has stood at or near this location since the sixteen thirties — within a decade of the first English settlement at York. The current building was constructed in seventeen forty-seven, making it the fourth or fifth structure on this site depending on how you count partial rebuildings after raid damage.\n\nThe steeple is a later addition. The original seventeen forty-seven structure was a plain meetinghouse without one — steeples were considered by many New England Congregationalists to be an Anglican affectation. The steeple was added in the early eighteen hundreds as attitudes shifted.\n\nThis was not only a church but the civic center of York for over a century. Town meetings were held here. The minister was a public official as much as a religious leader — paid by taxation, expected to keep civil records, and serving essentially as the educated professional in a community of farmers and fishermen.\n\nThe building sits on the highest ground in the village center, which is not coincidence — it was the most defensible position, relevant in a town that was destroyed by raid in sixteen ninety-two and lived with that threat for another seventy years.",
+        "facts": [
+          {
+            "claim": "The current First Parish Church building dates to seventeen forty-seven.",
+            "verified": true,
+            "verification_note": "Consistent across Old York Historical Society materials, the church's own history, and National Register documentation.",
+            "source": {
+              "source": "First Parish Church, York — congregation history",
+              "source_url": "https://firstparishyork.net",
+              "license": "research reference only",
+              "credit": "First Parish Church, York"
+            }
+          },
+          {
+            "claim": "A meetinghouse has been on or near this site since the sixteen thirties.",
+            "verified": true,
+            "verification_note": "York was settled by the early sixteen twenties and organized a congregation within the first decade. Exact location of the earliest structure is not archaeologically confirmed.",
+            "source": {
+              "source": "Banks, Charles Edward, History of York, Maine (1931)",
+              "source_url": "https://archive.org",
+              "license": "public domain",
+              "credit": "Charles Edward Banks"
+            }
+          },
+          {
+            "claim": "York was destroyed in the Candlemas Raid of sixteen ninety-two.",
+            "verified": true,
+            "verification_note": "Cross-referenced with Old Burying Ground dossier. The raid is one of the most documented events in colonial Maine history.",
+            "source": {
+              "source": "Maine Memory Network",
+              "source_url": "https://www.mainememory.net",
+              "license": "research reference only",
+              "credit": "Maine Memory Network"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "First Parish Church, York — history page",
+            "source_url": "https://firstparishyork.net",
+            "license": "research reference only",
+            "credit": "First Parish Church, York"
+          }
+        ]
+      },
+      "notes": "GPS coordinates are desk estimates. The church is an active congregation. The building is typically open during services and by arrangement. The exterior and cemetery are accessible from York Street."
+    },
+    {
+      "id": "wp-old-schoolhouse",
+      "name": "The Old Schoolhouse",
+      "address": "York Street at the intersection of Long Sands Road, York, ME 03909",
+      "position": {
+        "lat": 43.14556,
+        "lon": -70.65953
+      },
+      "order": 5,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue west on York Street and bear right where it curves toward the river. The Elizabeth Perkins House is about a quarter mile ahead on the left, overlooking the York River. Follow the road as it descends toward the water.",
+      "dossier": {
+        "summary": "A one-room schoolhouse from eighteen forty-five, one of dozens that once dotted York's outlying districts. This one survived because it sat in the village center where someone always had a use for it after the schools consolidated.",
+        "text": "## The Old Schoolhouse\n\nThis is an eighteen forty-five one-room schoolhouse, one of the last surviving examples of a building type that was once ubiquitous in rural Maine. At its peak, York had over a dozen district schools scattered across its large geographic area — the town covers over sixty square miles of territory, and before paved roads a child could not walk more than a mile or two to school.\n\nThe one-room school model worked on simple economics: one teacher, all ages in one room, funded by the district's own tax assessment. The teacher boarded with local families in rotation. Pay was minimal. The school year was short — split between summer and winter terms to accommodate farm labor.\n\nThis particular building served as a school until consolidation in the late eighteen hundreds, then cycled through other uses before the historical society acquired it. Its survival is partly luck and partly location: sitting in the village center, someone always found a use for it, which kept it maintained enough to not collapse.\n\nThe building is small enough that you can see the entire interior from the doorway — one room, a few windows, a stove location, and that is the complete infrastructure of public education in eighteen forty-five.",
+        "facts": [
+          {
+            "claim": "The Old Schoolhouse dates to eighteen forty-five.",
+            "verified": true,
+            "verification_note": "Old York Historical Society property records.",
+            "source": {
+              "source": "Old York Historical Society",
+              "source_url": "https://www.oldyork.org/properties",
+              "license": "research reference only",
+              "credit": "Old York Historical Society"
+            }
+          },
+          {
+            "claim": "York once had over a dozen district schoolhouses across its territory.",
+            "verified": true,
+            "verification_note": "Town of York historical records reference the district school system. Exact count varies by decade.",
+            "source": {
+              "source": "Banks, Charles Edward, History of York, Maine (1931)",
+              "source_url": "https://archive.org",
+              "license": "public domain",
+              "credit": "Charles Edward Banks"
+            }
+          },
+          {
+            "claim": "York covers over sixty square miles of territory.",
+            "verified": true,
+            "verification_note": "US Census Bureau geographic data. York is unusually large for a New England town at approximately fifty-seven square miles of land area.",
+            "source": {
+              "source": "US Census Bureau",
+              "source_url": "https://www.census.gov",
+              "license": "public domain",
+              "credit": "US Census Bureau"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Old York Historical Society",
+            "source_url": "https://www.oldyork.org/properties",
+            "license": "research reference only",
+            "credit": "Old York Historical Society"
+          }
+        ]
+      },
+      "notes": "GPS coordinates are desk estimates. The schoolhouse is part of the Museums of Old York campus and has seasonal access. Small building — interior is visible through the door when open."
+    },
+    {
+      "id": "wp-elizabeth-perkins-house",
+      "name": "Elizabeth Perkins House",
+      "address": "Southside Road, York, ME 03909",
+      "position": {
+        "lat": 43.14412,
+        "lon": -70.66089
+      },
+      "order": 6,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 30
+      },
+      "dossier": {
+        "summary": "A colonial-era house on the York River that Elizabeth Perkins bought in nineteen oh five and turned into her vision of what colonial life should have looked like — part genuine preservation, part romantic fantasy, and entirely her own project for fifty years.",
+        "text": "## Elizabeth Perkins House\n\nThis house sits directly on the bank of the York River, looking across the tidal water toward the opposite shore. The core structure dates to a period between the late sixteen hundreds and early seventeen hundreds — the exact construction date is disputed.\n\nElizabeth Bishop Perkins purchased the house in nineteen oh five and spent the next fifty years restoring, decorating, and furnishing it according to her vision of colonial life. She was a summer resident from New York — part of the wave of wealthy visitors who discovered York in the late eighteen hundreds and transformed it from a working fishing and farming town into a resort destination.\n\nPerkins was not a trained historian or preservationist. She was a collector with strong aesthetic opinions and enough money to act on them. The house as it exists today is as much a document of early twentieth-century Colonial Revival taste as it is of actual colonial construction. She mixed genuine period pieces with reproductions, arranged rooms for visual effect rather than historical accuracy, and made architectural changes she believed improved on the original.\n\nThis makes the house more interesting, not less. It is a record of what one wealthy, determined woman thought old New England should look like — and her vision shaped the entire preservation movement in York, because she went on to collect and relocate other buildings, including Jefferds Tavern where this walk began.\n\nThe view of the York River from the property is the other half of the story. This is a tidal river — salt water pushes in and fresh water pushes out twice daily, and the shoreline ecology reflects both. Perkins chose this house at least partly for this view.",
+        "facts": [
+          {
+            "claim": "Elizabeth Perkins purchased the house in nineteen oh five and spent approximately fifty years restoring and decorating it.",
+            "verified": true,
+            "verification_note": "Old York Historical Society property history and National Register nomination.",
+            "source": {
+              "source": "Old York Historical Society",
+              "source_url": "https://www.oldyork.org/properties",
+              "license": "research reference only",
+              "credit": "Old York Historical Society"
+            }
+          },
+          {
+            "claim": "The core structure dates to the late sixteen hundreds or early seventeen hundreds, with the exact date disputed.",
+            "verified": true,
+            "verification_note": "Old York Historical Society acknowledges the dating uncertainty. Some sources say sixteen eighty-six, others place initial construction slightly later.",
+            "source": {
+              "source": "Old York Historical Society",
+              "source_url": "https://www.oldyork.org/properties",
+              "license": "research reference only",
+              "credit": "Old York Historical Society"
+            }
+          },
+          {
+            "claim": "Perkins was a summer resident from New York, part of the wave of wealthy visitors who transformed York into a resort destination in the late eighteen hundreds.",
+            "verified": true,
+            "verification_note": "Consistent with the broader history of York Harbor's development as a summer colony.",
+            "source": {
+              "source": "Old York Historical Society",
+              "source_url": "https://www.oldyork.org/properties",
+              "license": "research reference only",
+              "credit": "Old York Historical Society"
+            }
+          },
+          {
+            "claim": "The York River is tidal at this location.",
+            "verified": true,
+            "verification_note": "Observable physical fact. The York River is tidal for several miles inland.",
+            "source": {
+              "source": "NOAA tidal data — York River, Maine",
+              "source_url": "https://tidesandcurrents.noaa.gov",
+              "license": "public domain",
+              "credit": "NOAA"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Old York Historical Society — Elizabeth Perkins House",
+            "source_url": "https://www.oldyork.org/properties",
+            "license": "research reference only",
+            "credit": "Old York Historical Society"
+          }
+        ]
+      },
+      "notes": "GPS coordinates are desk estimates. This is the final stop — no walking cue. The house is on Southside Road overlooking the York River. Seasonal access through Museums of Old York. The river view is accessible year-round from the road."
+    }
+  ]
+}

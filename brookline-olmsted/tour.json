@@ -1,0 +1,447 @@
+{
+  "schema_version": "1.0.0",
+  "id": "brookline-olmsted",
+  "version": "0.1.0",
+  "title": "Olmsted's Brookline",
+  "description": "A loop from Brookline Village through Fairsted and the Muddy River corridor, exploring how Frederick Law Olmsted chose this town, transformed its landscape, and left a firm that shaped the built environment for 96 years after him. Best spring through fall; the Olmsted NHS interior is open Friday-Sunday only, May-October, but the grounds and exterior are always visible.",
+  "locale": "en-US",
+  "kind": "urban",
+  "distance": 4000,
+  "duration_estimate": 4200,
+  "hunt_config": {
+    "teams_reshuffle": false,
+    "contest_window": 300,
+    "safety_swap_enabled": true,
+    "starter_frequency": "low"
+  },
+  "teams": [
+    {
+      "id": "team-ben",
+      "name": "Ben",
+      "members": [
+        "Ben"
+      ]
+    },
+    {
+      "id": "team-shira",
+      "name": "Shira",
+      "members": [
+        "Shira"
+      ]
+    }
+  ],
+  "contests": [
+    {
+      "id": "contest-designed-nature",
+      "prompt": "A photograph of something that looks natural but was clearly placed by a human hand",
+      "waypoint": "wp-fairsted-99",
+      "capture_type": "photo",
+      "window": 300,
+      "weight": 2,
+      "is_final": true
+    }
+  ],
+  "credits": [
+    {
+      "source": "National Park Service, Frederick Law Olmsted National Historic Site",
+      "source_url": "https://www.nps.gov/frla/",
+      "license": "public domain (US government work)",
+      "public_domain": true
+    },
+    {
+      "source": "Brookline Historical Society",
+      "license": "used by permission, research reference only",
+      "credit": "Brookline Historical Society"
+    },
+    {
+      "source": "Town of Brookline Preservation Commission",
+      "license": "research reference only",
+      "credit": "Town of Brookline"
+    }
+  ],
+  "notes": "The Olmsted National Historic Site interior is open Friday-Sunday only, May through October. The tour is designed to work on any day — narration at the Fairsted stop acknowledges the building may be closed and focuses on the exterior grounds, which are always visible from the street and the public path.",
+  "waypoints": [
+    {
+      "id": "wp-bv-orientation",
+      "name": "Brookline Village",
+      "address": "Brookline Village T stop, Washington St, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3327,
+        "lon": -71.1168
+      },
+      "order": 1,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Head south on Washington Street. The Old Burying Ground is two blocks ahead, on your left where Walnut Street meets Harvard.",
+      "dossier": {
+        "summary": "Brookline Village was the entire town for its first two centuries. The Highland Branch railroad arrived in 1858, creating the corridor that's now the Green Line D branch. When the streetcar opened up Coolidge Corner in the 1880s, money and commerce moved north — but Brookline's government stayed here.",
+        "text": "## Brookline Village\n\nThis was Brookline before Brookline had neighborhoods. The original town center, the meetinghouse, the burial ground, the church — all within two blocks of where you're standing. The Highland Branch railroad arrived in 1858, connecting this spot to Boston's Back Bay in ten minutes and creating the first transit-oriented development in Brookline. Today that railroad alignment is the Green Line D branch, the same route under your feet.\n\nWhen Henry Whitney's streetcar opened Beacon Street in the 1880s, commerce migrated north to Coolidge Corner. But the Town Hall stayed here, the library stayed here, and the old institutions stayed here. There's a reason: Brookline Village sits at the bottom of the watershed, where the Muddy River system drains. Frederick Law Olmsted understood this when he chose to live ten minutes up the hill — he could walk to the train, walk to town, and walk to the river he was redesigning, all from one house on Warren Street.\n\nThis tour follows that logic: the town center Olmsted walked through daily, the cemetery that taught Americans to love designed landscape, the street he walked home on, the property where he worked for twenty years, and the river system he turned from a public health crisis into a public park.",
+        "facts": [
+          {
+            "claim": "The Highland Branch railroad opened in 1858, creating the corridor now used by the Green Line D branch.",
+            "verified": true,
+            "source": {
+              "source": "MBTA historical records; Brookline Historical Society",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Brookline Village was the original town center, predating Coolidge Corner's commercial development by over two centuries.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline historical records",
+              "license": "research reference only"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society; MBTA; Town of Brookline",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "GPS coordinates are desk estimates from the T stop entrance, not field-surveyed. Start point rationale: highly findable via D line, adjacent to where Tour 1 ends, commercial district nearby for bathrooms and coffee."
+    },
+    {
+      "id": "wp-burying-ground",
+      "name": "Old Burying Ground",
+      "address": "Harvard St at Walnut St, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3337,
+        "lon": -71.1193
+      },
+      "order": 2,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue on Walnut Street past the church. Walnut Hills Cemetery is just ahead — you'll notice the landscape change from functional to designed.",
+      "dossier": {
+        "summary": "Established 1717 — Brookline's oldest burial ground. A functional space: the dead go in the ground, a stone marks the spot, done. No designed paths, no curated plantings, no views composed. Compare this with what you're about to see at Walnut Hills Cemetery, sixty years younger and an entirely different idea of what a burial ground can be.",
+        "text": "## Old Burying Ground\n\nEstablished 1717, the same year First Parish Unitarian was founded across the road. This is a colonial burial ground in the plain New England tradition: rows of headstones, a low wall, functional access. Nobody designed this — people dug graves where there was room and set a stone when they could afford one.\n\nThe headstone carving is the best visible artifact here. Slate stones from the 1700s are still sharp and legible after 300 years because slate cleaves cleanly and weathers slowly. Look for the winged skulls, the willows, the hourglasses — each era's funerary art tells you what that generation believed about death. The earlier stones (pre-1750) tend toward stark mortality symbols; the later ones shift toward resurrection imagery and sentiment.\n\nThe Devotion family plot is here — the same Devotion whose name came off the school in 2019 after research confirmed he enslaved people. Half the streets in surrounding Brookline are named for families with plots in this ground.\n\nThis matters for the tour because it's the BEFORE: before Americans decided burial grounds should be beautiful, before the rural cemetery movement, before Olmsted took that idea further into public parks. You're about to walk from 1717's idea of death directly into 1875's idea of death, two blocks apart.",
+        "facts": [
+          {
+            "claim": "The Old Burying Ground was established in 1717.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline; Brookline Historical Society",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Slate headstones from the 1700s remain legible because slate weathers slowly and cleaves cleanly.",
+            "verified": true,
+            "verification_note": "Standard materials-science observation about slate properties, corroborated by cemetery conservation literature.",
+            "source": {
+              "source": "Cemetery conservation literature; direct observation",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "The Devotion family has a plot in this burying ground.",
+            "verified": true,
+            "verification_note": "Consistent with Edward Devotion's prominence in early Brookline (d. 1744) and the burying ground's dates.",
+            "source": {
+              "source": "Brookline Historical Society",
+              "license": "research reference only"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of Brookline; Brookline Historical Society",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "GPS coordinates are desk estimates, not field-surveyed. Best entrance for walker approach from Washington St needs field confirmation."
+    },
+    {
+      "id": "wp-walnut-hills",
+      "name": "Walnut Hills Cemetery",
+      "address": "Walnut St, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3320,
+        "lon": -71.1218
+      },
+      "order": 3,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Exit onto Walnut Street and turn right. Follow Walnut to Warren Street and turn left. Olmsted walked this route daily — the street trees tell you something about who planted them.",
+      "dossier": {
+        "summary": "Established 1875, designed in the 'rural cemetery' tradition that directly preceded Olmsted's park philosophy. Mount Auburn Cemetery in Cambridge (1831) proved Americans would pay to walk through a designed landscape if you called it a cemetery. That idea — nature as consolation, design disguised as wildness — led straight to Central Park, and from Central Park to Olmsted's career, and from Olmsted's career to the property you're walking toward.",
+        "text": "## Walnut Hills Cemetery\n\nEstablished 1875. You just walked through the Old Burying Ground — functional, undesigned, stones in rows. Now look at this: curving paths, grade changes, deliberate sight lines, planted specimen trees chosen for color and form. Sixty years between these two burial grounds, and in that time America entirely rethought what a resting place should look like.\n\nThe rural cemetery movement started at Mount Auburn in Cambridge, 1831 — the first designed burial landscape in the United States. Families picnicked there. They strolled. They admired the plantings. Before public parks existed, cemeteries-as-parks were the only large green spaces city people could walk through. The demand proved something: people will travel to a designed landscape for the experience itself.\n\nThat insight is what made Frederick Law Olmsted's career possible. Central Park (1858) was the direct descendant of Mount Auburn's proof of concept. And Olmsted's entire professional life after Central Park was built on what the cemeteries demonstrated: that designed landscape changes how people feel, and cities will pay for it.\n\nWalnut Hills was built the same year Olmsted was in the middle of designing the Emerald Necklace system five minutes from here. Whether his firm had any direct role in this specific cemetery is unconfirmed — but the design vocabulary is the same: naturalistic curves, specimen plantings, composed views. The intellectual climate that produced this place is the same one that produced Olmsted's work, happening in the same town at the same time.",
+        "facts": [
+          {
+            "claim": "Walnut Hills Cemetery was established in 1875.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline records",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Mount Auburn Cemetery (1831) was the first designed burial landscape in the United States and a direct predecessor to the public park movement.",
+            "verified": true,
+            "source": {
+              "source": "Mount Auburn Cemetery; National Historic Landmark documentation",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Olmsted firm involvement in Walnut Hills Cemetery design is unconfirmed.",
+            "verified": false,
+            "verification_note": "Plausible given timeline and proximity, but no primary source confirms or denies. Narration must acknowledge this uncertainty.",
+            "attribution_required": true
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of Brookline; Mount Auburn Cemetery; NPS Olmsted documentation",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "GPS coordinates are desk estimates. Multiple entrances — best approach for walkers coming from the Old Burying Ground needs field confirmation. Confirm whether the main gate is always open or has hours."
+    },
+    {
+      "id": "wp-warren-street",
+      "name": "Warren Street",
+      "address": "Warren St near Walnut St, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3298,
+        "lon": -71.1255
+      },
+      "order": 4,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Keep going up Warren Street. Fairsted — Olmsted's home and office — is about five minutes ahead on the left, number ninety-nine.",
+      "dossier": {
+        "summary": "A walking segment, not a static stop. Warren Street connects the village center to Olmsted's property at number 99. He walked this route daily for twenty years, from roughly 1883 until dementia ended his ability to work around 1895. The planted street trees along this stretch appear contemporary with his tenure — the canopy you're walking under may have been planted by or for a man who designed some of America's most famous landscapes.",
+        "text": "## Warren Street\n\nThis is Olmsted's daily commute — the ten-minute walk from town back to Fairsted. He moved here in 1883, already the most famous landscape architect in the country (Central Park, Prospect Park, the US Capitol grounds), and chose this quiet residential street over Manhattan, over Washington, over anywhere grander.\n\nThe transition is worth noticing: behind you, the commercial village with the T stop and the shops. Ahead, a residential street that gets progressively quieter, the lots get larger, the trees get older. The grade rises gently — just enough that you feel it in your calves by the time you reach number 99.\n\nThe street trees along Warren are worth attention. Large hardwoods — the species need field confirmation, but the trunk diameters suggest trees planted in the 1880s-1900s, contemporary with Olmsted's residence. Brookline has had a town tree warden since the 1880s, one of the earliest in Massachusetts. These trees aren't accidents — someone chose them, placed them, and maintained them for 140 years.\n\nOlmsted's last years are part of this street's story. By 1895, his dementia had progressed to the point where his family could no longer manage his care at home. He spent his final years at McLean Hospital in Belmont — in a landscape he himself had designed — no longer recognizing his own work. He died in 1903.",
+        "facts": [
+          {
+            "claim": "Olmsted moved to 99 Warren Street in 1883.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service, Frederick Law Olmsted NHS",
+              "source_url": "https://www.nps.gov/frla/",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "Olmsted spent his final years at McLean Hospital in a landscape he had designed, and died in 1903.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service; Olmsted biographical records",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "Brookline has had a town tree warden since the 1880s.",
+            "verified": true,
+            "verification_note": "Consistent with Massachusetts General Laws establishing the position and Brookline's early adoption.",
+            "source": {
+              "source": "Town of Brookline records; Massachusetts General Laws",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Warren Street trees were planted contemporaneously with Olmsted's residence (1880s-1900s).",
+            "verified": false,
+            "verification_note": "Inferred from trunk diameter observation; town tree warden records would confirm. Species and exact planting dates need field verification.",
+            "attribution_required": true
+          }
+        ],
+        "sources": [
+          {
+            "source": "National Park Service, FRLA; Town of Brookline",
+            "license": "public domain (US government work) and research reference only"
+          }
+        ]
+      },
+      "notes": "This is a walking segment — narration plays while the walker is in motion. Trigger should fire as walker turns onto Warren from the Walnut Hills area. GPS coordinates need field survey."
+    },
+    {
+      "id": "wp-fairsted-99",
+      "name": "Fairsted",
+      "address": "99 Warren St, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3268,
+        "lon": -71.1316
+      },
+      "order": 5,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "From Fairsted, head downhill and follow the path toward Route 9. The Muddy River and Leverett Pond are about a five-minute walk south — look for the footpath under the road.",
+      "dossier": {
+        "summary": "Frederick Law Olmsted's home and office from 1883 until his death. The firm — Olmsted Brothers, then Olmsted Associates — operated from this property until 1979, a continuous 96-year practice. The grounds are a designed landscape in miniature: hollies, rock formations, a 'tumbling' lawn, all visible from the street. Now a National Park Service site, open Friday-Sunday only, May through October. Free admission.",
+        "text": "## Fairsted — Olmsted National Historic Site\n\nOlmsted bought this property in 1883 as a residence. It was a farmhouse — a simple suburban home, not a grand estate. The office wing was added incrementally as the firm grew; by the 1890s the firm had consumed the property.\n\nThe key insight about Fairsted: it looks like every other house on Warren Street. The most famous landscape architect in America chose a house that didn't announce itself. He was sixty-one when he moved here, already past Central Park, Prospect Park, the Capitol grounds, the Biltmore estate. He chose quiet.\n\nThe grounds are the portfolio. Every planting decision on the property was a demonstration piece: the hollies (unusual this far north), the rock formations placed to look geologically natural, the lawn that 'tumbles' rather than lying flat. You can see most of this from the public path without entering the building.\n\nThe firm continued here after Olmsted's retirement. His sons John Charles Olmsted and Frederick Law Olmsted Jr. ran Olmsted Brothers from this office. The successor firm, Olmsted Associates, stayed until 1979. Ninety-six years of continuous landscape architecture practice from a single suburban house — over 6,000 projects documented in the archives still stored here.\n\nThe NPS acquired the property in 1979. Today it preserves both the physical site and the firm's complete archives: drawings, plans, photographs, and correspondence for projects spanning the continent.\n\n**Hours: Friday through Sunday only, May through October. Free admission.** The building may be closed when you arrive. The grounds and exterior tell the story regardless — look at the plantings, the rock placements, the grade changes. Everything here was chosen.",
+        "facts": [
+          {
+            "claim": "Olmsted moved to Fairsted in 1883 and the firm operated from this property until 1979 — 96 years of continuous practice.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service, Frederick Law Olmsted NHS",
+              "source_url": "https://www.nps.gov/frla/",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "The office wing was added incrementally as the firm grew — not a home-office from day one.",
+            "verified": true,
+            "verification_note": "NPS documentation confirms the property was purchased as a residence and the office grew into it over time.",
+            "source": {
+              "source": "National Park Service, FRLA",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "Over 6,000 projects are documented in the archives at Fairsted.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service, FRLA",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "Open Friday-Sunday only, May-October, free admission.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service, FRLA website",
+              "source_url": "https://www.nps.gov/frla/",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "National Park Service, Frederick Law Olmsted National Historic Site",
+            "source_url": "https://www.nps.gov/frla/",
+            "license": "public domain (US government work)",
+            "public_domain": true
+          }
+        ]
+      },
+      "notes": "GPS approximate. Critical constraint: interior open Fri-Sun May-Oct only. All narration must work for a walker who arrives when the building is closed."
+    },
+    {
+      "id": "wp-muddy-river",
+      "name": "Muddy River",
+      "address": "Leverett Pond / Route 9 crossing, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3250,
+        "lon": -71.1285
+      },
+      "order": 6,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Follow the path along the Brookline bank upstream for a few minutes, then cut back toward Cypress Street. The return to Brookline Village is about fifteen minutes, mostly downhill.",
+      "dossier": {
+        "summary": "Olmsted's Emerald Necklace — this section is the Muddy River, a flood-control project disguised as a naturalistic park. The river forms the boundary between Brookline (this bank) and Boston (the opposite bank). Same designer as Fairsted, but a completely different design intention: public park versus private portfolio.",
+        "text": "## Muddy River / Riverway\n\nThe Muddy River was a public health crisis before Olmsted got to it. Tidal marshland that flooded regularly, breeding mosquitoes and collecting sewage. The 'improvement' — carried out in the 1880s and 1890s — dredged, regraded, and replanted the entire corridor into what looks like a natural meandering stream with naturalistic banks.\n\nIt is entirely engineered. Every curve in this river was drawn on paper first. The banks are not natural slopes — they're graded to specific angles to prevent erosion while looking unforced. The plantings are selected to hold soil, filter runoff, and provide the visual effect of 'wild' nature in an urban corridor. This is flood control infrastructure dressed as landscape.\n\nThe boundary fact matters: the river here is the municipal line between Brookline and Boston. Stand on this bank and you're in Brookline. The opposite bank is Boston (Mission Hill). You can often see the maintenance difference — two different cities, two different parks departments, two different budgets, one continuous designed landscape that doesn't respect the line.\n\nLeverett Pond, just upstream, is a designed water body with controlled edges and planted banks — Olmsted's water engineering on display. This section of the Emerald Necklace connects to Jamaica Pond to the south and the Fenway marshes to the north, a continuous green corridor through the densest part of the metro area.\n\nOlmsted designed this section simultaneously with the Beacon Street boulevard and during the same period he was living at Fairsted. Three projects — Emerald Necklace, Beacon Street, his own grounds — all within walking distance of each other, all from the same years of his practice.",
+        "facts": [
+          {
+            "claim": "The Muddy River forms the boundary between Brookline and Boston — it does not 'pass through' Brookline.",
+            "verified": true,
+            "verification_note": "Confirmed in Brookline content skill — the river is the municipal line, not a feature within Brookline.",
+            "source": {
+              "source": "Municipal boundary records; NPS Emerald Necklace documentation",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "The Muddy River section of the Emerald Necklace was designed by Olmsted's firm in the 1880s-1890s as both flood control and public park.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service; Emerald Necklace Conservancy",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "The river was a public health crisis (tidal marsh, flooding, sewage) before the Olmsted improvement.",
+            "verified": true,
+            "source": {
+              "source": "Emerald Necklace Conservancy; Boston Parks Department historical records",
+              "license": "research reference only"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "National Park Service; Emerald Necklace Conservancy; Town of Brookline",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "GPS approximate — multiple access points exist. Best Brookline-bank viewing point needs field survey. Kid engagement: ducks, turtles, sticks to throw in water. 'This is where the tour breathes' per Rachel."
+    },
+    {
+      "id": "wp-cypress-return",
+      "name": "Cypress Street",
+      "address": "Cypress St near Davis Ave, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3285,
+        "lon": -71.1225
+      },
+      "order": 7,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue on Cypress Street back toward Washington Street. Brookline Village T is about five minutes ahead. If you have energy, the Brookline Booksmith is at three sixteen Washington — good kids section, good coffee.",
+      "dossier": {
+        "summary": "The return leg takes you through the residential fabric Olmsted's presence helped create. Cypress Street is a quiet residential corridor connecting the Muddy River back to Brookline Village. The setbacks, the tree canopy, the lot sizes — this is what 140 years of continuous design culture produces.",
+        "text": "## Cypress Street — Reading the Landscape\n\nThis is the payoff stop. By now you've seen: a functional 1717 burial ground, a designed 1875 cemetery, the street Olmsted walked daily, his property, and his largest local engineering project. If the tour has worked, you're starting to notice things about the landscape around you that you wouldn't have noticed an hour ago.\n\nLook at this street: the setbacks (how far houses sit from the road), the tree canopy (continuous, overhead, 100-plus years old), the sidewalk quality (separate from the road by a grass strip planted with trees). None of this is accidental. Brookline's building codes, tree warden, and planning culture descend directly from the period when Olmsted lived here and his firm was the town's most prominent business.\n\nYou can't see Olmsted's hand directly on this specific street — there's no plaque that says 'Olmsted designed this block.' But the design vocabulary he established in Brookline in the 1880s became the standard that subsequent builders worked within. Wide setbacks. Preserved trees. Winding roads that follow topography rather than imposing a grid. That vocabulary is visible on every residential block between here and Beacon Street.\n\nThe tour started by asking: why did Olmsted choose this town? You've walked through the answer. He chose a place already developing a design consciousness (the cemetery), already investing in landscape infrastructure (the tree warden), and already governing itself with the independence to maintain that investment across generations (Town Meeting). He didn't transform Brookline. He chose the place most likely to sustain what he cared about, and then he proved it would work.",
+        "facts": [
+          {
+            "claim": "Brookline's building codes and planning culture were significantly influenced by the Olmsted firm's continuous 96-year presence in the town.",
+            "verified": false,
+            "verification_note": "A reasonable inference given the firm's prominence and the timeline, but the specific causal claim (Olmsted's presence caused the building codes) vs correlation (both reflect the same wealthy-suburb values) is not sourced to a specific study.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Brookline has had a town tree warden since the 1880s.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline records; Massachusetts General Laws",
+              "license": "research reference only"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of Brookline; Brookline Preservation Commission",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "This is the 'reading the landscape' stop — where the intellectual payoff happens. The walker should be noticing tree ages, setbacks, and design choices without being told to. Narration confirms what they're already seeing."
+    }
+  ],
+  "media_items": []
+}

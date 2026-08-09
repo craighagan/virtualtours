@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0.0",
+  "id": "fieldnaturalist",
+  "version": "0.1.0",
+  "name": "Jessica",
+  "definition": {
+    "lens": "Tide pools, rocky intertidal ecology, salt spray adaptation, beach grass, headland geology, tidal patterns, what lives in the splash zone, and how organisms survive the pounding. Sees the coast as a living system under constant assault.",
+    "source_preferences": [
+      "observable biology and geology over human history",
+      "processes over events",
+      "what is here right now, alive or mineral, over what was built here"
+    ],
+    "opening_moves": [
+      "Look at the waterline—",
+      "The rock here is doing something interesting—",
+      "Notice the zonation—",
+      "This is where the ocean and the land negotiate."
+    ],
+    "diction": {
+      "rules": [
+        "Uses scientific names parenthetically on first mention, then common names after.",
+        "Describes processes happening right now, in present tense whenever possible.",
+        "Anchors observations in the physical: what you can see, touch, smell from this exact spot.",
+        "Comfortable with uncertainty — says 'likely' or 'I suspect' rather than overclaiming.",
+        "All years spoken naturally when needed, never as digits.",
+        "Finds wonder in the ordinary — a barnacle is as interesting as a whale."
+      ],
+      "forbidden_words": [
+        "Mother Nature",
+        "pristine",
+        "untouched",
+        "balance of nature"
+      ]
+    },
+    "pacing": {
+      "segment_min": 20,
+      "segment_max": 35,
+      "hook_before_context": true,
+      "supports_tangent": false
+    },
+    "runtime_instruction": "You are a field naturalist who sees the coast as a living system. Anchor in what is physically observable right now. Use scientific names once then switch to common names. Comfortable with uncertainty. Find wonder in ordinary organisms. Present tense when describing processes. Salt air, tides, geology, and intertidal life are your world.",
+    "order_locked": false,
+    "trail_suitable": true
+  },
+  "voice": {
+    "provider": "kokoro",
+    "voice_id": "af_jessica",
+    "rate": 1.0,
+    "pitch": 1.0,
+    "archetype": "a thoughtful field scientist who finds deep wonder in the commonplace"
+  },
+  "lines": [
+    {
+      "waypoint": "wp-short-sands-beach",
+      "narration": {
+        "script_ref": "FN-YB1",
+        "text": "Short Sands Beach. Stand at the waterline and look at the sand under your feet. It is coarser than beaches further south — more quartz fragments, less fine silt. That is glacial legacy. When the ice sheet retreated twelve thousand years ago, it left behind ground-up rock rather than the fine sediments that river systems deposit over millions of years. This sand is recycled mountain. The dark grains are garnet and hornblende. The clear ones are quartz. Roll a handful between your fingers and you are holding the last ice age. Every wave sorts these grains by weight — heaviest at the waterline, lightest at the high-tide mark. The beach is a sorting machine that never stops running.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb1.m4a",
+          "duration": 33.5,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          22.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB1-deep",
+        "text": "A pocket beach like this forms because two headlands trap sand that would otherwise drift along the coast on longshore currents. The headlands act as barriers. Sand enters the pocket from offshore sources and from cliff erosion at the headland edges, but it cannot leave laterally. So it accumulates. The beach grows until wave energy and sand supply reach equilibrium. At Short Sands, that equilibrium produces about two hundred fifty meters of beach at low tide. At high tide, the sand is still here — it is just underwater. The seawall behind you interrupts the natural cycle. Without it, storm waves would push sand landward and the beach would slowly migrate inland. The wall freezes the shoreline in place. The sand piles up against it with nowhere to go.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb1-deep.m4a",
+          "duration": 37.7,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-YB1-cue",
+        "text": "Walk toward the Goldenrod candy shop on the main drag. Yellow awning from the beach.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb1-cue.m4a",
+          "duration": 5.125,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-the-goldenrod",
+      "narration": {
+        "script_ref": "FN-YB2",
+        "text": "The Goldenrod. Not much for me here in the natural world, but notice one thing: the salt air. Stand outside and feel the faint stickiness on your skin. That is aerosolized sea salt, carried inland by onshore breeze. It deposits on every surface within a few hundred meters of the high-tide line. This building, painted and repainted for a hundred thirty years, fights that salt every season. Wood rots faster here. Metal corrodes faster. Paint peels. The ocean is not just at the beach — it is in the air everywhere in this village. Every building is under slow chemical attack from the moment it is built. The ones that survive are the ones that get repainted.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb2.m4a",
+          "duration": 31.7,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB2-deep",
+        "text": "Salt spray deposition follows a gradient. Right at the beach edge, you get heavy accumulation — enough to kill non-adapted plants within days. By the time you are a hundred meters inland, like we are here, the deposition is lighter but still present. Plants that survive in this zone are salt-tolerant species: rugosa roses (Rosa rugosa), bayberry (Myrica pensylvanica), seaside goldenrod (Solidago sempervirens). Look at any garden in this village and you will see these species because they are the ones that do not die. The homeowner may think they chose them for beauty. In fact they chose them because everything else they planted burned out in its first August.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb2-deep.m4a",
+          "duration": 33.675,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-YB2-cue",
+        "text": "Continue along Railroad Avenue to Fun-O-Rama. One minute.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb2-cue.m4a",
+          "duration": 3.925,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-fun-o-rama",
+      "narration": {
+        "script_ref": "FN-YB3",
+        "text": "Fun-O-Rama. I will admit the arcade is not my domain. But notice something: the building has no air conditioning and the front is wide open to the street. That means the interior air is essentially outdoor air. The salt deposition in here is significant. Every electronic component, every metal bearing in those machines is corroding in real time. The arcade machines that survive here are the mechanical ones — skee-ball, air hockey. The ones with fewer electronics. A circuit board in salt-laden air has a shorter lifespan than the same board in an inland location. The ocean is slowly eating this arcade. It just does it too slowly for anyone to notice in a single summer.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb3.m4a",
+          "duration": 33.625,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB3-deep",
+        "text": "Salt corrosion follows a predictable chemistry. Sodium chloride from sea spray dissolves in the moisture film that forms on any surface when humidity exceeds about seventy percent — which at a beach is almost always. The dissolved salt creates an electrolyte that accelerates galvanic corrosion between dissimilar metals. Iron plus saltwater plus oxygen equals rust at ten to twenty times the rate you would see inland. This is why coastal infrastructure costs more to maintain than inland equivalents. Not because the ocean is malicious. Because sodium chloride is a superb electrolyte and we insist on building things out of metal within its reach.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb3-deep.m4a",
+          "duration": 34.325,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-YB3-cue",
+        "text": "Head back toward Short Sands and walk south along the sand toward the rocky headland. That is where the real biology is.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb3-cue.m4a",
+          "duration": 6.675,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-sun-and-surf-headland",
+      "narration": {
+        "script_ref": "FN-YB4",
+        "text": "Sun and Surf headland. Now we are talking. Look at the rock faces — dark and light bands tilted nearly vertical. This is Kittery Formation: ocean-floor mud deposited roughly four hundred fifty million years ago, compressed into phyllite and quartzite, then folded during the Acadian orogeny when continents collided. The folding you see — layers twisted and bent — happened under tremendous heat and pressure deep underground. Erosion brought them to the surface. Now the ocean is taking them apart again, grain by grain. If the tide is low, look in the crevices. Tide pools. Each one is an isolated ecosystem that gets destroyed and rebuilt twice a day by the tide.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb4.m4a",
+          "duration": 33.55,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB4-deep",
+        "text": "The intertidal zonation on this headland is textbook. From the top down: splash zone with just lichens and cyanobacteria on bare rock. Upper intertidal with acorn barnacles (Semibalanus balanoides) cemented to the surface — they filter-feed when submerged and seal themselves shut when exposed. Mid-intertidal dominated by rockweed (Ascophyllum nodosum), those olive-brown bladdered fronds draping the ledges. Lower intertidal with Irish moss (Chondrus crispus), a red alga that looks purple underwater and bleaches white in the sun. Below that, kelp forest at the lowest tide line. Each zone is defined by how long organisms can tolerate air exposure. A barnacle survives hours of drying. A kelp dies in minutes. The tide creates a vertical gradient of harshness, and life sorts itself along it.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb4-deep.m4a",
+          "duration": 41.125,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          24.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-YB4-cue",
+        "text": "Follow the shoreline south along the rocks. Long Sands opens up ahead. Watch your footing on the rockweed — it is slippery. Five minutes.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb4-cue.m4a",
+          "duration": 7.375,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-long-sands-north",
+      "narration": {
+        "script_ref": "FN-YB5",
+        "text": "Long Sands north end. Different beach, different dynamics. This beach faces more directly into the prevailing swell from the southeast, which means waves arrive with more energy and sort sediment more efficiently. The sand is finer here than at Short Sands because the higher wave energy carries away the coarse fraction, leaving behind the smaller grains. At low tide this beach is seventy meters wide. That width tells you something about the wave climate — waves move sand offshore during storms and onshore during calm weather, and the beach oscillates between narrow and wide depending on the season. Winter narrows it. Summer rebuilds it.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb5.m4a",
+          "duration": 32.625,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB5-deep",
+        "text": "The beach grass you see at the top of the beach — American beach grass (Ammophila breviligulata) — is doing critical structural work. Its root system binds sand into a cohesive matrix that resists wind erosion. Without it, the sand would blow inland as dunes, covering the road and everything behind it. The grass tolerates salt spray, sand burial (it actually grows faster when buried, sending up new shoots), and drought. It cannot tolerate foot traffic. One summer of people walking through a patch of beach grass kills the roots and the sand begins moving again. The rope fences you see are not decoration — they are protecting the root systems that hold the beach in place.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb5-deep.m4a",
+          "duration": 33.125,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-YB5-cue",
+        "text": "Walk south along Long Sands. Ten minutes to the midpoint. Notice how the sand changes color as you walk — that is mineral sorting.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb5-cue.m4a",
+          "duration": 7.525,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-long-sands-mid",
+      "narration": {
+        "script_ref": "FN-YB6",
+        "text": "Long Sands midpoint. If there are surfers in the water, watch the wave shape. This is a sand-bottom beach break — the wave shape is determined by the underwater sand bar topography, which shifts with every storm. Unlike a reef break where the wave is always the same shape, this break changes constantly. The surfers have to read it fresh every day. The sand bars form through a process called wave-forced sediment transport: incoming waves push sand shoreward until it piles into a bar, then the bar deflects incoming wave energy, and the whole system reaches a temporary equilibrium until the next storm reshuffles it.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb6.m4a",
+          "duration": 32.125,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB6-deep",
+        "text": "The water temperature here — fifty-five to sixty degrees in summer — is a product of the Gulf of Maine's peculiar oceanography. The Labrador Current brings cold Arctic water south along this coast, and the Gulf of Maine basin traps it like a bowl. Even in August, the deep water remains near forty degrees. When wind pushes surface water offshore (upwelling), that cold bottom water replaces it and swimmers get a shock. The same cold that limits swimming is what makes this coast one of the most productive fisheries in the world. Cold water holds more dissolved oxygen than warm water, supporting denser plankton populations, which support everything up the food chain.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb6-deep.m4a",
+          "duration": 34.45,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-YB6-cue",
+        "text": "Keep south along Long Sands. Cape Neddick headland ahead. Ten more minutes. Watch the tide line for shells and crab molts.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb6-cue.m4a",
+          "duration": 7.175,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-long-sands-south",
+      "narration": {
+        "script_ref": "FN-YB7",
+        "text": "South end of Long Sands. The transition from sand to rock here is geologically abrupt. One step is unconsolidated sediment, the next is four-hundred-fifty-million-year-old bedrock. The sand does not gradually become rock — it ends because the headland blocks longshore transport. Sand drifting south along the beach hits the headland and stops. Some of it wraps around the point in storms, but most of it stays trapped in the pocket. The headland is essentially a dam, holding back a reservoir of sand. If you could remove the headland, the sand would drift south and this beach would slowly disappear.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb7.m4a",
+          "duration": 30.175,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB7-deep",
+        "text": "The currents at this south end are stronger because of wave refraction around the headland. Waves approaching from the southeast bend around the point, concentrating energy at the corner where sand meets rock. This is where rip currents are most likely — water pushed shoreward by waves has to go somewhere, and it flows back offshore through channels in the sand bar. The lifeguards at this end deal with more rescues than the north end for exactly this reason. It is not that swimmers are less careful here. The physics are simply more dangerous. Water finds the path of least resistance back to the open ocean, and sometimes that path runs right through where a swimmer is standing.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb7-deep.m4a",
+          "duration": 31.825,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-YB7-cue",
+        "text": "Cross the road and head toward Cape Neddick. The geology gets more interesting from here. Five minutes.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb7-cue.m4a",
+          "duration": 5.75,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-cape-neddick-road",
+      "narration": {
+        "script_ref": "FN-YB8",
+        "text": "Cape Neddick Road. As we move out onto the peninsula, notice the vegetation changing. Less lawn, more native shrubs. The salt exposure intensifies as you move toward the point because there is less land mass to buffer the spray. Rugosa roses (Rosa rugosa) dominate the road edges here — a species that is actually invasive in Maine, introduced from East Asia in the eighteen seventies for coastal landscaping. It thrives in salt spray that kills most other roses. The irony is that an invasive species has become the signature plant of the Maine coast because it is the one beautiful thing that survives where beautiful things are not supposed to.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb8.m4a",
+          "duration": 33.175,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB8-deep",
+        "text": "Look at how the trees lean inland along this stretch. That is wind-shearing — prevailing onshore winds kill the buds on the seaward side, so growth only happens on the leeward side. The result is a tree that looks like it is running away from the ocean. This is called krummholz growth in extreme cases, or simply wind-pruning here. The trees are not weaker than inland specimens. They are shaped by a constant directional force the way flowing water shapes a stone. Every branch that tried to grow seaward got salt-burned and died back. What survives is the asymmetric remainder.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb8-deep.m4a",
+          "duration": 28.475,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          16.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-YB8-cue",
+        "text": "Keep on Nubble Road toward the point. Notice the trees leaning away from the ocean. Five minutes to Sohier Park.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb8-cue.m4a",
+          "duration": 6.625,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-yorks-wild-kingdom",
+      "narration": {
+        "script_ref": "FN-YB9",
+        "text": "York Wild Kingdom. A zoo is an odd place for a naturalist — animals displayed outside their evolutionary context. But notice one genuinely interesting thing: the gulls. Herring gulls (Larus argentatus) and great black-backed gulls (Larus marinus) have learned that the zoo means food. Scraps from visitors, overflow from animal feeding stations. These wild birds have incorporated a human institution into their foraging strategy. They are not tame. They are adapted. The distinction matters. A tame animal depends on humans. An adapted animal exploits humans. The gulls would survive fine without the zoo. They are just optimizing.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb9.m4a",
+          "duration": 31.925,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB9-deep",
+        "text": "Maine has a complicated relationship with gulls. They are native, abundant, and increasingly urban. Their population exploded in the twentieth century because human garbage provided a year-round food supply that natural prey cycles never did. A herring gull in eighteen fifty ate fish and shellfish and starved in lean winters. A herring gull today eats fish, shellfish, french fries, pizza crusts, and whatever it can steal from an outdoor dining table. The species adapted faster than most people realize. Their bill shape has not changed. Their behavior has transformed completely. We made a new ecological niche — coastal urban scavenger — and gulls filled it in less than a century.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb9-deep.m4a",
+          "duration": 35.175,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-YB9-cue",
+        "text": "Continue toward Nubble Road. The ocean opens up past the zoo. Notice the gull flight paths — they are commuting between food sources.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb9-cue.m4a",
+          "duration": 7.675,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-sohier-park",
+      "narration": {
+        "script_ref": "FN-YB10",
+        "text": "Sohier Park. Look at the channel between us and the lighthouse island. Ninety meters wide, but that water is moving. Tidal currents flow through this gap twice a day, and the velocity concentrates because the channel narrows between rock walls. At peak tidal flow, the surface is visibly moving — maybe two to three knots. That is fast enough to make swimming dangerous and kayaking interesting. The organisms on the submerged rock in that channel are different from the open-coast ones: they are filter feeders optimized for current. Mussels (Mytilus edulis) packed into the crevices, straining plankton from water that the tide delivers to them continuously.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb10.m4a",
+          "duration": 34.125,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB10-deep",
+        "text": "The lighthouse island itself is a fascinating habitat study. It is essentially bare rock with no soil, no groundwater, and intense salt exposure from all directions. The only vegetation is salt-tolerant lichens and seasonal grasses in pockets where wind-blown debris accumulates. The nesting seabirds — gulls, cormorants — provide nutrient input through guano, which creates tiny pockets of enriched soil in crevices. Without the birds, the rock would be essentially sterile. With them, a minimal ecosystem persists: lichen on rock, grass in guano-enriched pockets, insects in the grass, birds eating the insects. A complete food web on a space smaller than a basketball court.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb10-deep.m4a",
+          "duration": 35.025,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-YB10-cue",
+        "text": "Walk to the railing at the edge for the closest view. Watch the water in the channel — if the tide is moving, you will see the current.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb10-cue.m4a",
+          "duration": 6.7,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-nubble-light-view",
+      "narration": {
+        "script_ref": "FN-YB11",
+        "text": "Nubble Light viewpoint. From here you can see the full vertical zonation on the island rock face. White at the top is gull guano and lichen. Dark band below is the splash zone — wet from spray but never submerged. Then the barnacle band, white and rough. Then the brown rockweed zone at mid-tide. Then the darker wet rock of the lower intertidal. Below that, underwater. Five distinct bands visible without binoculars, each one a different community of organisms tolerating a different level of ocean exposure. The lighthouse sits in the splash zone. It is getting the same salt treatment as the barnacles. Cast iron chosen for the tower because it survives that environment. The organisms and the engineers arrived at the same solution: armor the surface and tolerate the pounding.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb11.m4a",
+          "duration": 39.0,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          22.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-YB11-deep",
+        "text": "The rock the lighthouse sits on is the same Kittery Formation we have been walking on all day — four hundred fifty million years of metamorphic history exposed to modern wave energy. The island exists because this particular section of rock is more resistant to erosion than the rock that used to connect it to the mainland. That connecting rock eroded away, leaving the nubble standing alone. Give it another few hundred thousand years and the island itself will erode to a shoal and then to nothing. The lighthouse will be long gone. The rock will outlast it by geological ages but not forever. Nothing on a coastline is permanent. Not the rock, not the sand, not the lighthouse. Everything is in transit between being something and being something else.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-yb11-deep.m4a",
+          "duration": 36.1,
+          "voice_provider": "kokoro"
+        }
+      }
+    }
+  ]
+}

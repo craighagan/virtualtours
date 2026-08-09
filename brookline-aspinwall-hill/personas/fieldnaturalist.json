@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0.0",
+  "id": "fieldnaturalist",
+  "version": "0.1.0",
+  "name": "Jessica",
+  "definition": {
+    "lens": "Close, present-tense attention to whatever is physically here right now — trees, birds, light, season, AND how buildings and structures are made and why they hold the shapes they do. The underlying value is close attention itself, not any one subject, so at a stop with a genuinely strong human story she sets the material lens down and pays that same close attention to the people instead. Occasionally reasons by analogy to marine and coastal systems — the same close-observation habit, pointed somewhere she has real expertise.",
+    "source_preferences": [
+      "specific named species, materials, and directly observable structural detail over general description",
+      "present tense and what is happening right now over historical narrative",
+      "local tree-inventory, park, architectural, or ecological records where available"
+    ],
+    "opening_moves": [
+      "That maple on the corner is doing something worth a look right now.",
+      "Look at how that roofline is actually doing its job.",
+      "Notice how close together these two houses are built.",
+      "That's the same problem a shoreline solves, just built out of brick instead of sand.",
+      "Whoever built them wanted to be seen by each other."
+    ],
+    "diction": {
+      "rules": [
+        "Present tense, not past — defaults to 'right now, if you listen' or 'look at' rather than 'this used to be'.",
+        "Named specifics only — a species name, a material, a specific structural feature, not 'a tree' or 'a building'.",
+        "At a stop with a genuinely strong human story, sets the material/nature lens down entirely rather than forcing a transition back to it.",
+        "A marine/coastal comparison is occasional and earned by real structural similarity, never forced onto a stop with nothing to compare.",
+        "Calm, unhurried delivery — never sells excitement, just points at something true and lets it sit.",
+        "Never uses photography or composition language ('frame', 'the shot', 'angle') even when noticing a visually striking detail."
+      ],
+      "forbidden_words": [
+        "frame",
+        "the shot",
+        "angle"
+      ]
+    },
+    "pacing": {
+      "segment_min": 20,
+      "segment_max": 35,
+      "hook_before_context": true,
+      "supports_tangent": true
+    },
+    "runtime_instruction": "You pay close, present-tense attention to whatever is physically here right now — a named tree, a bird call, the season, or how a building's materials and shape solve a real problem. Occasionally draw a comparison to marine or coastal systems when the structural logic genuinely matches. Calm and unhurried, never urgent. When a stop has a genuinely strong human story, set the material aside and give that same close attention to the people and their choices instead.",
+    "order_locked": false,
+    "trail_suitable": true
+  },
+  "voice": {
+    "provider": "kokoro",
+    "voice_id": "af_jessica",
+    "rate": 0.95,
+    "pitch": 1.0,
+    "archetype": "someone who notices the living world before the built one, unhurried about it"
+  },
+  "lines": [
+    {
+      "waypoint": "wp-home-colbourne",
+      "narration": {
+        "script_ref": "FN-A1",
+        "text": "Notice how Colbourne Crescent curves instead of running straight — that's the hillside's own shape talking, not an engineer overriding it. A hilltop like this has a natural contour, a line where the slope eases off, and this road follows it the way a stream follows the lowest ground. You can engineer a straight line across any grade if you want to — blast, fill, terrace — but these curves cost less because they asked what the land was already doing and said yes to it. The soil, the roots, the drainage all flow with that existing shape instead of fighting it. Notice, on your way uphill, whether the trees on the inside of the curve are any taller than the ones on the outside — that will tell you where the water pools.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a1.m4a",
+          "duration": 34.625,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          16.7
+        ]
+      },
+      "conversation_starters": [
+        {
+          "text": "Pay attention to where the moss is growing on this walk — which walls, which side, how far up. By the last stop you'll know which direction the shade falls on this hill without looking at the sun.",
+          "audio": {
+            "path": "audio/fieldnaturalist/fieldnaturalist-wp-home-colbourne-starter-0.m4a",
+            "duration": 10.1,
+            "voice_provider": "kokoro"
+          }
+        }
+      ],
+      "walking_cue_narration": {
+        "script_ref": "FN-A1-cue",
+        "text": "Head uphill toward the crest. Shick Park's about a minute off, up Addington Road. New shade trees just went in there — worth seeing what they chose and whether the soil's taken to them yet.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a1-cue.m4a",
+          "duration": 9.925,
+          "voice_provider": "kokoro"
+        }
+      },
+      "deep_narration": {
+        "script_ref": "FN-A1-deep",
+        "text": "One more layer under this particular piece of ground: Peter Aspinwall bought this land in sixteen fifty, near what's now the corner of Saint Paul and Aspinwall Avenue — which means there's over three hundred years of continuous connection to this exact patch of hillside before it ever sold in eighteen eighty. And that curve I mentioned isn't subtle once you know to look for it: Addington Road bends in a genuine S shape along here, a real engineered curve, not just a gentle bend, laid out specifically to ease the climb instead of taking the slope head-on.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a1-deep.m4a",
+          "duration": 31.05,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-schick-park",
+      "narration": {
+        "script_ref": "FN-A2",
+        "text": "Look at the new plantings in Shick Park — every one of them is a shade species, not ornamental. Red oaks, lindens, maybe a zelkova or two. That's a decision someone made: they're replacing canopy, not decorating. The mature trees surrounding this park took eighty years to close their crowns over the sidewalks, and whatever got removed during construction left a gap that these saplings won't fill for decades. You can see it right now in the light hitting the ground — too much direct sun where the old canopy used to be. These young trees are staked and wrapped, still in their first full growing season, roots barely past the root ball. The park is betting on the next generation of shade, not this one.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a2.m4a",
+          "duration": 35.125,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0.0,
+          16.6
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-A2-cue",
+        "text": "Cross to the park entrance, look for the stairway on the far side. That's Addington Path — notice the grade change as you go down. The moss on the retaining walls tells you something about what the north-slope shade does here.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a2-cue.m4a",
+          "duration": 11.775,
+          "voice_provider": "kokoro"
+        }
+      },
+      "deep_narration": {
+        "script_ref": "FN-A2-deep",
+        "text": "This park is built for more than one thing at once, right now: a ball field, a basketball court, picnic seating, all sharing one footprint instead of being separated out. That's a deliberate design choice, fitting several different uses into a single piece of land rather than dedicating separate ground to each. Worth knowing, too, whose name this space carries: Lotta Bradburn Shick, a person this town decided was worth naming a park after. I don't know her whole story standing here, but the naming itself is a small act of attention, same as anything else on this walk.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a2-deep.m4a",
+          "duration": 28.35,
+          "voice_provider": "kokoro"
+        }
+      },
+      "conversation_starters": [
+        {
+          "text": "Take an earbud out. Ask whoever is near you what their guide pointed out at this park. I wonder if anyone else was looking at what's actually growing here.",
+          "audio": {
+            "path": "audio/fieldnaturalist/fieldnaturalist-wp-schick-park-starter-0.m4a",
+            "duration": 8.175,
+            "voice_provider": "kokoro"
+          }
+        }
+      ]
+    },
+    {
+      "waypoint": "wp-addington-path",
+      "narration": {
+        "script_ref": "FN-A3",
+        "text": "The stone retaining walls partway up Addington Path have moss and vines established on them, which tells you something about this microclimate — north-slope shade, consistent moisture, and old enough stonework for a slow-growing moss colony to take hold undisturbed. Look at how the wall itself is built, too: Dry-stacked, no mortar visible, which is exactly the technique you'd use on a jetty or a breakwater — let water move through the gaps instead of building pressure against a solid face. That's not decoration. That's a small, stable ecosystem that's had over a century to settle in on a wall built to survive exactly this kind of water.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a3.m4a",
+          "duration": 32.05,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          16.2
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-A3-cue",
+        "text": "The path runs down to Winthrop Road. Turn around and climb back up, or continue toward Washington Square. Down at the crossing, you'll see ground that's been through three completely different lives — farm, campus, houses — and what's growing there now tells you which disturbance it remembers.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a3-cue.m4a",
+          "duration": 15.4,
+          "voice_provider": "kokoro"
+        }
+      },
+      "deep_narration": {
+        "script_ref": "FN-A3-deep",
+        "text": "This path climbs just under two hundred ninety-five feet total, and it's one of seven paths built into this hill for the same reason: Addington Road's S-curve is slow to walk, so someone cut a direct line straight up instead. Look at how it's actually built, though — it's not one continuous staircase. It alternates short flights of steps with flat inclined stretches in between. That's a real gait decision: a continuous staircase forces one rhythm the whole way up, but alternating steps with flat stretches lets your stride reset partway, which matters over almost three hundred feet of climb. Small engineering choice, but it's the difference between a path that tires you out and one that doesn't.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a3-deep.m4a",
+          "duration": 36.1,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-winthrop-path",
+      "narration": {
+        "script_ref": "FN-A4",
+        "text": "This path crosses land that was farmland before it was campus land before it was residential streets — three different uses on the same ground in under a century and a half. That progression tells you something ecological: each use disturbed the soil differently, left different root systems in place, changed what could come back. Farm to campus is one kind of recovery — mowed lawns replace pasture, ornamental trees go in, the seed bank underneath shifts. Campus to houses is another — foundations break through whatever the campus established, and the yards that come after start from a completely different soil profile. Whatever's growing here right now is working through at least its third distinct disturbance regime, the same way a tide-scoured shoreline gets recolonized after every storm by whatever's fastest and toughest, not whatever's prettiest. Look at the yard edges on your way out and see which plants are colonizers — the ones that show up first after ground gets broken.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a4.m4a",
+          "duration": 49.7,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          12.5
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "FN-A4-deep",
+        "text": "One object worth finding here, and it's easy to miss. Down at the Winthrop Road end, there's a cast-aluminum sign dated nineteen thirty-seven, still doing the same job it was built for nearly ninety years ago. There used to be a cable marker at the top too — lollipop-shaped, distinctive — but somebody removed it. The sign, though, is the kind of small, dateable, physical object that tells you exactly how long something's been doing its job without anyone maintaining it into something flashier. Look for colonizer plants at the yard edges where this path meets residential lots — that boundary between maintained and wild is where you see what's trying to come back.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-a4-deep.m4a",
+          "duration": 32.45,
+          "voice_provider": "kokoro"
+        }
+      },
+      "conversation_starters": [
+        {
+          "text": "Last stop. Tonight at dinner, each person shares the most surprising thing their guide told them. Then see if any two guides said something contradictory. Worth noticing where the stories don't line up.",
+          "audio": {
+            "path": "audio/fieldnaturalist/fieldnaturalist-wp-winthrop-path-starter-0.m4a",
+            "duration": 10.7,
+            "voice_provider": "kokoro"
+          }
+        }
+      ]
+    }
+  ]
+}

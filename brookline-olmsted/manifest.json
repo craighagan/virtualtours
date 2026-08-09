@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "brookline-olmsted",
+  "title": "Olmsted's Brookline",
+  "built_at": "2026-08-08T12:00:00Z",
+  "min_app_version": "1.0.0",
+  "core": {
+    "id": "core",
+    "kind": "core",
+    "version": "0.1.0",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "placeholder-needs-computation"
+    },
+    "path": "core/",
+    "size": 4180000
+  },
+  "personas": [
+    {
+      "id": "oldtimer",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "placeholder-needs-computation"
+      },
+      "path": "personas/oldtimer/",
+      "size": 2100000,
+      "display_name": "Gus",
+      "one_line": "Been here forever, tells stories, and always tells you which parts are true."
+    },
+    {
+      "id": "operator",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "placeholder-needs-computation"
+      },
+      "path": "personas/operator/",
+      "size": 2100000,
+      "display_name": "Onyx",
+      "one_line": "How this place actually runs day to day, and who does the work nobody thanks."
+    },
+    {
+      "id": "confidante",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "placeholder-needs-computation"
+      },
+      "path": "personas/confidante/",
+      "size": 2100000,
+      "display_name": "Nova",
+      "one_line": "Who got to become who, and what it cost them."
+    },
+    {
+      "id": "fieldnaturalist",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "placeholder-needs-computation"
+      },
+      "path": "personas/fieldnaturalist/",
+      "size": 2100000,
+      "display_name": "Jessica",
+      "one_line": "Notices how things are built and grown, natural and made."
+    }
+  ]
+}

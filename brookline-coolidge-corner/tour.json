@@ -1,0 +1,507 @@
+{
+  "schema_version": "1.0.0",
+  "id": "brookline-coolidge-corner",
+  "version": "0.2.0",
+  "title": "Coolidge Corner: Six Stops",
+  "description": "The full POC-1 Wizard-of-Oz route, all six waypoints. Extended August 2026 from the two-waypoint schema fixture using research verified this session (NPS, Brookline Historical Society, Brookline Preservation Commission, contemporaneous news coverage). See poc-1-brookline-walk.md for the original Wizard-of-Oz script this is built from.",
+  "locale": "en-US",
+  "kind": "urban",
+  "distance": 1930,
+  "duration_estimate": 3600,
+  "hunt_config": {
+    "teams_reshuffle": false,
+    "contest_window": 300,
+    "safety_swap_enabled": true,
+    "starter_frequency": "low"
+  },
+  "teams": [
+    {
+      "id": "team-ben",
+      "name": "Ben",
+      "members": [
+        "Ben"
+      ]
+    },
+    {
+      "id": "team-shira",
+      "name": "Shira",
+      "members": [
+        "Shira"
+      ]
+    }
+  ],
+  "contests": [
+    {
+      "id": "contest-honest-image",
+      "prompt": "The most honest photograph of a house that tells you nothing",
+      "waypoint": "wp-kent-131",
+      "capture_type": "photo",
+      "window": 300,
+      "weight": 2,
+      "is_final": true
+    }
+  ],
+  "credits": [
+    {
+      "source": "National Park Service, John Fitzgerald Kennedy National Historic Site",
+      "source_url": "https://www.nps.gov/jofi/",
+      "license": "public domain (US government work)",
+      "public_domain": true
+    },
+    {
+      "source": "Brookline Historical Society",
+      "license": "used by permission, research reference only",
+      "credit": "Brookline Historical Society"
+    },
+    {
+      "source": "Town of Brookline Preservation Commission",
+      "license": "research reference only",
+      "credit": "Town of Brookline"
+    },
+    {
+      "source": "Coolidge Corner Theatre Foundation",
+      "source_url": "https://coolidge.org/",
+      "license": "research reference only",
+      "credit": "Coolidge Corner Theatre"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "wp-beals-83",
+      "name": "JFK birthplace",
+      "address": "83 Beals St, Brookline, MA 02446",
+      "position": {
+        "lat": 42.3465,
+        "lon": -71.1265
+      },
+      "order": 1,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Head out to Harvard Street and turn left, toward Coolidge Corner. Devotion House and the Ridley School are about three blocks down.",
+      "media": [
+        "media-beals-1920",
+        "media-beals-nursery"
+      ],
+      "photo_waypoint": {
+        "standing_position": {
+          "lat": 42.34648,
+          "lon": -71.12643
+        },
+        "facing": 20,
+        "best_time": "late afternoon, sun over the rooftops behind you hitting the white trim; around 4:30 in spring",
+        "reference_image": "media-beals-1920",
+        "composition_note": "Not straight on. Sidewalk to the left of the walkway, get low, let the porch frame the door with the street falling away behind. Stand back further than feels right."
+      },
+      "dossier": {
+        "summary": "The house where John F. Kennedy was born in 1917, built in 1909, restored by Rose Kennedy in 1966 and now an NPS site. Firebombed in 1975 on the first day of Boston's school busing. Seven rooms, one bathroom. What visitors see is a 1966 reconstruction of a house the family left in 1920, not a 1917 interior.",
+        "text": "## 83 Beals Street\n\nBuilt in 1909, colonial revival, likely designed by local real-estate agent Robert Goode. Wood frame, two and a half stories. Joseph Kennedy bought it August 20, 1914, ahead of marrying Rose Fitzgerald that October 7th; they were its third owners, and at the time it was the last house on the street.\n\nThree children were born here: Jack on May 29, 1917, at 3pm, delivered by family physician Dr. Frederick Good, who delivered seven of Rose's nine children at home; Rosemary the next year; Kathleen in 1920. By 1920 the family had outgrown it and moved a few blocks away. The house passed to family friends the Moores, then later owners, before Rose bought it back in 1966.\n\nOn September 8, 1975 — the first day of Boston's court-ordered school busing — a Molotov cocktail was thrown through the kitchen window, causing an explosion and roughly $30,000 in damage. \"Bus Teddy\" was spray-painted on the sidewalk outside, apparent retaliation for Ted Kennedy's support of desegregation. This is documented by NPS itself and a New York Times report from the same week — not folklore.\n\nRose Kennedy's 1966 restoration, with interior designer Robert Luddington, used roughly 19% original family artifacts; the rest are period pieces. She deliberately left the third floor unrestored because she did not have a complete memory of those rooms.\n\nThe street trees are London planes, present before the Kennedys.\n\nToday the site is run by the National Park Service: open Thursday-Sunday, 10am-5pm, May 29-October 30; off-season by appointment only, two weeks notice; free admission; roughly 9,664 visitors in 2025.\n\n(Fixture note: this dossier is abridged. FR-1.2 targets 2,000-3,000 words.)",
+        "facts": [
+          {
+            "claim": "The house was built in 1909.",
+            "verified": true,
+            "verification_note": "NPS's own site history states the year directly, superseding the earlier map-inference estimate ('somewhere between 1907 and 1919').",
+            "source": {
+              "source": "National Park Service, \"A History of 83 Beals Street\"",
+              "source_url": "https://www.nps.gov/jofi/",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "Seven rooms, one bathroom.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service, JFK NHS",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "Rose Kennedy repurchased and restored the house in 1966 and recorded the audio tour herself.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service, JFK NHS",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "The house was firebombed on September 8, 1975, the first day of Boston's court-ordered school busing, with roughly $30,000 in damage.",
+            "verified": true,
+            "verification_note": "Corroborated by NPS's own account and a contemporaneous New York Times report dated 1975-09-09, plus the Cullen/Murphy biography of James \"Whitey\" Bulger.",
+            "source": {
+              "source": "National Park Service, \"The Politically Motivated Firebombing of 83 Beals Street\"",
+              "source_url": "https://www.nps.gov/jofi/",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "Roughly 19% of the restoration's furnishings are original to the family; the third floor was left unrestored.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service Historic Furnishings Assessment / site interpretation",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "Joseph Kennedy purchased 83 Beals Street for $6,500.",
+            "verified": false,
+            "verification_note": "Not supported by any source found in July or August 2026 research. Appeared in an earlier draft of the discovery interview kit and was removed. Do not narrate.",
+            "attribution_required": true
+          }
+        ],
+        "sources": [
+          {
+            "source": "National Park Service, John Fitzgerald Kennedy National Historic Site",
+            "source_url": "https://www.nps.gov/jofi/",
+            "license": "public domain (US government work)",
+            "public_domain": true
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates from the street address, not GPS-surveyed. FR-4.12's 30m radius makes that adequate for triggering, but the photo_waypoint standing position needs to be walked and recorded on site before POC-4."
+    },
+    {
+      "id": "wp-devotion-345",
+      "name": "Devotion House and Ridley School",
+      "address": "345 Harvard St, Brookline, MA 02446",
+      "position": {
+        "lat": 42.3413,
+        "lon": -71.1218
+      },
+      "order": 2,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue toward Coolidge Corner on Harvard Street. The theater is a few blocks ahead on the same side.",
+      "dossier": {
+        "summary": "A colonial-era house (built around 1745, possibly incorporating framing from around 1680) sitting in a courtyard formed by three later school buildings (1892, 1898 or 1899, 1913). Renamed for Florida Ruffin Ridley in 2019 after research found Edward Devotion, the school's original namesake, had enslaved people.",
+        "text": "## Devotion House and Ridley School\n\nThe small gambrel-roofed house was built around 1745 by Solomon Hill, on land acquired from Edward Devotion Jr; some framing elements may date to roughly 1680, though this is single-sourced and less certain than the 1745 date. Central brick chimney. It's individually listed on the National Register of Historic Places, February 14, 1978 (reference #78002835).\n\nThree school buildings were added around it: 1892, either 1898 or 1899 (sources disagree on this middle date), and 1913 — which is why the old house now sits inside a U formed by later brick construction.\n\nEdward Devotion died leaving money to the town for a school; his birth year is genuinely disputed across sources (1667, 1668, and 1688 all appear — this dossier does not pick one). He enslaved people. Research into Brookline's own history, part of the town's \"Hidden Brookline\" initiative and formally adopted in a 2012 Town Meeting resolution, found that over a quarter of Brookline households owned enslaved people in the mid-1700s. Town Meeting voted in 2018 to remove Devotion's name; Florida Ruffin Ridley's name won a contested November 2019 vote against two others; the new name took effect in 2020, with a ceremony in 2021.\n\n(Fixture note: abridged.)",
+        "facts": [
+          {
+            "claim": "Devotion House is individually listed on the National Register of Historic Places, February 14, 1978, reference #78002835.",
+            "verified": true,
+            "source": {
+              "source": "National Register of Historic Places listings, Brookline, Massachusetts",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "The house was built around 1745; some framing may date to roughly 1680.",
+            "verified": true,
+            "verification_note": "The 1745 date is corroborated across multiple sources; the 1680 framing claim is single-sourced (a Wikipedia-derived encyclopedia entry) and should be treated as likely, not confirmed.",
+            "source": {
+              "source": "Massachusetts Historical Commission / MACRIS-derived sources",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "School buildings were added in 1892, 1898 or 1899, and 1913.",
+            "verified": false,
+            "verification_note": "1892 and 1913 are corroborated across multiple sources (NPS places page, Brookline Historical Society chronology). The middle date genuinely disagrees between sources (1898 vs 1899) and is not resolved.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Edward Devotion was born in 1667.",
+            "verified": false,
+            "verification_note": "Sources conflict: 1667, 1668, and 1688 all appear. Deliberately not resolved; do not narrate a specific year.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Over a quarter of Brookline households owned enslaved people in the mid-1700s.",
+            "verified": true,
+            "verification_note": "This is the Town of Brookline's own adopted figure, from the Hidden Brookline research initiative and a 2012 Town Meeting Article 27 resolution, not an outside or unsourced claim.",
+            "source": {
+              "source": "Town of Brookline, Hidden Brookline initiative / 2012 Town Meeting Article 27",
+              "license": "research reference only"
+            }
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates, not GPS-surveyed. The JFK daydreaming-at-school anecdote used in early drafts of this route (see poc-1-brookline-walk.md's fact notes) traces only to an unfootnoted 2011 NPS brochure with no primary source and did not verify; it must not be narrated as documented fact in any shipped bundle."
+    },
+    {
+      "id": "wp-coolidge-theatre",
+      "name": "Coolidge Corner Theatre",
+      "address": "290 Harvard St, Brookline, MA 02446",
+      "position": {
+        "lat": 42.3406,
+        "lon": -71.1215
+      },
+      "order": 3,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Head toward the Harvard Street and Beacon Street intersection. The S.S. Pierce Building is right on the corner.",
+      "dossier": {
+        "summary": "Built in 1906 as a church; the theater was inserted above it in 1933. Nearly demolished in 1988 for redevelopment; saved by a community campaign and reopened in 1989 under a nonprofit that still runs it today.",
+        "text": "## Coolidge Corner Theatre\n\nBuilt in 1906 as the Beacon/Universalist Church. The theater was carved into the existing structure in 1933, opening December 30th with one screen. Original seating capacity is disputed across sources: some say 1,500, others 1,200 — this dossier does not resolve it. Twinned into two screens in 1979; six screens today, plus a 2021-2024 expansion (completed March 2024) adding two more theaters, an education center, and a media library.\n\nBy 1988 the theater was losing money and a developer had a deal to demolish or convert the building. A local campaign, Friends of the Coolidge, formed that fall; the Brookline Historical Commission recognized the building's historic value, delaying the developer a year. A 1989 capital campaign to buy the building outright fell short of its $2.6 million goal. Real estate investor Harold Brown, through his Hamilton Charitable Foundation, bought the building and granted the nonprofit that became the Coolidge Corner Theatre Foundation a 99-year lease. It reopened November 8, 1989, with a marquee reading \"WE DID IT — ON WITH THE SHOW.\"\n\nToday it's an independent 501(c)(3) nonprofit, funded by memberships, donations, and grants including the Massachusetts Cultural Council and the National Endowment for the Arts. Staff voted to unionize in May 2024, voluntarily recognized by management that June.\n\n(Fixture note: abridged.)",
+        "facts": [
+          {
+            "claim": "The building was built in 1906 as a church; the theater opened above it December 30, 1933.",
+            "verified": true,
+            "source": {
+              "source": "Coolidge Corner Theatre Foundation, \"History & Mission\"",
+              "source_url": "https://coolidge.org/",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Original seating capacity was 1,500.",
+            "verified": false,
+            "verification_note": "Some sources (Coolidge's own history page, Clio) say 1,500; Cinema Treasures says 1,200. Not resolved — narrate as disputed, not as a settled number.",
+            "attribution_required": true
+          },
+          {
+            "claim": "The theater was nearly demolished in 1988, saved by a community campaign led by Friends of the Coolidge, and reopened in 1989 under Harold Brown's 99-year lease to the nonprofit foundation.",
+            "verified": true,
+            "verification_note": "Corroborated across Wikipedia, the theater's own history page, and contemporaneous 1989 news coverage (Boston Globe, Jewish Advocate).",
+            "source": {
+              "source": "Coolidge Corner Theatre Foundation; contemporaneous 1989 news coverage",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "The theater is individually listed on the National Register of Historic Places.",
+            "verified": false,
+            "verification_note": "No NRHP or MACRIS listing found for the theater building itself in August 2026 research. The 1988 Brookline Historical Commission recognition is a local designation, not a federal one. Do not claim NRHP status without a direct MACRIS confirmation.",
+            "attribution_required": true
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates, not GPS-surveyed."
+    },
+    {
+      "id": "wp-pierce-building",
+      "name": "S.S. Pierce Building",
+      "address": "Harvard St at Beacon St, Brookline, MA 02446",
+      "position": {
+        "lat": 42.3403,
+        "lon": -71.1213
+      },
+      "order": 4,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Cross to the median on Beacon Street, or continue toward the T stop, for the streetcar corridor stop.",
+      "dossier": {
+        "summary": "Built around 1897-98 by Wallace Pierce on the site of Coolidge & Brother's general store, which had occupied the corner since 1857 and gave the intersection its name. The clock tower is a replacement; a storm damaged the original.",
+        "text": "## S.S. Pierce Building\n\nS.S. Pierce, founded 1831 as a ship's wholesaler, became a fine-grocery retailer. In 1892, under founder's son Wallace Pierce, the company bought the existing Coolidge & Brother store building — a two-story wooden structure on the corner since 1857 — and opened a branch there. The current Tudor-style building with the clock tower, limestone quoins, and a polygonal tower sited on the diagonal for visibility, went up roughly six years later, around 1897-98.\n\nA storm damaged the original tower's open-deck design; sources disagree on the year, either 1944 or 1948. The replacement tower lacks the original's open deck.\n\nThe neighborhood's name traces to that earlier general store: Coolidge & Brother was the only business in this part of Brookline for decades, so people called the intersection Coolidge's Corner, and the name stuck even after the store itself was gone and the Pierce building took its place. S.S. Pierce was sold to Seneca Foods in 1972; the name continued in some use into the 1980s.\n\n(Fixture note: abridged.)",
+        "facts": [
+          {
+            "claim": "The Pierce building was constructed around 1897-98 on the site of the earlier Coolidge & Brother store (open since 1857).",
+            "verified": true,
+            "verification_note": "The construction year has minor variance across sources (1897 vs 1898/1899); treated as circa 1897-98 rather than a single hard date.",
+            "source": {
+              "source": "S.S. Pierce company history; WCVB local history coverage",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "A storm damaged the original clock tower's open-deck design.",
+            "verified": false,
+            "verification_note": "Sources disagree on the year: 1944 (Wikipedia-derived) vs 1948 (the S.S. Pierce company article itself). Not resolved — narrate as disputed.",
+            "attribution_required": true
+          },
+          {
+            "claim": "The name \"Coolidge Corner\" traces to the Coolidge & Brother general store, open on this corner from 1857.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society; S.S. Pierce company history",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "The S.S. Pierce Building is individually listed on the National Register of Historic Places.",
+            "verified": false,
+            "verification_note": "No individual NRHP/MACRIS listing found in August 2026 research; the building may only be covered by the broader Beacon Street Historic District boundary. Do not claim individual landmark status without direct confirmation.",
+            "attribution_required": true
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates, not GPS-surveyed. Very close to wp-coolidge-theatre and wp-streetcar-beacon by design — same intersection, deliberately kept as this route's false-trigger test case for FR-4.12's nearest-wins logic (see poc-1-brookline-walk.md)."
+    },
+    {
+      "id": "wp-streetcar-beacon",
+      "name": "Beacon Street and the streetcar",
+      "address": "Coolidge Corner T stop, Beacon St, Brookline, MA 02446",
+      "position": {
+        "lat": 42.3401,
+        "lon": -71.1211
+      },
+      "order": 5,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Head south on Harvard Street toward Kent Street; Florida Ruffin Ridley's house is the final stop.",
+      "dossier": {
+        "summary": "In 1886, streetcar magnate Henry Whitney commissioned Frederick Law Olmsted to widen Beacon Street into a 200-foot boulevard for his own streetcar line — the second non-experimental electric streetcar service in the country.",
+        "text": "## Beacon Street and the Streetcar\n\nIn 1886, streetcar company owner Henry M. Whitney proposed widening Beacon Street into a boulevard and had Brookline's Park Commissioners hire Frederick Law Olmsted, with his partner John Charles Olmsted, to design it: a 200-foot-wide avenue with a landscaped median for tracks, broad sidewalks, and tree allées, modeled on Parisian boulevards. Tracks went in above-ground in 1888; the line was electrified in 1889, making it the second non-experimental electric streetcar service in the country, after Richmond, Virginia.\n\nThe Beacon Street Historic District was listed on the National Register October 17, 1985 (reference #85003322), spanning roughly two miles.\n\nBefore the streetcar, this area was farmland and summer estates, and Brookline Village was the town's actual center. After it, north Brookline filled with apartment blocks and houses within about fifteen years, and the money moved up here.\n\n(Fixture note: abridged.)",
+        "facts": [
+          {
+            "claim": "Beacon Street was widened to 200 feet, designed by Frederick Law Olmsted and John Charles Olmsted, commissioned by streetcar owner Henry Whitney in 1886.",
+            "verified": true,
+            "verification_note": "Corrects an earlier draft's '160 feet' figure. Corroborated across NPS's own places page, SAH Archipedia, the Brookline Historical Society, and the Beacon Street Historic District's NRHP documentation, which credits John Charles Olmsted specifically as architect of record.",
+            "source": {
+              "source": "National Park Service; Beacon Street Historic District NRHP documentation",
+              "license": "public domain (US government work) and research reference only"
+            }
+          },
+          {
+            "claim": "The streetcar line was the second non-experimental electric streetcar service in the country, after Richmond, Virginia.",
+            "verified": false,
+            "verification_note": "A specific, checkable claim commonly repeated in transit history sources but not independently re-confirmed by primary documentation in this research pass.",
+            "attribution_required": true
+          },
+          {
+            "claim": "The Beacon Street Historic District was listed on the National Register October 17, 1985, reference #85003322.",
+            "verified": true,
+            "source": {
+              "source": "National Register of Historic Places listings",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "The Coolidge Corner streetcar stop was rebuilt in 1901 and again in 2001.",
+            "verified": false,
+            "verification_note": "Could not be independently confirmed in August 2026 research. Worth a direct MBTA records check before narrating these specific years.",
+            "attribution_required": true
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates, not GPS-surveyed. Same intersection as wp-pierce-building and wp-coolidge-theatre, deliberately, per poc-1-brookline-walk.md's note on FR-4.11/4.12 false-trigger testing."
+    },
+    {
+      "id": "wp-kent-131",
+      "name": "Florida Ruffin Ridley's house",
+      "address": "131 Kent St, Brookline, MA 02446",
+      "position": {
+        "lat": 42.3421,
+        "lon": -71.1207
+      },
+      "order": 6,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 40,
+        "min_accuracy": 40
+      },
+      "photo_waypoint": {
+        "standing_position": {
+          "lat": 42.34225,
+          "lon": -71.12082
+        },
+        "facing": 195,
+        "best_time": "any",
+        "composition_note": "Do not photograph the house; it is someone's home. Photograph the street from the corner so the row goes away from you. She is not marked and the block gives you nothing — that is what the image has to say."
+      },
+      "hunt_items": [
+        {
+          "id": "hunt-honest-street",
+          "prompt": "One photograph of this block that admits there is nothing here to see.",
+          "capture_type": "photo",
+          "contest": "contest-honest-image"
+        },
+        {
+          "id": "hunt-name-said-aloud",
+          "prompt": "Record someone in your family saying what she did, without reading it off a phone.",
+          "capture_type": "audio",
+          "max_duration": 30
+        }
+      ],
+      "dossier": {
+        "summary": "Florida Ruffin Ridley and her husband bought this house in 1896, likely Brookline's first Black homeowners. Born into a notable family (her father was the first Black Harvard Law graduate and first Black judge in the US), she was a teacher, writer, suffragist, and anti-lynching organizer. The former Edward Devotion School was renamed for her after a contested 2019 town vote; the ceremony was in 2021.",
+        "text": "## 131 Kent Street\n\nAn ordinary house, and that is the point: same period, same wood frame and porch as the rest of the block, built during the streetcar-era building boom. No plaque, no restoration, no Park Service. Someone lives in it.\n\nFlorida Ruffin Ridley was born January 29, 1861, to George Lewis Ruffin — the first Black graduate of Harvard Law School and the first Black judge in the United States — and Josephine St. Pierre Ruffin, a writer and suffragist in her own right. Florida and her husband Ulysses A. Ridley, a tailoring business owner, bought this house in 1896 and lived here until the early 1920s, likely Brookline's first Black homeowners.\n\nShe was the second Black teacher in Boston public schools; edited The Woman's Era, considered the first newspaper published by and for Black women; co-founded the Woman's Era Club and the League of Women for Community Service; organized against lynching; and was active in Brookline's suffrage association. She died in 1943 at 82.\n\nBrookline Town Meeting voted in 2018 to remove Edward Devotion's name from the school; research into the town's history found more than a quarter of households owned enslaved people in the mid-1700s. Ridley's name won a contested vote against two others in November 2019. The renaming took effect in 2020, with a ceremony in 2021.\n\n(Fixture note: abridged.)",
+        "facts": [
+          {
+            "claim": "Florida Ruffin Ridley and her husband bought 131 Kent Street in 1896.",
+            "verified": true,
+            "verification_note": "Corroborated by the Brookline Public Library's 2021 \"Hidden Brookline\" exhibit page and a school-naming biography citing Brookline Historical Society research.",
+            "source": {
+              "source": "Brookline Public Library, \"Hidden Brookline\"; Brookline Historical Society",
+              "license": "research reference only",
+              "credit": "Hidden Brookline"
+            }
+          },
+          {
+            "claim": "Her father, George Lewis Ruffin, was the first Black graduate of Harvard Law School and the first Black judge in the United States; her mother, Josephine St. Pierre Ruffin, was a writer and suffragist.",
+            "verified": true,
+            "source": {
+              "source": "Multiple corroborating biographical sources, including academic works cited in her Wikipedia article",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "She was born January 29, 1861, and died February 25, 1943.",
+            "verified": false,
+            "verification_note": "Birth year has minor conflict: 1861 per most biographical sources, 1860 per the Brookline Public Library page. Low-stakes discrepancy, noted rather than resolved.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Town Meeting voted to remove the Devotion name in 2018; Ridley's name won a contested vote in November 2019; the new name took effect in 2020; the ceremony was in 2021.",
+            "verified": true,
+            "verification_note": "Corroborated across WBUR, Boston Globe, and Wikipedia's Devotion School and Ridley School articles. The 2020/2021 distinction is between the effective date and the ceremony date, not a contradiction.",
+            "source": {
+              "source": "WBUR and Boston Globe coverage of the Brookline school renaming",
+              "license": "news reporting, research reference only"
+            }
+          },
+          {
+            "claim": "Edward Devotion was born in 1667.",
+            "verified": false,
+            "verification_note": "Sources conflict: 1667, 1668, and 1688 all appear. POC-1 scripts are written to avoid the date entirely.",
+            "attribution_required": true
+          }
+        ]
+      },
+      "notes": "Private residence. Viewed from the sidewalk only; the Influencer script explicitly directs away from photographing the house."
+    }
+  ],
+  "media_items": [
+    {
+      "schema_version": "1.0.0",
+      "id": "media-beals-1920",
+      "tier": 1,
+      "type": "image",
+      "title": "83 Beals Street, circa 1961",
+      "caption": "The Kennedy birthplace as it appeared when the National Park Service first documented it. Colonial revival, wood frame, two and a half stories.",
+      "path": "media/beals-street-1920.jpg",
+      "date_taken": "c. 1961",
+      "then_and_now": true,
+      "license": {
+        "source": "National Park Service, HABS/HAER Survey",
+        "source_url": "https://www.nps.gov/jofi/",
+        "license": "public domain (US government work)",
+        "public_domain": true
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "media-beals-nursery",
+      "tier": 1,
+      "type": "image",
+      "title": "The nursery at 83 Beals Street",
+      "caption": "Rose Kennedy's 1966 restoration of the second-floor nursery where JFK was born. Roughly 19% of the furnishings are original to the family; the rest are period pieces.",
+      "path": "media/beals-nursery-1917.jpg",
+      "date_taken": "c. 1967",
+      "license": {
+        "source": "National Park Service, JFK NHS",
+        "source_url": "https://www.nps.gov/jofi/",
+        "license": "public domain (US government work)",
+        "public_domain": true
+      }
+    }
+  ]
+}

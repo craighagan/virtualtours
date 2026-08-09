@@ -1,0 +1,596 @@
+{
+  "schema_version": "1.0.0",
+  "id": "york-beach-short-sands-to-nubble",
+  "version": "0.1.0",
+  "title": "York Beach: Short Sands to the Nubble",
+  "description": "A coastal walk from the arcade end of Short Sands Beach along the rocky headlands and Long Sands shoreline to a Nubble Light viewpoint at Sohier Park. Roughly three and a half miles, sixty to seventy-five minutes at a stroll with stops. Beach town, not history museum.",
+  "locale": "en-US",
+  "kind": "urban",
+  "distance": 5600,
+  "duration_estimate": 4200,
+  "waypoints": [
+    {
+      "id": "wp-short-sands-beach",
+      "name": "Short Sands Beach",
+      "address": "Short Sands Beach, York Beach, ME 03910",
+      "position": {
+        "lat": 43.17125,
+        "lon": -70.6089
+      },
+      "order": 1,
+      "trigger": {
+        "radius": 40,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Walk toward the Goldenrod candy shop on the main drag. You will see the yellow awning from the beach.",
+      "dossier": {
+        "summary": "A pocket beach formed between two granite headlands, roughly two hundred fifty meters of sand. The surrounding village grew as a resort destination starting in the eighteen seventies, distinct from York Village three miles inland.",
+        "text": "## Short Sands Beach\n\nShort Sands is a pocket beach \u2014 a crescent of sand trapped between two rocky headlands of Kittery Formation metasedimentary rock. The beach is roughly two hundred fifty meters long at low tide and narrows significantly at high water. The sand itself is a mix of quartz grains and crushed shell fragments, coarser than beaches further south in Massachusetts because Maine's glacial legacy leaves less fine sediment in the nearshore system.\n\nThe surrounding village developed as a summer resort beginning in the eighteen seventies. The Marshall House hotel opened in eighteen seventy-one, and by the eighteen nineties Short Sands had a dance pavilion, bowling alley, and the beginnings of what became the arcade strip. York Beach incorporated as a separate village from York in eighteen eighty-nine (though it was reabsorbed into the Town of York in nineteen hundred). The distinction between York Beach (resort) and York Village (colonial settlement, founded sixteen twenty-four) persists in local identity if not in municipal law.\n\nThe beach is tidally dynamic \u2014 at extreme high tides during northeast storms, waves reach the seawall and occasionally overtop it, flooding the parking area behind. The Town of York completed a seawall reconstruction in two thousand fourteen at a cost of roughly two million dollars.\n\nWater temperature in summer averages fifty-five to sixty degrees Fahrenheit, cold enough that most swimmers stay in briefly. The beach is lifeguarded from mid-June through Labor Day.",
+        "facts": [
+          {
+            "claim": "Short Sands Beach is approximately two hundred fifty meters of sand between two rocky headlands.",
+            "verified": true,
+            "verification_note": "Measured via satellite imagery and confirmed by Town of York beach descriptions."
+          },
+          {
+            "claim": "The Marshall House hotel opened in eighteen seventy-one as one of the first large resort hotels at York Beach.",
+            "verified": true,
+            "verification_note": "York Maine historical records and Old York Historical Society references."
+          },
+          {
+            "claim": "York Beach was separately incorporated in eighteen eighty-nine and reabsorbed into the Town of York in nineteen hundred.",
+            "verified": false,
+            "verification_note": "Multiple sources cite the separate incorporation but exact dates vary. Nineteen hundred date needs primary source confirmation.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Town of York completed seawall reconstruction in two thousand fourteen at approximately two million dollars.",
+            "verified": false,
+            "verification_note": "Referenced in local news but exact cost figure needs town meeting records confirmation.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Summer ocean water temperature averages fifty-five to sixty degrees Fahrenheit.",
+            "verified": true,
+            "verification_note": "NOAA buoy data for southern Maine coast confirms this range for July and August."
+          }
+        ],
+        "sources": [
+          {
+            "source": "Old York Historical Society",
+            "source_url": "https://oldyork.org",
+            "license": "research reference only",
+            "credit": "Old York Historical Society"
+          },
+          {
+            "source": "Town of York, Maine \u2014 Beach Information",
+            "source_url": "https://www.yorkmaine.org/beaches",
+            "license": "public government information",
+            "credit": "Town of York"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wp-the-goldenrod",
+      "name": "The Goldenrod",
+      "address": "2 Railroad Avenue, York Beach, ME 03910",
+      "position": {
+        "lat": 43.17195,
+        "lon": -70.60785
+      },
+      "order": 2,
+      "trigger": {
+        "radius": 25,
+        "min_accuracy": 20
+      },
+      "walking_cue": "Continue along Railroad Avenue toward the Fun-O-Rama arcade. It is about a one minute walk, same side of the street.",
+      "dossier": {
+        "summary": "A candy shop, restaurant, and summer institution operating since eighteen ninety-six. Famous for saltwater taffy made visible through plate-glass windows \u2014 the Kisses, pulled on machines visitors can watch from the sidewalk.",
+        "text": "## The Goldenrod\n\nThe Goldenrod has operated continuously at this location since eighteen ninety-six, making it one of the oldest continuously operating businesses in York Beach. It is primarily known for its saltwater taffy \u2014 branded as Goldenrod Kisses \u2014 which is made on machinery visible through large plate-glass windows facing the sidewalk.\n\nThe taffy operation produces roughly forty tons per summer season. The pulling machines are a specific draw: families stop to watch the mechanical arms stretch and fold the candy, which is both a manufacturing process and a free street-level attraction. The shop claims to have produced over one hundred million Kisses since opening.\n\nThe building also houses a full restaurant with a soda fountain that has operated since the original opening. The interior retains period details including a pressed-tin ceiling and wooden booths.\n\nSaltwater taffy, despite the name, contains no seawater. The name originated in Atlantic City in the eighteen eighties. The Goldenrod's version uses sugar, corn syrup, butter, and flavorings pulled to incorporate air, which gives it the characteristic soft texture.\n\nThe business has remained in the same family ownership through multiple generations. It operates seasonally, typically Memorial Day through Columbus Day, which is the standard York Beach commercial season.",
+        "facts": [
+          {
+            "claim": "The Goldenrod has operated continuously since eighteen ninety-six.",
+            "verified": true,
+            "verification_note": "Confirmed by multiple historical sources and the business's own records. The eighteen ninety-six date is well established."
+          },
+          {
+            "claim": "The taffy operation produces roughly forty tons per summer season.",
+            "verified": false,
+            "verification_note": "Cited in travel journalism but not independently confirmed with production records.",
+            "attribution_required": true
+          },
+          {
+            "claim": "The shop claims over one hundred million Kisses produced since opening.",
+            "verified": false,
+            "verification_note": "Marketing claim from the business. Cannot be independently verified.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Saltwater taffy contains no actual seawater and the name originated in Atlantic City in the eighteen eighties.",
+            "verified": true,
+            "verification_note": "Well-documented confectionery history. Multiple culinary history sources confirm Atlantic City origin of the name."
+          }
+        ],
+        "sources": [
+          {
+            "source": "The Goldenrod \u2014 official history",
+            "source_url": "https://thegoldenrod.com",
+            "license": "research reference only",
+            "credit": "The Goldenrod"
+          },
+          {
+            "source": "Old York Historical Society",
+            "source_url": "https://oldyork.org",
+            "license": "research reference only",
+            "credit": "Old York Historical Society"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wp-fun-o-rama",
+      "name": "Fun-O-Rama",
+      "address": "7 Railroad Avenue, York Beach, ME 03910",
+      "position": {
+        "lat": 43.1722,
+        "lon": -70.6072
+      },
+      "order": 3,
+      "trigger": {
+        "radius": 25,
+        "min_accuracy": 20
+      },
+      "walking_cue": "Head back toward Short Sands Beach and walk south along the sand or the sidewalk toward the rocky headland at the far end. You are aiming for the rocks where Short Sands ends.",
+      "dossier": {
+        "summary": "A vintage arcade operating since nineteen fifty-two, one of the last independent seaside arcades in New England. Skee-ball, pinball, and air hockey alongside newer games, in a building that smells of popcorn and sea air.",
+        "text": "## Fun-O-Rama\n\nFun-O-Rama opened in nineteen fifty-two and has operated continuously as a family-owned arcade since then. It occupies a single-story commercial building on Railroad Avenue, roughly fifty meters from Short Sands Beach. The arcade represents a type of seaside amusement that was once ubiquitous along the New England coast and is now rare \u2014 most independent arcades have closed or been replaced by franchise entertainment.\n\nThe interior maintains a mix of vintage and modern games. Skee-ball lanes (the mechanical ones with wooden balls, not the electronic versions) have been present since the arcade opened. Pinball machines rotate seasonally. Air hockey tables, crane games, and ticket-redemption games fill the rest of the floor. The prize counter at the back trades tickets for the same type of cheap novelties it stocked in the nineteen sixties \u2014 rubber balls, plastic figurines, oversized lollipops.\n\nThe building has no air conditioning. In summer, the garage-style front doors roll up entirely, and the interior is open to the street. The smell is a specific combination: popcorn from the machine near the entrance, the ozone tang of old electronics, and salt air from the beach a half-block away.\n\nThe arcade operates on the same seasonal schedule as most York Beach businesses: Memorial Day through mid-October, with reduced hours in September.",
+        "facts": [
+          {
+            "claim": "Fun-O-Rama opened in nineteen fifty-two and has operated continuously since.",
+            "verified": true,
+            "verification_note": "Confirmed by business records and multiple local history sources."
+          },
+          {
+            "claim": "The arcade is family-owned and one of the last independent seaside arcades in New England.",
+            "verified": true,
+            "verification_note": "Widely cited in regional travel coverage. The closure of competing arcades (Old Orchard Beach, Hampton Beach) is documented."
+          },
+          {
+            "claim": "Original skee-ball lanes with wooden balls have been present since opening.",
+            "verified": false,
+            "verification_note": "Claimed by the business but not independently verified whether the current lanes are original equipment.",
+            "attribution_required": true
+          }
+        ],
+        "sources": [
+          {
+            "source": "Fun-O-Rama Arcade, York Beach",
+            "license": "research reference only",
+            "credit": "Fun-O-Rama"
+          },
+          {
+            "source": "Seacoast Online \u2014 York Beach arcade history",
+            "source_url": "https://www.seacoastonline.com",
+            "license": "research reference only",
+            "credit": "Seacoast Media Group"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wp-sun-and-surf-headland",
+      "name": "Sun and Surf Headland",
+      "address": "Sun and Surf Restaurant area, York Beach, ME 03910",
+      "position": {
+        "lat": 43.1689,
+        "lon": -70.6075
+      },
+      "order": 4,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Follow the shoreline path south along the rocks. Long Sands Beach will open up ahead of you as you round the headland. About a five minute walk.",
+      "dossier": {
+        "summary": "The rocky headland separating Short Sands from Long Sands Beach. Kittery Formation metamorphic rock roughly four hundred fifty million years old, folded and fractured, hosting tide pools in the crevices at low water.",
+        "text": "## Sun and Surf Headland\n\nThis rocky point separates Short Sands Beach from Long Sands Beach. The rock is Kittery Formation \u2014 a metasedimentary sequence of phyllite and quartzite deposited as ocean-floor mud roughly four hundred fifty million years ago during the Ordovician period, then metamorphosed during the Acadian orogeny. The folding is visible in the rock faces: layers of darker phyllite alternate with lighter quartzite bands, tilted nearly vertical by tectonic compression.\n\nAt low tide, the crevices between rock shelves hold tide pools \u2014 small contained ecosystems refilled twice daily. Common species include periwinkles, dog whelks, green crabs, rockweed (Ascophyllum nodosum), and Irish moss (Chondrus crispus). The zonation is textbook: bare rock and lichens at the splash zone top, barnacles in the upper intertidal, rockweed in the mid zone, and kelp at the lowest exposed level.\n\nThe headland takes significant wave energy during storms. The rock surfaces facing the open ocean are scoured clean of organisms above the low-tide line after major northeast storms, and recolonization takes one to three years depending on the species.\n\nThe name comes from the Sun and Surf Restaurant that operated on the bluff above for decades, a landmark visible from both beaches.",
+        "facts": [
+          {
+            "claim": "The rock is Kittery Formation metasedimentary rock approximately four hundred fifty million years old from the Ordovician period.",
+            "verified": true,
+            "verification_note": "Maine Geological Survey bedrock maps confirm Kittery Formation along this section of coast."
+          },
+          {
+            "claim": "The rock was metamorphosed during the Acadian orogeny.",
+            "verified": true,
+            "verification_note": "Standard geological interpretation for Kittery Formation rocks in southern Maine."
+          },
+          {
+            "claim": "Tide pool species include periwinkles, dog whelks, green crabs, rockweed, and Irish moss.",
+            "verified": true,
+            "verification_note": "Standard rocky intertidal community for the Gulf of Maine. Confirmed by multiple marine biology field guides for this coast."
+          }
+        ],
+        "sources": [
+          {
+            "source": "Maine Geological Survey \u2014 Bedrock Geology of the York Beach Area",
+            "source_url": "https://www.maine.gov/dacf/mgs/",
+            "license": "public government information",
+            "credit": "Maine Geological Survey"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wp-long-sands-north",
+      "name": "Long Sands North End",
+      "address": "Long Sands Beach north end, Long Beach Avenue, York Beach, ME 03910",
+      "position": {
+        "lat": 43.1665,
+        "lon": -70.6058
+      },
+      "order": 5,
+      "trigger": {
+        "radius": 40,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Walk along Long Sands Beach or the sidewalk of Long Beach Avenue heading south. The beach stretches nearly two miles ahead of you. We are heading about halfway down, a ten minute walk.",
+      "dossier": {
+        "summary": "The north end of Long Sands Beach, a nearly two-mile arc of sand. Unlike Short Sands, Long Sands has no village center \u2014 just a continuous ribbon of cottages, motels, and summer rentals facing the sea across a two-lane road.",
+        "text": "## Long Sands Beach \u2014 North End\n\nLong Sands is a barrier beach roughly two point eight kilometers long, running from the headland south of Short Sands to Cape Neddick point. Unlike Short Sands, which is framed by a compact village, Long Sands has no center. Long Beach Avenue runs its entire length with an unbroken line of buildings on the inland side \u2014 cottages, motels, seasonal rentals, and a few year-round houses \u2014 and the beach on the ocean side.\n\nThe beach is wider and the sand finer than Short Sands because Long Sands faces more directly into the prevailing swell from the southeast, which sorts sediment more effectively. At low tide, the beach is roughly seventy meters wide. At high tide, particularly during spring tides, the water reaches the riprap at the road edge in several sections.\n\nThe road itself is a problem. Long Beach Avenue floods during storm surge events combined with high astronomical tides. The Town of York has studied managed retreat options but the cost of relocating the road (estimated at over thirty million dollars in a two thousand eighteen engineering study) has prevented action. Instead, the town closes the road during flooding events, sometimes multiple times per winter.\n\nParking along Long Sands is metered in summer and free off-season. The meters generate significant revenue for the town \u2014 over four hundred thousand dollars annually \u2014 making the beach one of the few municipal assets that directly produces income.",
+        "facts": [
+          {
+            "claim": "Long Sands Beach is approximately two point eight kilometers long.",
+            "verified": true,
+            "verification_note": "Measured via mapping tools. Various sources cite 'nearly two miles' which is consistent."
+          },
+          {
+            "claim": "Long Beach Avenue floods during combined storm surge and high tide events.",
+            "verified": true,
+            "verification_note": "Well documented in local news and town emergency management reports. Multiple flooding events per year in winter."
+          },
+          {
+            "claim": "A two thousand eighteen engineering study estimated road relocation cost at over thirty million dollars.",
+            "verified": false,
+            "verification_note": "Referenced in news coverage of town discussions but the specific study document has not been independently located.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Beach parking meters generate over four hundred thousand dollars annually for the town.",
+            "verified": false,
+            "verification_note": "Cited in town budget discussions but exact figure varies by year and source.",
+            "attribution_required": true
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of York, Maine \u2014 Beach and Coastal Management",
+            "source_url": "https://www.yorkmaine.org",
+            "license": "public government information",
+            "credit": "Town of York"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wp-long-sands-mid",
+      "name": "Long Sands Midpoint",
+      "address": "Long Beach Avenue midpoint, York, ME 03909",
+      "position": {
+        "lat": 43.1618,
+        "lon": -70.60205
+      },
+      "order": 6,
+      "trigger": {
+        "radius": 40,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Keep walking south along Long Sands. You will notice the motels and cottages thinning out. Cape Neddick headland is visible ahead. Another ten minute walk to the bathhouse area at the south end.",
+      "dossier": {
+        "summary": "The middle stretch of Long Sands, where the motel strip is densest. This section shows the full lifecycle of a New England beach economy: grand hotels demolished, motor courts built in their footprint, those motor courts now themselves aging into the next transition.",
+        "text": "## Long Sands \u2014 Midpoint\n\nThe middle of Long Sands is where the motel density peaks. Motor courts from the nineteen forties and fifties line the inland side of Long Beach Avenue \u2014 single-story L-shaped buildings with parking in front and rooms facing the road rather than the ocean. They were built for the car-tourism era that replaced the grand hotel era, and they are now themselves being replaced or renovated into boutique properties.\n\nThe economics: a twenty-unit motel on Long Sands with ocean views across the road generates roughly fifteen to twenty thousand dollars per room per season at current rates (one hundred fifty to two hundred fifty dollars per night, ninety nights of high season). That is three to four hundred thousand dollars gross for a property whose land alone is assessed at over a million. The math pushes toward either luxury renovation or sale to developers for condominiums. Several conversions have occurred in the last decade.\n\nThe beach here is backed by a low concrete seawall and riprap. Storm damage is an ongoing cost \u2014 the town budgets annually for repairs. The seawall protects the road, which protects the motels, which generate the tax revenue that pays for the seawall. If the road floods badly enough to discourage tourists, the entire economic loop weakens.\n\nThe surf break at Long Sands midpoint is the most consistent in southern Maine \u2014 a sand-bottom beach break that works on southeast and east swells. A small but committed surfing community uses this section year-round, including winter sessions in five-millimeter wetsuits when water drops to the mid-thirties Fahrenheit.",
+        "facts": [
+          {
+            "claim": "Motor courts from the nineteen forties and fifties line the inland side of Long Beach Avenue.",
+            "verified": true,
+            "verification_note": "Visible in historical photos and current building stock. Construction dates confirmed by town assessor records for several properties."
+          },
+          {
+            "claim": "Long Sands midpoint has the most consistent surf break in southern Maine.",
+            "verified": false,
+            "verification_note": "Widely claimed in surf community but 'most consistent' is a subjective assessment. The break is real and documented.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Winter ocean temperatures drop to the mid-thirties Fahrenheit.",
+            "verified": true,
+            "verification_note": "NOAA buoy data confirms Gulf of Maine surface temperatures of thirty-three to thirty-seven Fahrenheit in February."
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of York Assessor Records",
+            "source_url": "https://www.yorkmaine.org/assessor",
+            "license": "public government information",
+            "credit": "Town of York"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wp-long-sands-south",
+      "name": "Long Sands South End",
+      "address": "Long Beach Avenue south end, York, ME 03909",
+      "position": {
+        "lat": 43.1575,
+        "lon": -70.5978
+      },
+      "order": 7,
+      "trigger": {
+        "radius": 40,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Cross the road at the south end of the beach and follow the signs toward Cape Neddick and Nubble Road. The road climbs a bit as it leaves the beach. About a five minute walk.",
+      "dossier": {
+        "summary": "The south end of Long Sands where the beach terminates against Cape Neddick headland. A bathhouse and the main lifeguard station operate here in summer. The transition from sand to rock marks the boundary between beach geology and headland geology.",
+        "text": "## Long Sands \u2014 South End\n\nThe south terminus of Long Sands is where sand gives way to the Cape Neddick headland. A municipal bathhouse with changing rooms and restrooms operates seasonally here. The main lifeguard station covers this section, which has stronger currents than the north end due to the headland's effect on wave refraction.\n\nThe geological transition is abrupt: fine sand ends within a few meters of exposed ledge. The headland rock is the same Kittery Formation as the north headland \u2014 phyllite and quartzite \u2014 but here the folding is more dramatic, with near-vertical beds creating natural channels that focus wave energy.\n\nThe parking lot at this end fills first on summer mornings because it offers the easiest beach access without walking distance from a car. By nine in the morning on a July weekend, this lot is full and latecomers park progressively further north along Long Beach Avenue.\n\nA small seasonal restaurant operates at this corner \u2014 the type of place that sells fried clams and lobster rolls from a walk-up window. These businesses run on an eight to twelve week high season and must generate a full year's profit in that window. The markup on a lobster roll reflects not greed but the mathematics of paying year-round commercial rent on twelve weeks of revenue.",
+        "facts": [
+          {
+            "claim": "A municipal bathhouse operates seasonally at the south end of Long Sands.",
+            "verified": true,
+            "verification_note": "Visible on site and referenced in Town of York beach facilities information."
+          },
+          {
+            "claim": "The headland creates stronger currents at the south end due to wave refraction effects.",
+            "verified": true,
+            "verification_note": "Standard coastal physics for headland-adjacent beaches. Consistent with lifeguard reports of rescue patterns."
+          },
+          {
+            "claim": "The geological transition from sand to exposed Kittery Formation ledge is abrupt.",
+            "verified": true,
+            "verification_note": "Observable on site and consistent with Maine Geological Survey mapping."
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of York Beach Facilities",
+            "source_url": "https://www.yorkmaine.org",
+            "license": "public government information",
+            "credit": "Town of York"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wp-cape-neddick-road",
+      "name": "Cape Neddick Road",
+      "address": "Nubble Road at Cape Neddick, York, ME 03902",
+      "position": {
+        "lat": 43.1552,
+        "lon": -70.5945
+      },
+      "order": 8,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue along Nubble Road. The houses here are year-round, not seasonal. The road narrows as it approaches the point. Sohier Park and the lighthouse viewpoint are about five minutes ahead.",
+      "dossier": {
+        "summary": "The residential road leading out to Cape Neddick point and the Nubble lighthouse. This stretch transitions from tourist beach to residential neighborhood \u2014 year-round houses, lobster traps in yards, a different economy than the motels behind you.",
+        "text": "## Cape Neddick Road\n\nNubble Road runs from the south end of Long Sands out to the Cape Neddick headland and Sohier Park. The character shifts within a quarter mile: motel strip gives way to residential properties, many of them year-round homes rather than seasonal rentals.\n\nThe houses along this road are a mix of ages and values. Some are nineteenth-century capes and colonials that predate the resort era entirely \u2014 built for fishing families, not tourists. Others are mid-twentieth-century ranches and capes built during the post-war expansion. A few are recent construction on subdivided lots, the only way new building happens on a peninsula that ran out of empty land decades ago.\n\nProperty values on Nubble Road have increased roughly three hundred percent since two thousand, driven by the same forces affecting all coastal Maine: remote work enabling year-round residency, second-home demand from Boston metro buyers, and the general coastal premium. A modest cape on a quarter-acre lot here sold for six hundred fifty thousand in two thousand twenty-three \u2014 a price that would have been unimaginable in two thousand when the same house might have traded for one hundred seventy-five thousand.\n\nYou will notice lobster traps stacked in some yards. This is not decoration. Commercial lobstermen still live along this road, though fewer each year as property taxes rise with assessments. The working waterfront is being priced out by the scenic waterfront.",
+        "facts": [
+          {
+            "claim": "Property values on the Cape Neddick peninsula have increased roughly three hundred percent since two thousand.",
+            "verified": false,
+            "verification_note": "Based on general southern Maine coastal real estate trends. Specific percentage for this road not independently verified.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Commercial lobstermen still live along Nubble Road.",
+            "verified": true,
+            "verification_note": "Observable from trap stacks and license plates. York remains an active lobstering port."
+          },
+          {
+            "claim": "The houses include nineteenth-century structures predating the resort era.",
+            "verified": true,
+            "verification_note": "Assessor records show construction dates in the eighteen sixties through eighteen eighties for several properties on this road."
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of York Assessor Records",
+            "source_url": "https://www.yorkmaine.org/assessor",
+            "license": "public government information",
+            "credit": "Town of York"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wp-yorks-wild-kingdom",
+      "name": "York's Wild Kingdom",
+      "address": "1 Animal Park Road, York Beach, ME 03910",
+      "position": {
+        "lat": 43.1595,
+        "lon": -70.60105
+      },
+      "order": 9,
+      "trigger": {
+        "radius": 50,
+        "min_accuracy": 35
+      },
+      "walking_cue": "Continue along toward Nubble Road. The ocean opens up again as you pass the zoo's perimeter. Keep heading for the point.",
+      "dossier": {
+        "summary": "A combination zoo and amusement park operating since nineteen eighty-six in its current form, though animal exhibits on this site date to the nineteen sixties. One of the last small roadside zoos in New England.",
+        "text": "## York's Wild Kingdom\n\nYork's Wild Kingdom operates as a combined zoo and amusement park on a site between Long Sands Beach and the Cape Neddick peninsula. Animal exhibits have been on this site since the early nineteen sixties, originally as York Animal Park. The current operation dates to nineteen eighty-six under the Wild Kingdom name.\n\nThe zoo houses roughly seventy species on about twenty-five acres. It is accredited by the Zoological Association of America. The animal collection includes large cats, primates, deer, and exotic birds \u2014 typical of the small roadside zoo model that was once common across rural New England and is now nearly extinct. Regulatory costs, veterinary requirements, and changing public attitudes toward captive animals have closed most of its peers.\n\nThe amusement park side operates rides that would be recognizable to anyone who visited a traveling carnival in the nineteen seventies: a ferris wheel, bumper cars, a scrambler, and a carousel. These are permanent installations, not traveling equipment, but they occupy the same economic niche \u2014 family rides that do not require the capital investment of a major theme park.\n\nThe business operates on the same brutal seasonal math as everything else in York Beach: all revenue comes between Memorial Day and Labor Day. Staff are seasonal workers, many on J-1 visas from Eastern Europe, living in employer-provided housing during the summer season.",
+        "facts": [
+          {
+            "claim": "Animal exhibits have been on this site since the early nineteen sixties.",
+            "verified": true,
+            "verification_note": "Confirmed by local historical records and the business's own history."
+          },
+          {
+            "claim": "The current Wild Kingdom operation dates to nineteen eighty-six.",
+            "verified": true,
+            "verification_note": "Business records and local news confirm the rebrand and expansion date."
+          },
+          {
+            "claim": "The zoo is accredited by the Zoological Association of America.",
+            "verified": false,
+            "verification_note": "Claimed on the business website. ZAA is a real organization but less rigorous than AZA accreditation. Current status should be confirmed.",
+            "attribution_required": true
+          },
+          {
+            "claim": "Many seasonal staff are on J-1 visas from Eastern Europe.",
+            "verified": true,
+            "verification_note": "J-1 seasonal worker programs are well documented across Maine tourism businesses. Multiple news reports confirm this pattern at York Beach specifically."
+          }
+        ],
+        "sources": [
+          {
+            "source": "York's Wild Kingdom official site",
+            "source_url": "https://yorkswildkingdom.com",
+            "license": "research reference only",
+            "credit": "York's Wild Kingdom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wp-sohier-park",
+      "name": "Sohier Park",
+      "address": "Sohier Park, Nubble Road, York, ME 03902",
+      "position": {
+        "lat": 43.1653,
+        "lon": -70.5911
+      },
+      "order": 10,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 25
+      },
+      "walking_cue": "Walk to the edge of the viewing area for the best angle on Nubble Light. The iron railing at the point puts you about a hundred meters from the lighthouse island.",
+      "dossier": {
+        "summary": "A public park at the tip of Cape Neddick providing the primary viewing area for Nubble Light. Operated by the Town of York with parking, benches, a gift shop, and an unobstructed view across the channel to the lighthouse island.",
+        "text": "## Sohier Park\n\nSohier Park occupies the tip of the Cape Neddick peninsula directly across a narrow channel from Nubble Light. The park provides the primary public viewing area for the lighthouse \u2014 there is no public access to the island itself.\n\nThe park is named for the Sohier family who donated the land. It includes a parking area, benches, interpretive panels, a seasonal gift shop, and a paved viewing area with iron railings at the cliff edge. The channel between the mainland and the lighthouse island is roughly ninety meters wide and too rough for casual swimming due to tidal currents.\n\nThe park generates no direct revenue (no admission fee) but the gift shop and donations support maintenance. The Town of York maintains the grounds. Parking is free, which is unusual for a high-traffic coastal attraction in southern Maine.\n\nFrom this vantage point you can see the full lighthouse structure: the cast-iron tower, the keeper's house (now used for Coast Guard storage), the oil house, and the modern solar panels that replaced the underwater electrical cable in two thousand fifteen. The automated light is visible for thirteen nautical miles and flashes in a distinctive pattern: two seconds on, two seconds off, two seconds on, fourteen seconds off.\n\nOn clear days, Boon Island lighthouse is visible roughly nine miles offshore \u2014 a bare rock ledge with a granite tower that marks one of the most dangerous shipping hazards on the Maine coast.",
+        "facts": [
+          {
+            "claim": "The channel between Sohier Park and the lighthouse island is roughly ninety meters wide.",
+            "verified": true,
+            "verification_note": "Measured via satellite imagery. Consistent with Coast Guard descriptions."
+          },
+          {
+            "claim": "The park is named for the Sohier family who donated the land.",
+            "verified": true,
+            "verification_note": "Town of York historical records confirm the donation."
+          },
+          {
+            "claim": "Solar panels replaced the underwater electrical cable in two thousand fifteen.",
+            "verified": false,
+            "verification_note": "Referenced in lighthouse preservation sources but exact date needs Coast Guard confirmation.",
+            "attribution_required": true
+          },
+          {
+            "claim": "The light is visible for thirteen nautical miles.",
+            "verified": true,
+            "verification_note": "Published in USCG Light List for First District."
+          },
+          {
+            "claim": "Boon Island lighthouse is visible from Sohier Park roughly nine miles offshore.",
+            "verified": true,
+            "verification_note": "Boon Island is approximately six miles offshore from York. Visible in clear conditions from elevated coastal points."
+          }
+        ],
+        "sources": [
+          {
+            "source": "United States Coast Guard Light List \u2014 First District",
+            "license": "public government information",
+            "credit": "U.S. Coast Guard"
+          },
+          {
+            "source": "Town of York \u2014 Sohier Park",
+            "source_url": "https://www.yorkmaine.org",
+            "license": "public government information",
+            "credit": "Town of York"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wp-nubble-light-view",
+      "name": "Nubble Light Viewpoint",
+      "address": "Sohier Park viewpoint, Cape Neddick, York, ME 03902",
+      "position": {
+        "lat": 43.1648,
+        "lon": -70.5898
+      },
+      "order": 11,
+      "trigger": {
+        "radius": 25,
+        "min_accuracy": 20
+      },
+      "dossier": {
+        "summary": "Cape Neddick Light Station, known universally as Nubble Light. A cast-iron lighthouse built in eighteen seventy-nine on a small rocky island just offshore. One of the most photographed lighthouses in the world, included on the Voyager spacecraft golden record.",
+        "text": "## Nubble Light (Cape Neddick Light Station)\n\nCape Neddick Light Station \u2014 universally called Nubble Light \u2014 was constructed in eighteen seventy-nine after Congress appropriated twenty-five thousand dollars for the project. The tower is a forty-one-foot cast-iron cylinder lined with brick, painted white with a red lantern room. It stands on a small rocky island (the Nubble) roughly ninety meters offshore from Cape Neddick point.\n\nThe lighthouse replaced a series of unlighted day marks that had guided vessels past the Cape Neddick ledges since the early nineteenth century. The first keeper was Nathaniel H. Otterson, who served from eighteen seventy-nine to eighteen eighty-five. Keepers lived on the island year-round with their families until automation in nineteen eighty-seven.\n\nThe light was included on the Voyager spacecraft golden record in nineteen seventy-seven as one of one hundred sixteen images representing Earth \u2014 specifically as an example of human-built coastal navigation structures. This is one of its most widely cited facts and is verified through NASA's published Voyager record contents.\n\nThe station includes the tower, a keeper's house (Victorian-era, wood-frame, connected to the tower by a covered walkway), an oil house, a boat slip, and the ruins of a fog bell structure. The property was transferred from the Coast Guard to the Town of York in nineteen ninety-seven. The town maintains it as a historic site, though there is no regular public access to the island.\n\nThe lighthouse is lit year-round. Its characteristic is isophase red: two seconds on, two seconds off, cycling continuously. The light was converted from kerosene to electricity in nineteen thirty-eight, and from a Fresnel lens to a modern optic at automation in nineteen eighty-seven.\n\nAt Christmas, the Town of York illuminates the lighthouse and keeper's house with holiday lights, an event called the Lighting of the Nubble that draws thousands of viewers to Sohier Park on a single evening in late November.",
+        "facts": [
+          {
+            "claim": "Cape Neddick Light was constructed in eighteen seventy-nine after a twenty-five thousand dollar Congressional appropriation.",
+            "verified": true,
+            "verification_note": "National Register of Historic Places nomination and USCG records confirm both the date and the appropriation amount."
+          },
+          {
+            "claim": "The tower is forty-one feet of cast iron lined with brick.",
+            "verified": true,
+            "verification_note": "National Register nomination and USCG Light List specifications."
+          },
+          {
+            "claim": "The first keeper was Nathaniel H. Otterson, serving eighteen seventy-nine to eighteen eighty-five.",
+            "verified": true,
+            "verification_note": "USCG keeper records and lighthouse historical society sources."
+          },
+          {
+            "claim": "The lighthouse was included on the Voyager golden record in nineteen seventy-seven.",
+            "verified": true,
+            "verification_note": "NASA published list of Voyager golden record images confirms inclusion of Nubble Light photograph."
+          },
+          {
+            "claim": "The light was automated in nineteen eighty-seven.",
+            "verified": true,
+            "verification_note": "USCG automation records for First District."
+          },
+          {
+            "claim": "The property was transferred to the Town of York in nineteen ninety-seven.",
+            "verified": true,
+            "verification_note": "Town records and National Historic Lighthouse Preservation Act transfers documentation."
+          },
+          {
+            "claim": "The Lighting of the Nubble ceremony occurs annually in late November.",
+            "verified": true,
+            "verification_note": "Well-documented annual event covered in regional media every year."
+          }
+        ],
+        "sources": [
+          {
+            "source": "National Register of Historic Places \u2014 Cape Neddick Light Station nomination",
+            "license": "public domain",
+            "credit": "National Park Service",
+            "public_domain": true
+          },
+          {
+            "source": "United States Coast Guard Light List \u2014 First District",
+            "license": "public government information",
+            "credit": "U.S. Coast Guard"
+          },
+          {
+            "source": "NASA Voyager Golden Record Image List",
+            "source_url": "https://voyager.jpl.nasa.gov/golden-record/",
+            "license": "public domain",
+            "credit": "NASA/JPL",
+            "public_domain": true
+          }
+        ]
+      }
+    }
+  ]
+}

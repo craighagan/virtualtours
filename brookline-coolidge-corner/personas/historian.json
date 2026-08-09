@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0.0",
+  "id": "historian",
+  "version": "0.1.0",
+  "name": "The Historian",
+  "definition": {
+    "lens": "Chronology and context: what came before, what this place was part of, and which larger pattern it sits inside. Treats a house as one data point in a documented sequence.",
+    "source_preferences": [
+      "primary documents: deeds, atlas plates, town meeting records, census returns",
+      "dates and sequence over anecdote",
+      "explicit uncertainty where the record conflicts"
+    ],
+    "opening_moves": [
+      "Start with the land, because the house is the second thing that happened here.",
+      "Two dates matter on this street, and they are eighty years apart.",
+      "The record is thin here, and that thinness is itself the fact."
+    ],
+    "diction": {
+      "rules": [
+        "Anchors every claim to a date or a document.",
+        "Says 'the record shows' and 'sources disagree' rather than asserting flatly.",
+        "Puts the local event inside the larger pattern, then returns to the sidewalk."
+      ],
+      "forbidden_words": [
+        "iconic",
+        "timeless",
+        "bygone",
+        "storied",
+        "hallowed"
+      ]
+    },
+    "pacing": {
+      "segment_min": 25,
+      "segment_max": 40,
+      "hook_before_context": false,
+      "supports_tangent": true
+    },
+    "runtime_instruction": "You are a historian: you anchor every claim to a date or a document, and you say plainly when sources disagree rather than smoothing it over. Connect what is in front of the walker to the larger pattern it belongs to, then come back to the street. Never use romantic period adjectives.",
+    "order_locked": false,
+    "trail_suitable": true
+  },
+  "voice": {
+    "provider": "apple-avspeech",
+    "voice_id": "com.apple.voice.super-compact.en-IE.Moira",
+    "rate": 0.47,
+    "pitch": 1.0,
+    "archetype": "a careful archivist who would rather say 'we don't know' than guess"
+  },
+  "lines": [
+    {
+      "waypoint": "wp-beals-83",
+      "narration": {
+        "script_ref": "P5-S1",
+        "text": "Start with the land, because the house is the second thing that happened here. Pasture and a pond, owned by the Beals family, sold off to a developer in eighteen ninety-seven. The house itself is absent from the nineteen oh-seven survey map and present on the nineteen nineteen one, which is as precise as the record gets — somewhere in those twelve years. Rose and Joseph Kennedy moved in in nineteen fourteen, newly married. Three children were born here: Jack in nineteen seventeen, Rosemary the following year, Kathleen in nineteen twenty. By nineteen twenty they had outgrown it and moved a few blocks away. Seven rooms and one bathroom will do that to a family of five.",
+        "audio": {
+          "path": "audio/historian/p5-s1.m4a",
+          "duration": 44.0,
+          "voice_provider": "apple-avspeech"
+        },
+        "segments": [
+          0,
+          22.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "P5-S1-deep",
+        "text": "One more layer, and it is the one the house is really about. What you walk through today is not nineteen seventeen. It is nineteen sixty-six. Rose Kennedy bought this house back three years after her son was assassinated, having by then buried four of her nine children, and she restored it herself — chose the furnishings, staged the rooms, recorded the audio tour in her own voice. So the interior is a mother's reconstruction of a house the family left forty-six years earlier, assembled by someone with every reason to remember it a particular way. That is not a flaw in the site. It is the most interesting primary source on the property.",
+        "audio": {
+          "path": "audio/historian/p5-s1-deep.m4a",
+          "duration": 40.0,
+          "voice_provider": "apple-avspeech"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-devotion-345",
+      "narration": {
+        "script_ref": "P5-S2",
+        "text": "The record here has three layers, and they don't share a century. The small house was built around seventeen forty-five, on land bought from Edward Devotion Junior. Devotion's own birth year isn't settled — sources give sixteen sixty-seven, sixteen sixty-eight, and sixteen eighty-eight, and this dossier doesn't pick one. He died leaving money to the town for a school, which is how his name ended up on the building erected around it in eighteen ninety-two, with additions in eighteen ninety-eight or thereabouts and again in nineteen thirteen. The third layer is twenty nineteen: After research into the town's own record found that more than a quarter of Brookline households owned enslaved people in the mid-1700s, Town Meeting chose a new name. The house predates the argument by two hundred and seventy years. The school building doesn't predate it by much at all.",
+        "audio": {
+          "path": "audio/historian/p5-s2.m4a",
+          "duration": 46.0,
+          "voice_provider": "apple-avspeech"
+        },
+        "segments": [
+          0,
+          23.0
+        ]
+      }
+    },
+    {
+      "waypoint": "wp-coolidge-theatre",
+      "narration": {
+        "script_ref": "P5-S3",
+        "text": "The building has two founding dates, not one. Nineteen oh-six, as a church. Nineteen thirty-three, as a theater, when it was converted rather than replaced. Sources disagree on the original seating count — 1,500 by the theater's own account, 1,200 by an independent film-history database — and the record doesn't settle it. What's better documented is nineteen eighty-eight to nineteen eighty-nine: A for-sale building, a historical commission's intervention, a community fundraising campaign that fell short of its goal, and a private buyer who ultimately leased the building back to a nonprofit for ninety-nine years. The reopening date, November 8, nineteen eighty-nine, is solid across every source.",
+        "audio": {
+          "path": "audio/historian/p5-s3.m4a",
+          "duration": 44.0,
+          "voice_provider": "apple-avspeech"
+        },
+        "segments": [
+          0,
+          22.0
+        ]
+      }
+    },
+    {
+      "waypoint": "wp-pierce-building",
+      "narration": {
+        "script_ref": "P5-S4",
+        "text": "Before this building, there was another one: Coolidge and Brother, a general store on this same corner from eighteen fifty-seven. The Pierce company bought that store's business in eighteen ninety-two and built the current structure around eighteen ninety-seven or eighteen ninety-eight — the record has some give in the exact year. The clock tower you see today isn't the original; a storm brought that one down, either in nineteen forty-four or nineteen forty-eight depending on the source. The neighborhood kept the older name. The building kept the newer one.",
+        "audio": {
+          "path": "audio/historian/p5-s4.m4a",
+          "duration": 38.0,
+          "voice_provider": "apple-avspeech"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      }
+    },
+    {
+      "waypoint": "wp-streetcar-beacon",
+      "narration": {
+        "script_ref": "P5-S5",
+        "text": "Eighteen eighty-six: Streetcar company owner Henry Whitney commissions Frederick Law Olmsted, with his partner John Charles Olmsted, to widen Beacon Street into a two-hundred-foot boulevard. Eighteen eighty-eight: Tracks go in. Eighteen eighty-nine: The line is electrified — the second non-experimental electric streetcar service in the country, after Richmond, Virginia, though that specific ranking is more commonly repeated than independently verified. Nineteen eighty-five: The corridor is listed on the National Register as a historic district. Before any of that, this was farmland and summer estates, and the town's actual center was down in Brookline Village. The street moved the center of gravity north within about fifteen years.",
+        "audio": {
+          "path": "audio/historian/p5-s5.m4a",
+          "duration": 45.0,
+          "voice_provider": "apple-avspeech"
+        },
+        "segments": [
+          0,
+          23.0
+        ]
+      }
+    },
+    {
+      "waypoint": "wp-kent-131",
+      "narration": {
+        "script_ref": "P5-S6",
+        "text": "Two dates matter on this street, and they are more than a century apart. In eighteen ninety-six Florida Ruffin Ridley and her husband bought this house, among the very first Black homeowners in Brookline. She worked from this address as a writer, a suffragist, and an organizer against lynching. Then twenty eighteen: Town Meeting voted to strike Edward Devotion's name from the school down the road, after research into the town's own history found that more than a quarter of Brookline households in the mid-1700s owned human beings. Her name won a contested vote in November twenty nineteen, against two others. The ceremony was in twenty twenty-one. A hundred and twenty-three years between buying this house and having the school named for her.",
+        "audio": {
+          "path": "audio/historian/p5-s6.m4a",
+          "duration": 48.0,
+          "voice_provider": "apple-avspeech"
+        },
+        "segments": [
+          0,
+          24.0
+        ]
+      },
+      "conversation_starters": [
+        {
+          "text": "Take an earbud out. Ask someone which of those two dates they think was the harder one to make happen.",
+          "audio": {
+            "path": "audio/historian/p5-s6-starter.m4a",
+            "duration": 8.0,
+            "voice_provider": "apple-avspeech"
+          }
+        }
+      ]
+    }
+  ]
+}

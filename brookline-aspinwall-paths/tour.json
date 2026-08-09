@@ -1,0 +1,458 @@
+{
+  "schema_version": "1.0.0",
+  "id": "brookline-aspinwall-paths",
+  "version": "0.1.0",
+  "title": "Aspinwall Hill Paths",
+  "description": "A loop connecting multiple named pedestrian paths on Aspinwall Hill — stone stairways built in the 1890s to shortcut the hill's winding roads. Steep terrain with stairs throughout. Starts and ends near Washington Square on the Green Line C. Expands the existing Aspinwall Hill tour (TourBundle2) to cover more of the hill's path network. WARNING: involves stairs and steep grades. Not accessible. Not suitable for strollers, wheelchairs, or knee problems.",
+  "locale": "en-US",
+  "kind": "urban",
+  "distance": 2800,
+  "duration_estimate": 4500,
+  "hunt_config": {
+    "teams_reshuffle": false,
+    "contest_window": 300,
+    "safety_swap_enabled": true,
+    "starter_frequency": "low"
+  },
+  "credits": [
+    {
+      "source": "Brookline Historical Society — Linda Olson Pehlke, 'In Step: Brookline's Paths', Our Town Brookline (2005)",
+      "source_url": "https://brooklinehistoricalsociety.org/paths/",
+      "license": "used by permission, research reference only",
+      "credit": "Brookline Historical Society"
+    },
+    {
+      "source": "OpenStreetMap contributors",
+      "source_url": "https://osm.org/copyright",
+      "license": "ODbL 1.0",
+      "credit": "© OpenStreetMap contributors"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "wp-washington-sq-start",
+      "name": "Washington Square",
+      "address": "Washington Square, Beacon Street at Washington Street, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3391,
+        "lon": -71.1318
+      },
+      "order": 1,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Cross Washington Street and look for Winthrop Path heading uphill on your left. Stone steps with iron handrails. Take your time — it is steep from the start.",
+      "hunt_items": [
+        {
+          "id": "hunt-wash-sq-trolley",
+          "prompt": "Count how many trolley cars pass while you stand here. The C line has run on this stretch since eighteen eighty-nine.",
+          "capture_type": "text"
+        }
+      ],
+      "dossier": {
+        "summary": "Washington Square sits at the base of Aspinwall Hill where Beacon Street meets Washington Street — the starting point for the hill's pedestrian path network. The streetcar stop here is why the paths exist: they shortened the walk from this transit hub to hilltop homes from fifteen minutes by road to five minutes by stairway.",
+        "text": "## Washington Square\n\nThis intersection is the reason Aspinwall Hill has paths at all. When Henry Whitney electrified the Beacon Street streetcar line in eighteen eighty-nine, hilltop residents needed a fast way down to this stop. The hill's winding roads — designed for carriages, not efficiency — tripled the walking distance. The paths solved that: straight-line stairways punching through the curves.\n\nThe seven paths on Aspinwall Hill were accepted by town meeting between eighteen ninety-three and approximately nineteen hundred, each one a voted appropriation with a specific dollar amount. They are public infrastructure, not trails — owned and maintained by the Town of Brookline the same as any sidewalk.\n\nToday you will climb two of these paths and traverse portions of the hill's upper road network to connect them. Total elevation gain is approximately one hundred sixty to one hundred seventy feet. The paths are stone stairways with iron handrails. They are not accessible, not flat, and not optional — the hill is the tour.",
+        "facts": [
+          {
+            "claim": "Beacon Street streetcar electrified in eighteen eighty-nine, second electric streetcar line in the United States after Richmond, Virginia in eighteen eighty-eight.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "Aspinwall Hill has seven named pedestrian paths, accepted by town meeting between eighteen ninety-three and approximately nineteen hundred.",
+            "verified": true,
+            "verification_note": "BHS path series confirms seven on this hill. Exact date range for all seven not individually confirmed — Winthrop (1893) and Addington (1894) are dated; others need BHS page verification.",
+            "source": {
+              "source": "Brookline Historical Society — path series",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society — Linda Olson Pehlke, 'In Step: Brookline's Paths'",
+            "source_url": "https://brooklinehistoricalsociety.org/paths/",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "UNVERIFIED DESK ESTIMATE. Coordinates approximate Washington Square intersection from map. Needs GPS survey on site. This is the orientation stop — walker gets safety briefing about stairs and steep grades before ascending. The C line trolley stop is immediately adjacent."
+    },
+    {
+      "id": "wp-winthrop-path-bottom",
+      "name": "Winthrop Path",
+      "address": "Winthrop Path at Washington Street, Brookline, MA 02445",
+      "position": {
+        "lat": 42.33723,
+        "lon": -71.13161
+      },
+      "order": 2,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Climb the path to University Road — about halfway up. Pause at the road crossing. The second section continues on the far side. SAFETY: stone steps, use handrails. Do not rush.",
+      "hunt_items": [
+        {
+          "id": "hunt-winthrop-steps",
+          "prompt": "Count the steps on Winthrop Path from bottom to top. Write down your number — compare with your family at the summit.",
+          "capture_type": "text"
+        }
+      ],
+      "dossier": {
+        "summary": "Brookline's third-longest pedestrian path at three hundred seventy-nine feet, accepted October tenth, eighteen ninety-three alongside University Road, with a nine hundred fifty dollar appropriation for a wooden plank walk and crossing. Crosses land once owned by Boston University.",
+        "text": "## Winthrop Path\n\nThree hundred seventy-nine feet of stone stairway climbing the north slope of Aspinwall Hill, divided into two sections by University Road. The town accepted it on October tenth, eighteen ninety-three — a specific date from town meeting records, not an approximation — alongside an appropriation of nine hundred fifty dollars for a wooden plank walk and a crossing.\n\nThe original surface was wooden planks. What you climb today is stone and concrete, replaced at an unknown later date. Iron handrails line both sides. A stone retaining wall marks the University Road crossing.\n\nAt the top, on Winthrop Road, look for the cast-aluminum sign from nineteen thirty-seven and the lollipop-shaped cable marker from an old underground-cable company. Both are artifacts of the path's long continuous use as public infrastructure.\n\nThis path crosses land once owned by Boston University. In eighteen eighty-three, BU and the Aspinwall Hill Land Company jointly commissioned Frederick Law Olmsted to design the street layout for the BU parcel — the same commission that produced the S-curve roads the path was built to shortcut.",
+        "facts": [
+          {
+            "claim": "Winthrop Path is three hundred seventy-nine feet long, Brookline's third-longest path after Summit and Rawson.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society — Winthrop Path page",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/winthrop/winthropPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "Accepted October tenth, eighteen ninety-three, with nine hundred fifty dollar appropriation.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society — Winthrop Path page",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/winthrop/winthropPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "Nineteen thirty-seven cast-aluminum sign at Winthrop Road end.",
+            "verified": true,
+            "verification_note": "Field confirmed August twenty twenty-six.",
+            "source": {
+              "source": "BHS + field confirmation",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society — Winthrop Path page",
+            "source_url": "https://brooklinehistoricalsociety.org/paths/winthrop/winthropPath.asp",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "GPS surveyed by Craig 2026-08-04. Trigger at bottom of path (Washington Street end). Audio triggers BEFORE the climb — walker hears narration while standing, then ascends. This avoids the mid-descent audio safety concern from field notes. Path is steep stone steps with handrails."
+    }
+    ,
+    {
+      "id": "wp-winthrop-rd-crossing",
+      "name": "Winthrop Road at University Road",
+      "address": "Winthrop Road near University Road, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3368,
+        "lon": -71.1327
+      },
+      "order": 3,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Turn left on Winthrop Road and walk uphill. In about two hundred feet, look for the entrance to Addington Path on your right — stone steps heading up toward Shick Park.",
+      "hunt_items": [
+        {
+          "id": "hunt-cable-marker",
+          "prompt": "Find the lollipop-shaped cable marker at the top of Winthrop Path. What company name is on it? Photograph it.",
+          "capture_type": "photo"
+        }
+      ],
+      "dossier": {
+        "summary": "The intersection where Winthrop Path meets Winthrop Road — the midpoint between two paths. From here you can see how the road curves away from the hill while the paths cut straight up it. This is where the design conflict between Olmsted's winding roads and Aspinwall's straight paths becomes physically visible.",
+        "text": "## The Intersection\n\nStand here and look both directions along Winthrop Road. The road curves — gently, deliberately, following the hill's contour rather than fighting it. That curve is the legacy of the eighteen eighty-three Olmsted plan: roads designed for carriages moving at walking pace, framing views sequentially as they wind.\n\nNow look at the path you just climbed. Straight. Steep. No views framed, no sequential reveal — just the fastest way up. Thomas Aspinwall punched these paths through Olmsted's carefully composed curves. Every path on this hill is, architecturally, a rejection of Olmsted's design philosophy: utility over beauty, labor over leisure, walking class over carriage class.\n\nThe nineteen thirty-seven aluminum sign marks the Winthrop Road end of the path you just climbed. University Road, which you crossed midway, was accepted as a public way on the same day as the path itself — October tenth, eighteen ninety-three. Both were part of one town-meeting vote.",
+        "facts": [
+          {
+            "claim": "The S-curve street plan traces to Olmsted's eighteen eighty-three commission for BU and the Aspinwall Hill Land Company, later revised by Ernest Bowditch.",
+            "verified": true,
+            "verification_note": "BHS Winthrop Path page states directly. Note: BHS Addington page does not mention Olmsted — real inconsistency within one publisher's own series.",
+            "source": {
+              "source": "Brookline Historical Society — Winthrop Path page",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/winthrop/winthropPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society — Winthrop Path page",
+            "source_url": "https://brooklinehistoricalsociety.org/paths/winthrop/winthropPath.asp",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "UNVERIFIED DESK ESTIMATE. Coordinates approximate from map — intersection of Winthrop Rd and University Rd area. Needs GPS survey. This is a REST POINT after the first climb. Walker can catch breath while hearing narration about the road/path design conflict. Flat ground here."
+    },
+    {
+      "id": "wp-addington-path",
+      "name": "Addington Path",
+      "address": "Addington Path, Brookline, MA 02445",
+      "position": {
+        "lat": 42.33643,
+        "lon": -71.13328
+      },
+      "order": 4,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Climb Addington Path to Shick Park at the top. Alternating steps and flat stretches — use the flat sections to rest. Iron handrails both sides. SAFETY: uneven stone treads, watch your footing.",
+      "hunt_items": [
+        {
+          "id": "hunt-addington-moss",
+          "prompt": "Find the stone retaining walls midway up Addington Path. How much moss and vine has colonized the stone? Photograph the thickest patch.",
+          "capture_type": "photo"
+        }
+      ],
+      "dossier": {
+        "summary": "Two hundred ninety-four point four five feet of public stairway accepted in eighteen ninety-four — one of seven paths on Aspinwall Hill. Alternating flights of steps and flat inclined stretches, iron handrails both sides, stone retaining walls midway up under moss and vines.",
+        "text": "## Addington Path\n\nThe town accepted this path in eighteen ninety-four, fourteen years after hill development began. It climbs in just under two hundred ninety-five feet — the Brookline Historical Society gives the figure to two decimal places, which tells you someone surveyed this with a chain and cared about the hundredths.\n\nThe physical form: alternating short flights of steps and flat inclined stretches. The flat sections are not rest points by accident — they manage the grade change in segments rather than one continuous staircase. Iron handrails on both sides. Midway up, stone retaining walls hold the hillside back, now under moss and vines that have been colonizing the built structure for over a century.\n\nThomas Aspinwall, Doctor William Aspinwall's eldest son, was a partner in the engineering firm that drew up the hill's plan, and pushed to have paths included. The path exists because he admitted his own road design was bad for walkers — Addington Road forms a giant S with each half traversing opposite sides of the hill, making it absurdly indirect on foot.",
+        "facts": [
+          {
+            "claim": "Addington Path accepted eighteen ninety-four, two hundred ninety-four point four five feet, one of seven on Aspinwall Hill.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society — Addington Path page",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          },
+          {
+            "claim": "Thomas Aspinwall pushed to have paths included in the hill's development plan.",
+            "verified": true,
+            "verification_note": "BHS states this directly. Further credit attribution is the BHS author's inference.",
+            "source": {
+              "source": "Brookline Historical Society — Addington Path page",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society — Linda Olson Pehlke, 'In Step: Brookline's Paths'",
+            "source_url": "https://brooklinehistoricalsociety.org/paths/addington/addingtonPath.asp",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "Coordinates from OSM node on the mapped steps way (midpoint). 30m radius covers most of the 295-foot path. Audio triggers at bottom before climb — same safety logic as Winthrop Path. Recently refreshed as part of Schick Park 2024-2026 renovation."
+    },
+    {
+      "id": "wp-schick-park-summit",
+      "name": "Shick Park",
+      "address": "Lotta Bradburn Shick Park, Addington Road, Brookline, MA 02445",
+      "position": {
+        "lat": 42.33592,
+        "lon": -71.13351
+      },
+      "order": 5,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Rest here as long as you need — you have earned the summit. When ready, exit the park heading south on Addington Road. We are looking for Summit Path, the longest path on the hill.",
+      "hunt_items": [
+        {
+          "id": "hunt-schick-plaque",
+          "prompt": "Find the park dedication plaque. What does it say about Lotta Bradburn Shick? The plaque undersells her — she did more than it tells you.",
+          "capture_type": "photo"
+        }
+      ],
+      "dossier": {
+        "summary": "The crest of Aspinwall Hill at approximately two hundred feet above sea level. Named for Lotta Bradburn Shick — a Wellsley-educated civic figure who served fifteen years on the School Committee, founded the Aspinwall Hill Associates, and championed Brookline's first municipal golf course. Fully renovated twenty twenty-four through twenty twenty-six.",
+        "text": "## Lotta Bradburn Shick Park\n\nYou are at the top. Approximately two hundred feet above sea level, one hundred sixty to one hundred seventy feet above Beacon Street where you started. Everything from here is either flat or downhill.\n\nThe park's history has three dates, not one. The town bought this land and five other lots atop the hill in nineteen forty-five for recreational purposes. It opened as Addington Park in October nineteen fifty. It was renamed in nineteen fifty-five for Lotta Bradburn Shick.\n\nShick herself turns out to be well documented. A Wellsley College graduate with a master's in French. Fifteen years on Brookline's School Committee, first elected nineteen twenty-nine. A Town Meeting member from nineteen twenty-five. She established the Katherine Bradburn Cup in memory of her daughter — no cause of death for the daughter is recorded anywhere, and none should be guessed at. She helped found the Aspinwall Hill Associates, the neighborhood association for this very ground, and pushed for Brookline's first municipal golf course.\n\nThe park was fully renovated between twenty twenty-four and twenty twenty-six. Playground, ball field, basketball court, picnic seating. The old stone chess table was removed during renovation.",
+        "facts": [
+          {
+            "claim": "Town bought land nineteen forty-five, opened as Addington Park October nineteen fifty, renamed for Shick in nineteen fifty-five.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline, Lotta Bradburn Schick Park Renovation page",
+              "source_url": "https://www.brooklinema.gov/3714/Lotta-Bradburn-Schick-Park-Renovation",
+              "license": "municipal record"
+            }
+          },
+          {
+            "claim": "Shick: Wellsley graduate, fifteen years School Committee (elected nineteen twenty-nine), Town Meeting member from nineteen twenty-five, founded Katherine Bradburn Cup, co-founded Aspinwall Hill Associates, championed municipal golf course.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline, Lotta Bradburn Schick Park Renovation page",
+              "source_url": "https://www.brooklinema.gov/3714/Lotta-Bradburn-Schick-Park-Renovation",
+              "license": "municipal record"
+            }
+          },
+          {
+            "claim": "Summit elevation approximately two hundred feet above sea level.",
+            "verified": false,
+            "verification_note": "Inferred from topographic data. Needs field confirmation with altimeter or USGS topo map.",
+            "attribution_required": true
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of Brookline, Lotta Bradburn Schick Park Renovation page",
+            "source_url": "https://www.brooklinema.gov/3714/Lotta-Bradburn-Schick-Park-Renovation",
+            "license": "municipal record"
+          }
+        ]
+      },
+      "notes": "Coordinates from OSM centroid of park. This is the REST STOP — playground for kids, benches, flat ground. Critical recovery point after two path climbs. Audio safe here (flat, no stairs). Spelling note: 'Schick' is the official municipal spelling but Kokoro reads 'sch' as 'sk' — use 'Shick' in all spoken text fields only."
+    }
+    ,
+    {
+      "id": "wp-summit-path",
+      "name": "Summit Path",
+      "address": "Summit Path, near Summit Road, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3352,
+        "lon": -71.1348
+      },
+      "order": 6,
+      "trigger": {
+        "radius": 40,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Follow Summit Path downhill. At approximately seven hundred ninety-one feet, this is the longest path on the hill — take your time. SAFETY: steep grade, watch for uneven surfaces. Use handrails where available.",
+      "hunt_items": [
+        {
+          "id": "hunt-summit-length",
+          "prompt": "Time yourself walking Summit Path from top to bottom. How long does seven hundred ninety-one feet of downhill path take at a careful pace?",
+          "capture_type": "text"
+        }
+      ],
+      "dossier": {
+        "summary": "The longest of Brookline's seventeen paths at approximately seven hundred ninety-one feet — more than twice the length of Addington Path. Runs through the Summit Road area of Aspinwall Hill. Detailed routing, condition, and construction date need field confirmation.",
+        "text": "## Summit Path\n\nAt approximately seven hundred ninety-one feet, Summit Path is the longest in Brookline's entire path network — longer than Winthrop and Addington combined. Where those paths are short enough that a thirty-meter trigger radius covers the whole thing, Summit may need to be experienced as a walking segment rather than a single point.\n\nThe path runs through the Summit Road area of Aspinwall Hill. Its exact routing, start and end points, current condition, and construction date all need field confirmation before narration can be written with confidence. What is documented: the Brookline Historical Society names it as the longest of all seventeen paths in the series, and it is one of the seven on this specific hill.\n\nThe length alone tells you something about the terrain it crosses. A seven-hundred-ninety-one-foot path on a hill with one-hundred-sixty-foot elevation gain has an average grade of roughly one in five — steep enough that the alternating-steps-and-flats construction pattern used on Addington was likely essential here too.",
+        "facts": [
+          {
+            "claim": "Summit Path is approximately seven hundred ninety-one feet, the longest of Brookline's seventeen BHS-documented paths.",
+            "verified": false,
+            "verification_note": "From BHS path series ranking (Winthrop page mentions Summit and Rawson as longer). Exact figure needs BHS Summit page confirmation or field measurement. Marked as unverified because we have not directly read the Summit Path BHS page.",
+            "attribution_required": true
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society — path series (indirect reference from Winthrop page)",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "UNVERIFIED DESK ESTIMATE — CRITICAL. Coordinates are a rough guess from Summit Road on the map. This path's exact location, routing, start/end points, and condition are ALL unconfirmed. Needs field scouting before this tour is walkable. Larger trigger radius (40m) to account for uncertainty. The 791-foot length means a single trigger point may not work — may need split into two waypoints (top + bottom) after field confirmation."
+    },
+    {
+      "id": "wp-rawson-path",
+      "name": "Rawson Path",
+      "address": "Rawson Path, Aspinwall Hill, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3345,
+        "lon": -71.1355
+      },
+      "order": 7,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue downhill on Rawson Path — the second-longest on the hill. When you reach the bottom, you will be on the western slope near Beacon Street. SAFETY: may be steeper or less maintained than the earlier paths. Use caution.",
+      "hunt_items": [
+        {
+          "id": "hunt-rawson-compare",
+          "prompt": "Compare Rawson Path's construction to Addington Path. Same materials? Same handrail style? Same step height? Note three differences.",
+          "capture_type": "text"
+        }
+      ],
+      "dossier": {
+        "summary": "Brookline's second-longest path, connecting the upper and lower slopes of Aspinwall Hill's western face. Detailed research pending — the BHS Winthrop Path page names Rawson as second in length after Summit, but the dedicated Rawson page has not yet been read.",
+        "text": "## Rawson Path\n\nThe second-longest path on Aspinwall Hill, named in the BHS series as longer than Winthrop's three hundred seventy-nine feet but shorter than Summit's approximately seven hundred ninety-one. Its exact length, construction date, and physical condition are unresearched.\n\nWhat we can observe: if this path descends the western slope, it connects a different face of the hill than Winthrop and Addington (which serve the north slope). The western slope faces Beacon Street more directly but via a different route — meaning Rawson may have served a different set of residents than the north-slope paths, possibly those living on Rawson Road itself.\n\nThe construction materials, handrail style, step dimensions, and retaining wall techniques may differ from the north-slope paths — different decade, different contractor, different soil conditions on a different aspect of the drumlin. Comparing the paths to each other is itself a form of reading the hill's development history.",
+        "facts": [
+          {
+            "claim": "Rawson is the second-longest of Brookline's paths, after Summit.",
+            "verified": true,
+            "verification_note": "BHS Winthrop Path page states Winthrop is third-longest after Summit and Rawson.",
+            "source": {
+              "source": "Brookline Historical Society — Winthrop Path page",
+              "source_url": "https://brooklinehistoricalsociety.org/paths/winthrop/winthropPath.asp",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society — path series",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "UNVERIFIED DESK ESTIMATE — CRITICAL. Coordinates are a GUESS based on Rawson Road location on the map. This path's exact location, routing, condition, and accessibility are ALL unconfirmed. Needs field scouting. May not be open or maintained. If field scouting reveals it's impassable, this waypoint should be replaced with an alternative path (Holland, Penniman, or Sargent)."
+    },
+    {
+      "id": "wp-beacon-return",
+      "name": "Beacon Street Return",
+      "address": "Beacon Street near Dean Road, Brookline, MA 02445",
+      "position": {
+        "lat": 42.3380,
+        "lon": -71.1345
+      },
+      "order": 8,
+      "trigger": {
+        "radius": 35,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Turn left on Beacon Street and walk east back toward Washington Square. Flat sidewalk from here — the climbing is done. The C line runs right beside you if your legs have had enough.",
+      "hunt_items": [
+        {
+          "id": "hunt-beacon-trees",
+          "prompt": "Count the different tree species you can identify between here and Washington Square. The Olmsted boulevard planting was designed for variety.",
+          "capture_type": "text"
+        }
+      ],
+      "dossier": {
+        "summary": "Back at Beacon Street after descending Aspinwall Hill's western slope. The boulevard Olmsted designed in eighteen eighty-six stretches in both directions — two hundred feet wide, tracks down the median, rows of trees the full length. From here, Washington Square and the C line stop are a five-minute flat walk east.",
+        "text": "## Beacon Street\n\nYou have descended Aspinwall Hill. The boulevard beneath your feet was laid out in eighteen eighty-six by Frederick Law Olmsted for Henry Whitney's streetcar line — two hundred feet wide, curbed and planted, styled after Parisian boulevards. The trees lining it are contemporary with the paths you just walked: both are eighteen-nineties infrastructure, one for vehicles and one for feet.\n\nThe C line trolley running down the median is the direct descendant of Whitney's eighteen eighty-nine electric streetcar — the second electric line in the United States. The paths you climbed today exist because of this line: residents needed to get from hilltop homes down to these stops quickly.\n\nWashington Square is a five-minute flat walk to your left. The climbing is done. If your legs are finished, any eastbound C train returns you to the start.",
+        "facts": [
+          {
+            "claim": "Beacon Street boulevard designed by Olmsted in eighteen eighty-six, two hundred feet wide.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society",
+              "license": "research reference only",
+              "credit": "Brookline Historical Society"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society",
+            "license": "research reference only",
+            "credit": "Brookline Historical Society"
+          }
+        ]
+      },
+      "notes": "UNVERIFIED DESK ESTIMATE. Coordinates approximate where western-slope path meets Beacon Street — highly dependent on where Rawson Path actually exits. This entire waypoint may need to move significantly after field scouting. The critical function is: mark the point where the walker returns to flat ground and can bail out via trolley."
+    }
+  ]
+}

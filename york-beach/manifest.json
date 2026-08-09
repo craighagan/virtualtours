@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "york-beach-short-sands-to-nubble",
+  "title": "York Beach: Short Sands to the Nubble",
+  "built_at": "2026-08-08T22:00:00Z",
+  "min_app_version": "1.0.0",
+  "tags": ["york-beach", "maine", "coastal", "beach", "family"],
+  "collection": "Maine Coast",
+  "core": {
+    "id": "core",
+    "kind": "core",
+    "version": "0.1.0",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"
+    },
+    "path": "core/",
+    "size": 150000
+  },
+  "personas": [
+    {
+      "id": "oldtimer",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3"
+      },
+      "path": "personas/oldtimer/",
+      "size": 2200000,
+      "display_name": "Gus",
+      "one_line": "Been coming up summers since the sixties, watches the town change each year, and remembers things that may or may not have happened."
+    },
+    {
+      "id": "operator",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4"
+      },
+      "path": "personas/operator/",
+      "size": 2200000,
+      "display_name": "Onyx",
+      "one_line": "What it costs to run a beach town that's dead eight months and slammed for four."
+    },
+    {
+      "id": "confidante",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5"
+      },
+      "path": "personas/confidante/",
+      "size": 2200000,
+      "display_name": "Nova",
+      "one_line": "The summer people, the year-rounders, the romances, and who served whom at what cost."
+    },
+    {
+      "id": "fieldnaturalist",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6"
+      },
+      "path": "personas/fieldnaturalist/",
+      "size": 2200000,
+      "display_name": "Jessica",
+      "one_line": "Tide pools, salt spray, headland geology, and what survives the pounding."
+    }
+  ]
+}

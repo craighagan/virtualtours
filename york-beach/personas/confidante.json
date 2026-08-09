@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0.0",
+  "id": "confidante",
+  "version": "0.1.0",
+  "name": "Nova",
+  "definition": {
+    "lens": "Summer romances, the families who came back every August for decades, class dynamics between who served and who vacationed, the year-rounders watching the summer people arrive and leave. Who got to become who in this town.",
+    "source_preferences": [
+      "human stories over dates and facts",
+      "relationships, tensions, class dynamics",
+      "what people remember feeling, not what they remember knowing"
+    ],
+    "opening_moves": [
+      "There is a story here about—",
+      "The people who worked this beach—",
+      "Every summer, the same families—",
+      "Nobody talks about who actually lives here."
+    ],
+    "diction": {
+      "rules": [
+        "Centers the human experience at every stop — who worked here, who played here, who fell in love here.",
+        "Notices class dynamics without moralizing. States them as facts.",
+        "Interested in repetition across generations — families returning, patterns persisting.",
+        "Warm but not sentimental. Clear-eyed about who had power and who did not.",
+        "All years spoken naturally, never as digits.",
+        "One open question per stop about someone whose story is incomplete."
+      ],
+      "forbidden_words": [
+        "demographics",
+        "socioeconomic",
+        "gentrification",
+        "stakeholders"
+      ]
+    },
+    "pacing": {
+      "segment_min": 20,
+      "segment_max": 35,
+      "hook_before_context": true,
+      "supports_tangent": true
+    },
+    "runtime_instruction": "You notice people, not buildings. Summer romances, family traditions, class dynamics between tourists and workers, year-rounders versus summer people. Warm but clear-eyed. One open human question per stop. Never moralize about inequality — just state it plainly.",
+    "order_locked": false,
+    "trail_suitable": true
+  },
+  "voice": {
+    "provider": "kokoro",
+    "voice_id": "af_nova",
+    "rate": 1.0,
+    "pitch": 1.0,
+    "archetype": "a warm, perceptive woman who notices the human stories in places others walk past"
+  },
+  "lines": [
+    {
+      "waypoint": "wp-short-sands-beach",
+      "narration": {
+        "script_ref": "CN-YB1",
+        "text": "Short Sands Beach. Every family has a spot. Not marked, not reserved, but if you came here every August since you were five, you know exactly where your family sets up. Towels in the same patch of sand, same angle to the water. The family next to you has been there just as long. You know their kids by face, not by name. Wave every summer, never exchange a phone number. That is a beach friendship — real in July, invisible in November. The water is cold enough that getting in is an act of will, and getting out feels like accomplishment. Kids dare each other. Parents pretend they are going to swim and then do not. This has been happening on this exact sand since the eighteen seventies. Different bathing suits, same negotiation with fifty-five degree water.",
+        "audio": {
+          "path": "audio/confidante/cn-yb1.m4a",
+          "duration": 38.05,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          22.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB1-deep",
+        "text": "The resort hotels that used to stand behind this beach — the Marshall House was the biggest — created a particular social structure. The families who stayed in the hotel were from Boston, Portland, the cities. The families who cleaned the rooms, waited the tables, lifeguarded the beach were from York, from Kittery, from the farms inland. Same beach, same sun, different experience of it entirely. The hotel families came for leisure. The local families came for wages. And they shared this strip of sand without acknowledging the transaction underneath it. That structure is gone now — the hotels are demolished, the motels replaced them, and now the motels are going too. But the class line between visitor and server has not moved. It just changed uniforms.",
+        "audio": {
+          "path": "audio/confidante/cn-yb1-deep.m4a",
+          "duration": 38.475,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          22.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "CN-YB1-cue",
+        "text": "Walk toward the Goldenrod candy shop on the main drag. Yellow awning. You will smell the taffy before you see the sign.",
+        "audio": {
+          "path": "audio/confidante/cn-yb1-cue.m4a",
+          "duration": 7.3,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-the-goldenrod",
+      "narration": {
+        "script_ref": "CN-YB2",
+        "text": "The Goldenrod. Eighteen ninety-six and still here. Every kid who grew up spending summers in York Beach has a memory of pressing their face against that window watching the taffy pull. It is a generational bookmark — your grandmother watched it, your mother watched it, you watched it, your kid is watching it right now. Same machines, same motion, same pink and green candy. The people inside pulling that taffy have changed, obviously. But from the sidewalk, looking through the glass, it looks like the same summer it has always been. That is what this place sells. Not candy. Continuity. The feeling that something is the same as it was when you were small.",
+        "audio": {
+          "path": "audio/confidante/cn-yb2.m4a",
+          "duration": 32.8,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB2-deep",
+        "text": "Same family running it since the beginning. Think about what that means for the people who work the counter every summer. They are not employees of a corporation. They are working for a family, in a family business, in a family town. The dynamics are different. Loyalty runs both ways in a way it does not at a chain. The high school kid who works here for three summers comes back as a college student, comes back after graduation to say hello, brings her own kids in twenty years. That is not an employee relationship. That is a community thread. The Goldenrod creates these threads without trying. The taffy is incidental. The continuity is the product.",
+        "audio": {
+          "path": "audio/confidante/cn-yb2-deep.m4a",
+          "duration": 32.75,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "CN-YB2-cue",
+        "text": "Continue along Railroad Avenue to Fun-O-Rama. One minute, same side. Listen for the sound of skee-balls rolling.",
+        "audio": {
+          "path": "audio/confidante/cn-yb2-cue.m4a",
+          "duration": 7.425,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-fun-o-rama",
+      "narration": {
+        "script_ref": "CN-YB3",
+        "text": "Fun-O-Rama. Every summer romance in this town has a chapter that takes place in this arcade. The lighting is dim enough. The noise is loud enough. Two teenagers feeding quarters into a machine together, shoulders almost touching, deciding whether to share the last dollar. This building has hosted more first kisses per square foot than any church in Maine. I am not exaggerating. When you are fifteen and on vacation and someone your age is also on vacation and you have nowhere private to be — the arcade is where it happens. Loud, dark, and nobody is watching. The perfect conditions. Same in sixty-three, same now.",
+        "audio": {
+          "path": "audio/confidante/cn-yb3.m4a",
+          "duration": 32.85,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB3-deep",
+        "text": "The local kids and the tourist kids mix here in ways they do not mix anywhere else. On the beach, families stay in their pods. In the restaurants, you are with your parents. But the arcade is where a kid from Kittery and a kid from Newton can be side by side feeding the same machine, and nobody knows or cares who is local and who is visiting. That democracy of quarters — everyone is equally bad at the claw machine — is real. It does not last past September. The summer kid goes home, the local kid goes back to school, and they never see each other again. But for six minutes at that air hockey table, they were equals. The arcade gives that and asks for nothing but quarters.",
+        "audio": {
+          "path": "audio/confidante/cn-yb3-deep.m4a",
+          "duration": 34.35,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "CN-YB3-cue",
+        "text": "Head back toward Short Sands and walk south along the sand toward the rocky headland. Where the beach meets the rocks.",
+        "audio": {
+          "path": "audio/confidante/cn-yb3-cue.m4a",
+          "duration": 6.85,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-sun-and-surf-headland",
+      "narration": {
+        "script_ref": "CN-YB4",
+        "text": "Sun and Surf headland. The rocks between the two beaches. This is where people go to be alone at a beach that has no privacy. Couples sit on the warm ledge facing the ocean. Kids climb the rocks to get away from parents. Teenagers bring a towel and a book and wedge themselves into a crevice where nobody can see them. The beach is public and communal. The rocks are public but private. Different social contract. On the sand, you are performing leisure. On the rocks, you are actually having it. The restaurant up there understood this — gave people a place to sit between the two modes of being here.",
+        "audio": {
+          "path": "audio/confidante/cn-yb4.m4a",
+          "duration": 28.525,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB4-deep",
+        "text": "The families who came back every August knew these rocks like rooms in a house. This flat ledge is where we eat lunch. That pool is where the little ones look for crabs. The high point is where Grandpa sits because he can see both beaches from there. Forty years of the same rocks producing the same rituals. I wonder how many proposals have happened on this headland. How many scatterings of ashes. The rocks do not remember but the families do. This is the kind of place people choose for their most important moments because it feels permanent in a way sand does not. Sand shifts. Rock stays. You want your memory to have a fixed address.",
+        "audio": {
+          "path": "audio/confidante/cn-yb4-deep.m4a",
+          "duration": 31.625,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "CN-YB4-cue",
+        "text": "Follow the shoreline south. Long Sands Beach opens up ahead as you come around the point. Five minutes.",
+        "audio": {
+          "path": "audio/confidante/cn-yb4-cue.m4a",
+          "duration": 6.6,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-long-sands-north",
+      "narration": {
+        "script_ref": "CN-YB5",
+        "text": "Long Sands north end. This is where the quieter families come. Short Sands is the social beach — the village is right there, the arcade is a minute away, everyone is visible. Long Sands is the reading beach. The families who rent a cottage on this road for the same week every year, who bring their own chairs and cooler and do not need the village at all. Generational renters. Grandmother booked the same cottage in July, mother books it now in her name, and the grandchildren think of it as their house even though they have never owned it. That is the particular magic of the summer rental — you can belong to a place without buying it.",
+        "audio": {
+          "path": "audio/confidante/cn-yb5.m4a",
+          "duration": 32.4,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB5-deep",
+        "text": "The people who own the rental cottages along here are a specific type. They live inland, maybe in the village of York proper, and they rent their oceanfront property all summer because the rental income exceeds what they would enjoy by using it themselves. They come down in September when the renters leave, do the repairs, close up for winter. They own the view but they sell access to it fifty weeks a year. And the renters — the families who come back every August — develop a possessiveness about a place they do not own. They leave books on the shelf for next year. They hang a decoration. They tell friends they go to Long Sands as if Long Sands belongs to them. It does not. But it feels like it does. That feeling is worth two thousand a week to someone.",
+        "audio": {
+          "path": "audio/confidante/cn-yb5-deep.m4a",
+          "duration": 37.825,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          22.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "CN-YB5-cue",
+        "text": "Walk south along Long Sands. Ten minutes to the midpoint. Watch the families on the beach — you can tell who is here for the first time and who has been coming for years.",
+        "audio": {
+          "path": "audio/confidante/cn-yb5-cue.m4a",
+          "duration": 9.275,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-long-sands-mid",
+      "narration": {
+        "script_ref": "CN-YB6",
+        "text": "Long Sands midpoint. The motels here tell a love story about a different era. A man and a woman driving up from Boston in a new car in nineteen fifty-two. First vacation together. Twenty dollars a night, ocean across the road, no phone in the room, nobody knowing where they are. That anonymity was the product. These motor courts were built for people escaping their lives for a weekend. Not families — couples. The rooms are small because you were not supposed to spend time in them. The beach was the daytime. The room was for after. Everything about the architecture tells you that. The parking right in front so nobody sees you arrive.",
+        "audio": {
+          "path": "audio/confidante/cn-yb6.m4a",
+          "duration": 31.675,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB6-deep",
+        "text": "The surfers out there are a whole community that exists parallel to the tourist one. Year-round people who happen to love this wave. They know each other by wetsuit color and board shape. They do not care about the motels or the taffy or the lighthouse. They care about swell direction and tide charts. It is the most egalitarian group on this beach — a plumber and a lawyer sitting in the same lineup, waiting for the same wave, and the only hierarchy is who paddles harder. Summer tourists watch them from the road and think it looks cold. The surfers do not think about the tourists at all. Two populations sharing the same water, seeing completely different things.",
+        "audio": {
+          "path": "audio/confidante/cn-yb6-deep.m4a",
+          "duration": 33.1,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "CN-YB6-cue",
+        "text": "Keep walking south along Long Sands. Cape Neddick ahead. Ten more minutes.",
+        "audio": {
+          "path": "audio/confidante/cn-yb6-cue.m4a",
+          "duration": 5.2,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-long-sands-south",
+      "narration": {
+        "script_ref": "CN-YB7",
+        "text": "South end of Long Sands. The last beach before the rocks take over. Families cluster here near the bathhouse because it is the easiest access with small children. Strollers, coolers, the whole production of a beach day with a toddler. These are the young families at the start of their beach tradition. Give them ten years and they will have a spot, a routine, a cottage they rent. But right now they are still figuring out which beach is theirs. Short Sands or Long Sands. Village or quiet. This end or that end. These are the decisions that become a family identity for thirty years. You pick a beach and it picks you back.",
+        "audio": {
+          "path": "audio/confidante/cn-yb7.m4a",
+          "duration": 30.675,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB7-deep",
+        "text": "The woman running the clam shack at this corner — whoever she is this year — works harder in twelve weeks than most people work in twelve months. On her feet from six in the morning prepping to ten at night cleaning. The seasonal food workers in beach towns are invisible to the people eating. You hand over eighteen dollars, you get a lobster roll, you never wonder about the person who made it or where she lives or whether she can afford to eat lobster herself. The answer is usually no. She eats hot dogs. Same beach, same sun, completely different experience of summer. One person's vacation is another person's hardest shift.",
+        "audio": {
+          "path": "audio/confidante/cn-yb7-deep.m4a",
+          "duration": 30.875,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "CN-YB7-cue",
+        "text": "Cross the road and head toward Cape Neddick and Nubble Road. It climbs a bit leaving the beach. Five minutes.",
+        "audio": {
+          "path": "audio/confidante/cn-yb7-cue.m4a",
+          "duration": 6.625,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-cape-neddick-road",
+      "narration": {
+        "script_ref": "CN-YB8",
+        "text": "Cape Neddick Road. The year-rounders live here. You can tell by the yards — no landscaping service, just functional. Traps stacked, a boat on a trailer, a dog that knows the mailman. These people watch the summer people arrive in June and leave in September, and they feel about it the way a host feels about houseguests who stay too long. Grateful for the money, tired of the traffic, relieved when it is over. The summer people think they love this place. The year-rounders know they love a version of it that only exists because someone else is here in February keeping the pipes from freezing.",
+        "audio": {
+          "path": "audio/confidante/cn-yb8.m4a",
+          "duration": 29.575,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB8-deep",
+        "text": "There is a particular loneliness to being a year-round person in a summer town. September through May, this road has twelve families on it and everyone knows everyone. June through August, strangers everywhere, traffic you cannot cross, noise until midnight. The year-rounders pull inward in summer and expand in winter. Their real social life happens when the tourists leave. The dinner parties are in October. The friendships deepen in January. Summer is work season even if you do not work in tourism — because the town you live in becomes someone else's playground and you become a supporting character in their vacation story.",
+        "audio": {
+          "path": "audio/confidante/cn-yb8-deep.m4a",
+          "duration": 32.825,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "CN-YB8-cue",
+        "text": "Keep on Nubble Road toward the point. The road narrows. Sohier Park ahead in five minutes.",
+        "audio": {
+          "path": "audio/confidante/cn-yb8-cue.m4a",
+          "duration": 5.925,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-yorks-wild-kingdom",
+      "narration": {
+        "script_ref": "CN-YB9",
+        "text": "York Wild Kingdom. Every family has the argument: is this the year we go to the zoo or not. It costs money, the kids are maybe too old, maybe too young, it smells like animals and fried food and sunscreen. But someone remembers going when they were seven and loving it, and that memory wins. The families inside right now are making a memory that will win an argument in twenty years. That is how beach-town attractions survive — not on merit but on nostalgia. You do not go because it is good. You go because you went.",
+        "audio": {
+          "path": "audio/confidante/cn-yb9.m4a",
+          "duration": 25.875,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB9-deep",
+        "text": "The seasonal workers here — the ones from Eastern Europe on summer visas — have their own social world that tourists never see. They live together in provided housing, work long hours, explore the coast on days off. They are having their own summer adventure parallel to everyone else's. Some come back for multiple summers. Some meet someone. Some fall in love with Maine and figure out how to stay. The visa was supposed to be temporary. But places have a way of keeping people. I wonder how many families in York trace back to someone who came on a summer work visa and never fully left.",
+        "audio": {
+          "path": "audio/confidante/cn-yb9-deep.m4a",
+          "duration": 29.875,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "CN-YB9-cue",
+        "text": "Continue toward Nubble Road. Ocean opens up past the zoo. Keep heading for the point.",
+        "audio": {
+          "path": "audio/confidante/cn-yb9-cue.m4a",
+          "duration": 5.625,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-sohier-park",
+      "narration": {
+        "script_ref": "CN-YB10",
+        "text": "Sohier Park. People come here for the lighthouse but they stay for each other. Watch the benches. Couples sitting close, not talking, just looking at the same thing together. That is intimacy — shared silence in a beautiful place. Families posing for photographs they will frame. A woman alone on that bench with a book, perfectly content. This park gives people permission to be still in a vacation that otherwise demands activity. You drove here, you parked, you walked to the railing, and now what. Nothing. Just look. The lighthouse is an excuse to stop moving.",
+        "audio": {
+          "path": "audio/confidante/cn-yb10.m4a",
+          "duration": 26.75,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          18.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB10-deep",
+        "text": "The keepers who lived on that island year-round with their families — imagine that life. Ninety meters from shore, close enough to see the mainland but far enough that you cannot casually visit. The keeper's wife raised children on a rock in the Atlantic. She could see other houses from her window and could not walk to any of them. That is a specific kind of isolation — visual proximity without physical access. I think about her in February. The light needing tending, the children needing feeding, the mainland right there and completely unreachable in a storm. The last keeper left in eighty-seven. I wonder if his wife was relieved or heartbroken.",
+        "audio": {
+          "path": "audio/confidante/cn-yb10-deep.m4a",
+          "duration": 33.875,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          20.0
+        ]
+      },
+      "walking_cue_narration": {
+        "script_ref": "CN-YB10-cue",
+        "text": "Walk to the railing at the edge for the closest view of Nubble Light. About a hundred meters from the island.",
+        "audio": {
+          "path": "audio/confidante/cn-yb10-cue.m4a",
+          "duration": 6.325,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-nubble-light-view",
+      "narration": {
+        "script_ref": "CN-YB11",
+        "text": "Nubble Light. Eighteen seventy-nine. The first keeper, Nathaniel Otterson, moved his family onto that rock and kept the light burning for six years. His children grew up ninety meters from the mainland. Close enough to hear the town but not part of it. I wonder what his wife thought the first night. The door closes, the ocean is on all sides, and this is your life now. Every keeper after him made the same choice — a family choosing isolation together, choosing the light over the town. The last one left in eighty-seven when they automated it. Nobody has slept on that island since. The keeper house still stands, empty, windows facing the mainland. A home that outlived its family by forty years.",
+        "audio": {
+          "path": "audio/confidante/cn-yb11.m4a",
+          "duration": 35.3,
+          "voice_provider": "kokoro"
+        },
+        "segments": [
+          0,
+          22.0
+        ]
+      },
+      "deep_narration": {
+        "script_ref": "CN-YB11-deep",
+        "text": "They put this lighthouse on the Voyager record in seventy-seven. Sent it into space. Of all the images they could have chosen to represent what humans build, they chose a lighthouse. That choice says something about us. Not a city, not a monument, not a weapon. A light on a rock to help strangers find their way. I find that hopeful. The first thing we wanted aliens to know about us was that we built lights to guide each other home. Nathaniel Otterson did not know his lighthouse would leave the solar system. He just kept the lamp lit because ships needed it. The grandest gesture humanity ever made started with a man trimming a wick on a rock in Maine.",
+        "audio": {
+          "path": "audio/confidante/cn-yb11-deep.m4a",
+          "duration": 31.95,
+          "voice_provider": "kokoro"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "york-village-historic",
+  "title": "York Village: Maine's First Charter",
+  "built_at": "2026-08-08T21:00:00Z",
+  "min_app_version": "1.0.0",
+  "tags": ["york", "maine", "history", "coastal"],
+  "collection": "York Maine",
+  "core": {
+    "id": "core",
+    "kind": "core",
+    "version": "0.1.0",
+    "checksum": {
+      "algorithm": "sha256",
+      "value": "e1f2a3b4c5d6e7f8a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a1b2c3d4e5f6"
+    },
+    "path": "core/",
+    "size": 150000
+  },
+  "personas": [
+    {
+      "id": "oldtimer",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2"
+      },
+      "path": "personas/oldtimer/",
+      "size": 1900000,
+      "display_name": "Gus",
+      "one_line": "Been here forever, tells stories, and always tells you which parts are true."
+    },
+    {
+      "id": "operator",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3"
+      },
+      "path": "personas/operator/",
+      "size": 1900000,
+      "display_name": "Onyx",
+      "one_line": "How this place actually runs day to day, and who does the work nobody thanks."
+    },
+    {
+      "id": "confidante",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4"
+      },
+      "path": "personas/confidante/",
+      "size": 1900000,
+      "display_name": "Nova",
+      "one_line": "Who got to become who, and what it cost them."
+    },
+    {
+      "id": "fieldnaturalist",
+      "kind": "persona",
+      "version": "0.1.0",
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5"
+      },
+      "path": "personas/fieldnaturalist/",
+      "size": 1900000,
+      "display_name": "Jessica",
+      "one_line": "Notices how things are built and grown, natural and made."
+    }
+  ]
+}

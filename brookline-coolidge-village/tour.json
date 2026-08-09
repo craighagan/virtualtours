@@ -1,0 +1,470 @@
+{
+  "schema_version": "1.0.0",
+  "id": "brookline-coolidge-to-village",
+  "version": "0.1.0",
+  "title": "Coolidge Corner to Brookline Village",
+  "description": "From the landmark Pierce Building clock tower south through three centuries of a town that keeps choosing itself — JFK's birthplace, slavery's reckoning, a civil rights organizer's quiet house, colonial graves, the original town center. Flat, family-friendly, about sixty minutes at family pace.",
+  "locale": "en-US",
+  "kind": "urban",
+  "distance": 2400,
+  "duration_estimate": 3600,
+  "hunt_config": {
+    "teams_reshuffle": false,
+    "contest_window": 300,
+    "safety_swap_enabled": true,
+    "starter_frequency": "low"
+  },
+  "teams": [
+    {
+      "id": "team-ben",
+      "name": "Ben",
+      "members": ["Ben"]
+    },
+    {
+      "id": "team-shira",
+      "name": "Shira",
+      "members": ["Shira"]
+    }
+  ],
+  "contests": [],
+  "credits": [
+    {
+      "source": "National Park Service, John Fitzgerald Kennedy National Historic Site",
+      "source_url": "https://www.nps.gov/jofi/",
+      "license": "public domain (US government work)",
+      "public_domain": true
+    },
+    {
+      "source": "Brookline Historical Society",
+      "license": "used by permission, research reference only",
+      "credit": "Brookline Historical Society"
+    },
+    {
+      "source": "Town of Brookline Preservation Commission",
+      "license": "research reference only",
+      "credit": "Town of Brookline"
+    },
+    {
+      "source": "Town of Brookline, Hidden Brookline Initiative",
+      "license": "research reference only",
+      "credit": "Hidden Brookline"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "wp-pierce-start",
+      "name": "S.S. Pierce Building",
+      "address": "1355 Beacon St, Brookline, MA 02446",
+      "position": {
+        "lat": 42.3420,
+        "lon": -71.1225
+      },
+      "order": 1,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Head south on Harvard Street away from Beacon. The Kennedy birthplace is two blocks ahead on Beals Street — turn right on Beals, short block to number eighty-three.",
+      "dossier": {
+        "summary": "The 1897-98 Tudor-style building with its clock tower anchors the intersection that gave Coolidge Corner its name — not for President Coolidge, but for the Coolidge family general store that occupied this corner from 1857.",
+        "text": "## S.S. Pierce Building\n\nS.S. Pierce Company was founded in 1831 as a Boston ship's wholesaler, later becoming a fine-grocery retailer. Under founder's son Wallace Pierce, the company bought the existing Coolidge & Brother store building in 1892 — a two-story wooden structure on this corner since 1857 — and opened a branch. The current Tudor-style brick building with limestone quoins and the polygonal clock tower, deliberately sited on the diagonal for visibility from all approaches, went up around 1897-98.\n\nA storm damaged the original tower's open-deck design; sources disagree on the year (either 1944 or 1948). The replacement tower lacks the original's open observation deck.\n\nThe neighborhood's name traces to that earlier general store: Coolidge & Brother was the only business in this part of Brookline for decades, so people called the intersection Coolidge's Corner, and the name stuck even after the store was gone.\n\nS.S. Pierce was sold to Seneca Foods in 1972; the name continued in some use into the 1980s.",
+        "facts": [
+          {
+            "claim": "The Pierce building was constructed around 1897-98 on the site of the earlier Coolidge & Brother store, open since 1857.",
+            "verified": true,
+            "source": {
+              "source": "S.S. Pierce company history; WCVB local history coverage",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "The name Coolidge Corner traces to the Coolidge & Brother general store, not to President Calvin Coolidge.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "A storm damaged the original clock tower. Sources disagree on the year: 1944 or 1948.",
+            "verified": false,
+            "verification_note": "Not resolved — narrate as disputed.",
+            "attribution_required": true
+          }
+        ],
+        "sources": [
+          {
+            "source": "S.S. Pierce company history; Brookline Historical Society",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates from the intersection of Beacon & Harvard. Unverified GPS. Start point chosen per panel recommendation (Marcus): the clock tower is findable from the T stop."
+    },
+    {
+      "id": "wp-jfk-beals",
+      "name": "JFK birthplace",
+      "address": "83 Beals St, Brookline, MA 02446",
+      "position": {
+        "lat": 42.3463,
+        "lon": -71.1247
+      },
+      "order": 2,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Back to Harvard Street, turn left heading south. Devotion House is three blocks down on the right — look for the little gambrel-roof house tucked inside a school courtyard.",
+      "dossier": {
+        "summary": "Born here May 29, 1917. Joseph Kennedy bought this spec house for the family in 1914, two months before marrying Rose Fitzgerald. Rose repurchased and restored it in 1966. Firebombed September 8, 1975, the first day of Boston's school busing. Now an NPS site.",
+        "text": "## 83 Beals Street\n\nBuilt in 1909, colonial revival, wood frame, two and a half stories. Joseph Kennedy bought it August 20, 1914, ahead of marrying Rose Fitzgerald that October. Three children born here: Jack on May 29, 1917, delivered by family physician Doctor Frederick Good; Rosemary in 1918; Kathleen in 1920. By 1920 the family had outgrown the seven-room, one-bathroom house and moved.\n\nRose Kennedy repurchased it in 1966 and restored it to its 1917 appearance with interior designer Robert Luddington. Roughly nineteen percent of the furnishings are original; the rest are period pieces. She deliberately left the third floor unrestored because she did not have complete memory of those rooms.\n\nOn September 8, 1975 — the first day of Boston's court-ordered school busing — a Molotov cocktail was thrown through the kitchen window. Roughly thirty thousand dollars in damage. 'Bus Teddy' spray-painted on the sidewalk. FBI investigated.\n\nNational Historic Site since 1967. Open seasonally, free admission, roughly nine and a half thousand visitors per year.",
+        "facts": [
+          {
+            "claim": "JFK was born at 83 Beals Street on May 29, 1917.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service, JFK NHS",
+              "source_url": "https://www.nps.gov/jofi/",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "Rose Kennedy repurchased and restored the house in 1966.",
+            "verified": true,
+            "source": {
+              "source": "National Park Service, JFK NHS",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          },
+          {
+            "claim": "The house was firebombed September 8, 1975, the first day of Boston's court-ordered school busing.",
+            "verified": true,
+            "source": {
+              "source": "NPS; contemporaneous New York Times report",
+              "license": "public domain / news reporting"
+            }
+          },
+          {
+            "claim": "Roughly 19% of furnishings are original to the family.",
+            "verified": true,
+            "source": {
+              "source": "NPS Historic Furnishings Assessment",
+              "license": "public domain (US government work)",
+              "public_domain": true
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "National Park Service, JFK NHS",
+            "source_url": "https://www.nps.gov/jofi/",
+            "license": "public domain (US government work)",
+            "public_domain": true
+          }
+        ]
+      },
+      "notes": "GPS from NPS site listing. Verified coordinate."
+    },
+    {
+      "id": "wp-devotion-house",
+      "name": "Devotion House and Ridley School",
+      "address": "347 Harvard St, Brookline, MA 02446",
+      "position": {
+        "lat": 42.3415,
+        "lon": -71.1234
+      },
+      "order": 3,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue south on Harvard Street. Kent Street is two blocks ahead on the left. Florida Ruffin Ridley's house is at one thirty-one Kent.",
+      "dossier": {
+        "summary": "The oldest surviving structure in Brookline — a gambrel-roofed frame house built around 1745, possibly incorporating timbers from around 1680. Sits inside a courtyard formed by three later school buildings. The school was renamed from Devotion to Florida Ruffin Ridley in 2019 after town research documented that Edward Devotion enslaved people.",
+        "text": "## Devotion House and Ridley School\n\nThe small gambrel-roofed house was built around 1745 by Solomon Hill, on land acquired from Edward Devotion Junior. Some framing elements may date to roughly 1680, though this is a single-source assessment, not dendrochronology. Central brick chimney. Listed on the National Register of Historic Places, February 14, 1978.\n\nThree school buildings were added around it: 1892, 1898 or 1899, and 1913 — which is why the old house now sits inside a U formed by later brick construction.\n\nEdward Devotion enslaved people. Research into Brookline's own slavery history, part of the Hidden Brookline initiative and formally adopted in a 2012 Town Meeting resolution under Article 27, found that over a quarter of Brookline households owned enslaved people in the mid seventeen hundreds.\n\nTown Meeting voted in 2018 to remove Devotion's name. Florida Ruffin Ridley's name won a contested November 2019 vote. The new name took effect in 2020, with a ceremony in 2021.",
+        "facts": [
+          {
+            "claim": "Devotion House is listed on the National Register of Historic Places, February 14, 1978.",
+            "verified": true,
+            "source": {
+              "source": "National Register of Historic Places listings",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Over a quarter of Brookline households owned enslaved people in the mid-1700s.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline, Hidden Brookline initiative / 2012 Town Meeting Article 27",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "School renamed from Devotion to Florida Ruffin Ridley after contested 2019 vote.",
+            "verified": true,
+            "source": {
+              "source": "WBUR and Boston Globe coverage; Town Meeting records",
+              "license": "news reporting, research reference only"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society; Hidden Brookline; Town Meeting records",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates. The JFK daydreaming-at-school anecdote is unverified — do not narrate."
+    },
+    {
+      "id": "wp-ridley-kent",
+      "name": "Florida Ruffin Ridley's house",
+      "address": "131 Kent St, Brookline, MA 02446",
+      "position": {
+        "lat": 42.3393,
+        "lon": -71.1205
+      },
+      "order": 4,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Back to Harvard Street, continue south. You are walking toward the original town center now. The Old Burying Ground is about half a mile ahead where Harvard meets Walnut Street.",
+      "dossier": {
+        "summary": "Florida Ruffin Ridley purchased this house in 1896 — among the earliest documented Black homeowners in Brookline. Daughter of the first Black Harvard Law graduate and the first Black judge in the US. Co-founder of the National Federation of Afro-American Women. Anti-lynching organizer. Teacher at the Devotion School. No plaque, no restoration. Someone lives here.",
+        "text": "## 131 Kent Street\n\nAn ordinary house — same period, same wood frame and porch as the rest of the block, built during the streetcar-era building boom. No plaque, no restoration, no Park Service. Someone lives in it.\n\nFlorida Ruffin Ridley was born January 29, 1861, to George Lewis Ruffin — the first Black graduate of Harvard Law School and the first Black judge in the United States — and Josephine Saint Pierre Ruffin, a writer and suffragist. Florida and her husband Ulysses A. Ridley, a tailoring business owner, bought this house in 1896.\n\nShe was the second Black teacher in Boston public schools; edited The Woman's Era, considered the first newspaper published by and for Black women; co-founded the Woman's Era Club and the League of Women for Community Service; organized against lynching; and was active in Brookline's suffrage association. She died in 1943 at age eighty-two.\n\nThe school four blocks back was renamed for her in 2019 — one hundred twenty-three years after she bought this house.",
+        "facts": [
+          {
+            "claim": "Florida Ruffin Ridley and her husband bought 131 Kent Street in 1896.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Public Library, Hidden Brookline; Brookline Historical Society",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Her father George Lewis Ruffin was the first Black graduate of Harvard Law School and first Black judge in the US.",
+            "verified": true,
+            "source": {
+              "source": "Multiple biographical sources",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "She is among the earliest documented Black homeowners in Brookline — not confirmed as first.",
+            "verified": true,
+            "verification_note": "Panel correction from Derrick: earlier owners may exist undocumented. Use 'among earliest documented' not 'first.'",
+            "source": {
+              "source": "Hidden Brookline research",
+              "license": "research reference only"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Public Library, Hidden Brookline; Brookline Historical Society",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates. Private residence — view from sidewalk only. Panel placed this stop mid-tour for attention quality."
+    },
+    {
+      "id": "wp-burying-ground",
+      "name": "Old Burying Ground",
+      "address": "Harvard St at Walnut St, Brookline, MA",
+      "position": {
+        "lat": 42.3345,
+        "lon": -71.1195
+      },
+      "order": 5,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Walnut Street continues a short block to the left. First Parish Church is just ahead at Walnut and Heath.",
+      "dossier": {
+        "summary": "Established 1717 — the oldest burial ground in Brookline. Contains the Devotion family plot and Revolutionary-era gravestones. Half the streets in town are named for people buried here.",
+        "text": "## Old Burying Ground\n\nEstablished 1717, the oldest burial ground in Brookline. Contains Revolutionary-era gravestones and colonial funerary art — skull-and-crossbones carvings, winged death heads, willow-and-urn designs from different periods.\n\nThe Devotion family plot is here — the same family whose name was on the school until 2019. The Aspinwall family is here. Many of the families whose names now label streets and parks are gathered in this half-acre.\n\nSlate headstones from the seventeen hundreds remain sharp and readable after three centuries. Marble stones from the eighteen hundreds are eroding. The different materials tell you which era you are looking at before you read the dates.",
+        "facts": [
+          {
+            "claim": "Established 1717, oldest burial ground in Brookline.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline records",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Contains Revolutionary-era gravestones and the Devotion family plot.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Historical Society",
+              "license": "research reference only"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Brookline Historical Society; Town records",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates from intersection of Harvard and Walnut. Needs field survey for exact entrance GPS. Uncertain: which specific Revolutionary War figures are buried here; whether enslaved burials are marked."
+    },
+    {
+      "id": "wp-first-parish",
+      "name": "First Parish Church",
+      "address": "Walnut St at Heath St, Brookline, MA",
+      "position": {
+        "lat": 42.3338,
+        "lon": -71.1185
+      },
+      "order": 6,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue on Walnut to Washington Street. Town Hall is one block ahead at three thirty-three Washington.",
+      "dossier": {
+        "summary": "Founded 1717, current building 1858. The spiritual center of colonial Brookline — every major decision the town made for its first century happened in or near this congregation. Unitarian since the early 1800s split from Congregationalism.",
+        "text": "## First Parish Unitarian Church\n\nFounded 1717 — the same year as the burying ground you just passed. Current building dates to 1858 in a Greek Revival and Italianate style: columns and pediment from the Greek Revival tradition, brackets and arched windows from the Italianate.\n\nThis was the spiritual and civic center of colonial Brookline. Before a town hall existed, town business happened in connection with this congregation. The shift from Congregationalism to Unitarianism in the early eighteen hundreds reflected the broader New England theological divide — the same split that produced Harvard Divinity School.",
+        "facts": [
+          {
+            "claim": "Founded 1717, current building 1858.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline records",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Greek Revival and Italianate architectural style.",
+            "verified": true,
+            "source": {
+              "source": "Brookline Preservation Commission",
+              "license": "research reference only"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of Brookline; Brookline Preservation Commission",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates. Needs field survey. Research gaps: notable ministers, specific role in abolition movement, interior access for walkers."
+    },
+    {
+      "id": "wp-town-hall",
+      "name": "Brookline Town Hall",
+      "address": "333 Washington St, Brookline, MA",
+      "position": {
+        "lat": 42.3330,
+        "lon": -71.1175
+      },
+      "order": 7,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "Continue down Washington Street toward Brookline Village. The D line T stop is a few minutes ahead — that is where Brookline actually started, before Coolidge Corner existed.",
+      "dossier": {
+        "summary": "Town Meeting has governed Brookline continuously since 1705 — no mayor, no city council. This 1936 building is where the 1873 anti-annexation vote happened (in the prior building on this site) and where the 2019 school renaming was decided. Representative Town Meeting since 1915: two hundred forty elected members.",
+        "text": "## Brookline Town Hall\n\nTown Meeting has operated continuously since 1705. Open Town Meeting until 1915, when Brookline switched to Representative Town Meeting with two hundred forty elected members — still direct democracy, just scaled. No mayor, no city council.\n\nThe current building dates to 1936. The earlier building on or near this site hosted the 1873 anti-annexation vote: seven hundred seven people said no to Boston, two hundred ninety-nine said yes. Brookline stayed independent, and every difference you have noticed on this walk — the tree canopy, the sidewalk quality, the quiet residential streets — flows from that single decision.\n\nThis is also where Article 27 passed in 2012, directing the slavery research, and where the 2019 school renaming vote happened. The room is still in use. The next Town Meeting is probably on the calendar.",
+        "facts": [
+          {
+            "claim": "Town Meeting has operated continuously since 1705.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline records",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "1873 anti-annexation vote: 707-299 against joining Boston.",
+            "verified": true,
+            "source": {
+              "source": "Town records, primary source",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Current building 1936. Representative Town Meeting since 1915 with 240 elected members.",
+            "verified": true,
+            "source": {
+              "source": "Town of Brookline records",
+              "license": "research reference only"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of Brookline records",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "Coordinates are desk estimates. Research gaps: architect of 1936 building, whether any of 1873 building survives."
+    },
+    {
+      "id": "wp-brookline-village",
+      "name": "Brookline Village",
+      "address": "Washington St at Brookline Village T, Brookline, MA",
+      "position": {
+        "lat": 42.3327,
+        "lon": -71.1168
+      },
+      "order": 8,
+      "sync_waypoint": true,
+      "trigger": {
+        "radius": 30,
+        "min_accuracy": 30
+      },
+      "walking_cue": "End of tour. The D line T stop is right here. If you enjoyed this walk, Tour 2 — Olmsted's Brookline — starts from this same spot.",
+      "dossier": {
+        "summary": "This is where Brookline actually started — the original town center, predating Coolidge Corner by centuries. The Highland Branch railroad arrived here in 1858, creating the first transit-oriented development in Brookline. Brookline Booksmith relocated here in 2021.",
+        "text": "## Brookline Village\n\nThis is the original center of Brookline — where the town actually began, long before Coolidge Corner existed. The Highland Branch railroad arrived here in 1858, creating what we would now call transit-oriented development: the station pulled services and commerce into a walkable cluster.\n\nThe streetcar's arrival on Beacon Street in 1888 shifted commercial gravity north to Coolidge Corner. Brookline Village became secondary — quieter, more local, less the destination. It stayed that way for over a century.\n\nBrookline Booksmith relocated here in 2021, to three sixteen Washington Street, bringing foot traffic back. The Muddy River — Olmsted's Emerald Necklace — is a five-minute walk from where you are standing. Everything north of here was farms and estates until the streetcar changed the economics.",
+        "facts": [
+          {
+            "claim": "Highland Branch railroad arrived 1858.",
+            "verified": true,
+            "source": {
+              "source": "Historical records; MBTA",
+              "license": "research reference only"
+            }
+          },
+          {
+            "claim": "Brookline Booksmith relocated here 2021.",
+            "verified": true,
+            "verification_note": "Retail turnover possible — verify before tour launches.",
+            "source": {
+              "source": "Brookline Booksmith; local news coverage",
+              "license": "research reference only"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "source": "Town of Brookline; MBTA; local news",
+            "license": "research reference only"
+          }
+        ]
+      },
+      "notes": "Coordinates from approximate station entrance location. Cross-tour connection: Tour 2 (Olmsted's Brookline) starts here."
+    }
+  ],
+  "media_items": []
+}
