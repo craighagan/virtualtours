@@ -1,0 +1,98 @@
+{
+  "name": "Virtual Tours",
+  "description": "Walking tours with AI narrators for the Footnotes app",
+  "updated": "2026-08-09",
+  "tours": [
+    {
+      "id": "york-beach-short-sands-to-nubble",
+      "title": "York Beach: Short Sands to the Nubble",
+      "description": "A coastal walk from the arcade end of Short Sands Beach along the rocky headlands and Long Sands shoreline to Nubble Light.",
+      "stops": 11,
+      "distance_meters": 5600,
+      "duration_minutes": 70,
+      "tags": ["coastal", "maine", "family"],
+      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
+      "size_bytes": 14913536,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/york-beach.tourguide",
+      "version": "1.0.0"
+    },
+    {
+      "id": "york-village-historic",
+      "title": "York Village: Maine's First Charter",
+      "description": "A walk through one of New England's oldest settlements — chartered in 1641, older than most of Massachusetts.",
+      "stops": 6,
+      "distance_meters": 800,
+      "duration_minutes": 35,
+      "tags": ["historic", "maine", "village"],
+      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
+      "size_bytes": 122880,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/york-village.tourguide",
+      "version": "1.0.0"
+    },
+    {
+      "id": "brookline-aspinwall-hill",
+      "title": "Aspinwall Hill: Four Stops from the Front Door",
+      "description": "A deliberately small tour of the block around the crest of Aspinwall Hill: the ground under the house and its immediate neighbors.",
+      "stops": 4,
+      "distance_meters": 260,
+      "duration_minutes": 20,
+      "tags": ["brookline", "neighborhood", "short"],
+      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
+      "size_bytes": 9760768,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/brookline-aspinwall-hill.tourguide",
+      "version": "1.0.0"
+    },
+    {
+      "id": "brookline-aspinwall-paths",
+      "title": "Aspinwall Hill Paths",
+      "description": "A loop connecting multiple named pedestrian paths on Aspinwall Hill — stone stairways built in the 1890s.",
+      "stops": 8,
+      "distance_meters": 2800,
+      "duration_minutes": 75,
+      "tags": ["brookline", "paths", "historic"],
+      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
+      "size_bytes": 7131136,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/brookline-aspinwall-paths.tourguide",
+      "version": "1.0.0"
+    },
+    {
+      "id": "brookline-coolidge-corner",
+      "title": "Coolidge Corner: Six Stops",
+      "description": "The full POC-1 Wizard-of-Oz route through Coolidge Corner, all six waypoints.",
+      "stops": 6,
+      "distance_meters": 1930,
+      "duration_minutes": 60,
+      "tags": ["brookline", "urban", "shops"],
+      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
+      "size_bytes": 13074432,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/brookline-coolidge-corner.tourguide",
+      "version": "1.0.0"
+    },
+    {
+      "id": "brookline-coolidge-to-village",
+      "title": "Coolidge Corner to Brookline Village",
+      "description": "From the landmark Pierce Building clock tower south through three centuries of a town that keeps choosing to stay a town.",
+      "stops": 8,
+      "distance_meters": 2400,
+      "duration_minutes": 60,
+      "tags": ["brookline", "historic", "long"],
+      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
+      "size_bytes": 16302080,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/brookline-coolidge-village.tourguide",
+      "version": "1.0.0"
+    },
+    {
+      "id": "brookline-olmsted",
+      "title": "Olmsted's Brookline",
+      "description": "A loop from Brookline Village through Fairsted and the Muddy River corridor, exploring how Frederick Law Olmsted shaped this landscape.",
+      "stops": 7,
+      "distance_meters": 4000,
+      "duration_minutes": 70,
+      "tags": ["brookline", "parks", "olmsted"],
+      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
+      "size_bytes": 12992512,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/brookline-olmsted.tourguide",
+      "version": "1.0.0"
+    }
+  ]
+}
