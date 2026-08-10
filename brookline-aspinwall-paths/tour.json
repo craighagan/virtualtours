@@ -150,9 +150,8 @@
           }
         ]
       },
-      "notes": "GPS surveyed by Craig 2026-08-04. Trigger at bottom of path (Washington Street end). Audio triggers BEFORE the climb — walker hears narration while standing, then ascends. This avoids the mid-descent audio safety concern from field notes. Path is steep stone steps with handrails."
-    }
-    ,
+      "notes": "GPS field-surveyed 2026-08-04. Trigger at bottom of path (Washington Street end). Audio triggers BEFORE the climb — walker hears narration while standing, then ascends. This avoids the mid-descent audio safety concern from field notes. Path is steep stone steps with handrails."
+    },
     {
       "id": "wp-winthrop-rd-crossing",
       "name": "Winthrop Road at University Road",
@@ -318,8 +317,7 @@
         ]
       },
       "notes": "Coordinates from OSM centroid of park. This is the REST STOP — playground for kids, benches, flat ground. Critical recovery point after two path climbs. Audio safe here (flat, no stairs). Spelling note: 'Schick' is the official municipal spelling but Kokoro reads 'sch' as 'sk' — use 'Shick' in all spoken text fields only."
-    }
-    ,
+    },
     {
       "id": "wp-summit-path",
       "name": "Summit Path",
@@ -414,7 +412,7 @@
       "name": "Beacon Street Return",
       "address": "Beacon Street near Dean Road, Brookline, MA 02445",
       "position": {
-        "lat": 42.3380,
+        "lat": 42.338,
         "lon": -71.1345
       },
       "order": 8,

@@ -3,7 +3,7 @@
   "id": "brookline-aspinwall-hill",
   "version": "0.2.0",
   "title": "Aspinwall Hill: Four Stops from the Front Door",
-  "description": "A deliberately small tour of the block around 107 Colbourne Crescent: the ground under the house, Schick Park at the crest, the Addington Path stairway down the north slope, and Winthrop Path at the bottom of it. Roughly 260 metres end to end, fifteen to twenty minutes at a stroll. Built as a walkable trigger test that can be repeated any evening without driving anywhere — which is exactly what POC-4 needs and what the Coolidge Corner route cannot give you. Winthrop Path added August 2026 after research found Schick Park's civic history much richer than first thought and turned up a well-documented fourth stop at the same intersection this route already treats as a boundary.",
+  "description": "A deliberately small tour of the block around the crest of Aspinwall Hill: the ground under the house, Schick Park at the crest, the Addington Path stairway down the north slope, and Winthrop Path at the bottom of it. Roughly 260 metres end to end, fifteen to twenty minutes at a stroll. Built as a walkable trigger test that can be repeated any evening without driving anywhere — which is exactly what POC-4 needs and what the Coolidge Corner route cannot give you. Winthrop Path added August 2026 after research found Schick Park's civic history much richer than first thought and turned up a well-documented fourth stop at the same intersection this route already treats as a boundary.",
   "locale": "en-US",
   "kind": "urban",
   "distance": 260,
@@ -31,11 +31,11 @@
   "waypoints": [
     {
       "id": "wp-home-colbourne",
-      "name": "The front door",
-      "address": "107 Colbourne Crescent, Brookline, MA 02445",
+      "name": "Colbourne Crescent",
+      "address": "Colbourne Crescent at Addington Road, Brookline, MA 02445",
       "position": {
-        "lat": 42.33542,
-        "lon": -71.13431
+        "lat": 42.33565,
+        "lon": -71.13395
       },
       "order": 1,
       "trigger": {
@@ -52,7 +52,7 @@
       ],
       "dossier": {
         "summary": "A house on Aspinwall Hill, on land that was part of 87 acres until 1880. The curve of Colbourne Crescent is not topography — it is a design decision made by whoever laid out this hill, and who that was is genuinely disputed.",
-        "text": "## 107 Colbourne Crescent\n\nStart with the ground rather than the building, because the ground has the older story and the building's own dates are not yet researched.\n\nThe Aspinwall family shows up in this part of Brookline in 1650, when Peter Aspinwall purchased land near what is now St. Paul and Aspinwall Avenue. Five generations later his great-great grandson, Dr. William Aspinwall, owned 87 acres covering this hill. In 1880 he sold it. The Aspinwall Hill Land Company formed, laid out roadways, house lots, and footpaths as the framework for development, and residential building on the hill began that year.\n\nSo every lot line on this street, including this one, descends from a single 1880 subdivision of one family's pasture.\n\nThe curving streets are the interesting part. Aspinwall Hill's roads wind rather than grid, and Addington Road in particular forms a giant S with each half traversing opposite sides of the hill. Who chose that is contested — see the facts list. The consequence is not contested at all: walking anywhere on this hill by road takes much longer than the distance suggests, which is precisely why the footpaths exist.\n\n(Fixture note: this dossier is abridged, and deliberately contains nothing about the house itself. FR-1.2 targets 2,000-3,000 words.)",
+        "text": "## Colbourne Crescent\n\nStart with the ground rather than the building, because the ground has the older story and the building's own dates are not yet researched.\n\nThe Aspinwall family shows up in this part of Brookline in 1650, when Peter Aspinwall purchased land near what is now St. Paul and Aspinwall Avenue. Five generations later his great-great grandson, Dr. William Aspinwall, owned 87 acres covering this hill. In 1880 he sold it. The Aspinwall Hill Land Company formed, laid out roadways, house lots, and footpaths as the framework for development, and residential building on the hill began that year.\n\nSo every lot line on this street, including this one, descends from a single 1880 subdivision of one family's pasture.\n\nThe curving streets are the interesting part. Aspinwall Hill's roads wind rather than grid, and Addington Road in particular forms a giant S with each half traversing opposite sides of the hill. Who chose that is contested — see the facts list. The consequence is not contested at all: walking anywhere on this hill by road takes much longer than the distance suggests, which is precisely why the footpaths exist.\n\n(Fixture note: this dossier is abridged, and deliberately contains nothing about the house itself. FR-1.2 targets 2,000-3,000 words.)",
         "facts": [
           {
             "claim": "Peter Aspinwall purchased land near St. Paul and Aspinwall Avenue in 1650.",
@@ -89,7 +89,7 @@
             }
           },
           {
-            "claim": "The construction date of 107 Colbourne Crescent.",
+            "claim": "The construction date of this house on Colbourne Crescent.",
             "verified": false,
             "verification_note": "Not researched. Needs the Brookline assessor record or the deed chain. Deliberately left blank rather than guessed from neighbouring houses — see hunt-house-date.",
             "attribution_required": true
@@ -104,7 +104,7 @@
           }
         ]
       },
-      "notes": "Coordinates from OpenStreetMap geocoding of the street address (OSM way 29933317), not GPS-surveyed. This is the start point and it is Craig's own house — stand on the sidewalk and record the real fix from the Diagnostics screen to replace this. Nothing in the narration describes the building, because no fact about the building has been verified."
+      "notes": "Coordinates approximate (near Colbourne Crescent / Addington Road intersection). Start point for the Aspinwall Hill loop."
     },
     {
       "id": "wp-schick-park",
@@ -163,7 +163,7 @@
           {
             "claim": "The park has a stone table with a chess/checkers board.",
             "verified": false,
-            "verification_note": "Confirmed removed during the 2024-2026 renovation — field-checked by Craig in person, August 2026. The table existed before the renovation (per commercial listing aggregators, never a town record) but is gone now. Do not narrate it as present.",
+            "verification_note": "Confirmed removed during the 2024-2026 renovation — field-checked August 2026. The table existed before the renovation (per commercial listing aggregators, never a town record) but is gone now. Do not narrate it as present.",
             "attribution_required": true
           }
         ],
@@ -313,7 +313,7 @@
           }
         ]
       },
-      "notes": "Coordinates GPS-surveyed by Craig 2026-08-04 (was a desk estimate from the Historical Society's description (runs from Winthrop Road, near the Addington Path lower end, down to Washington Street), not GPS-surveyed — needs a real fix walked on site before POC-4, same as every other waypoint in this bundle. Added August 2026 alongside the Schick Park research refresh; not part of the original three-waypoint POC-4 harness."
+      "notes": "Coordinates field-surveyed 2026-08-04 (was a desk estimate from the Historical Society's description (runs from Winthrop Road, near the Addington Path lower end, down to Washington Street), not GPS-surveyed — needs a real fix walked on site before POC-4, same as every other waypoint in this bundle. Added August 2026 alongside the Schick Park research refresh; not part of the original three-waypoint POC-4 harness."
     }
   ]
 }
