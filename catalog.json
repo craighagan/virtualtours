@@ -1,7 +1,7 @@
 {
   "name": "Virtual Tours",
   "description": "Walking tours with AI narrators for the Footnotes app",
-  "updated": "2026-08-09",
+  "updated": "2026-08-13",
   "tours": [
     {
       "id": "york-beach-short-sands-to-nubble",
@@ -10,24 +10,42 @@
       "stops": 11,
       "distance_meters": 5600,
       "duration_minutes": 70,
-      "tags": ["coastal", "maine", "family"],
-      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
-      "size_bytes": 14913536,
-      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/york-beach.tourguide",
-      "version": "1.0.0"
+      "tags": [
+        "coastal",
+        "maine",
+        "family"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 18574799,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/york-beach.tourguide",
+      "version": "2.0.0"
     },
     {
       "id": "york-village-historic",
       "title": "York Village: Maine's First Charter",
-      "description": "A walk through one of New England's oldest settlements — chartered in 1641, older than most of Massachusetts.",
+      "description": "A walk through one of New England's oldest settlements \u2014 chartered in 1641, older than most of Massachusetts.",
       "stops": 6,
       "distance_meters": 800,
       "duration_minutes": 35,
-      "tags": ["historic", "maine", "village"],
-      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
-      "size_bytes": 122880,
-      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/york-village.tourguide",
-      "version": "1.0.0"
+      "tags": [
+        "historic",
+        "maine",
+        "village"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 36893,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/york-village.tourguide",
+      "version": "2.0.0"
     },
     {
       "id": "brookline-aspinwall-hill",
@@ -36,24 +54,42 @@
       "stops": 4,
       "distance_meters": 260,
       "duration_minutes": 20,
-      "tags": ["brookline", "neighborhood", "short"],
-      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
-      "size_bytes": 9760768,
-      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/brookline-aspinwall-hill.tourguide",
-      "version": "1.0.0"
+      "tags": [
+        "brookline",
+        "neighborhood",
+        "short"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 10898115,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/brookline-aspinwall-hill.tourguide",
+      "version": "2.0.0"
     },
     {
       "id": "brookline-aspinwall-paths",
       "title": "Aspinwall Hill Paths",
-      "description": "A loop connecting multiple named pedestrian paths on Aspinwall Hill — stone stairways built in the 1890s.",
+      "description": "A loop connecting multiple named pedestrian paths on Aspinwall Hill \u2014 stone stairways built in the 1890s.",
       "stops": 8,
       "distance_meters": 2800,
       "duration_minutes": 75,
-      "tags": ["brookline", "paths", "historic"],
-      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
-      "size_bytes": 7131136,
-      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/brookline-aspinwall-paths.tourguide",
-      "version": "1.0.0"
+      "tags": [
+        "brookline",
+        "paths",
+        "historic"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 8379503,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/brookline-aspinwall-paths.tourguide",
+      "version": "2.0.0"
     },
     {
       "id": "brookline-coolidge-corner",
@@ -62,11 +98,20 @@
       "stops": 6,
       "distance_meters": 1930,
       "duration_minutes": 60,
-      "tags": ["brookline", "urban", "shops"],
-      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
-      "size_bytes": 13074432,
-      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/brookline-coolidge-corner.tourguide",
-      "version": "1.0.0"
+      "tags": [
+        "brookline",
+        "urban",
+        "shops"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 14390409,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/brookline-coolidge-corner.tourguide",
+      "version": "2.0.0"
     },
     {
       "id": "brookline-coolidge-to-village",
@@ -75,11 +120,20 @@
       "stops": 8,
       "distance_meters": 2400,
       "duration_minutes": 60,
-      "tags": ["brookline", "historic", "long"],
-      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
-      "size_bytes": 16302080,
-      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/brookline-coolidge-village.tourguide",
-      "version": "1.0.0"
+      "tags": [
+        "brookline",
+        "historic",
+        "long"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 16107464,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/brookline-coolidge-village.tourguide",
+      "version": "2.0.0"
     },
     {
       "id": "brookline-olmsted",
@@ -88,11 +142,20 @@
       "stops": 7,
       "distance_meters": 4000,
       "duration_minutes": 70,
-      "tags": ["brookline", "parks", "olmsted"],
-      "personas": ["Gus", "Onyx", "Nova", "Jessica"],
-      "size_bytes": 12992512,
-      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v1.0/brookline-olmsted.tourguide",
-      "version": "1.0.0"
+      "tags": [
+        "brookline",
+        "parks",
+        "olmsted"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 14231424,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/brookline-olmsted.tourguide",
+      "version": "2.0.0"
     }
   ]
 }
