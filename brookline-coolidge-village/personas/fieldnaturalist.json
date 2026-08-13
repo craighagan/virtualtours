@@ -54,7 +54,7 @@
         "text": "Pierce Building. Look at the Tudor timber framing — decorative, not structural, but still subject to weathering. The south-facing timbers are measurably more degraded than the north. I measured cross-section loss on exposed timber-masonry junctions on three Tudor buildings in Brookline last year. Every junction showed early brown-rot colonization in the end grain where timber contacts masonry. The masonry wicks moisture into the wood. The building's own construction detail is the vector for its own decay. Ozawa used to say: every material failure starts at a junction between two different materials. Brick meets wood. Stone meets iron. Each material moves differently with temperature. Each holds water differently. The interface is where things break. Look at the limestone window sills — the south-facing ones have lost roughly three millimeters more surface than the north. Calcium carbonate dissolving in slightly acidic rain, one droplet at a time, for a hundred twenty-five years. The building is becoming a fossil of itself. But that is a different paper. Anyway — look up at the tower. That replacement stone after the storm is a different quarry than the original. Different porosity. It will weather at a different rate. In fifty years the repair will be visible to anyone who pays attention.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-pierce-start-narration.m4a",
-          "duration": 43.9,
+          "duration": 63.325,
           "voice_provider": "kokoro"
         }
       },
@@ -62,7 +62,7 @@
         "text": "The biological colonization on this building follows predictable zones. North face: green algae (Trentepohlia) and crustose lichens in the mortar joints. South face: dry, mostly bare except for orange Xanthoria parietina where nitrogen deposition is highest — near the street, near exhaust. West face: intermediate, with moss in sheltered reveals. I mapped the lichen zonation on this building two summers ago. Twelve species total. The highest diversity was on the north face at second-floor height — sheltered from direct rain wash but still catching moisture from fog and dew. Marcus asked why lichen diversity matters on a building. I said: because it tells you something about air quality, moisture patterns, and substrate chemistry that no instrument measures as cheaply. A lichen survey costs me an afternoon. A full environmental monitoring station costs forty thousand. The lichens are doing the same work for free. Ozawa used to say: organisms are instruments you do not have to calibrate. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-pierce-start-deep.m4a",
-          "duration": 64.125,
+          "duration": 53.575,
           "voice_provider": "kokoro"
         }
       },
@@ -81,7 +81,7 @@
         "text": "Look at the clapboard siding on the Kennedy birthplace. White pine (Pinus strobus), based on the grain pattern visible at the edges. White pine was the default exterior cladding in nineteen oh nine because it was abundant, soft enough to work easily, and accepts paint well. Now look at the paint itself — the south-facing clapboards are chalking, which means the UV has broken the paint binder and the pigment is dusting off. Same paint, same age, different exposure. I have been tracking paint degradation rates on Brookline residential exteriors for two years. South faces need repainting every five to seven years. North faces last eight to ten on the same product. That forty percent difference in lifespan means the south side of every house in this town costs almost twice as much to maintain in paint alone. Ozawa used to say: the sun is a solvent. It just works slowly. The porch overhang shades the first floor clapboards — look at how much better the paint condition is below the porch line versus above. That overhang is earning its maintenance cost in paint savings alone. But that is a different paper. Anyway — notice the foundation plantings. Taxus (yew) on the north side. Those are shade-tolerant, acid-soil species chosen to survive where nothing else would thrive against a foundation wall.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-jfk-beals-narration.m4a",
-          "duration": 51.075,
+          "duration": 65.175,
           "voice_provider": "kokoro"
         }
       },
@@ -89,7 +89,7 @@
         "text": "The soil against a house foundation has completely different chemistry than the surrounding yard. Mortar leachate raises the pH. Roof runoff concentrates minerals. Shade from the eaves suppresses evaporation. I sampled foundation soil at six Brookline houses last year — all within one block of each other, all similar age. The pH ranged from seven point two to eight point one against the north foundations, compared to five point eight to six point four in the open lawn three meters away. That alkalinity shift changes which organisms can colonize. The yews planted here tolerate it. The lawn grass (Poa pratensis) does not — notice how the grass thins as it approaches the foundation. It is not shade alone doing that. It is chemistry. Marcus thinks shade is the dominant factor. I told him: pull a soil sample. He did. He does not argue anymore. Last June the groundskeeper at the Devotion School told me he cannot grow anything against the north wall. Same problem. Same chemistry. Different building, same principle. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-jfk-beals-deep.m4a",
-          "duration": 58.1,
+          "duration": 51.35,
           "voice_provider": "kokoro"
         }
       },
@@ -108,7 +108,7 @@
         "text": "Devotion House. Look at the chimney — central brick, seventeen forty-five. That masonry mass is a thermal battery. Even unoccupied, unheated for months, the chimney core holds measurably above ambient temperature in winter because brick stores and releases heat on a twenty-four-hour cycle. I set a thermal logger on the north face of a similar colonial chimney two winters ago. Four degrees Celsius above ambient on a January night. The builders understood thermal mass without understanding thermodynamics. Now look at what is growing on the chimney mortar. The lime-based mortar from seventeen forty-five creates an alkaline microhabitat in the mortar joints. Specific moss species colonize there that you will not find on the adjacent granite foundations. Tortula muralis — a drought-tolerant moss that prefers high pH substrates — I counted it on seven of eight colonial chimneys in Brookline. It reads the mortar chemistry. Where you see Tortula, you know the mortar is lime-based and the building is pre-eighteen-fifty. The moss is dating the building for you. Ozawa would have loved that. She always said: the organism is the instrument. Anyway — look at the courtyard between the old house and the school. That sheltered space has its own microclimate. Warmer, wetter, more protected. A different plant community entirely. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-devotion-house-narration.m4a",
-          "duration": 46.275,
+          "duration": 67.675,
           "voice_provider": "kokoro"
         }
       },
@@ -116,7 +116,7 @@
         "text": "The timber frame in this house is almost certainly white oak — the default structural wood for colonial New England construction. White oak resists rot because its vessels are clogged with tyloses — cellular growths that block water infiltration into the heartwood. That is why a three-hundred-year-old oak frame can still be structurally sound while a pine frame of the same age would be powder. I have been trying to get permission to core-sample exposed timbers on colonial buildings in Brookline for dendrochronology. Nobody will let me bore into a National Register building. Understandable. But the growth-ring data locked in that frame would tell us exactly when and where the trees were cut — which forest, which decade, possibly which season. That data is irreplaceable and inaccessible. Marcus suggested non-invasive methods — CT scanning the exposed beam ends. The resolution is not good enough yet. Maybe in five years. Until then, the building keeps its secrets. The eave-line timber visible from the courtyard shows tight growth rings — consistent with old-growth lumber. Half-millimeter rings. A tree adding that slowly was growing in a closed-canopy forest, competing for light. That density is why the frame lasted. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-devotion-house-deep.m4a",
-          "duration": 65.75,
+          "duration": 62.425,
           "voice_provider": "kokoro"
         }
       },
@@ -135,7 +135,7 @@
         "text": "Florida Ruffin Ridley's house. I am going to set the science down here. Same wood species as every house on this block. Same soil beneath. Same tree canopy overhead. Nothing about the biology distinguishes this house from its neighbors. What distinguishes it is who lived here. Florida Ruffin Ridley bought this house in eighteen ninety-six with her husband Ulysses. She organized against lynching from this address. Her father was the first Black judge in the country. Her mother published a newspaper. The house is just a house. The life inside it was not just anything. I do not have a fieldwork observation for this stop. Some places ask you to pay attention to what is not measurable. This is one of them.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-ridley-kent-narration.m4a",
-          "duration": 43.05,
+          "duration": 34.525,
           "voice_provider": "kokoro"
         }
       },
@@ -143,7 +143,7 @@
         "text": "One observation I will make, because it is the kind of thing I notice: this house has been continuously maintained for a hundred thirty years without institutional support. Private maintenance only. A roof every twenty-five years. Paint every seven. Porch boards every fifteen. That cumulative labor, done quietly by whoever holds the deed, is its own preservation. It does not get studied. It does not get named. But it is the reason the house is still here. Ozawa would have said: persistence is the most underrated variable in any system. She was talking about lichen. She could have been talking about this.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-ridley-kent-deep.m4a",
-          "duration": 50.0,
+          "duration": 30.425,
           "voice_provider": "kokoro"
         }
       },
@@ -162,7 +162,7 @@
         "text": "Old Burying Ground. Look at the stones — you can date them without reading the inscriptions. Black slate from the seventeen hundreds: still sharp, still legible. That is because slate is metamorphic — foliated layers of mica and quartz that resist chemical weathering. Marble from the eighteen hundreds: already soft, already losing inscriptions. Calcium carbonate dissolving in acid rain, same process as the Pierce Building limestone but accelerated because marble is purer calcite with fewer resistant minerals. Granite from the mid-eighteen hundreds onward: essentially unchanged. Quartz-rich igneous rock that laughs at acid rain. Three hundred years of stone-cutting decisions and their consequences, all visible in one cemetery. Ozawa used to say: a graveyard is a materials science laboratory with three-century-long experiments running simultaneously. I measured surface recession rates on ten marble stones here last April — average loss of point-three millimeters per decade based on letter-depth comparisons to known original carving depths. At that rate, the eighteen-twenty marbles will be illegible by twenty-one hundred. The slates will still be sharp. But that is a different paper. Anyway — look at the biological colonization. The slate has lichen. The marble has algae. Different substrates, different communities.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-burying-ground-narration.m4a",
-          "duration": 43.875,
+          "duration": 69.725,
           "voice_provider": "kokoro"
         }
       },
@@ -170,7 +170,7 @@
         "text": "The lichen communities on these gravestones are among the oldest undisturbed biological surfaces in Brookline. Crustose lichens on the seventeen-hundred slates have been growing continuously for up to three hundred years. That growth rate — roughly one millimeter of thallus radius per decade for Rhizocarpon geographicum — makes them one of the slowest biological clocks on Earth. Lichenometry: using lichen diameter to date surfaces. It works here. A lichen measuring thirty millimeters on a slate stone has been growing for approximately three hundred years. I measured twelve lichen thalli on stones with known dates in this cemetery. The correlation between stone age and lichen diameter was point-nine-two. That is publishable data. Marcus and I wrote it up last year — it is under review. The referee wants more samples. Fair. I need to measure another twenty stones. The problem is finding stones with legible dates in the seventeen-hundred section where the lichens are largest. The oldest stones have the biggest lichens but the hardest-to-read dates. Ozawa would call that measurement irony. Anyway — look at the north-facing stones specifically. That is where lichen growth is fastest because moisture persists longer.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-burying-ground-deep.m4a",
-          "duration": 56.5,
+          "duration": 63.65,
           "voice_provider": "kokoro"
         }
       },
@@ -189,7 +189,7 @@
         "text": "First Parish Church. Look at the stone — this is a different building material than the Pierce Building or the Town Hall. The foundation is local fieldstone. The walls are likely quarried granite. Two different geological origins in one structure. The fieldstone is glacial till — unsorted cobbles deposited by the ice sheet, every one a different lithology. Granite, gneiss, schist, occasional basalt. The quarried upper walls are uniform dimension granite from a single source. Ozawa used to say: a building is a geological collection with a roof on it. The mortar between these stones is doing the same job as the mortar in the Devotion House chimney — but it is probably Portland cement, not lime, because this building is eighteen-hundreds reconstruction after the original burned. Portland mortar is harder than the stone in some cases, which reverses the sacrificial relationship. The mortar should fail before the stone. When it does not, the stone spalls instead. I have seen Portland repointing damage on six Brookline buildings. This one appears to have been done correctly — lime mortar matching the stone softness. Somebody knew what they were doing. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-first-parish-narration.m4a",
-          "duration": 51.725,
+          "duration": 58.625,
           "voice_provider": "kokoro"
         }
       },
@@ -197,7 +197,7 @@
         "text": "The churchyard trees — look at them. These are mature specimens, probably planted when the current building went up. American elm (Ulmus americana) if any survived Dutch elm disease, which swept through Massachusetts in the nineteen-sixties and seventies. If you see a mature elm here, it is either a resistant cultivar planted as replacement or a survivor — and survivors are genetically valuable. I have been cataloging mature elms across Brookline for a resistance-breeding study. Seven confirmed survivors in the entire town. None in this churchyard — the elms here are replacements, based on trunk diameter and bark character. But the replacements are Liberty elms — a cultivar bred for resistance at the Elm Research Institute. Someone chose those deliberately. That is a conservation decision hidden in a landscaping budget. Nobody calls planting a disease-resistant elm tree a conservation act. But it is. Every Liberty elm in a churchyard is a hedge against future extinction. Marcus says that is overstating it. I say: ask him again in fifty years when the wild population is gone. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-first-parish-deep.m4a",
-          "duration": 62.4,
+          "duration": 57.975,
           "voice_provider": "kokoro"
         }
       },
@@ -216,7 +216,7 @@
         "text": "Town Hall. Limestone and brownstone trim with a mansard roof. Look at the brownstone specifically — that reddish-brown sandstone was quarried in the Connecticut River Valley, shipped by rail, and is now slowly returning to sand. Brownstone is poorly ceite — the grains are bound by iron oxide and clay, not by silica like true sandstone. In a wet climate, it absorbs water, freezes, and the grains detach one by one. That is delamination. You can see it on the window surrounds — the surface is flaking in thin sheets parallel to the bedding plane. Ozawa used to say: brownstone is geology's apology for making something that looks like stone but behaves like compressed dirt. I measured delamination depth on brownstone trim across twelve Brookline buildings last summer. Average surface loss: eight millimeters per century on south and west faces. Less than two on north faces. The rain does it. The freeze finishes it. The building is slowly shedding its own ornament. In another century, the brownstone trim will need full replacement or the profiles will be unrecognizable. But that is a different paper. Anyway — look at the slate roof. That is the same metamorphic material as the seventeenth-century gravestones in the burying ground. It will outlast everything else on this building.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-town-hall-narration.m4a",
-          "duration": 44.675,
+          "duration": 64.65,
           "voice_provider": "kokoro"
         }
       },
@@ -224,7 +224,7 @@
         "text": "The mansard roof is Vermont slate — I can tell by the color and the characteristic grain. Unfading green-grey, consistent with the Mettawee formation quarries. That slate was laid in the eighteen-seventies and is still performing after a hundred fifty years. Each slate is individually hung on a copper nail. Copper, not iron, because iron rusts and expands and cracks the slate above it. Whoever specified copper nails in the eighteen-seventies was thinking about a maintenance cycle longer than their own life. That is the kind of decision I respect in a material specification. I checked: the south-face slates were replaced around twenty-twenty based on the patina difference. The new slates are slightly different thickness — thinner, probably from a different quarry seam. In thirty years, that thickness difference will manifest as differential weathering. The thinner slates will fail first. Marcus asked: does it matter if they are replaced in thirty years instead of fifty? I said: it matters to whoever writes the check. Fifty years of service versus thirty is a forty percent cost difference over the life of the building. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-town-hall-deep.m4a",
-          "duration": 62.05,
+          "duration": 54.775,
           "voice_provider": "kokoro"
         }
       },
@@ -243,7 +243,7 @@
         "text": "Brookline Village. Look at where the streams converge — this is why the town started here. Low ground, water, a bridge point. Before anything was built, this was where the hydrology dictated human settlement. Water is always the answer to why here and not there. The Muddy River flows through a culvert under this intersection now — invisible, buried, but still running. I measured flow rates in the Muddy River at three points downstream of here last March after a heavy rain. The water carries urban runoff chemistry — elevated chloride from road salt, phosphorus from fertilizer, detectable caffeine from sewer overflows. The river remembers everything the town puts on its streets. Ozawa used to say: a river is a town's bloodwork. You can diagnose the whole system from one sample. Last June I found elevated copper downstream of the village — leaching from the DPW's oldest pipe joints. Copper in the water column at parts per million that approach the threshold for macroinvertebrate stress. I do not know yet whether it is affecting the community. Marcus is running bioassays. Preliminary data suggests mayfly nymphs are absent below the village but present above. That is a signal. But that is a different paper. Anyway — look at the street trees here in the village. London planes again. Same species as Coolidge Corner. Same reason: they survive the stress.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-brookline-village-narration.m4a",
-          "duration": 55.825,
+          "duration": 66.475,
           "voice_provider": "kokoro"
         }
       },
@@ -251,7 +251,7 @@
         "text": "The Muddy River is Olmsted's work — engineered to look natural, every curve drawn on paper before a shovel touched earth. But it has been functioning as an ecological corridor for a hundred forty years regardless of its designed origin. I have been surveying aquatic macroinvertebrates in the Muddy River monthly for four years. Species richness peaks in the sections where the banks are most naturalized — where Olmsted's original planting has matured into a closed riparian canopy with root structure extending into the water column. The concrete-channeled sections, where later engineers straightened and hardened the banks, have sixty percent lower species diversity. Same water, same latitude. The difference is habitat structure. Roots in the water create refugia. Concrete does not. Here is what I do not know yet: whether restoring the channelized sections to naturalized banks would recover the lost biodiversity, or whether the community has adapted to the channel and removal would cause a different kind of disruption. The only way to know is to try, and nobody is going to let me remove concrete from a flood-control channel as an experiment. But I have proposed a pilot. One hundred meters of bank restoration. Pending approval for three years. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fieldnaturalist-wp-brookline-village-deep.m4a",
-          "duration": 55.975,
+          "duration": 64.975,
           "voice_provider": "kokoro"
         }
       },
