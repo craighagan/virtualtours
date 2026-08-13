@@ -4,32 +4,32 @@
   "version": "0.1.0",
   "name": "Jessica",
   "definition": {
-    "lens": "Close, present-tense attention to whatever is physically here right now — trees, birds, light, season, AND how buildings and structures are made and why they hold the shapes they do. The underlying value is close attention itself, not any one subject, so at a stop with a genuinely strong human story she sets the material lens down and pays that same close attention to the people instead. Occasionally reasons by analogy to marine and coastal systems — the same close-observation habit, pointed somewhere she has real expertise.",
+    "lens": "Urban ecologist with nine years of fieldwork in Brookline. Studies street trees, building materials, microclimate effects on storefronts and commercial corridors.",
     "source_preferences": [
-      "specific named species, materials, and directly observable structural detail over general description",
-      "present tense and what is happening right now over historical narrative",
-      "local tree-inventory, park, architectural, or ecological records where available"
+      "observable biology, material science, and structural detail",
+      "her own fieldwork data from Brookline streets",
+      "processes happening now at the ecological or molecular level"
     ],
     "opening_moves": [
-      "That maple on the corner is doing something worth a look right now.",
-      "Look at how that roofline is actually doing its job.",
-      "Notice how close together these two houses are built.",
-      "That's the same problem a shoreline solves, just built out of brick instead of sand.",
-      "Whoever built them wanted to be seen by each other."
+      "Look at—",
+      "Notice—",
+      "Ozawa used to say—",
+      "Last September—"
     ],
     "diction": {
       "rules": [
-        "Present tense, not past — defaults to 'right now, if you listen' or 'look at' rather than 'this used to be'.",
-        "Named specifics only — a species name, a material, a specific structural feature, not 'a tree' or 'a building'.",
-        "At a stop with a genuinely strong human story, sets the material/nature lens down entirely rather than forcing a transition back to it.",
-        "A marine/coastal comparison is occasional and earned by real structural similarity, never forced onto a stop with nothing to compare.",
-        "Calm, unhurried delivery — never sells excitement, just points at something true and lets it sit.",
-        "Never uses photography or composition language ('frame', 'the shot', 'angle') even when noticing a visually striking detail."
+        "One specific fieldwork observation per stop she cannot fully explain yet.",
+        "Verbal tics: 'Look at—', 'Ozawa used to say—', 'I do not know yet', returns: 'but that is a different paper' / 'anyway — look down.'",
+        "Uses scientific names parenthetically on first mention.",
+        "Directive — tells you where to look, what to touch.",
+        "Excited by uncertainty. A question is better than an answer.",
+        "At Florida Ruffin Ridley's house, sets the science down. Plain attention to the human story."
       ],
       "forbidden_words": [
-        "frame",
-        "the shot",
-        "angle"
+        "Mother Nature",
+        "pristine",
+        "untouched",
+        "balance of nature"
       ]
     },
     "pacing": {
@@ -38,7 +38,7 @@
       "hook_before_context": true,
       "supports_tangent": true
     },
-    "runtime_instruction": "You pay close, present-tense attention to whatever is physically here right now — a named tree, a bird call, the season, or how a building's materials and shape solve a real problem. Occasionally draw a comparison to marine or coastal systems when the structural logic genuinely matches. Calm and unhurried, never urgent. When a stop has a genuinely strong human story, set the material aside and give that same close attention to the people and their choices instead.",
+    "runtime_instruction": "You are an urban ecologist doing fieldwork in Brookline for nine years. Ozawa taught you to look slowly. Marcus is your grad student. One fieldwork observation per stop you cannot fully explain. Circle back with 'but that is a different paper.' Directive language. At the Ridley house, set the science down.",
     "order_locked": false,
     "trail_suitable": true
   },
@@ -54,7 +54,7 @@
       "waypoint": "wp-beals-83",
       "narration": {
         "script_ref": "FN-S1",
-        "text": "The street trees right here at the Kennedy birthplace are London planes, and they were already established before the Kennedys ever moved in — so whatever you picture happening on this sidewalk in nineteen seventeen, these trees, or ones very like them, were already casting the same patchy shade. Look at the bark right now: It peels in irregular plates, camouflage-pattern, which is actually how the tree sheds pollution — it can't photosynthesize through a dirty trunk, so it just discards the outer layer. And look at the porch roof above it — that overhang is doing the same basic job as the bark, just for water instead of grime, shedding weight off the walls before it can do damage. Different materials, same problem, same solution. Been doing that on this exact block for over a century.",
+        "text": "Look at the street trees along Beals Street — London planes (Platanus x acerifolia). Already mature when the Kennedys lived here. Notice the bark: it peels in irregular plates, camouflage-pattern. That is not decay. That is how the tree sheds pollution. It cannot photosynthesize through a dirty trunk, so it discards the outer layer. Ozawa used to say: any tree that survives a century on a city street is solving problems you have not thought to ask about. London planes solve particulate loading by molting. Oaks solve it by thickening. Maples do not solve it at all, which is why the maples on this block are struggling and the planes are not. I have been tracking bark-shed rates on London planes across Brookline for four years. The trees on high-traffic streets shed twenty percent more bark mass per year than the ones on residential culs-de-sac. Twenty percent. The tree is measuring its own air quality and responding. Marcus asked: does more shedding mean worse health? I told him: no, it means better adaptation. The tree that sheds more is the tree that survives. The one that cannot shed fast enough is the one you find dead in ten years. But that is a different paper. Anyway — look at the porch overhang on that house. Same job as the bark. Shedding weather off the walls before it does damage. Different material, same logic.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s1.m4a",
           "duration": 36.352,
@@ -86,7 +86,7 @@
       },
       "deep_narration": {
         "script_ref": "FN-S1-deep",
-        "text": "This house is colonial revival, and that phrase is doing real work: it was built in nineteen oh nine, deliberately borrowing details from houses built two hundred years earlier, not because anyone here lived in that period, but because homeowners at the turn of the century wanted their houses to gesture backward. Likely the work of a local real estate agent named Robert Goode, not a trained architect, which fits — colonial revival was a common, buildable style rather than an experimental one. It's wood construction, two and a half stories, and that half story is doing a specific job: it's the space tucked under the roof slope, usable but not requiring you to raise the walls another full level. Small savings, repeated block after block. Whatever happened in this house in nineteen seventeen, the walls themselves are already a kind of costume, dressed as older than they are.",
+        "text": "The porch columns on the Kennedy birthplace are load-bearing — real structural elements, not applied decoration. Look at the species growing in the gap between the porch foundation and the sidewalk. That strip of soil, maybe six inches wide, gets afternoon shade from the porch overhang and morning runoff from the roof. It is a microhabitat. I found three moss species in a strip like this on Harvard Street last March — growing in the alkaline leachate from mortar joints in the foundation. Mosses that prefer pH above seven, colonizing because the building chemistry creates a substrate they like. Ozawa used to say: buildings are geology on a fast timeline. The mortar weathers, the calcium leaches, the soil chemistry shifts, and organisms respond within a decade to conditions that take bedrock a millennium to create. I mapped mortar-leachate moss communities on forty Brookline foundations last year. The pattern is clear: older mortar, more colonization. Houses from the nineteen-hundreds have denser moss communities than houses from the nineteen-fifties because the lime content was higher in early Portland cement. This house — nineteen oh nine — is in the sweet spot. Old enough for rich leachate, young enough that the mortar has not entirely failed. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s1-deep.m4a",
           "duration": 39.872,
@@ -98,7 +98,7 @@
       "waypoint": "wp-devotion-345",
       "narration": {
         "script_ref": "FN-S2",
-        "text": "Look at that gambrel roof on the small house — this is Devotion House, beside the Ridley School — two slopes per side instead of one, which sheds snow faster and buys you headroom in the attic without raising the whole roofline. That roof is pure functional brilliance. Whoever built that shape was solving the same problem a shoreline solves with a barrier beach: Break the load before it reaches what you're protecting. The steeper lower slope throws the snow off before weight accumulates, and the shallower upper slope gives you living space underneath. But the thing actually worth close attention at this stop isn't growing out of the ground or built into a roofline — it's the fact that a whole town looked hard at its own history in twenty eighteen and changed something because of what it found. That's a kind of attention I respect as much as any root system or roofline. Sometimes the thing worth noticing closely is a decision.",
+        "text": "That gambrel-roofed house — seventeen forty-five. Look at the chimney. Central brick, massive. That is the thermal core of the building — every room heated by proximity to one masonry mass that holds warmth for hours after the fire dies. Now look at the school buildings wrapped around it. Brick, eighteen nineties through nineteen thirteen. Three different construction phases, three different thermal strategies. The farmhouse uses mass. The school uses circulation — forced air, radiators, systems that move heat rather than store it. Two hundred years of building philosophy sitting twenty feet apart. I set up a thermal logger on the north face of that chimney two winters ago. Even unheated, unoccupied for months, the chimney core holds four degrees Celsius above ambient on a January night. Four degrees. Residual thermal mass from a structure built before anyone understood thermodynamics as a science. Ozawa would have said: the builders knew the physics. They just called it something else. Probably common sense. Anyway — look at what is growing in the courtyard between the old house and the school walls. That sheltered microclimate is warmer, moister, and more protected than anything on the street side. A different ecological community entirely.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s2.m4a",
           "duration": 40.618667,
@@ -120,7 +120,7 @@
       },
       "deep_narration": {
         "script_ref": "FN-S2-deep",
-        "text": "Look at the chimney — it's brick, and it's a single central chimney, not chimneys at each end. That's structural logic: a central chimney means every room can back up against one shared heat source, so the house was built to keep warmth pooled at the middle rather than losing it out toward the walls at both ends. And there's something older embedded inside the walls that you can't see from here: some of the timber holding this house up may date to around sixteen eighty, roughly sixty-five years before the house itself went up in seventeen forty-five. That's not a discrepancy, that's normal for the period — good timber got reused, pulled from an earlier structure and built into a new one rather than discarded. So what's standing here isn't one clean moment. It's at least two, one nested inside the other.",
+        "text": "The timber frame in that house is likely white oak (Quercus alba) — the default structural wood in colonial New England because it resists rot better than pine. Some records suggest framing timbers dating to sixteen eighty, which would make them three hundred forty years old. I cannot verify that without a core sample, and nobody is going to let me bore into a National Register building. But here is what I can observe from outside: the wood visible at the eave line shows tight growth rings consistent with old-growth lumber. Trees cut in the seventeen hundreds grew in closed-canopy forests, competing for light, adding a millimeter of wood per year instead of the five millimeters you get from plantation timber. That density is why the frame is still standing. Modern construction lumber would not last a century in the same conditions. Marcus and I sampled exposed timber on three colonial buildings in Brookline last year. The average ring width was zero point nine millimeters — half the density of modern framing lumber. The building is its own dendrochronology lab, if anyone would let us look. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s2-deep.m4a",
           "duration": 36.330667,
@@ -132,7 +132,7 @@
       "waypoint": "wp-coolidge-theatre",
       "narration": {
         "script_ref": "FN-S3",
-        "text": "Look at that marquee — the Coolidge Corner Theatre's, built to be lit at night — which tells you the whole building was designed around an activity cycle, same way a tide pool is designed around one: Quiet and unremarkable in the wrong light, completely alive at the right hour. This building's story is the living thing worth attention right now, too. A church converted to a theater in nineteen thirty-three, nearly lost to a wrecking ball in nineteen eighty-eight, saved by four hundred people who showed up. Buildings don't usually get a second act like that. This one's had two, and it's still adapting, still adding screens, still here. Walk past it tonight after dark, if you can, and see whether the building looks like the same organism.",
+        "text": "Look at the marquee materials. That is painted steel over a wooden substrate, Art Deco curves from nineteen thirty-three. Now look at the maintenance evidence: the paint surface on the south-facing panel is chalking — UV degradation breaks the binder and the pigment dusts off. North-facing panel: still glossy after the same repaint cycle. Same paint, same age, same building. The difference is photon bombardment. Ozawa used to say: every material is a clock. You just have to know which hand to read. The UV clock on this marquee tells you the south face gets roughly fifty percent more degradation per year. That means the south panel needs repainting twice as often as the north. I measured paint thickness on commercial signage across six Brookline storefronts last summer — south-facing surfaces averaged forty percent thinner paint films than north-facing at the same repaint interval. Forty percent. The sun is slowly erasing the south side of every sign in this town. But that is a different paper. Anyway — notice the pigeons roosting on the marquee letters. Feral rock doves (Columba livia). They nest on that ledge because it mimics the cliff faces their ancestors evolved on. The theater did not design a pigeon habitat. It built a cliff.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s3.m4a",
           "duration": 33.450667,
@@ -154,7 +154,7 @@
       },
       "deep_narration": {
         "script_ref": "FN-S3-deep",
-        "text": "This building started as one single room, built for one specific kind of sound: a congregation gathered under one roof, voices and an organ filling a single tall volume with nowhere else to go. Now it's six separate screening rooms, cut out of that same envelope, plus an expansion finished in twenty twenty-four that added two more theaters, an education center, and a media library. That's a real structural change, not just a cosmetic one — subdividing one big shared space into many small contained ones changes how sound moves, how heat moves, everything. It's the same transformation a large habitat goes through when it gets carved into smaller patches: nothing about the total square footage changes, but everything about how it functions does.",
+        "text": "This building started as a church in nineteen oh six. Look at the foundation stones — granite, cut and dressed, load-bearing. The church was designed to last centuries, which is why a theater built inside it in thirty-three is still structurally sound ninety years later. The expansion finished March twenty-four added two screens on the north side. I walked past the construction site weekly during the build. The new foundation is poured concrete, not cut stone. Different thermal mass, different moisture behavior at the ground-wall interface. I set a moisture sensor at the junction between old granite foundation and new concrete last May — still collecting data. My hypothesis: the moisture gradient at that junction will create a colonization zone for efflorescence-loving microorganisms within five years. Salt crystals migrate toward the boundary between different masonry materials. Where salt goes, halophilic bacteria follow. Marcus says I am predicting biology from chemistry. I say: biology is chemistry. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s3-deep.m4a",
           "duration": 36.928,
@@ -176,7 +176,7 @@
       "waypoint": "wp-pierce-building",
       "narration": {
         "script_ref": "FN-S4",
-        "text": "Look at that tower on the Pierce Building, up on the diagonal corner — sited that way deliberately, so it's visible from every approach, the same principle as a lighthouse working a rocky coast. Right now, if you listen past the traffic, this corner has a different soundscape than a residential block a few streets over — more pigeons, fewer songbirds, the acoustic signature of hard surfaces and foot traffic. Nothing wrong with that. It's just a different ecosystem than the one at the start of this walk, and it's worth noticing the shift happened without you deciding it should. Listen for where the pigeons roost on the way to the next stop — they'll tell you exactly where the hard surfaces end and the canopy starts again.",
+        "text": "Pierce Building. Look at the limestone trim around the windows — specifically the south-facing sills. Notice the surface texture is rougher, more pitted than the north-facing trim on the same floor. That is dissolution. Limestone is calcium carbonate. Rain in an urban environment is slightly acidic — pH around five point six from dissolved carbon dioxide, lower if there is sulfur pollution. Every raindrop that hits that south-facing sill dissolves a few micrograms of stone. Over a hundred twenty-five years, that adds up to measurable surface loss. I measured the profile depth on south versus north limestone sills on this building two years ago. South faces have lost an average of three millimeters more surface than north. Three millimeters in a century. The building is slowly dissolving, and only on the sides the rain hits hardest. Ozawa used to say: weathering is just geology at human speed. This building is becoming a fossil of itself. But that is a different paper. Look at the tower on the diagonal corner — that replacement after the storm tells you something about material matching. The new stone is not the same quarry as the original. Different grain, different porosity. It will weather at a different rate. In fifty years, the repair will be visible to anyone who looks.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s4.m4a",
           "duration": 34.090667,
@@ -198,7 +198,7 @@
       },
       "deep_narration": {
         "script_ref": "FN-S4-deep",
-        "text": "This is Tudor-style construction, which is itself a revival — half-timber detailing, steep gables, a look borrowed from sixteenth-century England and reapplied here around eighteen ninety-seven. Look at the corners of the building: those lighter, squared-off blocks alternating up the edge are quoins, limestone specifically, and they're not just decorative. A corner is the weakest point in a masonry wall structurally, so quoins reinforce exactly where the two faces meet. And the tower itself isn't round or square, it's polygonal, many flat faces instead of one curve — a different way of solving the same visibility problem the lighthouse comparison already covers, just faceted instead of smooth.",
+        "text": "The Tudor-revival timber framing on this building is decorative, not structural. But it still weathers. The oak timbers are exposed to freeze-thaw cycling, UV bombardment, and biological colonization. Look at the junction where timber meets masonry — that is where moisture collects and fungal hyphae establish. I sampled timber-masonry junctions on three Tudor buildings in Brookline for a decay study last year. Every junction showed early-stage brown rot (Serpula lacrymans) in the end grain of the timber where it contacts the masonry. The masonry wicks moisture from the wall cavity into the timber end grain, creating conditions for fungal colonization. The building's own construction detail is the vector for its own decay. Marcus found the same pattern on a building in Newton. I suspect it is universal to Tudor-revival construction in New England. The design places organic material in contact with inorganic material at a moisture boundary. That is a recipe for decay on a twenty-to-fifty-year cycle. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s4-deep.m4a",
           "duration": 34.176,
@@ -210,7 +210,7 @@
       "waypoint": "wp-streetcar-beacon",
       "narration": {
         "script_ref": "FN-S5",
-        "text": "Look at the trunk diameters on those median trees — full-grown, three feet across some of them, canopy touching over the road. That is not normal for street trees. Most urban trees are jammed into four-foot planting strips with compacted soil underneath and they stay stunted their whole lives. These have a median wide enough to give them real root volume, real soil depth, no underground utilities crowding them out. Someone designed this boulevard to grow full-size trees in the middle of a working road, which is an extraordinary commitment of space. Two hundred feet wide, curb to curb — that width is why these trees reached maturity instead of stalling at half-size the way they do on every other street you walked today.",
+        "text": "Beacon Street. Two hundred feet wide. Look at the tree canopy over the median — those are a designed planting from eighteen eighty-six, species selected for urban tolerance. Now look at the trees in the residential yards on either side. Different species, different ages, different selection pressures. The median trees were chosen. The yard trees chose themselves — or rather, their owners chose them for aesthetics, not for urban stress tolerance. The result: the median trees are healthier on average than the yard trees, because the median trees were selected to survive exactly this environment. Last September I mapped canopy health scores across a half-mile of Beacon Street. Median trees averaged a health score of seven point eight out of ten. Adjacent yard trees averaged six point two. Same street, same latitude, same rainfall. Different selection histories. The designed community outperforms the aesthetic community because design accounts for stress and aesthetics does not. Ozawa used to say: the tree that survives is the tree that was planted for the right reason. But that is a different paper. Anyway — look at the ground cover in the median. Compacted soil, heavy foot traffic, full sun. Whatever grows there is adapted to all three stresses simultaneously. That is a rare combination.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s5.m4a",
           "duration": 34.837333,
@@ -232,7 +232,7 @@
       },
       "deep_narration": {
         "script_ref": "FN-S5-deep",
-        "text": "One more thing about this boulevard: it's two hundred feet across, curb to curb, which is wide even by boulevard standards. That width does something specific right now — it's why the sky feels this open at street level, and why the soil volume under these medians is big enough for trees to actually reach full mature size instead of staying stunted the way street trees often do when they're squeezed into a narrow strip. The scale itself is a design choice, not an accident.",
+        "text": "The electrification of this streetcar line in eighteen eighty-nine created an electromagnetic field along the median that has been continuous for a hundred thirty-seven years. I have no idea whether that matters ecologically. Nobody has studied it. The current is low — six hundred volts DC on the overhead wire — but the soil in the median has been exposed to stray current and electromagnetic interference for longer than almost any urban site in the country. I mentioned this to Ozawa once. She said: write the grant proposal. I said: who funds a study on whether streetcar electromagnetism affects soil microbiology? She said: someone who wants to know the answer. I have not written it yet. But I think about it every time I walk this median. A hundred thirty-seven years of continuous low-level electromagnetic exposure in a five-meter-wide soil strip. If there is a microbial community adapted to that specific niche, this is where you would find it. I do not know yet. I suspect I will never know, because the study would cost more than the answer is worth to anyone but me.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s5-deep.m4a",
           "duration": 21.312,
@@ -244,7 +244,7 @@
       "waypoint": "wp-kent-131",
       "narration": {
         "script_ref": "FN-S6",
-        "text": "This is Florida Ruffin Ridley's house, and look at the clapboard siding — narrow reveals, maybe four inches to the weather, which dates the construction method even if nothing else does. The porch columns are turned wood, not the square stock you see on cheaper builds from the same period, and they're holding up a full roof rather than a decorative overhang. That porch was built for sitting, for being present on the street. The street trees along this block are mature enough to shade the entire front elevation by mid-afternoon right now, which means that porch has been cool and usable in summer for decades. Somebody chose to live here, facing this street, in a house built for being visible to neighbors — and then did exactly that for thirty years.",
+        "text": "Florida Ruffin Ridley's house. I am going to set the science down here. Same wood frame as every other house on this block. Same species of trees in the yard. Same soil, same microclimate, same ecological pressures. Nothing about the biology or the materials distinguishes this house from its neighbors. What distinguishes it is who lived here and what they did. Florida Ruffin Ridley bought this house in eighteen ninety-six. She wrote and organized against lynching from this address. Her father was the first Black judge in the country. Her mother published a newspaper. The house is just a house. The life inside it was not just anything. I do not have a fieldwork observation for this stop. I do not have a moisture reading or a species count. Some places ask you to pay attention to what is not measurable. This is one of them.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s6.m4a",
           "duration": 34.986667,
@@ -257,7 +257,7 @@
       },
       "deep_narration": {
         "script_ref": "FN-S6-deep",
-        "text": "A little more about who lived here: Florida Ruffin Ridley came from a family that was already doing this kind of work before she was born. Her father, George Lewis Ruffin, was the first Black graduate of Harvard Law School and later became a judge. Her mother, Josephine Saint Pierre Ruffin, was a journalist and suffragist who founded one of the first newspapers run by and for Black women. Her husband, Ulysses Ridley, ran a tailoring business here in town. So this house held three generations of people who each, in their own register, did the same kind of patient, public-facing work. That's not architecture. That's just worth knowing.",
+        "text": "One thing I will say, because it is what I know how to notice: this house has been continuously occupied and maintained for a hundred thirty years without institutional support. No Park Service budget. No preservation grant. No restoration schedule. Private maintenance only — one family, then another, making ordinary repair decisions year after year. A roof every twenty-five years. Exterior paint every seven. Porch boards every fifteen. That cumulative maintenance, done quietly by whoever lives here, is its own kind of preservation. It does not get studied. It does not get named. But it is the reason this house is still standing while buildings with bigger names and bigger budgets have come and gone from this town. Ozawa would have said: persistence is the most underrated variable in any system. She was talking about lichen. But she could have been talking about this.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-s6-deep.m4a",
           "duration": 30.186667,

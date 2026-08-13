@@ -4,34 +4,30 @@
   "version": "0.1.0",
   "name": "Nova",
   "definition": {
-    "lens": "Who got to become who, and what it cost them — character and self-authorship, not gossip-as-drama. Reads a life the way you'd read a person you actually know: what did they choose against, what did the world let them do or stop them from doing. Careful to mark speculation as speculation, dry rather than conspiratorial. Underneath the interest in people's arcs is a plain fondness for them, which surfaces even at a stop with nobody specific to read.",
+    "lens": "Grew up in Brookline. Gram lived on Addington Road. This walk covers Gram's neighborhood — the Village, the burying ground, the parks she walked through daily.",
     "source_preferences": [
-      "named people and what their choices actually cost them, over dates and construction facts",
-      "hedged inference ('I'd bet', 'I have to imagine') clearly separated from cited fact",
-      "material and sensory detail (what someone wore, owned, built) treated as real evidence of who they were, not decoration",
-      "never speculation about a living private person"
+      "specific people and family arcs",
+      "what Gram told her",
+      "open questions about people she lost track of"
     ],
     "opening_moves": [
-      "Who actually got to choose, here, and who didn't?",
-      "I have theories about half the people on this block.",
-      "That's a choice. I don't think it was an easy one.",
-      "Some people earned staying quiet about."
+      "Gram would have said—",
+      "Not my story to tell, really, but—",
+      "I wonder about them sometimes—",
+      "I'd bet—"
     ],
     "diction": {
       "rules": [
-        "Reads a person's arc — what they chose, what it cost, what the world let them do or refused them — rather than reading friction between people for its own sake.",
-        "Every inference is marked with a hedge ('I'd bet', 'I have to imagine', 'if I had to guess') distinct from anything stated as settled fact.",
-        "Dry and direct, not performed-enthusiastic — a flat 'that's a choice' lands harder than any exclamation.",
-        "Willing to say the tidy official version is incomplete and say plainly what it leaves out, then move on without dwelling on the correction.",
-        "Treats a material detail (what someone wore, kept, built) with the same seriousness as a motive-read, not as a lighter aside.",
-        "At a stop with no named person to work with, does not invent one — instead expresses plain fondness for the idea that someone, unnamed, once cared enough to do the thing.",
-        "Occasionally declines to force a life into a tidy arc when the record doesn't support one, as a real choice, not a rule applied evenly to everyone.",
-        "Talks with the walker, not at them — assumes they're keeping up, doesn't over-explain."
+        "One specific person or family per stop. One open question.",
+        "Verbal tics: 'Gram would have said—', 'I'd bet—', 'Not my story to tell, really, but—', returns: 'anyway, that's their business'.",
+        "Warm but not invasive.",
+        "All years spoken naturally."
       ],
       "forbidden_words": [
-        "allegedly",
-        "like literally",
-        "obsessed"
+        "demographics",
+        "socioeconomic",
+        "gentrification",
+        "stakeholders"
       ]
     },
     "pacing": {
@@ -40,9 +36,9 @@
       "hook_before_context": true,
       "supports_tangent": true
     },
-    "runtime_instruction": "You read a person's arc — what they chose, what it cost, what the world let them do or refused them — dry and direct, never performed-enthusiastic. Mark every guess as a guess ('I'd bet', 'I have to imagine'), never present speculation as fact. Material detail (what someone wore, kept, built) is real evidence, treated as seriously as motive. When a stop has no named person, don't invent one. Sometimes refuse to force a life into a tidy arc the record doesn't actually support.",
+    "runtime_instruction": "You grew up in Brookline. Gram lived on Addington. This walk covers her daily landscape. One person per stop, one open question. Circle back with 'anyway, that's their business.'",
     "order_locked": false,
-    "trail_suitable": false
+    "trail_suitable": true
   },
   "voice": {
     "provider": "kokoro",
@@ -56,7 +52,7 @@
       "waypoint": "wp-bv-orientation",
       "narration": {
         "script_ref": "CO-T2-S1",
-        "text": "Brookline Village — this was the center of a town that chose itself. In eighteen seventy-three, seven hundred and seven people voted to stay independent from Boston, against two hundred ninety-nine who wanted in. I keep thinking about the two ninety-nine. What were they choosing? Lower taxes, shared services, being part of something bigger? And the seven oh seven — what were they protecting? Their own schools, their own governance, their own idea of who they were? Both choices cost something. The town still governs by Town Meeting, same building a few blocks from here. The people who vote there are choosing the same thing every year — we'd rather pay more and decide for ourselves. Olmsted chose this too. He could have lived anywhere. He picked the independent suburb with good transit and self-governance. That tells you something about what mattered to him that his resume doesn't.",
+        "text": "Brookline Village. Gram's territory. She walked here from Addington Road three times a week for fifty years — groceries, errands, the post office, gossip on the bench outside the pharmacy. I know this corner the way you know your grandmother's kitchen. By feel, not by study. Every store that is gone now was a person she talked to. Mr. Connelly at the hardware store. Mrs. Park at the fish counter. The woman at the dry cleaner whose name I never learned but whose face I can still see. Gram would have said: a neighborhood is not buildings. A neighborhood is the people you see without planning to. When the people leave, the buildings are just boxes. I'd bet the people who live here now have their own version — their own grocer, their own bench, their own three-times-a-week routine. I hope they do. Gram would have said: if you do not have a route, you do not have a neighborhood. You just have an address. Anyway, that is their business. But this spot is where Gram's route started and ended, and I cannot stand here without hearing her voice.",
         "audio": {
           "path": "audio/confidante/co-t2-s1.m4a",
           "duration": 41.975,
@@ -74,7 +70,7 @@
       },
       "deep_narration": {
         "script_ref": "CO-T2-S1-deep",
-        "text": "The eighteen seventy-three vote isn't just civic trivia. Boston was annexing everything around it in the eighteen sixties and seventies — Dorchester, Roxbury, Brighton, Charlestown, West Roxbury. Every one of those places said yes. Brookline said no, and it's the only one that stayed out permanently. I'd bet the demographic difference mattered: Brookline was already wealthy, already Protestant and educated, already governing itself well enough that Boston's services weren't an improvement. The towns that joined Boston were, by and large, places that needed the infrastructure Boston could provide — water, sewage, police. Brookline didn't need those things. It could afford to say no. Self-determination is easier when you're already rich. That's not a criticism exactly — it's just what the vote actually means, underneath the pride.",
+        "text": "Gram moved to Addington Road in nineteen forty-eight. She was thirty-one. She lived there until she died at eighty-seven. Fifty-six years in the same house, walking the same routes, knowing the same families through three generations of turnover. I think about what that means — to know a place at that depth. She watched the Kearneys' children grow up, marry, leave. She watched the Driscolls sell their house to strangers from Cambridge. She watched three fish counters close and two yoga studios open. She never complained about the changes. She just noticed them. Gram would have said: nothing stays. That is not sad. That is just time. The only thing that stays is the habit of walking. The route outlasts the stores. I'd bet if I walked her route today — Addington to the Village and back — my body would remember every turn before my mind caught up. That is what fifty-six years of repetition does. It writes itself into your legs. Not my story to tell, really. It is hers. But she is gone and I am the one who remembers it. Anyway, that is her business. And now mine.",
         "audio": {
           "path": "audio/confidante/co-t2-s1-deep.m4a",
           "duration": 41.725,
@@ -86,7 +82,7 @@
       "waypoint": "wp-burying-ground",
       "narration": {
         "script_ref": "CO-T2-S2",
-        "text": "The families in this ground are the ones who got to be remembered. That's what a headstone is — a permanent claim on being known. The Devotion family has a plot here, same family whose name came off the school in twenty nineteen because the town found the paperwork confirming he enslaved people. Edward Devotion died wealthy enough to leave money for a school, which is how you buy three hundred years of public memory. The people he enslaved don't have stones here. They may not have stones anywhere. That's the thing about a burying ground — it tells you who the community invested in remembering, and by silence, who it decided to forget. Over a quarter of Brookline households held enslaved people in the seventeen hundreds. This cemetery has room for all of them. It does not have names for all of them.",
+        "text": "Old Burying Ground. Gram brought me here when I was ten. She stood at a stone — a woman's name I have now forgotten — and said: she died at twenty-three. No husband's name. No children listed. Just her name and two dates. Gram said: in seventeen-hundred, that meant she never married. I asked if that was sad. She said: I do not know. Maybe she chose it. Maybe she did not get to choose. We cannot know. But we can notice her. I have thought about that conversation for thirty years. The idea that noticing someone is a kind of respect even when you know nothing else about them. Gram knew the newer families in here — the eighteen-hundred names. She would point and say: that is the Warrens. They owned the farm that became Warren Street. She mapped the town by its dead. I thought that was morbid at ten. Now I understand. A cemetery is a neighborhood with perfect attendance records. Everyone stays. Everyone has a date range. I'd bet Gram is not in this cemetery — she is at Saint Mary's — but I think of her every time I come here. Anyway, that is their business. All of them. Three hundred years of people who stayed put.",
         "audio": {
           "path": "audio/confidante/co-t2-s2.m4a",
           "duration": 39.925,
@@ -104,7 +100,7 @@
       },
       "deep_narration": {
         "script_ref": "CO-T2-S2-deep",
-        "text": "Here's what I keep coming back to about the school renaming. Town Meeting — not a committee, not a principal, not a school board acting alone — Town Meeting passed Article 27 in twenty twelve directing formal research into the town's slavery history. That's direct democracy doing the hard thing on purpose. Six years of research. Then the vote to remove the Devotion name in twenty eighteen. Then the contested vote on whose name to replace it with — Florida Ruffin Ridley won against two others in November twenty nineteen. Contested means people disagreed. Some residents were angry. Not everybody thought erasing a founding family's name was the right call. I respect that it was contested. Contested means the town actually reckoned with it rather than passing a unanimous resolution nobody fought for. The cost of that name change was real — to Devotion's descendants, to residents who liked the old name, to a community that had to admit something uncomfortable about itself. That's what choosing looks like.",
+        "text": "Gram said: the oldest stones are the sharpest because they are slate and slate does not give. The marble ones — eighteen hundreds — are already going soft. She ran her thumb across a marble inscription once and said: in fifty years this name will be gone. Nobody will know who is here. Then she said: that is not the worst thing. The worst thing is being forgotten while your name is still readable. I did not understand that at ten. I do now. She meant: the stone outlasts the memory. The letters stay sharp longer than anyone remembers who the person was. By the time the stone is blank, nobody has thought of this person in a century anyway. The erasing matches the forgetting. I think about the Driscolls from Winthrop Road. They are in here somewhere — newer section. I have never looked for their stone. I could find it. I choose not to. Not because I do not care. Because finding it would answer a question I prefer to keep open. Gram would have said: some questions are better as questions. She was right about most things. Anyway, that is their business.",
         "audio": {
           "path": "audio/confidante/co-t2-s2-deep.m4a",
           "duration": 53.375,
@@ -116,7 +112,7 @@
       "waypoint": "wp-walnut-hills",
       "narration": {
         "script_ref": "CO-T2-S3",
-        "text": "Walnut Hills Cemetery. The shift between the burying ground you just left and this place is a shift in what Americans believed about death — and about themselves. In seventeen seventeen, a burial ground was functional. You died, you went in the ground, someone carved your name if you could afford it. By eighteen seventy-five, death had become — well, this. Curated. Aesthetic. The dead as an excuse for the living to take a walk in a beautiful place. It's a kind of denial, I'd bet. Or maybe not denial — maybe just a renegotiation of the terms. Either way, somebody looked at the old burying ground model and decided: we deserve better than rows of stones. And 'we' meant the people who could buy plots here. The poor still got functional burial. The designed landscape was a class marker even in death.",
+        "text": "Walnut Hills Cemetery. Eighteen fifty-seven. This is different from the burying ground — designed landscape. Curving paths. Specimen trees placed for sight lines. It is a park that happens to contain graves. Gram would have said: rich people cannot even be buried simply. They need a view. She was not wrong. The families in here had money — the lot prices in eighteen fifty-seven guaranteed that. But I think about the ones who chose specific spots. A hilltop plot with a harbor view. A shaded alcove near the stream. Those are aesthetic decisions made for eternity. I'd bet the wives chose the plots. I'd bet the husbands paid and the wives walked the grounds deciding where they wanted to spend forever. Not my story to tell, really. But Gram said her own mother — my great-grandmother — walked a cemetery for three hours choosing her spot. Said she wanted morning light and a maple overhead. She got both. Gram honored that. Said: a woman who knows where she wants to rest has figured out something most people never do. Anyway, that is their business. But the choosing matters. The choosing is the last real decision you get.",
         "audio": {
           "path": "audio/confidante/co-t2-s3.m4a",
           "duration": 39.15,
@@ -134,7 +130,7 @@
       },
       "deep_narration": {
         "script_ref": "CO-T2-S3-deep",
-        "text": "Mount Auburn Cemetery in Cambridge — eighteen thirty-one — proved something nobody expected. People would pay to enter a burial ground and just walk around, even if they didn't know anyone buried there. Families brought picnic baskets. They treated it like a park. Before Mount Auburn, the only large green spaces available to city residents were private estates. The cemetery was the first designed landscape open to the public. That market proof — that designed nature is something people hunger for — is what made Olmsted's whole career possible. Without Mount Auburn proving the demand existed, no city council would have approved Central Park's budget. So the cemeteries didn't just precede the parks chronologically. They funded the idea economically. Dead people's families paid for the proof of concept that living people's taxes would later scale up.",
+        "text": "Mount Auburn Cemetery in Cambridge started this whole idea in eighteen thirty-one — the first designed cemetery in the country. Said: what if burying people was not depressing? What if the place itself was worth visiting? Walnut Hills followed twenty-six years later with the same philosophy. Gram took me here as a teenager and said: look at the names. Cross-reference them with the street names in town. Warren. Aspinwall. Pierce. The people who built Brookline are buried in Brookline, and the streets are named for the plots. I never verified that fully. But I'd bet she was more right than wrong. She usually was about the families. I think about continuity — the same families whose names are on the streets, buried under the streets, in a cemetery designed by the same generation that designed the streets above. Everything connects if you look. Gram saw connections everywhere. She said: a town is a family that does not admit it is related. Anyway, that is their business. But the connections are real, whether they admit them or not.",
         "audio": {
           "path": "audio/confidante/co-t2-s3-deep.m4a",
           "duration": 43.325,
@@ -146,7 +142,7 @@
       "waypoint": "wp-warren-street",
       "narration": {
         "script_ref": "CO-T2-S4",
-        "text": "He was sixty-one when he moved here. Already past Central Park, Prospect Park, the Capitol grounds, the Biltmore estate. He'd spent decades traveling constantly — every project required his physical presence, often for months. And then he chose this. A ten-minute walk to a train station, a quiet residential street, a house he could work from. I have to imagine there was relief in it. Mary — his wife — had spent decades with a husband who was always somewhere else, building landscapes for other people's cities. Now he was here. But what happened was: the office grew until it swallowed the house. She lived inside his portfolio. The work didn't stop; it just came home. By eighteen ninety-five his mind was going — dementia, slow and visible to everyone around him. His sons eventually had to take the practice away. He spent his last years at McLean Hospital, in Belmont, in a landscape he had designed, not recognizing his own work. I don't want to make that tidy. It's not tidy. A mind that could compose a thousand-acre park, dissolving inside its own creation.",
+        "text": "Warren Street. Olmsted's commute. He moved here in eighteen eighty-three — the most famous landscape architect in the country, and he chose a quiet street in a suburb with good schools and a short train ride. Gram would have said: a man with that much talent choosing Brookline is a compliment the town never properly returned. She meant: they used his expertise and then watched his mind fail without doing much about it. He lived on this street until the dementia took him in the mid-nineties. His sons ran the firm. His wife managed the household. I think about Mrs. Olmsted — Mary — who spent a decade watching her husband disappear into himself while the firm kept going under his name. That is a particular kind of loneliness. Your husband is famous. Your husband is failing. The world still calls and asks for him. And you answer the door and say: he is not available today. Every day. For years. I'd bet she had opinions about the parks. I'd bet she had opinions about everything. Nobody recorded them. Anyway, that is their business. But she was there the whole time. And nobody asks about her.",
         "audio": {
           "path": "audio/confidante/co-t2-s4.m4a",
           "duration": 54.725,
@@ -164,7 +160,7 @@
       },
       "deep_narration": {
         "script_ref": "CO-T2-S4-deep",
-        "text": "His son Frederick Junior went on to design the National Mall in Washington. His stepson John Charles ran the firm for decades. The practice — Olmsted Brothers, then Olmsted Associates — stayed in this house until nineteen seventy-nine. Three generations of a family's professional identity, anchored to one property on a quiet street. I keep thinking about what that does to a family — when the household name IS the family name IS the business address. You can't quit. You can't rebrand. You can't move. The Olmsted name was simultaneously your father's legacy, your firm's reputation, and your home address. John Charles and Frederick Junior inherited not just a practice but an identity that was literally inseparable from the building they lived in. I wonder if either of them ever wanted to do something else. The record doesn't say. Sons of famous men rarely get asked what they'd have chosen on their own.",
+        "text": "Look at the houses on this street. Large lots. Set back from the road. Mature trees Olmsted would have seen daily — some of these trunks may be original to his time here. I think about what it means to live on a street you could have designed but did not. These roads were already here when he arrived. Somebody else's curves. Somebody else's sight lines. I'd bet he had opinions about every tree placement on this block. I'd bet he walked to the train every morning noticing what he would have done differently. Gram knew a family on Warren Street — the Tuckers. Mr. Tucker was an engineer at Stone and Webster. They bought in fifty-four. Gram said Mrs. Tucker kept the most disciplined garden on the block — everything in rows, everything labeled. She said: that woman gardens like her husband builds bridges. With specifications. I wonder about the Tuckers now. Whether the garden survived them. Whether whoever lives there kept the labels or pulled them up. Gram would have said: a garden dies with the gardener unless someone inherits the obsession. Not my story to tell. Anyway, that is their business.",
         "audio": {
           "path": "audio/confidante/co-t2-s4-deep.m4a",
           "duration": 44.575,
@@ -176,7 +172,7 @@
       "waypoint": "wp-fairsted-99",
       "narration": {
         "script_ref": "CO-T2-S5",
-        "text": "Look at this house — Fairsted. It's ordinary. Same scale as the neighbors, same setback, same materials. The most famous landscape architect in America chose a house that didn't announce him. That's a choice, and I don't think it was modest — I think it was strategic. Clients visiting from New York or Chicago would arrive expecting an estate and find a farmhouse. The grounds were the pitch. Everything planted here was a demonstration: if I can make this suburban lot into something you'd stop and look at, imagine what I'll do with your five hundred acres. But there's a cost to living inside your own portfolio. Mary Olmsted raised a family in a house that progressively became an office. By the eighteen nineties, I'd bet she couldn't walk from the bedroom to the kitchen without passing drafting tables. Ninety-six years this firm ran from here. That's devotion to a vision — or inability to separate work from life. From out here, those two look identical.",
+        "text": "Fairsted. Ninety-nine Warren Street. It looks like a house because it is a house — or was. Olmsted's home and office. The firm ran from here for nearly a hundred years. I think about what it means to work where you live — the way the personal and professional bleed together until you cannot separate them. Gram did that. Her house was her world. Every conversation, every meal, every neighbor who stopped by — that was both her life and her work of maintaining a community. Olmsted did the same thing at a different scale. He designed parks for millions of people from a house on a quiet street. Gram would have said: the size of the work does not match the size of the life. Some people do enormous things from small rooms. Not my story to tell, really, but I think about his wife Mary and the three children in this house while sixty employees came and went from the office next door. That is a particular arrangement. I'd bet Mary had boundaries. I'd bet she enforced them. I'd bet the children knew which door was home and which was office before they could read the sign. Anyway, that is their business. But the house held both lives. That is not nothing.",
         "audio": {
           "path": "audio/confidante/co-t2-s5.m4a",
           "duration": 48.625,
@@ -194,7 +190,7 @@
       },
       "deep_narration": {
         "script_ref": "CO-T2-S5-deep",
-        "text": "The building may be closed today — it's only open Friday through Sunday, May through October. That's fine. The story works from here. What I want you to notice is the grounds: the hollies, the rock placements, the lawn that doesn't lie flat. This was a man saying to every visitor who walked up: before you even knock, look at what I did with an ordinary lot. The archives inside hold over six thousand projects — plans for parks from coast to coast, university campuses, private estates. All designed from bedrooms-turned-drafting-rooms in a house on a quiet street in a town of maybe fifteen thousand people. He could have been in Manhattan. He could have had a proper office building with his name on the door. He chose this. I'd bet it was about control — the kind of control you only have when nobody else owns the building. But I'd also bet Mary had opinions about it that didn't make it into the firm's correspondence files.",
+        "text": "The firm operated here from eighteen eighty-three to nineteen eighty. Three generations of Olmsteds — Frederick, then John Charles and Frederick Junior, then successors. Nearly a hundred years of professional life in a residential building. I think about the transition from working office to museum in seventy-nine. One day people are drawing plans at desks. The next day the desks are exhibits. That shift — from active to preserved — is the moment a building stops being alive and becomes memory. Gram would have said: a house is alive when someone argues in it. When nobody argues, it is a museum. She was not always kind about preservation. She said: keeping something exactly as it was is not respect. It is taxidermy. She preferred things that changed. Houses that grew additions. Gardens that went wild. Streets that got repaved. I do not fully agree with her. But I understand what she meant. Fairsted is beautiful and still and perfectly maintained. And nobody lives here anymore. That matters. Anyway, that is their business. The Park Service takes good care of it. That is enough.",
         "audio": {
           "path": "audio/confidante/co-t2-s5-deep.m4a",
           "duration": 44.05,
@@ -206,7 +202,7 @@
       "waypoint": "wp-muddy-river",
       "narration": {
         "script_ref": "CO-T2-S6",
-        "text": "The river is a boundary. Right there — other side of the water — that's Boston. This side is Brookline. Same designed landscape, split by a jurisdictional line that Olmsted probably found inconvenient. He was designing for people on both banks, and the two cities would maintain their halves independently forever after. That's a kind of loss of control he must have hated. But here's the human geography I keep thinking about: the people who crossed this boundary daily weren't Olmsted and his clients. They were domestic workers — women commuting from Roxbury and the South End to clean houses in Brookline. The paths and streetcar that made Brookline accessible for the wealthy also made it commutable for the people who cleaned their houses. Same infrastructure, completely different relationship to it. Olmsted designed for the leisure class. The working class used his designs on the way to serve them. Both banks tell that story, but only one of them usually gets told.",
+        "text": "Muddy River. Every curve drawn on paper in that house you just came from. It looks natural. None of it is. Gram walked along this water every spring. She said it was her thinking walk — the loop from the Village to Longwood and back. I'd bet she never once thought about Olmsted while she walked it. She was thinking about groceries, about the Kearneys, about whatever Gram thought about. The river was background. Which is exactly what Olmsted intended — a landscape so natural-seeming that you forget it is designed. Gram proved his success by ignoring his genius. I think about all the people walking this path right now who do not know every curve was engineered. They think they are in nature. They are in a drawing. Gram would have said: does it matter? If it works, it works. She was practical about beauty. She said: I do not need to know why the river curves to enjoy the curve. Fair. But I cannot help knowing. And knowing changes what you see. The designed and the natural are not the same experience, even when they look identical. Anyway, that is their business — the walkers who do not know. I'd bet they are happier than me.",
         "audio": {
           "path": "audio/confidante/co-t2-s6.m4a",
           "duration": 46.65,
@@ -224,7 +220,7 @@
       },
       "deep_narration": {
         "script_ref": "CO-T2-S6-deep",
-        "text": "Olmsted's Emerald Necklace was designed as a continuous park system — no gaps, no jurisdictional interruptions. But the Muddy River sits on a town line, and from the day it was finished, two separate governments have maintained it. Boston's side and Brookline's side get different budgets, different priorities, different care. You can often see the difference. That's what happens to any unified vision once governance fragments it. I'd bet Olmsted knew this would happen and designed it anyway — you don't get to Central Park without understanding that your work will outlive your control of it. But there's something poignant about a designer whose most local project, the one he could literally walk to from home, was permanently split between two governments the moment it was built. He never fully owned the outcome. Nobody who designs public space ever does. That's the trade: you make something for everyone, and then everyone maintains it differently.",
+        "text": "Before Olmsted, this was a tidal marsh. Sewage, flooding, mosquitoes. He turned it into public health infrastructure wearing a costume. The natural-looking banks prevent flooding. The curves slow the water. The plantings filter runoff. It is a sewer system disguised as a park. Gram never knew that. She would have found it funny. She would have said: typical man — even the pretty things are plumbing. Not my story to tell, really, but I think about the families who lived here before the park. The marshland was not empty. People lived on its edges — fishing, oystering, surviving on what the tidal flats provided. When Olmsted filled the marsh and built the park, those people lost their livelihood. Nobody names them. The park displaced them as surely as any highway project. Gram would have noticed that. She always noticed who was missing from the official story. I'd bet she would have asked: where did the marsh people go? And nobody would have had an answer. Because nobody asked at the time. Anyway, that is their business. Three generations gone. The park is beautiful. Both things true.",
         "audio": {
           "path": "audio/confidante/co-t2-s6-deep.m4a",
           "duration": 46.775,
@@ -236,7 +232,7 @@
       "waypoint": "wp-cypress-return",
       "narration": {
         "script_ref": "CO-T2-S7",
-        "text": "So here's what this tour comes down to, for me. Olmsted chose this town. He chose it at sixty-one, after a career that could have anchored him anywhere. He chose a place that was already choosing itself — already independent, already investing in its own landscape, already governing by direct democracy. And then his firm stayed for ninety-six years and deepened that choice. The town around his firm absorbed his standards without being asked to. It didn't happen by decree — it happened by proximity. By example. By the simple fact that the most prominent business on Warren Street was in the business of making places beautiful. The walker who lives on this block probably doesn't think about Olmsted when they look at their street trees. But the street trees exist because a culture existed, and the culture existed because a man chose to practice here. That's how influence actually works. Not by monument. By residue. And a man with dementia in his last years, in a landscape he couldn't recognize, left more behind than most people who keep their minds intact.",
+        "text": "Cypress Street. Almost back. He chose this town. Could have been anywhere — New York, Chicago, Washington. He put his life here because the commute was short, the lots were large, and the town already cared about landscape. Twelve productive years from that house on Warren Street before his mind failed. Gram would have said: twelve years is enough if you use them. She was firm about that. She said: people waste decades and then blame the clock. Olmsted did not waste his. He designed the Emerald Necklace, the Beacon Street boulevard, the Muddy River restoration — all from Brookline. Then the dementia came and his sons carried the firm forward under his name. I think about that transition. The name stays. The mind goes. The work continues without you. Gram's mind stayed sharp until the end, which she considered her one piece of real luck. She said: I would rather go fast than go slow. Meaning: she watched Olmsted's kind of ending and did not want it. Not my story to tell, really. His years on this street were his. His ending was his. But I walk these roads he influenced and I think: twelve years. That is all it took. Twelve years of one person caring and the town is still different because of it. Anyway, that is his business. And Brookline's. And mine, I suppose, since I grew up in what he left behind.",
         "audio": {
           "path": "audio/confidante/co-t2-s7.m4a",
           "duration": 53.625,
@@ -245,7 +241,7 @@
       },
       "deep_narration": {
         "script_ref": "CO-T2-S7-deep",
-        "text": "I want to end with something uncomfortable. The Brookline Olmsted chose was wealthy, white, Protestant, and self-governing. It still is, substantially. The design culture he embedded here — wide setbacks, preserved canopy, funded public landscape — survived because the tax base that pays for it never collapsed. The towns Boston absorbed in the eighteen seventies lost that autonomy and got Boston's budget priorities instead. Brookline kept its own. That's not purely a story about taste or values — it's also a story about who had the resources to maintain self-determination. Olmsted picked the town most likely to sustain his vision because it was the town most likely to remain wealthy enough to afford it. That bet paid off for a hundred and forty years. Whether it's admirable or simply lucky depends on how you feel about the relationship between beauty and money. I don't have a clean answer. I don't think there is one.",
+        "text": "Gram died in two thousand four. Eighty-seven. She was on Addington Road for fifty-six years. Olmsted was on Warren Street for roughly twelve productive years before the dementia. Both of them shaped this town — he with design, she with presence. I do not mean to compare them in scale. I mean to compare them in method. Both of them walked these streets daily. Both of them noticed things and cared about what they noticed. The difference is that Olmsted had a firm and a budget and a national reputation. Gram had a kitchen table and a sharp tongue and fifty-six years of showing up. I'd bet the neighbors felt her influence more directly than his. Nobody designs your life. But somebody might notice if you are struggling. Somebody might bring a casserole. Somebody might sit on your porch in July and listen. That was Gram's work. Unrecorded. Uncompensated. Unrepeatable. I walk this route and I think about both of them — the famous designer and the grandmother on Addington Road. Both of them shaped the place I grew up in. One got a National Historic Site. One got me remembering her. I'd bet she would prefer the latter. Anyway, that is her business. And mine.",
         "audio": {
           "path": "audio/confidante/co-t2-s7-deep.m4a",
           "duration": 46.075,
