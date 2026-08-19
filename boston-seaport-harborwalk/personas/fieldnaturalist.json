@@ -105,7 +105,12 @@
       },
       "walking_cue_narration": {
         "script_ref": "FN-BOS3-cue",
-        "text": "Continue east along Northern Avenue toward Fish Pier. Pick one column and run your hand down its length when you arrive."
+        "text": "Continue east along Northern Avenue toward Fish Pier. Pick one column and run your hand down its length when you arrive.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-bos3-cue.m4a",
+          "duration": 6.725,
+          "voice_provider": "kokoro"
+        }
       }
     },
     {
