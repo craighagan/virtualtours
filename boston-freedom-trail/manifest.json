@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "boston-freedom-trail",
+  "version": "0.1.0",
+  "tour_name": "Boston Freedom Trail: What the Red Line Walks Past",
+  "region": "Boston, Massachusetts",
+  "description": "Ten stops the trail marks and two it doesn't — what's hidden in the buildings everybody photographs.",
+  "distance_km": 2.9,
+  "duration_minutes": 90,
+  "difficulty": "easy",
+  "terrain": "Flat, sidewalks and brick (cobblestones in North End)",
+  "accessibility": "Fully accessible except cobblestones near Paul Revere House",
+  "season": "Year-round",
+  "personas": [
+    {
+      "id": "oldtimer",
+      "name": "Gus"
+    },
+    {
+      "id": "operator",
+      "name": "Onyx"
+    },
+    {
+      "id": "confidante",
+      "name": "Nova"
+    },
+    {
+      "id": "fieldnaturalist",
+      "name": "Jessica"
+    }
+  ],
+  "tags": [
+    "urban",
+    "history",
+    "architecture",
+    "colonial",
+    "medium"
+  ]
+}

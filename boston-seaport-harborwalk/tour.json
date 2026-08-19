@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "boston-seaport-harborwalk",
+  "waypoints": [
+    {
+      "id": "wp-fort-point-channel",
+      "name": "Fort Point Channel",
+      "lat": 42.3519,
+      "lon": -71.0492,
+      "radius_m": 35,
+      "address": "Congress Street at Fort Point Channel",
+      "order": 1
+    },
+    {
+      "id": "wp-seaport-boulevard",
+      "name": "The Billion-Dollar Parking Lot",
+      "lat": 42.3489,
+      "lon": -71.0444,
+      "radius_m": 40,
+      "address": "Seaport Blvd at Boston Wharf Road",
+      "order": 2
+    },
+    {
+      "id": "wp-ica-fan-pier",
+      "name": "ICA / Fan Pier",
+      "lat": 42.3532,
+      "lon": -71.0427,
+      "radius_m": 35,
+      "address": "25 Harbor Shore Drive",
+      "order": 3
+    },
+    {
+      "id": "wp-fish-pier",
+      "name": "Fish Pier",
+      "lat": 42.3476,
+      "lon": -71.0371,
+      "radius_m": 35,
+      "address": "212 Northern Avenue",
+      "order": 4
+    },
+    {
+      "id": "wp-drydock",
+      "name": "Marine Industrial Park",
+      "lat": 42.344,
+      "lon": -71.0328,
+      "radius_m": 40,
+      "address": "Drydock Avenue at Design Center Place",
+      "order": 5
+    },
+    {
+      "id": "wp-carson-beach",
+      "name": "Carson Beach",
+      "lat": 42.3334,
+      "lon": -71.0347,
+      "radius_m": 50,
+      "address": "Day Boulevard at Carson Beach",
+      "order": 6
+    },
+    {
+      "id": "wp-pleasure-bay",
+      "name": "Pleasure Bay",
+      "lat": 42.3292,
+      "lon": -71.0277,
+      "radius_m": 45,
+      "address": "Day Boulevard at Pleasure Bay",
+      "order": 7
+    },
+    {
+      "id": "wp-castle-island",
+      "name": "Castle Island",
+      "lat": 42.3275,
+      "lon": -71.0101,
+      "radius_m": 50,
+      "address": "2010 William J. Day Blvd",
+      "order": 8
+    }
+  ]
+}

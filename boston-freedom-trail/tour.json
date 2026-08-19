@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "boston-freedom-trail",
+  "waypoints": [
+    {
+      "id": "wp-boston-common",
+      "name": "Boston Common",
+      "lat": 42.3554,
+      "lon": -71.0658,
+      "radius_m": 40,
+      "address": "Park Street at Tremont Street",
+      "order": 1
+    },
+    {
+      "id": "wp-park-street-church",
+      "name": "Park Street Church",
+      "lat": 42.3562,
+      "lon": -71.0618,
+      "radius_m": 30,
+      "address": "1 Park Street",
+      "order": 2
+    },
+    {
+      "id": "wp-granary",
+      "name": "Granary Burying Ground",
+      "lat": 42.3572,
+      "lon": -71.0614,
+      "radius_m": 30,
+      "address": "95 Tremont Street",
+      "order": 3
+    },
+    {
+      "id": "wp-parker-house",
+      "name": "Omni Parker House",
+      "lat": 42.3572,
+      "lon": -71.0591,
+      "radius_m": 30,
+      "address": "60 School Street",
+      "order": 4
+    },
+    {
+      "id": "wp-kings-chapel",
+      "name": "King's Chapel",
+      "lat": 42.3579,
+      "lon": -71.0588,
+      "radius_m": 30,
+      "address": "64 Beacon Street at Tremont",
+      "order": 5
+    },
+    {
+      "id": "wp-old-south",
+      "name": "Old South Meeting House",
+      "lat": 42.3568,
+      "lon": -71.0585,
+      "radius_m": 30,
+      "address": "310 Washington Street",
+      "order": 6
+    },
+    {
+      "id": "wp-old-state-house",
+      "name": "Old State House",
+      "lat": 42.3587,
+      "lon": -71.0574,
+      "radius_m": 30,
+      "address": "206 Washington Street",
+      "order": 7
+    },
+    {
+      "id": "wp-faneuil-hall",
+      "name": "Faneuil Hall",
+      "lat": 42.3601,
+      "lon": -71.0563,
+      "radius_m": 35,
+      "address": "1 Faneuil Hall Square",
+      "order": 8
+    },
+    {
+      "id": "wp-revere-house",
+      "name": "Paul Revere House",
+      "lat": 42.3636,
+      "lon": -71.0537,
+      "radius_m": 30,
+      "address": "19 North Square",
+      "order": 9
+    },
+    {
+      "id": "wp-old-north",
+      "name": "Old North Church",
+      "lat": 42.3664,
+      "lon": -71.0547,
+      "radius_m": 30,
+      "address": "193 Salem Street",
+      "order": 10
+    }
+  ]
+}

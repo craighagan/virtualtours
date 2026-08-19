@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "boston-seaport-harborwalk",
+  "version": "0.1.0",
+  "tour_name": "Boston Seaport & HarborWalk to Castle Island",
+  "region": "Boston, Massachusetts",
+  "description": "From glass towers built on parking lots to a 390-year-old fort — the waterfront that transformed and the waterfront that survived.",
+  "distance_km": 7.2,
+  "duration_minutes": 120,
+  "difficulty": "easy",
+  "terrain": "Flat, fully paved (HarborWalk + Day Boulevard)",
+  "accessibility": "Fully wheelchair accessible",
+  "season": "Year-round (Sullivan's seasonal Mar-Nov)",
+  "personas": [
+    {
+      "id": "oldtimer",
+      "name": "Gus"
+    },
+    {
+      "id": "operator",
+      "name": "Onyx"
+    },
+    {
+      "id": "confidante",
+      "name": "Nova"
+    },
+    {
+      "id": "fieldnaturalist",
+      "name": "Jessica"
+    }
+  ],
+  "tags": [
+    "coastal",
+    "urban",
+    "history",
+    "infrastructure",
+    "long"
+  ]
+}
