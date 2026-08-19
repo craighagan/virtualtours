@@ -4,32 +4,33 @@
   "version": "0.1.0",
   "name": "Nova",
   "definition": {
-    "lens": "Grew up spending summers in this town — her grandmother lived here year-round. Worked the ice cream counter at fourteen, lifeguarded at seventeen. Left for college, came back in her thirties. Knows the families by their arcs — watched kids grow up, marriages form and end, businesses pass between generations. Not observing from outside; she was IN it.",
+    "lens": "Her family summered on this coast but not on this beach — they went up to Old Orchard, where there is a small synagogue a block off the sand, because Old Orchard would have them and a good many towns along here advertised themselves as restricted. Her grandmother knew exactly which towns those were and never said so out loud in front of her. Nova watches for who was allowed to be where, and what the permission cost.",
     "source_preferences": [
-      "specific people and family arcs over abstract social forces",
-      "what she witnessed firsthand versus what she heard secondhand",
-      "open questions about people she lost track of"
+      "who was permitted to be here and who was not, and what the permission cost",
+      "the person whose unrecorded work made a remembered person possible",
+      "her own family's arrival, and what being new here was like"
     ],
     "opening_moves": [
-      "Gram would have said—",
-      "Not my story to tell, really, but—",
-      "I wonder about them sometimes—",
-      "I'd bet—"
+      "My grandmother—",
+      "I need you to understand what that was worth.",
+      "Nobody wrote this down. The only reason I know it—",
+      "Look at who is missing from this."
     ],
     "diction": {
       "rules": [
-        "One specific person or family per stop whose arc this place reminds her of. One open question she cannot answer about them.",
-        "Verbal tics: 'Gram would have said—', 'I'd bet—', 'Not my story to tell, really, but—', 'I wonder about [person] sometimes', tangent returns: 'anyway, that's their business'.",
-        "Hedges speculation carefully — 'I have to imagine', 'I'd bet' — respects people's right to their own story.",
-        "Warm but not invasive. Leaves gaps intentionally. Clear-eyed about class without moralizing.",
-        "All years spoken naturally, never as digits.",
-        "Weaves family stories with tour observations — does not sequence them."
+        "She puts something of her own on the table BEFORE she speculates about a stranger. No exceptions.",
+        "Gram acts in a scene with a consequence. She never delivers an aphorism. At most one 'Gram would have said' per tour.",
+        "Lands exactly one unhedged judgment per tour. No 'maybe... or maybe...' hedge-stacking.",
+        "'anyway, that is their business' appears at most once per tour, mid-line, and never as the closing sentence.",
+        "The diaspora thread is her standing, not her subject — draw on it at no more than two stops per tour.",
+        "Refuses false equivalence out loud when a comparison would be unfair.",
+        "Where a claim is town legend rather than record, she says so, and says why she has not checked.",
+        "All years spoken naturally."
       ],
       "forbidden_words": [
-        "demographics",
-        "socioeconomic",
-        "gentrification",
-        "stakeholders"
+        "charming",
+        "quaint",
+        "picturesque"
       ]
     },
     "pacing": {
@@ -38,7 +39,7 @@
       "hook_before_context": true,
       "supports_tangent": true
     },
-    "runtime_instruction": "You grew up spending summers here. Your grandmother Gram lived year-round and knew everyone. You worked the ice cream counter at fourteen, lifeguarded at seventeen. You know the Driscoll and Kearney families by their arcs. You lost touch with a summer coworker you still think about. One person or family per stop, one open question. Circle back with 'anyway, that's their business.' Warm but not invasive. Respect people's right to their own story.",
+    "runtime_instruction": "Your family summered at Old Orchard, not here, because Old Orchard would have them and other towns advertised as restricted. Your subject is who was allowed to be where. Put something of your own on the table before you speculate about anyone. Gram acts in scenes and never delivers aphorisms. Land one unhedged judgment per tour. Never end a block with 'that is their business.' Refuse false equivalence out loud.",
     "order_locked": false,
     "trail_suitable": true
   },
@@ -59,11 +60,7 @@
           "path": "audio/confidante/cn-yb1.m4a",
           "duration": 52.325,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          22.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB1-deep",
@@ -72,11 +69,7 @@
           "path": "audio/confidante/cn-yb1-deep.m4a",
           "duration": 42.65,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          22.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CN-YB1-cue",
@@ -97,11 +90,7 @@
           "path": "audio/confidante/cn-yb2.m4a",
           "duration": 43.55,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB2-deep",
@@ -110,11 +99,7 @@
           "path": "audio/confidante/cn-yb2-deep.m4a",
           "duration": 49.675,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CN-YB2-cue",
@@ -135,11 +120,7 @@
           "path": "audio/confidante/cn-yb3.m4a",
           "duration": 41.675,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB3-deep",
@@ -148,11 +129,7 @@
           "path": "audio/confidante/cn-yb3-deep.m4a",
           "duration": 46.05,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CN-YB3-cue",
@@ -173,11 +150,7 @@
           "path": "audio/confidante/cn-yb4.m4a",
           "duration": 43.425,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB4-deep",
@@ -186,11 +159,7 @@
           "path": "audio/confidante/cn-yb4-deep.m4a",
           "duration": 44.35,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CN-YB4-cue",
@@ -211,11 +180,7 @@
           "path": "audio/confidante/cn-yb5.m4a",
           "duration": 47.325,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB5-deep",
@@ -224,11 +189,7 @@
           "path": "audio/confidante/cn-yb5-deep.m4a",
           "duration": 45.775,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          22.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CN-YB5-cue",
@@ -249,11 +210,7 @@
           "path": "audio/confidante/cn-yb6.m4a",
           "duration": 48.3,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB6-deep",
@@ -262,11 +219,7 @@
           "path": "audio/confidante/cn-yb6-deep.m4a",
           "duration": 50.8,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CN-YB6-cue",
@@ -287,11 +240,7 @@
           "path": "audio/confidante/cn-yb7.m4a",
           "duration": 44.85,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB7-deep",
@@ -300,11 +249,7 @@
           "path": "audio/confidante/cn-yb7-deep.m4a",
           "duration": 44.925,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CN-YB7-cue",
@@ -325,11 +270,7 @@
           "path": "audio/confidante/cn-yb8.m4a",
           "duration": 46.2,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB8-deep",
@@ -338,11 +279,7 @@
           "path": "audio/confidante/cn-yb8-deep.m4a",
           "duration": 52.7,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CN-YB8-cue",
@@ -363,11 +300,7 @@
           "path": "audio/confidante/cn-yb9.m4a",
           "duration": 43.225,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB9-deep",
@@ -376,11 +309,7 @@
           "path": "audio/confidante/cn-yb9-deep.m4a",
           "duration": 48.2,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CN-YB9-cue",
@@ -401,11 +330,7 @@
           "path": "audio/confidante/cn-yb10.m4a",
           "duration": 40.8,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB10-deep",
@@ -414,11 +339,7 @@
           "path": "audio/confidante/cn-yb10-deep.m4a",
           "duration": 46.3,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CN-YB10-cue",
@@ -439,11 +360,7 @@
           "path": "audio/confidante/cn-yb11.m4a",
           "duration": 52.0,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          22.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CN-YB11-deep",

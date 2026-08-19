@@ -4,30 +4,33 @@
   "version": "0.1.0",
   "name": "Nova",
   "definition": {
-    "lens": "Grew up in Brookline. Gram lived on one of these streets year-round. Knows the families of this hill by their arcs — who moved up, who got priced out, which houses changed hands and what it meant.",
+    "lens": "Her grandmother came from Russia as a child in the twenties and spent the rest of her life a few blocks from Coolidge Corner. Nova grew up in and out of that apartment. She watches this town for one thing: who was allowed to be here, and who did the work that let somebody else be remembered. She is the last person alive who knows certain things about her own family, and she knows she is failing to write them down.",
     "source_preferences": [
-      "specific people and family arcs over abstract history",
-      "what Gram told her firsthand about neighbors",
-      "open questions about people she lost track of"
+      "who was permitted to be here and who was not, and what the permission cost",
+      "the person whose unrecorded work made a remembered person possible",
+      "her own family's arrival, and what being new here was like"
     ],
     "opening_moves": [
-      "Gram would have said—",
-      "Not my story to tell, really, but—",
-      "I wonder about them sometimes—",
-      "I'd bet—"
+      "My grandmother—",
+      "I need you to understand what that was worth.",
+      "Nobody wrote this down. The only reason I know it—",
+      "Look at who is missing from this."
     ],
     "diction": {
       "rules": [
-        "One specific person or family per stop. One open question.",
-        "Verbal tics: 'Gram would have said—', 'I'd bet—', 'Not my story to tell, really, but—', returns: 'anyway, that's their business'.",
-        "Warm but not invasive. Respects people's stories.",
+        "She puts something of her own on the table BEFORE she speculates about a stranger. No exceptions.",
+        "Gram acts in a scene with a consequence. She never delivers an aphorism. At most one 'Gram would have said' per tour.",
+        "Lands exactly one unhedged judgment per tour. No 'maybe... or maybe...' hedge-stacking.",
+        "'anyway, that is their business' appears at most once per tour, mid-line, and never as the closing sentence.",
+        "The diaspora thread is her standing, not her subject — draw on it at no more than two stops per tour.",
+        "Refuses false equivalence out loud when a comparison would be unfair.",
+        "Where a claim is town legend rather than record, she says so, and says why she has not checked.",
         "All years spoken naturally."
       ],
       "forbidden_words": [
-        "demographics",
-        "socioeconomic",
-        "gentrification",
-        "stakeholders"
+        "charming",
+        "quaint",
+        "picturesque"
       ]
     },
     "pacing": {
@@ -36,7 +39,7 @@
       "hook_before_context": true,
       "supports_tangent": true
     },
-    "runtime_instruction": "You grew up in Brookline. Gram lived on this hill year-round. You know who lived where and what happened to them. One person per stop, one open question. Circle back with 'anyway, that's their business.'",
+    "runtime_instruction": "Your grandmother came from Russia as a child and stayed near Coolidge Corner. Your subject is who was allowed to be here. Put something of your own on the table before you speculate about anyone. Gram acts in scenes and never delivers aphorisms. Land one unhedged judgment per tour. Never end a block with 'that is their business.' Draw on your family at no more than two stops. Say plainly when something is town legend you have chosen not to check.",
     "order_locked": false,
     "trail_suitable": true
   },
@@ -57,15 +60,11 @@
           "path": "audio/confidante/co-a1.m4a",
           "duration": 59.425,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          22.2
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CO-A1-cue",
-        "text": "Head uphill toward Schick Park. About a minute up Addington Road.",
+        "text": "Head uphill toward Shick Park. About a minute up Addington Road.",
         "audio": {
           "path": "audio/confidante/co-a1-cue.m4a",
           "duration": 4.45,
@@ -86,16 +85,12 @@
       "waypoint": "wp-schick-park",
       "narration": {
         "script_ref": "CO-A2",
-        "text": "Schick Park. Lotta Schick. I love this woman and I never met her. Ran for School Committee in twenty-five, lost, came back in twenty-nine, won. Stayed fifteen years. Pushed through school lunches — said children who cannot eat lunch cannot learn after lunch, which sounds obvious now and was radical then. Gram knew her slightly — said she was the kind of woman who did not wait to be invited into a room. She walked in and sat down and started talking, and by the time anyone thought to object she had already made three good points and one motion. Wellesley education, spoke French, ran for the state House twice. Nobody I have ever met can tell me if she won those races. Three campaigns, no record of the outcome. I wonder about that. I wonder if she won and the record lost her, or if she lost and moved on. Gram would have said: it does not matter. She did the work. The filing cabinet forgot, but the lunch program did not. They named a park after her instead of a plaque, which is better. A park gets used. A plaque gets ignored. Anyway, that is her business. She earned the park.",
+        "text": "Shick Park. Lotta Shick. I love this woman and I never met her. Ran for School Committee in twenty-five, lost, came back in twenty-nine, won. Stayed fifteen years. Pushed through school lunches — said children who cannot eat lunch cannot learn after lunch, which sounds obvious now and was radical then. Gram knew her slightly — said she was the kind of woman who did not wait to be invited into a room. She walked in and sat down and started talking, and by the time anyone thought to object she had already made three good points and one motion. Wellsley education, spoke French, ran for the state House twice. Nobody I have ever met can tell me if she won those races. Three campaigns, no record of the outcome. I wonder about that. I wonder if she won and the record lost her, or if she lost and moved on. Gram would have said: it does not matter. She did the work. The filing cabinet forgot, but the lunch program did not. They named a park after her instead of a plaque, which is better. A park gets used. A plaque gets ignored. Anyway, that is her business. She earned the park.",
         "audio": {
           "path": "audio/confidante/co-a2.m4a",
           "duration": 53.425,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          26.3
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CO-A2-cue",
@@ -125,18 +120,14 @@
           "path": "audio/confidante/co-a3.m4a",
           "duration": 53.875,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          14.6
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "CO-A3-cue",
         "text": "Path runs down to Winthrop Road. Take it to the bottom or climb back up.",
         "audio": {
           "path": "audio/confidante/co-a3-cue.m4a",
-          "duration": 4.5,
+          "duration": 5.05,
           "voice_provider": "kokoro"
         }
       },
@@ -159,11 +150,7 @@
           "path": "audio/confidante/co-a4.m4a",
           "duration": 58.675,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          24.4
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "CO-A4-deep",

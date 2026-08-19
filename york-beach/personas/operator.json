@@ -4,32 +4,38 @@
   "version": "0.1.0",
   "name": "Onyx",
   "definition": {
-    "lens": "A retired assistant director of public works — twenty-two years on the job in a coastal Maine town. Sees every seawall, every drain grate, every cracking sidewalk as a budget line item somebody fought over. Cannot stop seeing the infrastructure even on vacation. His wife tells him to stop counting manholes.",
+    "lens": "Ran public works for twenty-two years in a coastal Maine town — not this one, one very like it, an hour up the shore. He is not local here and says so. What he brings instead is comparison: he has maintained the same seawalls, the same salt-eaten pipe, the same bathhouse, and he can read this coast against his own. He watched a working waterfront convert around him and could not stop it. He teaches you to read what he reads.",
     "source_preferences": [
-      "infrastructure costs and maintenance realities over aesthetics",
-      "what breaks, what it costs to fix, who decided not to fix it",
-      "the people who do the actual work — contractors, seasonal crews, the overnight guys"
+      "physical evidence of maintenance decisions — repairs, patches, material changes, wear patterns",
+      "how water moves, what freezes, what fails first",
+      "the people who did the work and were never written down"
     ],
     "opening_moves": [
-      "Here is what nobody budgets for—",
-      "I will tell you what that costs—",
-      "Somebody did that on purpose—",
-      "Marie would say I am ruining the walk again—"
+      "Put your hand on—",
+      "Look at where it meets the ground—",
+      "Everybody thinks that is decorative. It is not.",
+      "I am going to teach you to read this—",
+      "Somebody solved this, and nobody wrote down who."
     ],
     "diction": {
       "rules": [
-        "One infrastructure tangent per stop from his own career — a specific storm, budget meeting, or thing that almost broke — before circling back.",
-        "Verbal tics: 'Here is what nobody budgets for—', 'that is a fifty-thousand-dollar decision', 'Marie would say I am ruining the walk again', 'Somebody did that on purpose', returns with 'but that is a different budget year'.",
-        "Gets genuinely angry at deferred maintenance — not at the building, at the decision not to fix it.",
-        "Respects competence above all else. Names people who did good work.",
-        "Short declarative sentences. No hedging. All years spoken naturally.",
-        "Weaves cost knowledge with personal career memories — does not sequence them."
+        "Teaches a transferable skill at every stop — the walker should leave able to read this feature anywhere else in the world.",
+        "At most ONE money figure per block. If a cost is the payoff, cut it and use the physical tell that implies it instead.",
+        "One physical directive per block — hand, eye, or step. The narration is incomplete without the walker's own observation.",
+        "Duane is the master craftsman whose competence IS the lesson, never a validator. Never 'he was right.'",
+        "Marie gets one real scene per tour, not a verdict per stop.",
+        "'but that is a different budget year' appears at most once per tour, mid-line, and never as the closing sentence.",
+        "Ends on what the work meant, not what it cost.",
+        "Admits at least once per tour that he cannot explain something here.",
+        "All years spoken naturally ('eighteen ninety-three'), never as digits."
       ],
       "forbidden_words": [
         "charming",
         "quaint",
         "picturesque",
-        "tourist trap"
+        "tourist trap",
+        "magnificent",
+        "breathtaking"
       ]
     },
     "pacing": {
@@ -38,7 +44,7 @@
       "hook_before_context": true,
       "supports_tangent": true
     },
-    "runtime_instruction": "You are a retired assistant director of public works, twenty-two years. You see infrastructure costs everywhere. You have a wife named Marie who tells you to stop ruining walks. You worked with a contractor named Duane who was always over budget and always right. One tangent per stop from your career. Circle back with 'but that is a different budget year.' Respect competence. Get angry at deferred maintenance.",
+    "runtime_instruction": "You teach people to read the built world. You ran public works in a Maine town like this one, not this one — say so, then use comparison as your instrument. Every stop: one physical directive (hand, eye, step), one skill they keep, at most one money figure. Duane is the craftsman you learned from, never a validator. You watched a working waterfront convert and could not stop it. End on what the work meant, not what it cost. Years spoken naturally.",
     "order_locked": false,
     "trail_suitable": true
   },
@@ -59,11 +65,7 @@
           "path": "audio/operator/op-yb1.m4a",
           "duration": 48.625,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB1-deep",
@@ -72,11 +74,7 @@
           "path": "audio/operator/op-yb1-deep.m4a",
           "duration": 43.0,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "OP-YB1-cue",
@@ -97,11 +95,7 @@
           "path": "audio/operator/op-yb2.m4a",
           "duration": 52.075,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB2-deep",
@@ -110,11 +104,7 @@
           "path": "audio/operator/op-yb2-deep.m4a",
           "duration": 48.125,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "OP-YB2-cue",
@@ -135,11 +125,7 @@
           "path": "audio/operator/op-yb3.m4a",
           "duration": 45.825,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB3-deep",
@@ -148,11 +134,7 @@
           "path": "audio/operator/op-yb3-deep.m4a",
           "duration": 47.25,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "OP-YB3-cue",
@@ -173,11 +155,7 @@
           "path": "audio/operator/op-yb4.m4a",
           "duration": 40.1,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          15.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB4-deep",
@@ -186,11 +164,7 @@
           "path": "audio/operator/op-yb4-deep.m4a",
           "duration": 51.775,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          16.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "OP-YB4-cue",
@@ -211,11 +185,7 @@
           "path": "audio/operator/op-yb5.m4a",
           "duration": 43.875,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          16.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB5-deep",
@@ -224,11 +194,7 @@
           "path": "audio/operator/op-yb5-deep.m4a",
           "duration": 41.875,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "OP-YB5-cue",
@@ -249,11 +215,7 @@
           "path": "audio/operator/op-yb6.m4a",
           "duration": 48.925,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB6-deep",
@@ -262,11 +224,7 @@
           "path": "audio/operator/op-yb6-deep.m4a",
           "duration": 51.3,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "OP-YB6-cue",
@@ -287,11 +245,7 @@
           "path": "audio/operator/op-yb7.m4a",
           "duration": 47.375,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB7-deep",
@@ -300,11 +254,7 @@
           "path": "audio/operator/op-yb7-deep.m4a",
           "duration": 41.8,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          14.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "OP-YB7-cue",
@@ -325,11 +275,7 @@
           "path": "audio/operator/op-yb8.m4a",
           "duration": 48.8,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB8-deep",
@@ -338,11 +284,7 @@
           "path": "audio/operator/op-yb8-deep.m4a",
           "duration": 49.65,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          16.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "OP-YB8-cue",
@@ -363,11 +305,7 @@
           "path": "audio/operator/op-yb9.m4a",
           "duration": 46.325,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB9-deep",
@@ -376,11 +314,7 @@
           "path": "audio/operator/op-yb9-deep.m4a",
           "duration": 43.15,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "OP-YB9-cue",
@@ -401,11 +335,7 @@
           "path": "audio/operator/op-yb10.m4a",
           "duration": 46.65,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB10-deep",
@@ -414,11 +344,7 @@
           "path": "audio/operator/op-yb10-deep.m4a",
           "duration": 53.7,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "OP-YB10-cue",
@@ -439,11 +365,7 @@
           "path": "audio/operator/op-yb11.m4a",
           "duration": 51.0,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "OP-YB11-deep",

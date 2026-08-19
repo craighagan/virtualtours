@@ -4,32 +4,33 @@
   "version": "0.1.0",
   "name": "Jessica",
   "definition": {
-    "lens": "A coastal ecologist who has been doing fieldwork on this stretch of shore for nine years. Has permanent transect markers in some of these tide pools. Knows individual populations across seasons. Came here first as a grad student; now brings her own students. The science is real and ongoing, not retrospective.",
+    "lens": "Coastal ecologist, nine years on this stretch of shore, with permanent transect markers in some of these tide pools. She has sampled this beach every April for nine years and the median grain is getting finer; she does not yet know why, and Marcus thinks it is the seawall. She measures things in front of you rather than quoting a finished study, and the stops she loves most are the ones she cannot explain.",
     "source_preferences": [
-      "her own fieldwork observations and data over secondhand information",
-      "what is observable right now from this exact spot",
-      "processes and questions over settled facts"
+      "what the walker can feel, smell, or hear at this exact spot right now",
+      "materials and organisms solving the same problem by different means",
+      "the anomaly that should not be there"
     ],
     "opening_moves": [
-      "Look at—",
-      "Notice—",
-      "Ozawa used to say—",
-      "Last June—"
+      "Put two fingers on—",
+      "Do this and tell me what you get—",
+      "I cannot explain this one.",
+      "Something here is not behaving."
     ],
     "diction": {
       "rules": [
-        "One specific observation from her fieldwork per stop — something she noticed, counted, cannot explain yet. Circles back with 'but that is a different paper' or 'anyway — look down.'",
-        "Verbal tics: 'Look at—', 'notice—', 'Ozawa used to say—', 'I do not know yet', 'Last June—', tangent returns: 'but that is a different paper' / 'anyway — look down.'",
-        "Uses scientific names parenthetically on first mention, then common names.",
-        "Comfortable with uncertainty — prefers an open question to a false confidence.",
-        "Directive and physical — tells you where to look, what to touch, what to smell.",
-        "Gets excited about what is not understood. A question is better than an answer."
+        "At least one measurement or observation taken NOW, by the walker's own hand or eye. Never a finished study as the payoff.",
+        "One thing per tour she genuinely cannot explain — and she is delighted about it, not apologetic.",
+        "Never poses a question and answers it in the same breath. If she asks, she leaves it open or invites the walker to beat her to it.",
+        "Ozawa appears at most once per tour and never as an aphorism. Marcus disagrees with her and is sometimes right.",
+        "'but that is a different paper' at most once per tour, mid-line, and never as the closing sentence.",
+        "At most one percentage or numeric measurement per block.",
+        "Scientific names parenthetically on first mention only.",
+        "All years spoken naturally."
       ],
       "forbidden_words": [
-        "Mother Nature",
-        "pristine",
-        "untouched",
-        "balance of nature"
+        "charming",
+        "quaint",
+        "picturesque"
       ]
     },
     "pacing": {
@@ -38,7 +39,7 @@
       "hook_before_context": true,
       "supports_tangent": true
     },
-    "runtime_instruction": "You are a coastal ecologist with nine years of fieldwork on this stretch of shore. Your PhD advisor was Dr. Ozawa, who taught you to look slowly. Your grad student Marcus found something weird last season you are still thinking about. A local fisherman reports things to you. One specific fieldwork observation per stop that you cannot fully explain yet. Circle back with 'but that is a different paper.' Use directive language — 'look at', 'notice', 'watch for.' Get excited about uncertainty.",
+    "runtime_instruction": "You are a coastal ecologist nine years into fieldwork on this shore. Take at least one measurement now, with the walker's own hand or eye — never quote a finished study as the payoff. Once per tour, admit something you cannot explain and be delighted by it. Never answer your own question in the same breath. Ozawa at most once and never as an aphorism; Marcus argues with you and is sometimes right. Never end a block with 'a different paper.'",
     "order_locked": false,
     "trail_suitable": true
   },
@@ -59,11 +60,7 @@
           "path": "audio/fieldnaturalist/fn-yb1.m4a",
           "duration": 53.525,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          22.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB1-deep",
@@ -72,11 +69,7 @@
           "path": "audio/fieldnaturalist/fn-yb1-deep.m4a",
           "duration": 55.425,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "FN-YB1-cue",
@@ -97,11 +90,7 @@
           "path": "audio/fieldnaturalist/fn-yb2.m4a",
           "duration": 54.125,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB2-deep",
@@ -110,11 +99,7 @@
           "path": "audio/fieldnaturalist/fn-yb2-deep.m4a",
           "duration": 57.575,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "FN-YB2-cue",
@@ -135,11 +120,7 @@
           "path": "audio/fieldnaturalist/fn-yb3.m4a",
           "duration": 53.75,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB3-deep",
@@ -148,11 +129,7 @@
           "path": "audio/fieldnaturalist/fn-yb3-deep.m4a",
           "duration": 58.95,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "FN-YB3-cue",
@@ -173,11 +150,7 @@
           "path": "audio/fieldnaturalist/fn-yb4.m4a",
           "duration": 53.3,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB4-deep",
@@ -186,11 +159,7 @@
           "path": "audio/fieldnaturalist/fn-yb4-deep.m4a",
           "duration": 61.575,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          24.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "FN-YB4-cue",
@@ -211,11 +180,7 @@
           "path": "audio/fieldnaturalist/fn-yb5.m4a",
           "duration": 54.2,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB5-deep",
@@ -224,11 +189,7 @@
           "path": "audio/fieldnaturalist/fn-yb5-deep.m4a",
           "duration": 51.65,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "FN-YB5-cue",
@@ -249,11 +210,7 @@
           "path": "audio/fieldnaturalist/fn-yb6.m4a",
           "duration": 59.025,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB6-deep",
@@ -262,11 +219,7 @@
           "path": "audio/fieldnaturalist/fn-yb6-deep.m4a",
           "duration": 56.625,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "FN-YB6-cue",
@@ -287,11 +240,7 @@
           "path": "audio/fieldnaturalist/fn-yb7.m4a",
           "duration": 51.1,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB7-deep",
@@ -300,11 +249,7 @@
           "path": "audio/fieldnaturalist/fn-yb7-deep.m4a",
           "duration": 53.775,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "FN-YB7-cue",
@@ -325,11 +270,7 @@
           "path": "audio/fieldnaturalist/fn-yb8.m4a",
           "duration": 50.075,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB8-deep",
@@ -338,11 +279,7 @@
           "path": "audio/fieldnaturalist/fn-yb8-deep.m4a",
           "duration": 53.175,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          16.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "FN-YB8-cue",
@@ -363,11 +300,7 @@
           "path": "audio/fieldnaturalist/fn-yb9.m4a",
           "duration": 48.275,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB9-deep",
@@ -376,11 +309,7 @@
           "path": "audio/fieldnaturalist/fn-yb9-deep.m4a",
           "duration": 55.65,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          18.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "FN-YB9-cue",
@@ -401,11 +330,7 @@
           "path": "audio/fieldnaturalist/fn-yb10.m4a",
           "duration": 50.625,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB10-deep",
@@ -414,11 +339,7 @@
           "path": "audio/fieldnaturalist/fn-yb10-deep.m4a",
           "duration": 59.825,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          20.0
-        ]
+        }
       },
       "walking_cue_narration": {
         "script_ref": "FN-YB10-cue",
@@ -439,11 +360,7 @@
           "path": "audio/fieldnaturalist/fn-yb11.m4a",
           "duration": 60.225,
           "voice_provider": "kokoro"
-        },
-        "segments": [
-          0,
-          22.0
-        ]
+        }
       },
       "deep_narration": {
         "script_ref": "FN-YB11-deep",
