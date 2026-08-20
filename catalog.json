@@ -1,7 +1,7 @@
 {
   "name": "Virtual Tours",
   "description": "Walking tours with AI narrators for the Footnotes app",
-  "updated": "2026-08-13",
+  "updated": "2026-08-19",
   "tours": [
     {
       "id": "york-beach-short-sands-to-nubble",
@@ -28,7 +28,7 @@
     {
       "id": "york-village-historic",
       "title": "York Village: Maine's First Charter",
-      "description": "A walk through one of New England's oldest settlements \u2014 chartered in 1641, older than most of Massachusetts.",
+      "description": "A walk through one of New England's oldest settlements — chartered in 1641, older than most of Massachusetts.",
       "stops": 6,
       "distance_meters": 800,
       "duration_minutes": 35,
@@ -72,7 +72,7 @@
     {
       "id": "brookline-aspinwall-paths",
       "title": "Aspinwall Hill Paths",
-      "description": "A loop connecting multiple named pedestrian paths on Aspinwall Hill \u2014 stone stairways built in the 1890s.",
+      "description": "A loop connecting multiple named pedestrian paths on Aspinwall Hill — stone stairways built in the 1890s.",
       "stops": 8,
       "distance_meters": 2800,
       "duration_minutes": 75,
@@ -155,6 +155,52 @@
       ],
       "size_bytes": 14231424,
       "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/brookline-olmsted.tourguide",
+      "version": "2.0.0"
+    },
+    {
+      "id": "boston-seaport-harborwalk",
+      "title": "Boston Seaport & HarborWalk to Castle Island",
+      "description": "From glass towers built on parking lots to a 390-year-old fort — the waterfront that transformed and the waterfront that survived.",
+      "stops": 8,
+      "distance_meters": 7200,
+      "duration_minutes": 120,
+      "tags": [
+        "coastal",
+        "urban",
+        "boston",
+        "long"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 6800000,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/boston-seaport-harborwalk.tourguide",
+      "version": "2.0.0"
+    },
+    {
+      "id": "boston-freedom-trail",
+      "title": "Boston Freedom Trail: What the Red Line Walks Past",
+      "description": "Ten stops the trail marks and two it doesn't — what's hidden in the buildings everybody photographs.",
+      "stops": 10,
+      "distance_meters": 2900,
+      "duration_minutes": 90,
+      "tags": [
+        "historic",
+        "urban",
+        "boston",
+        "colonial"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 7200000,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/boston-freedom-trail.tourguide",
       "version": "2.0.0"
     }
   ]
