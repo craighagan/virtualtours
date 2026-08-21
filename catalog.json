@@ -1,7 +1,7 @@
 {
   "name": "Virtual Tours",
   "description": "Walking tours with AI narrators for the Footnotes app",
-  "updated": "2026-08-19",
+  "updated": "2026-08-21",
   "tours": [
     {
       "id": "york-beach-short-sands-to-nubble",
@@ -201,6 +201,30 @@
       ],
       "size_bytes": 7200000,
       "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/boston-freedom-trail.tourguide",
+      "version": "2.0.0"
+    },
+    {
+      "id": "mv-oak-bluffs",
+      "title": "Oak Bluffs: The Town That Was Built to Be Looked At",
+      "description": "Eleven stops through the only planned town on Martha's Vineyard — a Methodist tent city that turned into gingerbread, a carousel older than the light bulb, and a beach that turned an insult into an address.",
+      "stops": 11,
+      "distance_meters": 3400,
+      "duration_minutes": 100,
+      "tags": [
+        "island",
+        "historic",
+        "marthas-vineyard",
+        "victorian",
+        "african-american-heritage"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 9083985,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/mv-oak-bluffs.tourguide",
       "version": "2.0.0"
     }
   ]

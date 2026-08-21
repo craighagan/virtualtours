@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "mv-oak-bluffs",
+  "waypoints": [
+    {
+      "id": "wp-ob-wharf",
+      "name": "Steamship Wharf",
+      "lat": 41.4575,
+      "lon": -70.556,
+      "radius_m": 45,
+      "address": "Seaview Avenue at the Steamship Authority pier",
+      "order": 1
+    },
+    {
+      "id": "wp-ob-ocean-park",
+      "name": "Ocean Park",
+      "lat": 41.4556,
+      "lon": -70.556,
+      "radius_m": 50,
+      "address": "Ocean Park, Seaview Avenue",
+      "order": 2
+    },
+    {
+      "id": "wp-ob-tabernacle",
+      "name": "The Tabernacle",
+      "lat": 41.4556,
+      "lon": -70.5602,
+      "radius_m": 35,
+      "address": "Trinity Park, Wesleyan Grove",
+      "order": 3
+    },
+    {
+      "id": "wp-ob-cottages",
+      "name": "The Gingerbread Cottages",
+      "lat": 41.4553,
+      "lon": -70.5596,
+      "radius_m": 35,
+      "address": "Trinity Park loop, Wesleyan Grove",
+      "order": 4
+    },
+    {
+      "id": "wp-ob-cottage-museum",
+      "name": "The Cottage Museum",
+      "lat": 41.4558,
+      "lon": -70.5598,
+      "radius_m": 25,
+      "address": "1 Trinity Park",
+      "order": 5
+    },
+    {
+      "id": "wp-ob-union-chapel",
+      "name": "Union Chapel",
+      "lat": 41.4546,
+      "lon": -70.5581,
+      "radius_m": 30,
+      "address": "Kennebec Avenue at Samoset",
+      "order": 6
+    },
+    {
+      "id": "wp-ob-circuit-ave",
+      "name": "Circuit Avenue",
+      "lat": 41.4564,
+      "lon": -70.558,
+      "radius_m": 40,
+      "address": "Circuit Avenue",
+      "order": 7
+    },
+    {
+      "id": "wp-ob-flying-horses",
+      "name": "The Flying Horses",
+      "lat": 41.4574,
+      "lon": -70.5571,
+      "radius_m": 25,
+      "address": "Oak Bluffs Avenue at Lake Avenue",
+      "order": 8
+    },
+    {
+      "id": "wp-ob-harbor",
+      "name": "Oak Bluffs Harbor",
+      "lat": 41.4596,
+      "lon": -70.5598,
+      "radius_m": 50,
+      "address": "Oak Bluffs Harbor",
+      "order": 9
+    },
+    {
+      "id": "wp-ob-inkwell",
+      "name": "The Inkwell",
+      "lat": 41.4523,
+      "lon": -70.5534,
+      "radius_m": 45,
+      "address": "Oak Bluffs Town Beach, Seaview Avenue",
+      "order": 10
+    },
+    {
+      "id": "wp-ob-east-chop",
+      "name": "East Chop Lighthouse",
+      "lat": 41.4703,
+      "lon": -70.5675,
+      "radius_m": 45,
+      "address": "East Chop Drive at the bluff",
+      "order": 11,
+      "terminal": true
+    }
+  ]
+}

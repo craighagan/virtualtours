@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "mv-oak-bluffs",
+  "version": "0.1.0",
+  "tour_name": "Oak Bluffs: The Town That Was Built to Be Looked At",
+  "region": "Martha's Vineyard, Massachusetts",
+  "description": "Eleven stops through the only planned town on the Vineyard \u2014 a Methodist tent city that turned into gingerbread, a carousel older than the light bulb, and a beach that turned an insult into an address.",
+  "distance_km": 3.4,
+  "duration_minutes": 100,
+  "difficulty": "easy",
+  "terrain": "Flat, paved sidewalks and packed dirt in the Camp Ground; one longer stretch out to East Chop",
+  "accessibility": "Mostly accessible; the Camp Ground paths are narrow packed dirt, and the East Chop bluff has a gentle grade",
+  "season": "Late spring through early fall (many sites close in winter)",
+  "personas": [
+    {
+      "id": "oldtimer",
+      "name": "Gus"
+    },
+    {
+      "id": "operator",
+      "name": "Onyx"
+    },
+    {
+      "id": "confidante",
+      "name": "Nova"
+    },
+    {
+      "id": "fieldnaturalist",
+      "name": "Jessica"
+    }
+  ],
+  "tags": [
+    "island",
+    "history",
+    "architecture",
+    "african-american-heritage",
+    "victorian",
+    "medium"
+  ]
+}

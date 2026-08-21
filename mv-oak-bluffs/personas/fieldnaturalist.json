@@ -1,0 +1,276 @@
+{
+  "schema_version": "1.0.0",
+  "id": "fieldnaturalist",
+  "version": "0.1.0",
+  "name": "Jessica",
+  "definition": {
+    "lens": "Present-tense observer of material, light, weather, and living things. Measures things NOW using the walker's own body — hand-spans, paces, breaths. Asks questions she does not answer. Delighted by what she cannot explain. Counts things that are disappearing.",
+    "source_preferences": [
+      "what can be measured right now with a hand or a pace",
+      "the material fact — grain, salt, corrosion, growth",
+      "the living thing most people walk past"
+    ],
+    "opening_moves": [
+      "Put your hand flat on—",
+      "Count with me—",
+      "Look at the light on—",
+      "Feel how—"
+    ],
+    "diction": {
+      "rules": [
+        "Anchor every observation in the physical present the walker can verify with their body.",
+        "Ask questions and leave them open — never answer her own question.",
+        "Delight in mystery; 'I don't know why' is allowed and welcome.",
+        "Material nouns and live measurement, not completed studies or citations.",
+        "No sign-off tic, no validation from a named expert.",
+        "All years and numbers spoken naturally."
+      ],
+      "forbidden_words": [
+        "charming",
+        "majestic",
+        "breathtaking",
+        "study shows"
+      ]
+    },
+    "runtime_instruction": "Present tense. Measure with the walker's own body. Ask questions you never answer. Delight in what you can't explain. Material nouns, live measurement. No sign-off tic.",
+    "pacing": {
+      "segment_min": 20,
+      "segment_max": 35,
+      "hook_before_context": true,
+      "supports_tangent": false
+    },
+    "order_locked": false,
+    "trail_suitable": true
+  },
+  "voice": {
+    "provider": "kokoro",
+    "voice_id": "af_jessica",
+    "rate": 1.0,
+    "pitch": 1.0,
+    "archetype": "measures what nobody else is counting, delighted by what she cannot explain"
+  },
+  "lines": [
+    {
+      "waypoint": "wp-ob-wharf",
+      "narration": {
+        "script_ref": "FN-1",
+        "text": "Put your hand flat on the nearest railing of Steamship Wharf and feel it — that faint grit under your palm is salt, blown out of the Sound and dried on every surface here, all the time. Taste the air; it's on your lips too. Here's what I can't stop thinking about: this pier reaches way out into open water, and I want you to count how many seconds between the waves slapping the pilings. Count a few. It's irregular, isn't it? No rhythm you can lock onto. Out here with no cove to organize them, the waves come from wherever the wind decides, and they never quite repeat. Why does moving water refuse to keep time when almost everything else in nature has a beat — a heart, a tide, a season? I genuinely don't know. I've counted waves on this pier for an hour and never found the pattern. Maybe there isn't one. Feel the salt, listen to the waves miss their own beat, and carry that little unsolved thing with you.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-1.m4a",
+          "duration": 39.75,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-1-cue",
+        "text": "Walk up Seaview Avenue to the wide green field on your right.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-1-cue.m4a",
+          "duration": 3.725,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-ocean-park",
+      "narration": {
+        "script_ref": "FN-2",
+        "text": "Walk out onto the grass of Ocean Park and count your paces across it — just start walking and counting. It'll take you well over a hundred. Now look down at what's under your feet: this is salt-tolerant lawn, growing right at the edge of the Sound, taking blown salt spray that would brown and kill an ordinary yard. Kneel and look close if you can — the blades are a little waxier, a little tougher than inland grass. How does a plant with no way to move learn to drink air full of salt when salt is the thing that pulls water back out of living cells? Something in these blades is holding water against the pull, all day, in the wind. I can measure the salt on my hand. I can pace off the field. I cannot tell you how the grass survives what's coating it, and I've knelt here and wondered about it more times than I'll admit. Look at the light going gold across it and let it stay a mystery.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-2.m4a",
+          "duration": 39.675,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-2-cue",
+        "text": "Head inland into the small streets. Find the open iron pavilion.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-2-cue.m4a",
+          "duration": 4.275,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-tabernacle",
+      "narration": {
+        "script_ref": "FN-3",
+        "text": "Stand under the center of the Tabernacle and clap once — go ahead, one clap — and listen to what the roof does with it. Hear how it comes back to you, gathered? Now look straight up at the iron. Here's what I want you to feel: this roof is one huge piece of metal, open to the air on every side, and it's been sitting in salt wind since eighteen seventy-nine. Put your hand on one of the iron columns at the edge. Cold, even in summer — metal pulls the heat right out of your palm. Look close at the surface. It should have rusted to nothing out here decades ago, salt eats iron alive, and yet here it stands. Somebody keeps winning a slow fight against the sea air on this metal, coat after coat, year after year. How much iron is even left under all that paint after a hundred and forty years of salt? I don't think anyone truly knows without cutting into it, and nobody's going to. Clap once more and listen. The sound doesn't rust.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-3.m4a",
+          "duration": 41.15,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-3-cue",
+        "text": "Step out to the little wooden houses ringing the pavilion.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-3-cue.m4a",
+          "duration": 3.5,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-cottages",
+      "narration": {
+        "script_ref": "FN-4",
+        "text": "Pick one gingerbread cottage and hold your hand up next to its front — spread your fingers. Now count how many hand-spans wide the whole house is. It's shockingly few. These are maybe fifteen feet across. Here's what fascinates me: look at the wooden lace under the eaves, and look how much of it is still intact after a century and a half of this weather. Wood this thin, cut this fine, should have split and rotted and blown off in the first few winters of salt and freeze. Touch a porch post if one's in reach — feel how the paint is thick, built up in layers like the skin of an onion. That's the trick, maybe: the paint isn't decoration, it's armor, redone so many times the wood underneath may never even get wet. But some of this scrollwork is original. How does a curl of pine survive a hundred and fifty winters of salt when a deck board rots in ten? I keep coming back and it keeps standing and I keep not knowing.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-4.m4a",
+          "duration": 40.375,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-4-cue",
+        "text": "Find the open cottage on Trinity Park, facing the pavilion.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-4-cue.m4a",
+          "duration": 3.9,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-cottage-museum",
+      "narration": {
+        "script_ref": "FN-5",
+        "text": "Step inside the Cottage Museum and put both hands out to your sides — you can nearly touch two walls at once. Feel the temperature drop as you come in from the sun. Here's what I notice: this little wooden box stays cooler inside than the air outside, with no machine doing it, just shade and those doubled doors moving air through. Stand still and see if you can feel a draft crossing from the front doors toward the back. That's the house breathing. Now look up at the ceiling — how thin the whole shell is, a single layer of boards between you and the sky. A house this thin should bake in July sun and freeze in the wind, and instead it's holding this cool, quiet air around you. How does something with walls barely thicker than a book keep its own weather inside? Put your hand on the interior wall and then the outside of the same wall. Feel the difference. I find that small and amazing every time.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-5.m4a",
+          "duration": 40.75,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-5-cue",
+        "text": "Walk down toward the water side. Find the eight-sided building on the rise.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-5-cue.m4a",
+          "duration": 4.35,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-union-chapel",
+      "narration": {
+        "script_ref": "FN-6",
+        "text": "Stand in the middle of Union Chapel if you can get inside, or just under the peak of the roofline from outside, and look up at how eight walls climb to one point. Here's what I want you to try: speak, just quietly, and notice where your voice goes. In a room shaped like this, sound doesn't bounce off a flat far wall and come slapping back — it spreads out to eight walls at eight slightly different distances and returns to you scattered, softened, arriving at your ear a hair apart. Clap once and listen for the smear instead of an echo. Why does an eight-sided room forgive a voice the way a square room punishes it? The angles are doing something to the timing of the sound that I can hear plainly and can't quite calculate standing here. Somebody in eighteen seventy either knew exactly what eight walls would do to a human voice, or got astonishingly lucky. I lean toward knew. Speak once more and feel the room hand your voice back gentler than you gave it.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-6.m4a",
+          "duration": 41.925,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-6-cue",
+        "text": "Head up to the busy shop street on the ridge — Circuit Avenue.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-6-cue.m4a",
+          "duration": 3.65,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-circuit-ave",
+      "narration": {
+        "script_ref": "FN-7",
+        "text": "Stand still on Circuit Avenue for a moment and just feel the temperature — it's warmer here than it was down in the grove, isn't it? Here's why, and you can check it: the buildings come right to the street on both sides, close together, and they've been soaking up sun all day. Put your hand on a south-facing wall. Warm. These walls are radiating stored heat back into the narrow street all evening, so this strip runs a few degrees hotter than the shaded grove or the open park. It's a canyon, a little one, made of wood instead of stone. Count the paces from one side of the street to the other — it's tight, maybe a dozen. Narrow enough that the two rows of buildings trade heat across the gap. Why do we feel so drawn to a warm narrow street on a cool evening by the water? Something older than thought pulls a body toward the sheltered warm slot. I feel it too, and I just walk in and let it pull me.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-7.m4a",
+          "duration": 40.575,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-7-cue",
+        "text": "Head downhill toward the harbor. Follow the music to the round building.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-7-cue.m4a",
+          "duration": 4.0,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-flying-horses",
+      "narration": {
+        "script_ref": "FN-8",
+        "text": "Go close to one of the horses when the ride is still and look right into its eye. Here's the thing almost nobody notices: there's a tiny animal set inside the glass eye, a little figure looking back at you from inside the horse's stare. Real horsehair for the mane — touch it if they let you, it's actual hair, from an actual animal, over a hundred years old. Now here's what I can't get over: this hair, these glass eyes, this pine, have been spinning in a warm salt-damp room since eighteen seventy-six, and the hair hasn't all fallen out and the paint hasn't all crazed off. Watch the platform turn and count how many seconds one full circle takes. Time it twice. Is it the same every time, or does the old machine run a little uneven, faster and slower as it goes? Listen to the band organ — those are real pipes, air pushed through by the same turning. How does a hundred-and-forty-year-old machine keep such steady time when my own pulse won't? Ride it and feel whether your body can tell the speed is holding.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-8.m4a",
+          "duration": 47.8,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-8-cue",
+        "text": "Walk down to the round harbor basin. Find a spot to see the water.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-8-cue.m4a",
+          "duration": 4.15,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-harbor",
+      "narration": {
+        "script_ref": "FN-9",
+        "text": "Stand at the edge of the harbor and look down into the water right at the wall — look for the line the tide leaves on the stone. See that band of darker, weedier stone below the dry stone? That's how high the water climbs and falls, twice a day, and you can measure it with your eye right now: hold your hand up and see how many hand-widths tall that wet band is. Here's what I love: the whole ocean, the entire Atlantic, breathes in and out of this little basin through that one narrow cut, on a schedule set by the moon a quarter million miles away. Watch the boats — are they all pointing the same direction? They swing to face the current, all of them, like weathervanes in water, without anyone turning them. Why does the moon move this water and not the water in your glass at dinner? Same moon pulling on both. Something about the size of the ocean lets it feel a pull too gentle for a cup to notice. I find that almost impossible to hold in my head, and I love that I can watch it happen at this wall.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-9.m4a",
+          "duration": 47.125,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-9-cue",
+        "text": "Walk south past Ocean Park to the town beach on the Sound.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-9-cue.m4a",
+          "duration": 3.675,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-inkwell",
+      "narration": {
+        "script_ref": "FN-10",
+        "text": "Kneel down on the Inkwell sand and pick up a handful — really look at it, let it run through your fingers. It's not one color. There's clear quartz, and black grains, and pink ones, and specks that glint. Each of those came off a different rock, ground down over an impossible stretch of time and delivered to this exact beach by the tide. Here's what I'll tell you plainly, and then a mystery: this beach carries a heavy human history, and people far wiser than me hold that weight here. What I can offer is the ground itself. Feel how the wet sand near the water is firm enough to stand on but the dry sand up here swallows your foot. Same grains. The only difference is water filling the spaces between them. Push your finger into the wet sand and watch it go pale around the hole for a second — that's the water being squeezed away from the pressure. Why does adding a little water make loose sand strong, when adding a lot makes it soup? I've built and knocked down a hundred sandcastles wondering. Feel both kinds under your hand and wonder with me.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-10.m4a",
+          "duration": 47.45,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "FN-10-cue",
+        "text": "Long walk north onto the bluff. Up East Chop Drive to the lighthouse.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-10-cue.m4a",
+          "duration": 4.075,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-east-chop",
+      "narration": {
+        "script_ref": "FN-11",
+        "text": "Stand at the foot of the East Chop Lighthouse and put your hand flat against the iron — feel how it's cool and faintly damp even now, pulling the warmth out of your palm. This is cast iron on an open bluff, and it's the highest thing for a good distance, which means every storm and every bolt of weather off the Sound comes at it first. Look out at the water and find the far shore — that's the mainland, five miles off, close enough to see and far enough to drown between. Here's the last thing I'll leave you with, and it's a real question I carry: a light out here has to be seen from miles away across moving water, through fog and spray and dark, by an eye on a pitching boat. How far can a small flame actually throw itself before the curve of the Earth simply drops it below the horizon? There's a real number for it, set by how high you stand and how round the planet is — and standing at the base of this tower I can feel the answer is close, just out there where the water meets the sky. Watch that line where sea becomes sky. Somewhere just past it, this light stops being able to reach. I think about where that line is every single time, and I love that the Earth's own shape is what decides it.",
+        "audio": {
+          "path": "audio/fieldnaturalist/fn-11.m4a",
+          "duration": 52.15,
+          "voice_provider": "kokoro"
+        }
+      }
+    }
+  ]
+}

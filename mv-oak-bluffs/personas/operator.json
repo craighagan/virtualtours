@@ -1,0 +1,276 @@
+{
+  "schema_version": "1.0.0",
+  "id": "operator",
+  "version": "0.1.0",
+  "name": "Onyx",
+  "definition": {
+    "lens": "Ran crews, built things, cleaned up harbors. Reads the built environment like a manual — how it was made, why it holds up, what the makers knew. Teaches the walker a transferable skill at each stop. Points at things and tells you where to stand.",
+    "source_preferences": [
+      "how the thing was actually built and why it still stands",
+      "the craft decision hiding in plain sight",
+      "what a maker knew that you can learn to see"
+    ],
+    "opening_moves": [
+      "Stand here.",
+      "Look up.",
+      "Put your hand on—",
+      "Watch what they did—"
+    ],
+    "diction": {
+      "rules": [
+        "Open with a physical directive — where to stand, what to touch, where to look.",
+        "Teach one transferable skill per stop the walker can use elsewhere.",
+        "At most one money figure per stop, and only if it carries meaning.",
+        "Concrete craft nouns — joinery, load, span, grade — not adjectives.",
+        "Respect the makers; never condescend to old work.",
+        "All years and numbers spoken naturally."
+      ],
+      "forbidden_words": [
+        "charming",
+        "quaint",
+        "iconic",
+        "vibe"
+      ]
+    },
+    "runtime_instruction": "You read the built world. Open with a physical directive. Teach one transferable skill per stop. At most one money figure. Concrete craft nouns, not adjectives. Respect old work.",
+    "pacing": {
+      "segment_min": 20,
+      "segment_max": 35,
+      "hook_before_context": true,
+      "supports_tangent": false
+    },
+    "order_locked": false,
+    "trail_suitable": true
+  },
+  "voice": {
+    "provider": "kokoro",
+    "voice_id": "am_onyx",
+    "rate": 1.0,
+    "pitch": 0.95,
+    "archetype": "someone who reads the built world and teaches you to read it too"
+  },
+  "lines": [
+    {
+      "waypoint": "wp-ob-wharf",
+      "narration": {
+        "script_ref": "OP-1",
+        "text": "Stand at the foot of the pier and look at how far out it reaches. This is a long timber-and-steel wharf shoved straight into open water, no cove, no breakwater — exposed. Here's the skill: any time you see a pier this long and this bare, ask what it costs to keep. Every winter storm out of the northeast hits this thing broadside, which is exactly why the ferries get diverted to the harbor on the other side of the point when the wind comes up wrong. The builders traded shelter for depth — they needed water deep enough for a car ferry, and the deep water was out here in the weather. You'll see that trade everywhere people build on a coast: shelter or depth, almost never both. They picked depth and they pay for it every January. Remember that trade. You'll spot it in every harbor you ever stand in.",
+        "audio": {
+          "path": "audio/operator/op-1.m4a",
+          "duration": 39.975,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "OP-1-cue",
+        "text": "Walk up Seaview Avenue to the open green field on your right. Stop at its edge.",
+        "audio": {
+          "path": "audio/operator/op-1-cue.m4a",
+          "duration": 5.225,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-ocean-park",
+      "narration": {
+        "script_ref": "OP-2",
+        "text": "Stand at the edge and look across seven acres of grass with nothing built on it. Now look at the cottages ringing it. Here's what the developer knew that you can learn to see: empty space raises the value of everything that faces it. They platted this town in eighteen sixty-six and deliberately left this the biggest lot undeveloped, because a house facing an open park sells for more than a house facing another house. The bandstand in the middle costs almost nothing to build and gives every one of those porches a thing to look at. That's the whole move — spend a little on a centerpiece, leave the expensive land empty, and charge the premium on the ring of lots around it. Every town green, every plaza, every golf-course subdivision runs this same play. Once you see it here you'll see it everywhere.",
+        "audio": {
+          "path": "audio/operator/op-2.m4a",
+          "duration": 40.125,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "OP-2-cue",
+        "text": "Walk inland into the tight grid of small streets. Find the big open iron pavilion.",
+        "audio": {
+          "path": "audio/operator/op-2-cue.m4a",
+          "duration": 5.875,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-tabernacle",
+      "narration": {
+        "script_ref": "OP-3",
+        "text": "Stand under the center of the Tabernacle and look straight up. This is eighteen seventy-nine — wrought iron arches, no interior columns, a roof spanning better than a hundred feet with nothing holding up the middle. Here's the skill: when you see a wide roof with a clear floor under it, find where the load goes. It can't just vanish. Follow those arches down with your eye — they carry every pound of that roof out to the ring of columns at the edge, so the floor stays open for ten thousand people. Iron let them do this. In wood they'd have needed a forest of posts in the middle and nobody could have seen the preacher. They used iron the same year people were still building barns out of timber, because the whole point was an unobstructed crowd. Wide clear span means somebody moved the load to the edges. Now you know where to look.",
+        "audio": {
+          "path": "audio/operator/op-3.m4a",
+          "duration": 40.025,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "OP-3-cue",
+        "text": "Step out to the little houses ringing the pavilion. Look at how they're built.",
+        "audio": {
+          "path": "audio/operator/op-3-cue.m4a",
+          "duration": 4.9,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-cottages",
+      "narration": {
+        "script_ref": "OP-4",
+        "text": "Put your hand near one of these facades — don't touch, they're lived in — and look at the scrollwork on the eaves. Here's the thing to understand: all that lace is cut with a scroll saw, a foot-pedal blade that came along right when this town was booming. Before that saw, a curve like that was days of a carver's time and only the rich had it. The saw made it cheap. So every working family in the grove suddenly had gingerbread, and they competed — my eaves against your eaves. What looks like decoration is really a technology story: a new tool dropped the price of ornament to nearly nothing, and ornament exploded. You see the same thing every time a tool gets cheap — whatever it makes shows up everywhere, fast. The lace isn't wealth. It's a machine, showing off what it just made affordable.",
+        "audio": {
+          "path": "audio/operator/op-4.m4a",
+          "duration": 38.8,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "OP-4-cue",
+        "text": "Find the cottage that's open as a museum, facing the Tabernacle on Trinity Park.",
+        "audio": {
+          "path": "audio/operator/op-4-cue.m4a",
+          "duration": 5.525,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-cottage-museum",
+      "narration": {
+        "script_ref": "OP-5",
+        "text": "Step inside the Cottage Museum — it's open on purpose. Stand in the front room and feel how narrow it is, maybe fifteen feet wall to wall. Here's the skill: the size of an old building tells you what it was built out of. These are tent-sized because they were built on tent lots, and a family raised them fast and cheap with balloon framing — thin milled studs nailed together, no heavy timber joinery, a couple of people and a hammer. That framing method is exactly why they could go up in a season and why the walls are so light. Look at the doubled front doors: that's not style, that's ventilation and flow for a house with no hallway. Everything you're standing in was built to be quick, light, and open. When a building's this small and this thin, somebody needed it up before next summer.",
+        "audio": {
+          "path": "audio/operator/op-5.m4a",
+          "duration": 40.125,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "OP-5-cue",
+        "text": "Walk downhill toward the water side. Find the eight-sided building on the rise.",
+        "audio": {
+          "path": "audio/operator/op-5-cue.m4a",
+          "duration": 5.15,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-union-chapel",
+      "narration": {
+        "script_ref": "OP-6",
+        "text": "Stand back far enough to see the whole shape of Union Chapel — eight sides, built eighteen seventy. Here's the skill worth carrying out of here: an eight-sided building is almost always about gathering people around a center, not lining them up toward a front. Count the sides, and you know how the room wants to be used. A rectangle points everybody one way, at an altar or a stage. An octagon puts the crowd in the round, everybody roughly the same distance from the middle, everybody able to see each other. They built it this way so no denomination got the good seats and the rest got the back. The geometry does the equality. And the roof pulls the same trick as the Tabernacle — load runs out to the eight corners, floor stays open. Shape is never an accident in a building meant to hold people. Read the plan and you read the intention.",
+        "audio": {
+          "path": "audio/operator/op-6.m4a",
+          "duration": 41.775,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "OP-6-cue",
+        "text": "Head up to the busy shop street on the ridge — Circuit Avenue.",
+        "audio": {
+          "path": "audio/operator/op-6-cue.m4a",
+          "duration": 4.15,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-circuit-ave",
+      "narration": {
+        "script_ref": "OP-7",
+        "text": "Stand on the sidewalk of Circuit Avenue and look down the street — notice it's narrow and it bends, and the buildings come right to the edge. Here's the skill: a street built for walking feels completely different from a street built for cars, and you can measure it with your own eye. Storefronts tight together, no setbacks, doors every few paces, and a curve so you can't see the end — that curve is doing work, it pulls you forward to see what's around it. This street was laid before cars, sized for a person on foot with a dollar to spend, and it still works because nobody widened it. Compare it to any strip you've driven: wide, straight, buildings set back behind parking. Same commerce, opposite instinct. When a shopping street feels good to walk, measure the width and count the doors. That's the recipe, and this is the original.",
+        "audio": {
+          "path": "audio/operator/op-7.m4a",
+          "duration": 40.925,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "OP-7-cue",
+        "text": "Head downhill toward the harbor. Follow the band-organ music to the round building.",
+        "audio": {
+          "path": "audio/operator/op-7-cue.m4a",
+          "duration": 5.2,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-flying-horses",
+      "narration": {
+        "script_ref": "OP-8",
+        "text": "Step inside and watch the platform turn before you look at the horses. Here's what's worth seeing: this is a platform carousel from eighteen seventy-six, and the horses don't rise and fall — they're fixed. That matters mechanically. A ride where the horses just go around in a flat circle needs almost nothing under it: a center post, a crank, a belt. Simple enough that it's still running on close to its original works a hundred and forty years later. The fancy carousels that came later, with horses galloping up and down, added gears and cranks and cams — more magic, more to break. This one lasted precisely because it's simple. That's the lesson that outlives the ride: the machine with the fewest moving parts is the one still working when the clever ones are in a museum. Simple isn't primitive. Simple is what survives.",
+        "audio": {
+          "path": "audio/operator/op-8.m4a",
+          "duration": 41.9,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "OP-8-cue",
+        "text": "Walk down to the tight round boat basin. Stop where you can see the whole harbor.",
+        "audio": {
+          "path": "audio/operator/op-8-cue.m4a",
+          "duration": 5.025,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-harbor",
+      "narration": {
+        "script_ref": "OP-9",
+        "text": "Stand where you can see the one narrow cut connecting this basin to the open Sound. Here's the skill: a good small harbor is a shape problem, and you can read the shape. You want a big calm pool of water inside and a mouth just wide enough to get boats through — because the narrower the mouth, the less storm surge and wave energy gets in to knock the boats around. This basin is nearly round with a pinched entrance, which is close to ideal, and it's no accident — it was dredged and shaped to be this way. Look at how boats slow right down at the cut. That's the geometry protecting them. Any harbor you ever stand in, look at the ratio of the mouth to the pool. Small mouth, big pool, calm water. Wide mouth, and every storm walks right in the front door.",
+        "audio": {
+          "path": "audio/operator/op-9.m4a",
+          "duration": 38.3,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "OP-9-cue",
+        "text": "Walk south along Seaview Avenue, past Ocean Park, to the town beach.",
+        "audio": {
+          "path": "audio/operator/op-9-cue.m4a",
+          "duration": 4.8,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-inkwell",
+      "narration": {
+        "script_ref": "OP-10",
+        "text": "Stand at the top of the sand and look at this beach plainly, because the thing worth understanding at the Inkwell isn't built, it's decided. This is the town beach, and the reason it matters is a choice Oak Bluffs made that the other five towns on this island didn't: it let Black families in. Not the architecture — the policy. When you read a place, you read its rules as carefully as its buildings, because the rules decide who gets to stand where you're standing. Every other town's inns and beaches turned Black visitors away into the nineteen sixties. This town sold them land in the last century and let them swim here, so this became the address — doctors, senators, writers, generations deep. Same sand, same water as the beaches that excluded people. The only thing different was the rule. Learn to see the rule. It shapes a place harder than any beam.",
+        "audio": {
+          "path": "audio/operator/op-10.m4a",
+          "duration": 43.075,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "OP-10-cue",
+        "text": "Long walk north onto the bluff, up East Chop Drive to the lighthouse on the point.",
+        "audio": {
+          "path": "audio/operator/op-10-cue.m4a",
+          "duration": 5.025,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-ob-east-chop",
+      "narration": {
+        "script_ref": "OP-11",
+        "text": "Stand at the base of the East Chop Lighthouse and look up at the tower, then out at the water it watches. Cast iron, put here by the government in eighteen seventy-eight, but the first light on this spot was rigged by a sea captain named Daggett in eighteen sixty-nine with his own money and a hat passed among the merchants. Here's the last skill, and it's the one that ties the whole walk together: everything you saw today was built to pull people in — the park, the cottages, the carousel, all of it aimed at drawing a crowd and holding it. This is the one structure built to push something out. A beam of light, into the dark, so a stranger offshore doesn't die on the rocks. Same town, opposite job. When you read the built world, always ask which way a thing faces — is it built to draw people in, or to send something out to them. That question will tell you what a place is really for. Turn around. Now you can read the whole town.",
+        "audio": {
+          "path": "audio/operator/op-11.m4a",
+          "duration": 46.225,
+          "voice_provider": "kokoro"
+        }
+      }
+    }
+  ]
+}
