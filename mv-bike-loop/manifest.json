@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "mv-bike-loop",
+  "version": "0.1.0",
+  "tour_name": "The Vineyard by Bike: Three Towns, One Loop",
+  "region": "Martha's Vineyard, Massachusetts",
+  "description": "Fifteen stops around the down-island loop \u2014 Oak Bluffs to Edgartown along the barrier beach, up to Vineyard Haven, back over East Chop. Three towns that wanted three completely different things.",
+  "distance_km": 26.0,
+  "duration_minutes": 210,
+  "difficulty": "moderate",
+  "terrain": "Almost entirely separated paved bike path; short stretches on town streets in Edgartown and Vineyard Haven",
+  "accessibility": "Bike path is flat and paved throughout. Edgartown village streets have traffic and some rough pavement. East Chop has a sustained climb.",
+  "season": "Late spring through early fall",
+  "activity": "cycling",
+  "personas": [
+    {
+      "id": "oldtimer",
+      "name": "Gus"
+    },
+    {
+      "id": "operator",
+      "name": "Onyx"
+    },
+    {
+      "id": "confidante",
+      "name": "Nova"
+    },
+    {
+      "id": "fieldnaturalist",
+      "name": "Jessica"
+    }
+  ],
+  "tags": [
+    "island",
+    "cycling",
+    "history",
+    "whaling",
+    "beach",
+    "long"
+  ]
+}

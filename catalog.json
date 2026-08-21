@@ -226,6 +226,32 @@
       "size_bytes": 9083985,
       "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/mv-oak-bluffs.tourguide",
       "version": "2.0.0"
+    },
+    {
+      "id": "mv-bike-loop",
+      "title": "The Vineyard by Bike: Three Towns, One Loop",
+      "description": "Fifteen stops around the down-island loop — Oak Bluffs to Edgartown along the barrier beach, up to Vineyard Haven, back over East Chop. Three towns that wanted three completely different things.",
+      "stops": 15,
+      "distance_meters": 26000,
+      "duration_minutes": 210,
+      "activity": "cycling",
+      "tags": [
+        "island",
+        "cycling",
+        "historic",
+        "marthas-vineyard",
+        "whaling",
+        "beach"
+      ],
+      "personas": [
+        "Gus",
+        "Onyx",
+        "Nova",
+        "Jessica"
+      ],
+      "size_bytes": 11915830,
+      "download_url": "https://github.com/craighagan/virtualtours/releases/download/v2.0/mv-bike-loop.tourguide",
+      "version": "2.0.0"
     }
   ]
 }

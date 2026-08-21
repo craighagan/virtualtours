@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "mv-bike-loop",
+  "waypoints": [
+    {
+      "id": "wp-bk-wharf",
+      "name": "Steamship Wharf",
+      "lat": 41.4575,
+      "lon": -70.556,
+      "radius_m": 70,
+      "address": "Oak Bluffs Steamship Authority pier",
+      "order": 1
+    },
+    {
+      "id": "wp-bk-ocean-park",
+      "name": "Ocean Park",
+      "lat": 41.4556,
+      "lon": -70.556,
+      "radius_m": 75,
+      "address": "Ocean Park, Seaview Avenue",
+      "order": 2
+    },
+    {
+      "id": "wp-bk-flying-horses",
+      "name": "The Flying Horses",
+      "lat": 41.4574,
+      "lon": -70.5571,
+      "radius_m": 50,
+      "address": "Oak Bluffs Avenue at Lake Avenue",
+      "order": 3
+    },
+    {
+      "id": "wp-bk-inkwell",
+      "name": "The Inkwell",
+      "lat": 41.4523,
+      "lon": -70.5534,
+      "radius_m": 70,
+      "address": "Oak Bluffs Town Beach, Seaview Avenue",
+      "order": 4
+    },
+    {
+      "id": "wp-bk-little-bridge",
+      "name": "Little Bridge",
+      "lat": 41.4161,
+      "lon": -70.5488,
+      "radius_m": 70,
+      "address": "Beach Road at the north Sengekontacket inlet",
+      "order": 5
+    },
+    {
+      "id": "wp-bk-state-beach",
+      "name": "State Beach",
+      "lat": 41.4111,
+      "lon": -70.5438,
+      "radius_m": 90,
+      "address": "Joseph Sylvia State Beach, Beach Road",
+      "order": 6
+    },
+    {
+      "id": "wp-bk-jaws-bridge",
+      "name": "Jaws Bridge",
+      "lat": 41.4065,
+      "lon": -70.536,
+      "radius_m": 60,
+      "address": "American Legion Memorial Bridge, Beach Road",
+      "order": 7
+    },
+    {
+      "id": "wp-bk-edg-lighthouse",
+      "name": "Edgartown Lighthouse",
+      "lat": 41.3909,
+      "lon": -70.5031,
+      "radius_m": 60,
+      "address": "North Water Street at the harbor entrance",
+      "order": 8
+    },
+    {
+      "id": "wp-bk-water-street",
+      "name": "North Water Street",
+      "lat": 41.3901,
+      "lon": -70.5085,
+      "radius_m": 60,
+      "address": "North Water Street, Edgartown Village",
+      "order": 9
+    },
+    {
+      "id": "wp-bk-whaling-church",
+      "name": "Old Whaling Church",
+      "lat": 41.3906,
+      "lon": -70.5152,
+      "radius_m": 50,
+      "address": "89 Main Street, Edgartown",
+      "order": 10
+    },
+    {
+      "id": "wp-bk-courthouse",
+      "name": "Dukes County Courthouse",
+      "lat": 41.3904,
+      "lon": -70.5147,
+      "radius_m": 45,
+      "address": "81 Main Street, Edgartown",
+      "order": 11
+    },
+    {
+      "id": "wp-bk-chappy-ferry",
+      "name": "The Chappy Ferry",
+      "lat": 41.3893,
+      "lon": -70.5108,
+      "radius_m": 50,
+      "address": "Dock Street at Memorial Wharf, Edgartown",
+      "order": 12
+    },
+    {
+      "id": "wp-bk-boatyard",
+      "name": "The Boatyard",
+      "lat": 41.4533,
+      "lon": -70.5998,
+      "radius_m": 60,
+      "address": "Beach Road at Vineyard Haven harbor",
+      "order": 13
+    },
+    {
+      "id": "wp-bk-owen-park",
+      "name": "Owen Park",
+      "lat": 41.4573,
+      "lon": -70.6024,
+      "radius_m": 60,
+      "address": "Owen Park, Vineyard Haven",
+      "order": 14
+    },
+    {
+      "id": "wp-bk-east-chop",
+      "name": "East Chop Lighthouse",
+      "lat": 41.4703,
+      "lon": -70.5675,
+      "radius_m": 70,
+      "address": "East Chop Drive at the bluff",
+      "order": 15,
+      "terminal": true
+    }
+  ]
+}

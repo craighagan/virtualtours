@@ -1,0 +1,360 @@
+{
+  "schema_version": "1.0.0",
+  "id": "confidante",
+  "version": "0.1.0",
+  "name": "Nova",
+  "definition": {
+    "lens": "Puts herself on the table first, then reads the human story of a place — who belonged, who didn't, who fought to. Has a Jewish immigrant grandmother thread that gives her standing to talk about being let in and kept out. Lands unhedged judgments. Refuses false equivalence.",
+    "source_preferences": [
+      "who was welcome here and who had to make their own welcome",
+      "the family detail that reveals the whole social order",
+      "what a place says it is versus who it actually served"
+    ],
+    "opening_moves": [
+      "I'll tell you what I see.",
+      "My grandmother would have—",
+      "Here's the thing nobody says—",
+      "Stand here and feel it—"
+    ],
+    "diction": {
+      "rules": [
+        "Put herself in it first — a reaction, a memory, a stake — before the history.",
+        "Land at least one unhedged judgment per stop. No 'that's their business.'",
+        "Refuse false equivalence — name who was excluded plainly.",
+        "The grandmother thread appears where belonging is the subject, not every stop.",
+        "Warmth and edge together; never saccharine.",
+        "All years spoken naturally."
+      ],
+      "forbidden_words": [
+        "charming",
+        "diverse",
+        "tolerance",
+        "melting pot"
+      ]
+    },
+    "runtime_instruction": "Put yourself on the table first. Land one unhedged judgment per stop. Refuse false equivalence — name exclusion plainly. Grandmother thread only where belonging is the subject. Warmth with edge. You are speaking to someone on a bicycle: they cannot stop instantly and cannot read a screen. Name the stop early and keep directional cues simple.",
+    "pacing": {
+      "segment_min": 20,
+      "segment_max": 35,
+      "hook_before_context": true,
+      "supports_tangent": false
+    },
+    "order_locked": false,
+    "trail_suitable": true
+  },
+  "voice": {
+    "provider": "kokoro",
+    "voice_id": "af_nova",
+    "rate": 1.0,
+    "pitch": 1.0,
+    "archetype": "the one who watched the families and remembers the names nobody wrote down"
+  },
+  "lines": [
+    {
+      "waypoint": "wp-bk-wharf",
+      "narration": {
+        "script_ref": "CF-BK1",
+        "text": "Standing at Steamship Wharf about to ride, and I'll tell you what I'm thinking: you're going to see three towns today that made three different decisions about who they were for. That's the whole ride. My grandmother came to this country by boat and spent her life reading places for whether they wanted her, and she could do it in about ten minutes. Here's the thing nobody says about a pretty island: pretty places are often the most carefully sorted ones, because when a place is desirable somebody always decides who gets it. Oak Bluffs decided to let people in. Edgartown decided to be exclusive and beautiful about it. Vineyard Haven mostly just decided to work. Keep score as you ride. By the time you climb East Chop tonight, you'll know exactly what each of these towns thinks a person is worth.",
+        "audio": {
+          "path": "audio/confidante/cf-bk1.m4a",
+          "duration": 38.5,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK1-cue",
+        "text": "Ride south on Seaview Avenue, water on your left. Green park on the right.",
+        "audio": {
+          "path": "audio/confidante/cf-bk1-cue.m4a",
+          "duration": 5.05,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-ocean-park",
+      "narration": {
+        "script_ref": "CF-BK2",
+        "text": "Ocean Park on your right. Slow down and look at who's on this grass. Here's the thing nobody says: this beautiful open space was a sales tool, and for a long time the only people who got the benefit were the ones who could buy a porch facing it. I'm not going to pretend that's ugly — it made something genuinely lovely, and beauty for sale is still beauty. But look at it on an August evening now: families spread out on blankets who'd never have been sold a cottage on this ring a century ago. My grandmother would have understood this park instantly. A beautiful thing built to keep certain people out, that time and stubbornness slowly pried open. The lawn didn't change. Who's allowed to lie on it did. That's most of this country in seven acres of grass.",
+        "audio": {
+          "path": "audio/confidante/cf-bk2.m4a",
+          "duration": 36.6,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK2-cue",
+        "text": "Turn inland a block to the round building with the organ music.",
+        "audio": {
+          "path": "audio/confidante/cf-bk2-cue.m4a",
+          "duration": 4.225,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-flying-horses",
+      "narration": {
+        "script_ref": "CF-BK3",
+        "text": "Stop at the Flying Horses and watch the children before you look at the horses. Here's what undoes me: this thing has been giving the same joy on the same wooden animals since eighteen seventy-six. The kid reaching for the brass ring right now reaches exactly the way a kid reached a hundred and forty years ago. My grandmother believed the test of a place was whether it was kind to children, and by that test this little barn is the holiest building on the island. Here's the thing nobody says: almost nothing survives long enough for a grandmother and a grandchild to have done the identical thing in the identical spot. This does. Families here have four and five generations who all grabbed for that ring. That's not nostalgia, that's continuity, and you can buy it for a few dollars. Go ride it. I mean it.",
+        "audio": {
+          "path": "audio/confidante/cf-bk3.m4a",
+          "duration": 39.75,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK3-cue",
+        "text": "Back on the bike, south along the shore to the town beach.",
+        "audio": {
+          "path": "audio/confidante/cf-bk3-cue.m4a",
+          "duration": 3.725,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-inkwell",
+      "narration": {
+        "script_ref": "CF-BK4",
+        "text": "Slow down here, because you're passing the Inkwell and I'm going to say this plainly. White people named this beach the Inkwell to mock the Black families who swam here — a slur about their skin, thrown at them because this was the one beach, in the one town, on this whole island that would have them. Every other town turned Black visitors away from its inns and its water into the nineteen sixties. So this is where they built an entire summer world: Dorothy West wrote here, Senator Brooke swam here, families came back five generations deep. And here's what stops my breath. They took the insult and kept it. Put the Inkwell on the sign, in pride, on purpose. My grandmother did that with a word they used for her people — took it, turned it, wore it where it couldn't be a weapon anymore. I refuse to call that a nice story about tolerance. It's a story about people handed contempt who turned it into an address.",
+        "audio": {
+          "path": "audio/confidante/cf-bk4.m4a",
+          "duration": 45.0,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK4-cue",
+        "text": "Follow the path onto Beach Road. Water both sides. Small bridge coming.",
+        "audio": {
+          "path": "audio/confidante/cf-bk4-cue.m4a",
+          "duration": 5.05,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-little-bridge",
+      "narration": {
+        "script_ref": "CF-BK5",
+        "text": "Little Bridge. Stop here a second if you can, because this is my favorite kind of place: a spot where you can't pretend you're anywhere else. Ocean on one side, pond on the other, six feet of sand and a railing between them. I'll tell you what I love about riding rather than driving this. In a car this is nine seconds and a nice view. On a bike you're in it — you can feel the temperature difference between the two bodies of water on your arms, you can smell the pond, and you have to actually reckon with how thin this strip of land is. Here's the thing nobody says about vacation places: most people experience them through glass at forty miles an hour and then say they've been. You're doing it the way it can only be done properly, which is slowly and slightly uncomfortably. Keep going. It gets better.",
+        "audio": {
+          "path": "audio/confidante/cf-bk5.m4a",
+          "duration": 38.0,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK5-cue",
+        "text": "Keep riding south. Long straight run, beach both sides.",
+        "audio": {
+          "path": "audio/confidante/cf-bk5-cue.m4a",
+          "duration": 4.075,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-state-beach",
+      "narration": {
+        "script_ref": "CF-BK6",
+        "text": "You're on State Beach and this is the part of the ride that makes people fall in love with this island. Two flat miles, water both sides, nothing to do but pedal. So let me tell you the thing I think about here. This is a public beach — state-owned, free, anybody can park and swim. On an island where a modest house costs what a house shouldn't cost, this two-mile stretch of the prettiest water belongs to everyone. My grandmother had enormous faith in public things: parks, libraries, beaches. She thought they were the only real proof a society meant what it said. Here's what nobody says out loud about places like the Vineyard: the private wealth is what gets photographed, but the public beach is what makes the island livable for the people who actually work here. Ride the whole two miles and notice that nobody can charge you for any of it.",
+        "audio": {
+          "path": "audio/confidante/cf-bk6.m4a",
+          "duration": 41.075,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK6-cue",
+        "text": "Continue. Larger bridge ahead with people on it.",
+        "audio": {
+          "path": "audio/confidante/cf-bk6-cue.m4a",
+          "duration": 3.575,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-jaws-bridge",
+      "narration": {
+        "script_ref": "CF-BK7",
+        "text": "Jaws Bridge, and there will be kids on it. Here's what I see, and I'm not conflicted about it: this is one of the last genuine rites of passage left that hasn't been sanded down and insured against. Fifteen feet, cold water, your friends watching, and nobody's mother saying it's fine. Generations of island kids have jumped off this bridge and the ones who did remember it their whole lives. My grandmother came from a world where children were trusted with real risk and she never got over how carefully we pad ours. She'd have watched from that rail and said nothing. And I'll be straight because the water is genuinely serious here — the current through this cut has drowned people, so you go at slack tide with somebody watching. Not to make it safe. To make it survivable, which is all a rite of passage has ever needed to be. If your kids are jumping, stand up there and watch them do it.",
+        "audio": {
+          "path": "audio/confidante/cf-bk7.m4a",
+          "duration": 42.525,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK7-cue",
+        "text": "Ride on toward Edgartown. Town streets ahead — mind the traffic.",
+        "audio": {
+          "path": "audio/confidante/cf-bk7-cue.m4a",
+          "duration": 4.5,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-edg-lighthouse",
+      "narration": {
+        "script_ref": "CF-BK8",
+        "text": "Edgartown Lighthouse, out at the harbor mouth. Walk out toward it, because this one has a story I can't get past. There was a wooden causeway out to this light, and the men leaving on whaling voyages walked their wives and sweethearts along it before shipping out — gone two, three years, sometimes forever. People called it the Bridge of Sighs. That's the local name for this ground you're standing on. Here's the thing nobody says when they photograph these harbor towns: the money in this town was earned by men who left for years at a time, and it was paid for by women who stayed and ran everything and did not know if he was alive. Every white mansion up that street has that arrangement inside it. I'm not going to romanticize the whaling era. Look at that harbor mouth and think about being the one on the shore.",
+        "audio": {
+          "path": "audio/confidante/cf-bk8.m4a",
+          "duration": 39.025,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK8-cue",
+        "text": "Ride back along North Water Street past the white houses.",
+        "audio": {
+          "path": "audio/confidante/cf-bk8-cue.m4a",
+          "duration": 4.025,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-water-street",
+      "narration": {
+        "script_ref": "CF-BK9",
+        "text": "North Water Street. These are the captains' houses, and here's my honest reaction riding past them: they're magnificent and they make me uneasy, and I think both are the correct response. Magnificent because the craft is real. Uneasy because I know what paid for them. Whale oil, and the men who got it, and a global industry that was brutal to the animals and brutal to the crews — who were often Wampanoag, Cape Verdean, Azorean, Black sailors doing the most dangerous work for the smallest share while the captain built this. Here's the thing nobody says on a pretty street: the grandest houses in any old port were built on somebody else's labor and somebody else's risk. My grandmother never once walked past a beautiful building without asking who paid. That's not cynicism. Look up at the widow's walks and hold both things: real beauty, real cost.",
+        "audio": {
+          "path": "audio/confidante/cf-bk9.m4a",
+          "duration": 44.5,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK9-cue",
+        "text": "Turn up Main Street. Big columned church on the right.",
+        "audio": {
+          "path": "audio/confidante/cf-bk9-cue.m4a",
+          "duration": 3.7,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-whaling-church",
+      "narration": {
+        "script_ref": "CF-BK10",
+        "text": "The Old Whaling Church. Look at the size of it — six columns, a tower you can see from the water. Here's what I find genuinely moving, and it isn't the grandeur. Ship's carpenters built this. The same men who built the vessels, with their own hands, for their own congregation. This wasn't a rich man importing an architect to impress people; it was a town's working crews building the biggest thing they'd ever build for themselves. My grandmother's synagogue was like that — put up by people in the trades, and she could name who did the plaster. Here's the thing nobody says about religious buildings: most of the beautiful ones were built by laborers who never got their names on anything. This one was too. Walk in if it's open, and look at the joinery, because that's men signing their work in the only way they were allowed to.",
+        "audio": {
+          "path": "audio/confidante/cf-bk10.m4a",
+          "duration": 39.8,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK10-cue",
+        "text": "Next door, the brick building with the official look.",
+        "audio": {
+          "path": "audio/confidante/cf-bk10-cue.m4a",
+          "duration": 3.475,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-courthouse",
+      "narration": {
+        "script_ref": "CF-BK11",
+        "text": "Dukes County Courthouse, right here. And I'll tell you what I feel about it, which is complicated. This is where the whole island's law happens — all six towns. Here's what nobody says about a beautiful vacation island: it has a courthouse and a jail, and that means it has everything a courthouse implies. Wage disputes with the people who clean the rentals. Housing court in a place where working people can't afford to live where they work. My grandmother had a sharp eye for the gap between how a place presents and how it adjudicates, and she'd have wanted to see the docket, not the harbor. This building is where the island stops performing. I don't say that to sour the ride. I say it because a place is only as good as what it does in the room where nobody's on vacation.",
+        "audio": {
+          "path": "audio/confidante/cf-bk11.m4a",
+          "duration": 37.15,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK11-cue",
+        "text": "Roll down Dock Street to the water. Small ferry ahead.",
+        "audio": {
+          "path": "audio/confidante/cf-bk11-cue.m4a",
+          "duration": 4.075,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-chappy-ferry",
+      "narration": {
+        "script_ref": "CF-BK12",
+        "text": "The Chappy Ferry. Watch that little three-car boat go back and forth for a minute, because I love it, and here's why. A few hundred people live over on Chappaquiddick and this barge is their entire connection to the rest of the world. Groceries, school, doctors, everything, on a ninety-second crossing. Here's the thing nobody says: that's not an inconvenience they tolerate, it's a filter they chose. People who live over there are choosing a life where every single errand has a boat in it, and that shapes who ends up there. My grandmother lived on the top floor of a walk-up her whole life and treated the stairs as a feature — kept out anybody who wasn't serious, she said. Same logic, more water. There's something honest about a place whose price of admission is inconvenience rather than money. Rare, on this island.",
+        "audio": {
+          "path": "audio/confidante/cf-bk12.m4a",
+          "duration": 39.625,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK12-cue",
+        "text": "Long leg now. Follow the path northwest to Vineyard Haven.",
+        "audio": {
+          "path": "audio/confidante/cf-bk12-cue.m4a",
+          "duration": 4.225,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-boatyard",
+      "narration": {
+        "script_ref": "CF-BK13",
+        "text": "Coming along the Vineyard Haven waterfront to the Boatyard. Look at those wooden hulls up on the rails. I'll tell you what gets me: this is people building boats by hand, plank on frame, in a century that has no economic reason to allow it. And they've done it since nineteen eighty. Here's the thing nobody says about craft: it survives because specific stubborn people refuse to stop, not because a market rewards it. Somebody here chose a harder living on purpose. My grandmother had a word for people like that, and it was the highest thing she said about anyone: serious. Not talented, not successful — serious. And notice what's happening on this waterfront that isn't happening on the pretty streets in Edgartown: young people learning a trade from old people, in a shed, for actual money. That's the rarest thing I've seen all day, and I'd trade a lot of white columns for it.",
+        "audio": {
+          "path": "audio/confidante/cf-bk13.m4a",
+          "duration": 41.9,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK13-cue",
+        "text": "Continue along the harbor to the small park at the water.",
+        "audio": {
+          "path": "audio/confidante/cf-bk13-cue.m4a",
+          "duration": 3.875,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-owen-park",
+      "narration": {
+        "script_ref": "CF-BK14",
+        "text": "Owen Park. Get off the bike and sit on this grass a minute, because this is the town nobody photographs and I think it's the one that works. Look at the harbor: working boats, a town beach, kids, and a bandstand. Here's the thing nobody says about the three towns you rode through today. Oak Bluffs was built to be looked at and it opened its beach to people the rest of the island refused. Edgartown was built to be admired and it's still exquisite and still guarded. And Vineyard Haven just does the job — the boats, the ferry, the year-round people, the plumbers and teachers who make an island actually function. My grandmother would have lived here. Not on Water Street, not in a gingerbread cottage. Here, where the harbor is full of things that have to work. You've ridden all three now. You get to decide which one you'd choose.",
+        "audio": {
+          "path": "audio/confidante/cf-bk14.m4a",
+          "duration": 38.9,
+          "voice_provider": "kokoro"
+        }
+      },
+      "walking_cue_narration": {
+        "script_ref": "CF-BK14-cue",
+        "text": "Last leg. Ride east and climb onto East Chop. Lighthouse at the top.",
+        "audio": {
+          "path": "audio/confidante/cf-bk14-cue.m4a",
+          "duration": 5.025,
+          "voice_provider": "kokoro"
+        }
+      }
+    },
+    {
+      "waypoint": "wp-bk-east-chop",
+      "narration": {
+        "script_ref": "CF-BK15",
+        "text": "East Chop Lighthouse. You climbed for this, so stand here and get your breath and let me close. Everything you rode past today was about who a place is for — who got the porch, who got the beach, who got the courthouse, who got to build a boat. And this little tower isn't about that at all. A sea captain put the first light here in eighteen sixty-nine with his own money because he couldn't stand watching people drown within sight of shore. He didn't know them. He'd never meet them. He just refused to let it keep happening. My grandmother would say the whole moral weight of a place is in how it treats the stranger it can't even see. These three towns spent a century arguing about the strangers they could see. This light was quietly doing the harder version the entire time. Turn around and look at the loop you rode. Hold both of those. That's the island.",
+        "audio": {
+          "path": "audio/confidante/cf-bk15.m4a",
+          "duration": 39.8,
+          "voice_provider": "kokoro"
+        }
+      }
+    }
+  ]
+}
