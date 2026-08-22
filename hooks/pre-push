@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+# Pre-push validation gate for the virtualtours repo.
+#
+# Refuses to push if any tour bundle fails to decode against the app's
+# models. This is the backstop that makes the "validation failure on
+# download" bug impossible to reach a tester's phone: you cannot push a
+# broken bundle, regardless of whether anyone remembered to run release.sh.
+#
+# Installed by ./hooks/install.sh (copies this to .git/hooks/pre-push).
+# To bypass in a genuine emergency: git push --no-verify (don't).
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+# When run as .git/hooks/pre-push, $0 is .git/hooks/pre-push, so ../.. is repo root.
+# When run from hooks/ during testing, resolve relative to this file.
+if [ ! -f "$REPO_ROOT/tools/validate_bundle.py" ]; then
+    REPO_ROOT="$(git rev-parse --show-toplevel)"
+fi
+
+VALIDATOR="$REPO_ROOT/tools/validate_bundle.py"
+if [ ! -f "$VALIDATOR" ]; then
+    echo "pre-push: tools/validate_bundle.py not found — cannot validate. Blocking push." >&2
+    exit 1
+fi
+
+# Collect every bundle dir (contains manifest.json)
+TARGETS=()
+for dir in "$REPO_ROOT"/*/; do
+    [ -f "$dir/manifest.json" ] && TARGETS+=("$dir")
+done
+
+if [ ${#TARGETS[@]} -eq 0 ]; then
+    echo "pre-push: no bundles found to validate." >&2
+    exit 0
+fi
+
+echo "pre-push: validating ${#TARGETS[@]} bundle(s) against app models..."
+if ! python3 "$VALIDATOR" "${TARGETS[@]}"; then
+    echo "" >&2
+    echo "PUSH BLOCKED: one or more bundles would fail import in the app." >&2
+    echo "Fix the errors above, or (only if you know what you're doing) bypass with:" >&2
+    echo "    git push --no-verify" >&2
+    exit 1
+fi
+
+echo "pre-push: all bundles valid."
+exit 0

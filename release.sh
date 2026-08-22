@@ -73,8 +73,11 @@ if [ "$DRY_RUN" = "--dry-run" ]; then
     exit 0
 fi
 
-# Create the release
-echo "Creating GitHub Release $VERSION..."
+# Create or update the release.
+# If the tag already exists, upload assets with --clobber (overwrite in
+# place) instead of failing. This is the sanctioned overwrite path — do NOT
+# reach around it with a raw `gh release upload`, or the validation gate
+# above gets bypassed (which is exactly how broken bundles shipped once).
 NOTES="Walking tours for the Footnotes app.
 
 Download any .tourguide file and:
@@ -83,10 +86,17 @@ Download any .tourguide file and:
 
 ${#TOURS[@]} tours included in this release. See README.md for the full tour list."
 
-gh release create "$VERSION" \
-    --title "Virtual Tours $VERSION" \
-    --notes "$NOTES" \
-    "${TOURS[@]}"
+if gh release view "$VERSION" > /dev/null 2>&1; then
+    echo "Release $VERSION exists — uploading assets with --clobber..."
+    gh release upload "$VERSION" "${TOURS[@]}" catalog.json --clobber
+    gh release edit "$VERSION" --notes "$NOTES" > /dev/null
+else
+    echo "Creating GitHub Release $VERSION..."
+    gh release create "$VERSION" \
+        --title "Virtual Tours $VERSION" \
+        --notes "$NOTES" \
+        "${TOURS[@]}" catalog.json
+fi
 
 echo ""
 echo "=== Release $VERSION published ==="

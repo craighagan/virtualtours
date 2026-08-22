@@ -15,6 +15,10 @@ Each folder is a self-contained tour bundle: narration, audio, waypoints, and me
 | [brookline-aspinwall-paths](brookline-aspinwall-paths/) | Brookline, MA | 8 | 2.8 km | ~75 min | Steep, stairs |
 | [york-village](york-village/) | York, ME | 6 | 1.2 km | ~45 min | Flat |
 | [york-beach](york-beach/) | York Beach, ME | 11 | 5.6 km | ~70 min | Coastal, varied |
+| [boston-freedom-trail](boston-freedom-trail/) | Boston, MA | 10 | 2.9 km | ~90 min | Flat, urban |
+| [boston-seaport-harborwalk](boston-seaport-harborwalk/) | Boston, MA | 8 | 7.2 km | ~2 hr | Flat, waterfront |
+| [mv-oak-bluffs](mv-oak-bluffs/) | Martha's Vineyard, MA | 11 | 3.4 km | ~100 min | Flat, walking |
+| [mv-bike-loop](mv-bike-loop/) | Martha's Vineyard, MA | 15 | 26 km | ~3.5 hr | Cycling, paved path |
 
 ## Personas
 
@@ -73,3 +77,39 @@ You are free to share and adapt this content for any purpose, including commerci
 ## Attribution
 
 See [ATTRIBUTION.md](ATTRIBUTION.md) for source credits (NPS, historical societies, OpenStreetMap).
+
+## Publishing & validation (contributors)
+
+Every bundle must decode against the Footnotes app's data models, or the app
+rejects it at import ("validation failure on download"). Two layers enforce
+this so a broken bundle can't reach a phone:
+
+1. **Pre-push hook** — blocks `git push` if any bundle is invalid. Install it
+   once per clone:
+   ```bash
+   ./hooks/install.sh
+   ```
+   Bypass only in a real emergency with `git push --no-verify`.
+
+2. **Publish gate** — `release.sh` validates all bundles before it zips or
+   uploads anything, and aborts on failure.
+
+**To publish** (builds, validates, and creates or updates the release):
+```bash
+./release.sh v2.0
+```
+If the tag already exists, `release.sh` overwrites the assets in place with
+`--clobber`. Do **not** publish with a raw `gh release upload` — that skips
+the validation gate, which is exactly how broken bundles shipped once.
+
+**To validate manually** at any time:
+```bash
+python3 tools/validate_bundle.py */          # all bundles
+python3 tools/validate_bundle.py mv-oak-bluffs   # one bundle
+```
+
+The validator (`tools/validate_bundle.py`) reproduces the app's
+`BundleValidator` checks. The authoritative check is the XCTest
+`AllBundlesDecodeTests` in the app repo, which decodes every bundle with the
+real Swift models — if the two ever disagree, the Swift test is right and the
+Python validator has drifted.
