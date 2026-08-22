@@ -1,78 +1,149 @@
 {
   "schema_version": "1.0.0",
-  "bundle_id": "boston-seaport-harborwalk",
+  "id": "boston-seaport-harborwalk",
+  "version": "0.1.0",
+  "title": "Boston Seaport & HarborWalk to Castle Island",
+  "description": "From glass towers built on parking lots to a 390-year-old fort — the waterfront that transformed and the waterfront that survived.",
+  "locale": "en-US",
+  "kind": "core",
+  "distance": 7200.0,
+  "duration_estimate": 7200.0,
   "waypoints": [
     {
       "id": "wp-fort-point-channel",
       "name": "Fort Point Channel",
-      "lat": 42.3519,
-      "lon": -71.0492,
-      "radius_m": 35,
       "address": "Congress Street at Fort Point Channel",
-      "order": 1
+      "order": 1,
+      "position": {
+        "lat": 42.3519,
+        "lon": -71.0492
+      },
+      "trigger": {
+        "radius": 35
+      },
+      "dossier": {
+        "summary": "Fort Point Channel. Congress Street at Fort Point Channel.",
+        "text": "## Fort Point Channel\n\nFort Point Channel. Congress Street at Fort Point Channel.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-seaport-boulevard",
       "name": "The Billion-Dollar Parking Lot",
-      "lat": 42.3489,
-      "lon": -71.0444,
-      "radius_m": 40,
       "address": "Seaport Blvd at Boston Wharf Road",
-      "order": 2
+      "order": 2,
+      "position": {
+        "lat": 42.3489,
+        "lon": -71.0444
+      },
+      "trigger": {
+        "radius": 40
+      },
+      "dossier": {
+        "summary": "The Billion-Dollar Parking Lot. Seaport Blvd at Boston Wharf Road.",
+        "text": "## The Billion-Dollar Parking Lot\n\nThe Billion-Dollar Parking Lot. Seaport Blvd at Boston Wharf Road.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ica-fan-pier",
       "name": "ICA / Fan Pier",
-      "lat": 42.3532,
-      "lon": -71.0427,
-      "radius_m": 35,
       "address": "25 Harbor Shore Drive",
-      "order": 3
+      "order": 3,
+      "position": {
+        "lat": 42.3532,
+        "lon": -71.0427
+      },
+      "trigger": {
+        "radius": 35
+      },
+      "dossier": {
+        "summary": "ICA / Fan Pier. 25 Harbor Shore Drive.",
+        "text": "## ICA / Fan Pier\n\nICA / Fan Pier. 25 Harbor Shore Drive.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-fish-pier",
       "name": "Fish Pier",
-      "lat": 42.3476,
-      "lon": -71.0371,
-      "radius_m": 35,
       "address": "212 Northern Avenue",
-      "order": 4
+      "order": 4,
+      "position": {
+        "lat": 42.3476,
+        "lon": -71.0371
+      },
+      "trigger": {
+        "radius": 35
+      },
+      "dossier": {
+        "summary": "Fish Pier. 212 Northern Avenue.",
+        "text": "## Fish Pier\n\nFish Pier. 212 Northern Avenue.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-drydock",
       "name": "Marine Industrial Park",
-      "lat": 42.344,
-      "lon": -71.0328,
-      "radius_m": 40,
       "address": "Drydock Avenue at Design Center Place",
-      "order": 5
+      "order": 5,
+      "position": {
+        "lat": 42.344,
+        "lon": -71.0328
+      },
+      "trigger": {
+        "radius": 40
+      },
+      "dossier": {
+        "summary": "Marine Industrial Park. Drydock Avenue at Design Center Place.",
+        "text": "## Marine Industrial Park\n\nMarine Industrial Park. Drydock Avenue at Design Center Place.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-carson-beach",
       "name": "Carson Beach",
-      "lat": 42.3334,
-      "lon": -71.0347,
-      "radius_m": 50,
       "address": "Day Boulevard at Carson Beach",
-      "order": 6
+      "order": 6,
+      "position": {
+        "lat": 42.3334,
+        "lon": -71.0347
+      },
+      "trigger": {
+        "radius": 50
+      },
+      "dossier": {
+        "summary": "Carson Beach. Day Boulevard at Carson Beach.",
+        "text": "## Carson Beach\n\nCarson Beach. Day Boulevard at Carson Beach.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-pleasure-bay",
       "name": "Pleasure Bay",
-      "lat": 42.3292,
-      "lon": -71.0277,
-      "radius_m": 45,
       "address": "Day Boulevard at Pleasure Bay",
-      "order": 7
+      "order": 7,
+      "position": {
+        "lat": 42.3292,
+        "lon": -71.0277
+      },
+      "trigger": {
+        "radius": 45
+      },
+      "dossier": {
+        "summary": "Pleasure Bay. Day Boulevard at Pleasure Bay.",
+        "text": "## Pleasure Bay\n\nPleasure Bay. Day Boulevard at Pleasure Bay.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-castle-island",
       "name": "Castle Island",
-      "lat": 42.3275,
-      "lon": -71.0101,
-      "radius_m": 50,
       "address": "2010 William J. Day Blvd",
-      "order": 8
+      "order": 8,
+      "position": {
+        "lat": 42.3275,
+        "lon": -71.0101
+      },
+      "trigger": {
+        "radius": 50
+      },
+      "dossier": {
+        "summary": "Castle Island. 2010 William J. Day Blvd.",
+        "text": "## Castle Island\n\nCastle Island. 2010 William J. Day Blvd.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     }
   ]
 }

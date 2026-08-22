@@ -1,34 +1,62 @@
 {
   "schema_version": "1.0.0",
   "bundle_id": "boston-freedom-trail",
-  "version": "0.1.0",
-  "tour_name": "Boston Freedom Trail: What the Red Line Walks Past",
-  "region": "Boston, Massachusetts",
+  "title": "Boston Freedom Trail: What the Red Line Walks Past",
+  "built_at": "2026-08-21T00:00:00Z",
+  "min_app_version": "1.0.0",
+  "core": {
+    "id": "core",
+    "kind": "core",
+    "version": "0.1.0",
+    "path": "core/",
+    "size": 7620459
+  },
+  "personas": [
+    {
+      "id": "oldtimer",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/oldtimer/",
+      "size": 1809958,
+      "display_name": "Gus",
+      "one_line": "Been here forever, tells stories, and always tells you which parts are true."
+    },
+    {
+      "id": "operator",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/operator/",
+      "size": 2145172,
+      "display_name": "Onyx",
+      "one_line": "Reads how a place is built and teaches you to read it too."
+    },
+    {
+      "id": "confidante",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/confidante/",
+      "size": 1739911,
+      "display_name": "Nova",
+      "one_line": "Who got to belong here, and what it cost them."
+    },
+    {
+      "id": "fieldnaturalist",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/fieldnaturalist/",
+      "size": 1860152,
+      "display_name": "Jessica",
+      "one_line": "Measures what nobody else is counting, delighted by what she can't explain."
+    }
+  ],
   "description": "Ten stops the trail marks and two it doesn't — what's hidden in the buildings everybody photographs.",
+  "region": "Boston, Massachusetts",
   "distance_km": 2.9,
   "duration_minutes": 90,
   "difficulty": "easy",
   "terrain": "Flat, sidewalks and brick (cobblestones in North End)",
   "accessibility": "Fully accessible except cobblestones near Paul Revere House",
   "season": "Year-round",
-  "personas": [
-    {
-      "id": "oldtimer",
-      "name": "Gus"
-    },
-    {
-      "id": "operator",
-      "name": "Onyx"
-    },
-    {
-      "id": "confidante",
-      "name": "Nova"
-    },
-    {
-      "id": "fieldnaturalist",
-      "name": "Jessica"
-    }
-  ],
   "tags": [
     "urban",
     "history",

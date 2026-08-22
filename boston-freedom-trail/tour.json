@@ -1,96 +1,183 @@
 {
   "schema_version": "1.0.0",
-  "bundle_id": "boston-freedom-trail",
+  "id": "boston-freedom-trail",
+  "version": "0.1.0",
+  "title": "Boston Freedom Trail: What the Red Line Walks Past",
+  "description": "Ten stops the trail marks and two it doesn't — what's hidden in the buildings everybody photographs.",
+  "locale": "en-US",
+  "kind": "core",
+  "distance": 2900.0,
+  "duration_estimate": 5400.0,
   "waypoints": [
     {
       "id": "wp-boston-common",
       "name": "Boston Common",
-      "lat": 42.3554,
-      "lon": -71.0658,
-      "radius_m": 40,
       "address": "Park Street at Tremont Street",
-      "order": 1
+      "order": 1,
+      "position": {
+        "lat": 42.3554,
+        "lon": -71.0658
+      },
+      "trigger": {
+        "radius": 40
+      },
+      "dossier": {
+        "summary": "Boston Common. Park Street at Tremont Street.",
+        "text": "## Boston Common\n\nBoston Common. Park Street at Tremont Street.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-park-street-church",
       "name": "Park Street Church",
-      "lat": 42.3562,
-      "lon": -71.0618,
-      "radius_m": 30,
       "address": "1 Park Street",
-      "order": 2
+      "order": 2,
+      "position": {
+        "lat": 42.3562,
+        "lon": -71.0618
+      },
+      "trigger": {
+        "radius": 30
+      },
+      "dossier": {
+        "summary": "Park Street Church. 1 Park Street.",
+        "text": "## Park Street Church\n\nPark Street Church. 1 Park Street.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-granary",
       "name": "Granary Burying Ground",
-      "lat": 42.3572,
-      "lon": -71.0614,
-      "radius_m": 30,
       "address": "95 Tremont Street",
-      "order": 3
+      "order": 3,
+      "position": {
+        "lat": 42.3572,
+        "lon": -71.0614
+      },
+      "trigger": {
+        "radius": 30
+      },
+      "dossier": {
+        "summary": "Granary Burying Ground. 95 Tremont Street.",
+        "text": "## Granary Burying Ground\n\nGranary Burying Ground. 95 Tremont Street.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-parker-house",
       "name": "Omni Parker House",
-      "lat": 42.3572,
-      "lon": -71.0591,
-      "radius_m": 30,
       "address": "60 School Street",
-      "order": 4
+      "order": 4,
+      "position": {
+        "lat": 42.3572,
+        "lon": -71.0591
+      },
+      "trigger": {
+        "radius": 30
+      },
+      "dossier": {
+        "summary": "Omni Parker House. 60 School Street.",
+        "text": "## Omni Parker House\n\nOmni Parker House. 60 School Street.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-kings-chapel",
       "name": "King's Chapel",
-      "lat": 42.3579,
-      "lon": -71.0588,
-      "radius_m": 30,
       "address": "64 Beacon Street at Tremont",
-      "order": 5
+      "order": 5,
+      "position": {
+        "lat": 42.3579,
+        "lon": -71.0588
+      },
+      "trigger": {
+        "radius": 30
+      },
+      "dossier": {
+        "summary": "King's Chapel. 64 Beacon Street at Tremont.",
+        "text": "## King's Chapel\n\nKing's Chapel. 64 Beacon Street at Tremont.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-old-south",
       "name": "Old South Meeting House",
-      "lat": 42.3568,
-      "lon": -71.0585,
-      "radius_m": 30,
       "address": "310 Washington Street",
-      "order": 6
+      "order": 6,
+      "position": {
+        "lat": 42.3568,
+        "lon": -71.0585
+      },
+      "trigger": {
+        "radius": 30
+      },
+      "dossier": {
+        "summary": "Old South Meeting House. 310 Washington Street.",
+        "text": "## Old South Meeting House\n\nOld South Meeting House. 310 Washington Street.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-old-state-house",
       "name": "Old State House",
-      "lat": 42.3587,
-      "lon": -71.0574,
-      "radius_m": 30,
       "address": "206 Washington Street",
-      "order": 7
+      "order": 7,
+      "position": {
+        "lat": 42.3587,
+        "lon": -71.0574
+      },
+      "trigger": {
+        "radius": 30
+      },
+      "dossier": {
+        "summary": "Old State House. 206 Washington Street.",
+        "text": "## Old State House\n\nOld State House. 206 Washington Street.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-faneuil-hall",
       "name": "Faneuil Hall",
-      "lat": 42.3601,
-      "lon": -71.0563,
-      "radius_m": 35,
       "address": "1 Faneuil Hall Square",
-      "order": 8
+      "order": 8,
+      "position": {
+        "lat": 42.3601,
+        "lon": -71.0563
+      },
+      "trigger": {
+        "radius": 35
+      },
+      "dossier": {
+        "summary": "Faneuil Hall. 1 Faneuil Hall Square.",
+        "text": "## Faneuil Hall\n\nFaneuil Hall. 1 Faneuil Hall Square.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-revere-house",
       "name": "Paul Revere House",
-      "lat": 42.3636,
-      "lon": -71.0537,
-      "radius_m": 30,
       "address": "19 North Square",
-      "order": 9
+      "order": 9,
+      "position": {
+        "lat": 42.3636,
+        "lon": -71.0537
+      },
+      "trigger": {
+        "radius": 30
+      },
+      "dossier": {
+        "summary": "Paul Revere House. 19 North Square.",
+        "text": "## Paul Revere House\n\nPaul Revere House. 19 North Square.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-old-north",
       "name": "Old North Church",
-      "lat": 42.3664,
-      "lon": -71.0547,
-      "radius_m": 30,
       "address": "193 Salem Street",
-      "order": 10
+      "order": 10,
+      "position": {
+        "lat": 42.3664,
+        "lon": -71.0547
+      },
+      "trigger": {
+        "radius": 30
+      },
+      "dossier": {
+        "summary": "Old North Church. 193 Salem Street.",
+        "text": "## Old North Church\n\nOld North Church. 193 Salem Street.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     }
   ]
 }

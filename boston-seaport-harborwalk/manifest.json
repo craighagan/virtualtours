@@ -1,34 +1,62 @@
 {
   "schema_version": "1.0.0",
   "bundle_id": "boston-seaport-harborwalk",
-  "version": "0.1.0",
-  "tour_name": "Boston Seaport & HarborWalk to Castle Island",
-  "region": "Boston, Massachusetts",
+  "title": "Boston Seaport & HarborWalk to Castle Island",
+  "built_at": "2026-08-21T00:00:00Z",
+  "min_app_version": "1.0.0",
+  "core": {
+    "id": "core",
+    "kind": "core",
+    "version": "0.1.0",
+    "path": "core/",
+    "size": 7166826
+  },
+  "personas": [
+    {
+      "id": "oldtimer",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/oldtimer/",
+      "size": 1588662,
+      "display_name": "Gus",
+      "one_line": "Been here forever, tells stories, and always tells you which parts are true."
+    },
+    {
+      "id": "operator",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/operator/",
+      "size": 1970071,
+      "display_name": "Onyx",
+      "one_line": "Reads how a place is built and teaches you to read it too."
+    },
+    {
+      "id": "confidante",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/confidante/",
+      "size": 1667279,
+      "display_name": "Nova",
+      "one_line": "Who got to belong here, and what it cost them."
+    },
+    {
+      "id": "fieldnaturalist",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/fieldnaturalist/",
+      "size": 1880638,
+      "display_name": "Jessica",
+      "one_line": "Measures what nobody else is counting, delighted by what she can't explain."
+    }
+  ],
   "description": "From glass towers built on parking lots to a 390-year-old fort — the waterfront that transformed and the waterfront that survived.",
+  "region": "Boston, Massachusetts",
   "distance_km": 7.2,
   "duration_minutes": 120,
   "difficulty": "easy",
   "terrain": "Flat, fully paved (HarborWalk + Day Boulevard)",
   "accessibility": "Fully wheelchair accessible",
   "season": "Year-round (Sullivan's seasonal Mar-Nov)",
-  "personas": [
-    {
-      "id": "oldtimer",
-      "name": "Gus"
-    },
-    {
-      "id": "operator",
-      "name": "Onyx"
-    },
-    {
-      "id": "confidante",
-      "name": "Nova"
-    },
-    {
-      "id": "fieldnaturalist",
-      "name": "Jessica"
-    }
-  ],
   "tags": [
     "coastal",
     "urban",

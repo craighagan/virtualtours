@@ -26,6 +26,25 @@ mkdir -p "$DIST_DIR"
 echo "=== Building .tourguide files for $VERSION ==="
 echo ""
 
+# --- Pre-publish validation gate ------------------------------------------
+# Every bundle must decode against the app's models before it can be zipped.
+# This catches the flat-waypoint / missing-core manifest class of bug that
+# shipped broken MV and Boston tours in Aug 2026 (validation failure on
+# download). See tools/validate_bundle.py.
+echo "=== Validating bundles ==="
+VALIDATE_TARGETS=()
+for dir in "$SCRIPT_DIR"/*/; do
+    [ -f "$dir/manifest.json" ] && VALIDATE_TARGETS+=("$dir")
+done
+if ! python3 "$SCRIPT_DIR/tools/validate_bundle.py" "${VALIDATE_TARGETS[@]}"; then
+    echo ""
+    echo "ABORT: one or more bundles failed validation. Nothing published." >&2
+    rm -rf "$DIST_DIR"
+    exit 1
+fi
+echo ""
+
+
 TOURS=()
 for dir in "$SCRIPT_DIR"/*/; do
     if [ -f "$dir/manifest.json" ]; then

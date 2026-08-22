@@ -1,34 +1,62 @@
 {
   "schema_version": "1.0.0",
   "bundle_id": "mv-oak-bluffs",
-  "version": "0.1.0",
-  "tour_name": "Oak Bluffs: The Town That Was Built to Be Looked At",
+  "title": "Oak Bluffs: The Town That Was Built to Be Looked At",
+  "built_at": "2026-08-21T00:00:00Z",
+  "min_app_version": "1.0.0",
+  "core": {
+    "id": "core",
+    "kind": "core",
+    "version": "0.1.0",
+    "path": "core/",
+    "size": 9088870
+  },
+  "personas": [
+    {
+      "id": "oldtimer",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/oldtimer/",
+      "size": 2346018,
+      "display_name": "Gus",
+      "one_line": "Been here forever, tells stories, and always tells you which parts are true."
+    },
+    {
+      "id": "operator",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/operator/",
+      "size": 2169500,
+      "display_name": "Onyx",
+      "one_line": "Reads how a place is built and teaches you to read it too."
+    },
+    {
+      "id": "confidante",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/confidante/",
+      "size": 2246502,
+      "display_name": "Nova",
+      "one_line": "Who got to belong here, and what it cost them."
+    },
+    {
+      "id": "fieldnaturalist",
+      "kind": "persona",
+      "version": "0.1.0",
+      "path": "personas/fieldnaturalist/",
+      "size": 2244393,
+      "display_name": "Jessica",
+      "one_line": "Measures what nobody else is counting, delighted by what she can't explain."
+    }
+  ],
+  "description": "Eleven stops through the only planned town on the Vineyard — a Methodist tent city that turned into gingerbread, a carousel older than the light bulb, and a beach that turned an insult into an address.",
   "region": "Martha's Vineyard, Massachusetts",
-  "description": "Eleven stops through the only planned town on the Vineyard \u2014 a Methodist tent city that turned into gingerbread, a carousel older than the light bulb, and a beach that turned an insult into an address.",
   "distance_km": 3.4,
   "duration_minutes": 100,
   "difficulty": "easy",
   "terrain": "Flat, paved sidewalks and packed dirt in the Camp Ground; one longer stretch out to East Chop",
   "accessibility": "Mostly accessible; the Camp Ground paths are narrow packed dirt, and the East Chop bluff has a gentle grade",
   "season": "Late spring through early fall (many sites close in winter)",
-  "personas": [
-    {
-      "id": "oldtimer",
-      "name": "Gus"
-    },
-    {
-      "id": "operator",
-      "name": "Onyx"
-    },
-    {
-      "id": "confidante",
-      "name": "Nova"
-    },
-    {
-      "id": "fieldnaturalist",
-      "name": "Jessica"
-    }
-  ],
   "tags": [
     "island",
     "history",

@@ -1,142 +1,269 @@
 {
   "schema_version": "1.0.0",
-  "bundle_id": "mv-bike-loop",
+  "id": "mv-bike-loop",
+  "version": "0.1.0",
+  "title": "The Vineyard by Bike: Three Towns, One Loop",
+  "description": "Fifteen stops around the down-island loop — Oak Bluffs to Edgartown along the barrier beach, up to Vineyard Haven, back over East Chop. Three towns that wanted three completely different things.",
+  "locale": "en-US",
+  "kind": "core",
+  "distance": 26000.0,
+  "duration_estimate": 12600.0,
   "waypoints": [
     {
       "id": "wp-bk-wharf",
       "name": "Steamship Wharf",
-      "lat": 41.4575,
-      "lon": -70.556,
-      "radius_m": 70,
       "address": "Oak Bluffs Steamship Authority pier",
-      "order": 1
+      "order": 1,
+      "position": {
+        "lat": 41.4575,
+        "lon": -70.556
+      },
+      "trigger": {
+        "radius": 70
+      },
+      "dossier": {
+        "summary": "Steamship Wharf. Oak Bluffs Steamship Authority pier.",
+        "text": "## Steamship Wharf\n\nSteamship Wharf. Oak Bluffs Steamship Authority pier.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-ocean-park",
       "name": "Ocean Park",
-      "lat": 41.4556,
-      "lon": -70.556,
-      "radius_m": 75,
       "address": "Ocean Park, Seaview Avenue",
-      "order": 2
+      "order": 2,
+      "position": {
+        "lat": 41.4556,
+        "lon": -70.556
+      },
+      "trigger": {
+        "radius": 75
+      },
+      "dossier": {
+        "summary": "Ocean Park. Ocean Park, Seaview Avenue.",
+        "text": "## Ocean Park\n\nOcean Park. Ocean Park, Seaview Avenue.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-flying-horses",
       "name": "The Flying Horses",
-      "lat": 41.4574,
-      "lon": -70.5571,
-      "radius_m": 50,
       "address": "Oak Bluffs Avenue at Lake Avenue",
-      "order": 3
+      "order": 3,
+      "position": {
+        "lat": 41.4574,
+        "lon": -70.5571
+      },
+      "trigger": {
+        "radius": 50
+      },
+      "dossier": {
+        "summary": "The Flying Horses. Oak Bluffs Avenue at Lake Avenue.",
+        "text": "## The Flying Horses\n\nThe Flying Horses. Oak Bluffs Avenue at Lake Avenue.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-inkwell",
       "name": "The Inkwell",
-      "lat": 41.4523,
-      "lon": -70.5534,
-      "radius_m": 70,
       "address": "Oak Bluffs Town Beach, Seaview Avenue",
-      "order": 4
+      "order": 4,
+      "position": {
+        "lat": 41.4523,
+        "lon": -70.5534
+      },
+      "trigger": {
+        "radius": 70
+      },
+      "dossier": {
+        "summary": "The Inkwell. Oak Bluffs Town Beach, Seaview Avenue.",
+        "text": "## The Inkwell\n\nThe Inkwell. Oak Bluffs Town Beach, Seaview Avenue.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-little-bridge",
       "name": "Little Bridge",
-      "lat": 41.4161,
-      "lon": -70.5488,
-      "radius_m": 70,
       "address": "Beach Road at the north Sengekontacket inlet",
-      "order": 5
+      "order": 5,
+      "position": {
+        "lat": 41.4161,
+        "lon": -70.5488
+      },
+      "trigger": {
+        "radius": 70
+      },
+      "dossier": {
+        "summary": "Little Bridge. Beach Road at the north Sengekontacket inlet.",
+        "text": "## Little Bridge\n\nLittle Bridge. Beach Road at the north Sengekontacket inlet.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-state-beach",
       "name": "State Beach",
-      "lat": 41.4111,
-      "lon": -70.5438,
-      "radius_m": 90,
       "address": "Joseph Sylvia State Beach, Beach Road",
-      "order": 6
+      "order": 6,
+      "position": {
+        "lat": 41.4111,
+        "lon": -70.5438
+      },
+      "trigger": {
+        "radius": 90
+      },
+      "dossier": {
+        "summary": "State Beach. Joseph Sylvia State Beach, Beach Road.",
+        "text": "## State Beach\n\nState Beach. Joseph Sylvia State Beach, Beach Road.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-jaws-bridge",
       "name": "Jaws Bridge",
-      "lat": 41.4065,
-      "lon": -70.536,
-      "radius_m": 60,
       "address": "American Legion Memorial Bridge, Beach Road",
-      "order": 7
+      "order": 7,
+      "position": {
+        "lat": 41.4065,
+        "lon": -70.536
+      },
+      "trigger": {
+        "radius": 60
+      },
+      "dossier": {
+        "summary": "Jaws Bridge. American Legion Memorial Bridge, Beach Road.",
+        "text": "## Jaws Bridge\n\nJaws Bridge. American Legion Memorial Bridge, Beach Road.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-edg-lighthouse",
       "name": "Edgartown Lighthouse",
-      "lat": 41.3909,
-      "lon": -70.5031,
-      "radius_m": 60,
       "address": "North Water Street at the harbor entrance",
-      "order": 8
+      "order": 8,
+      "position": {
+        "lat": 41.3909,
+        "lon": -70.5031
+      },
+      "trigger": {
+        "radius": 60
+      },
+      "dossier": {
+        "summary": "Edgartown Lighthouse. North Water Street at the harbor entrance.",
+        "text": "## Edgartown Lighthouse\n\nEdgartown Lighthouse. North Water Street at the harbor entrance.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-water-street",
       "name": "North Water Street",
-      "lat": 41.3901,
-      "lon": -70.5085,
-      "radius_m": 60,
       "address": "North Water Street, Edgartown Village",
-      "order": 9
+      "order": 9,
+      "position": {
+        "lat": 41.3901,
+        "lon": -70.5085
+      },
+      "trigger": {
+        "radius": 60
+      },
+      "dossier": {
+        "summary": "North Water Street. North Water Street, Edgartown Village.",
+        "text": "## North Water Street\n\nNorth Water Street. North Water Street, Edgartown Village.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-whaling-church",
       "name": "Old Whaling Church",
-      "lat": 41.3906,
-      "lon": -70.5152,
-      "radius_m": 50,
       "address": "89 Main Street, Edgartown",
-      "order": 10
+      "order": 10,
+      "position": {
+        "lat": 41.3906,
+        "lon": -70.5152
+      },
+      "trigger": {
+        "radius": 50
+      },
+      "dossier": {
+        "summary": "Old Whaling Church. 89 Main Street, Edgartown.",
+        "text": "## Old Whaling Church\n\nOld Whaling Church. 89 Main Street, Edgartown.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-courthouse",
       "name": "Dukes County Courthouse",
-      "lat": 41.3904,
-      "lon": -70.5147,
-      "radius_m": 45,
       "address": "81 Main Street, Edgartown",
-      "order": 11
+      "order": 11,
+      "position": {
+        "lat": 41.3904,
+        "lon": -70.5147
+      },
+      "trigger": {
+        "radius": 45
+      },
+      "dossier": {
+        "summary": "Dukes County Courthouse. 81 Main Street, Edgartown.",
+        "text": "## Dukes County Courthouse\n\nDukes County Courthouse. 81 Main Street, Edgartown.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-chappy-ferry",
       "name": "The Chappy Ferry",
-      "lat": 41.3893,
-      "lon": -70.5108,
-      "radius_m": 50,
       "address": "Dock Street at Memorial Wharf, Edgartown",
-      "order": 12
+      "order": 12,
+      "position": {
+        "lat": 41.3893,
+        "lon": -70.5108
+      },
+      "trigger": {
+        "radius": 50
+      },
+      "dossier": {
+        "summary": "The Chappy Ferry. Dock Street at Memorial Wharf, Edgartown.",
+        "text": "## The Chappy Ferry\n\nThe Chappy Ferry. Dock Street at Memorial Wharf, Edgartown.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-boatyard",
       "name": "The Boatyard",
-      "lat": 41.4533,
-      "lon": -70.5998,
-      "radius_m": 60,
       "address": "Beach Road at Vineyard Haven harbor",
-      "order": 13
+      "order": 13,
+      "position": {
+        "lat": 41.4533,
+        "lon": -70.5998
+      },
+      "trigger": {
+        "radius": 60
+      },
+      "dossier": {
+        "summary": "The Boatyard. Beach Road at Vineyard Haven harbor.",
+        "text": "## The Boatyard\n\nThe Boatyard. Beach Road at Vineyard Haven harbor.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-owen-park",
       "name": "Owen Park",
-      "lat": 41.4573,
-      "lon": -70.6024,
-      "radius_m": 60,
       "address": "Owen Park, Vineyard Haven",
-      "order": 14
+      "order": 14,
+      "position": {
+        "lat": 41.4573,
+        "lon": -70.6024
+      },
+      "trigger": {
+        "radius": 60
+      },
+      "dossier": {
+        "summary": "Owen Park. Owen Park, Vineyard Haven.",
+        "text": "## Owen Park\n\nOwen Park. Owen Park, Vineyard Haven.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-bk-east-chop",
       "name": "East Chop Lighthouse",
-      "lat": 41.4703,
-      "lon": -70.5675,
-      "radius_m": 70,
       "address": "East Chop Drive at the bluff",
       "order": 15,
-      "terminal": true
+      "terminal": true,
+      "position": {
+        "lat": 41.4703,
+        "lon": -70.5675
+      },
+      "trigger": {
+        "radius": 70
+      },
+      "dossier": {
+        "summary": "East Chop Lighthouse. East Chop Drive at the bluff.",
+        "text": "## East Chop Lighthouse\n\nEast Chop Lighthouse. East Chop Drive at the bluff.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     }
   ]
 }

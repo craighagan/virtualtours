@@ -1,106 +1,201 @@
 {
   "schema_version": "1.0.0",
-  "bundle_id": "mv-oak-bluffs",
+  "id": "mv-oak-bluffs",
+  "version": "0.1.0",
+  "title": "Oak Bluffs: The Town That Was Built to Be Looked At",
+  "description": "Eleven stops through the only planned town on the Vineyard — a Methodist tent city that turned into gingerbread, a carousel older than the light bulb, and a beach that turned an insult into an address.",
+  "locale": "en-US",
+  "kind": "core",
+  "distance": 3400.0,
+  "duration_estimate": 6000.0,
   "waypoints": [
     {
       "id": "wp-ob-wharf",
       "name": "Steamship Wharf",
-      "lat": 41.4575,
-      "lon": -70.556,
-      "radius_m": 45,
       "address": "Seaview Avenue at the Steamship Authority pier",
-      "order": 1
+      "order": 1,
+      "position": {
+        "lat": 41.4575,
+        "lon": -70.556
+      },
+      "trigger": {
+        "radius": 45
+      },
+      "dossier": {
+        "summary": "Steamship Wharf. Seaview Avenue at the Steamship Authority pier.",
+        "text": "## Steamship Wharf\n\nSteamship Wharf. Seaview Avenue at the Steamship Authority pier.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ob-ocean-park",
       "name": "Ocean Park",
-      "lat": 41.4556,
-      "lon": -70.556,
-      "radius_m": 50,
       "address": "Ocean Park, Seaview Avenue",
-      "order": 2
+      "order": 2,
+      "position": {
+        "lat": 41.4556,
+        "lon": -70.556
+      },
+      "trigger": {
+        "radius": 50
+      },
+      "dossier": {
+        "summary": "Ocean Park. Ocean Park, Seaview Avenue.",
+        "text": "## Ocean Park\n\nOcean Park. Ocean Park, Seaview Avenue.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ob-tabernacle",
       "name": "The Tabernacle",
-      "lat": 41.4556,
-      "lon": -70.5602,
-      "radius_m": 35,
       "address": "Trinity Park, Wesleyan Grove",
-      "order": 3
+      "order": 3,
+      "position": {
+        "lat": 41.4556,
+        "lon": -70.5602
+      },
+      "trigger": {
+        "radius": 35
+      },
+      "dossier": {
+        "summary": "The Tabernacle. Trinity Park, Wesleyan Grove.",
+        "text": "## The Tabernacle\n\nThe Tabernacle. Trinity Park, Wesleyan Grove.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ob-cottages",
       "name": "The Gingerbread Cottages",
-      "lat": 41.4553,
-      "lon": -70.5596,
-      "radius_m": 35,
       "address": "Trinity Park loop, Wesleyan Grove",
-      "order": 4
+      "order": 4,
+      "position": {
+        "lat": 41.4553,
+        "lon": -70.5596
+      },
+      "trigger": {
+        "radius": 35
+      },
+      "dossier": {
+        "summary": "The Gingerbread Cottages. Trinity Park loop, Wesleyan Grove.",
+        "text": "## The Gingerbread Cottages\n\nThe Gingerbread Cottages. Trinity Park loop, Wesleyan Grove.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ob-cottage-museum",
       "name": "The Cottage Museum",
-      "lat": 41.4558,
-      "lon": -70.5598,
-      "radius_m": 25,
       "address": "1 Trinity Park",
-      "order": 5
+      "order": 5,
+      "position": {
+        "lat": 41.4558,
+        "lon": -70.5598
+      },
+      "trigger": {
+        "radius": 25
+      },
+      "dossier": {
+        "summary": "The Cottage Museum. 1 Trinity Park.",
+        "text": "## The Cottage Museum\n\nThe Cottage Museum. 1 Trinity Park.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ob-union-chapel",
       "name": "Union Chapel",
-      "lat": 41.4546,
-      "lon": -70.5581,
-      "radius_m": 30,
       "address": "Kennebec Avenue at Samoset",
-      "order": 6
+      "order": 6,
+      "position": {
+        "lat": 41.4546,
+        "lon": -70.5581
+      },
+      "trigger": {
+        "radius": 30
+      },
+      "dossier": {
+        "summary": "Union Chapel. Kennebec Avenue at Samoset.",
+        "text": "## Union Chapel\n\nUnion Chapel. Kennebec Avenue at Samoset.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ob-circuit-ave",
       "name": "Circuit Avenue",
-      "lat": 41.4564,
-      "lon": -70.558,
-      "radius_m": 40,
       "address": "Circuit Avenue",
-      "order": 7
+      "order": 7,
+      "position": {
+        "lat": 41.4564,
+        "lon": -70.558
+      },
+      "trigger": {
+        "radius": 40
+      },
+      "dossier": {
+        "summary": "Circuit Avenue. Circuit Avenue.",
+        "text": "## Circuit Avenue\n\nCircuit Avenue. Circuit Avenue.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ob-flying-horses",
       "name": "The Flying Horses",
-      "lat": 41.4574,
-      "lon": -70.5571,
-      "radius_m": 25,
       "address": "Oak Bluffs Avenue at Lake Avenue",
-      "order": 8
+      "order": 8,
+      "position": {
+        "lat": 41.4574,
+        "lon": -70.5571
+      },
+      "trigger": {
+        "radius": 25
+      },
+      "dossier": {
+        "summary": "The Flying Horses. Oak Bluffs Avenue at Lake Avenue.",
+        "text": "## The Flying Horses\n\nThe Flying Horses. Oak Bluffs Avenue at Lake Avenue.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ob-harbor",
       "name": "Oak Bluffs Harbor",
-      "lat": 41.4596,
-      "lon": -70.5598,
-      "radius_m": 50,
       "address": "Oak Bluffs Harbor",
-      "order": 9
+      "order": 9,
+      "position": {
+        "lat": 41.4596,
+        "lon": -70.5598
+      },
+      "trigger": {
+        "radius": 50
+      },
+      "dossier": {
+        "summary": "Oak Bluffs Harbor. Oak Bluffs Harbor.",
+        "text": "## Oak Bluffs Harbor\n\nOak Bluffs Harbor. Oak Bluffs Harbor.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ob-inkwell",
       "name": "The Inkwell",
-      "lat": 41.4523,
-      "lon": -70.5534,
-      "radius_m": 45,
       "address": "Oak Bluffs Town Beach, Seaview Avenue",
-      "order": 10
+      "order": 10,
+      "position": {
+        "lat": 41.4523,
+        "lon": -70.5534
+      },
+      "trigger": {
+        "radius": 45
+      },
+      "dossier": {
+        "summary": "The Inkwell. Oak Bluffs Town Beach, Seaview Avenue.",
+        "text": "## The Inkwell\n\nThe Inkwell. Oak Bluffs Town Beach, Seaview Avenue.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     },
     {
       "id": "wp-ob-east-chop",
       "name": "East Chop Lighthouse",
-      "lat": 41.4703,
-      "lon": -70.5675,
-      "radius_m": 45,
       "address": "East Chop Drive at the bluff",
       "order": 11,
-      "terminal": true
+      "terminal": true,
+      "position": {
+        "lat": 41.4703,
+        "lon": -70.5675
+      },
+      "trigger": {
+        "radius": 45
+      },
+      "dossier": {
+        "summary": "East Chop Lighthouse. East Chop Drive at the bluff.",
+        "text": "## East Chop Lighthouse\n\nEast Chop Lighthouse. East Chop Drive at the bluff.\n\nSee the persona narration for this stop's full telling. This dossier is a stub for the app's \"Read more\" screen and can be expanded later."
+      }
     }
   ]
 }

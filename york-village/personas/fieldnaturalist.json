@@ -57,7 +57,7 @@
         "text": "Jefferds Tavern. Look at those timbers — hand-hewn, three hundred years old, still structural. That is white oak, almost certainly. Quercus alba. Oak is remarkable because it produces tyloses — cellular plugs that block the vessel elements and make the heartwood essentially waterproof from the inside. That is why it lasts centuries in a frame. Pine rots in twenty years exposed. Oak resists because its own biology sealed it before anyone cut it down. Ozawa used to say that the best building materials are the ones that evolved their own preservation chemistry. Oak evolved tyloses to resist fungal attack while still living. We just borrowed that property. Notice the cut faces on those beams — the texture is rough, not smooth. That is hand-hewn. An axe tears fibers instead of cutting them cleanly, which paradoxically creates a more durable surface because the torn fibers seal over instead of leaving open channels for moisture infiltration. I did not know that until Marcus pointed it out last year. He was examining timber decay patterns in coastal buildings for his thesis. Turns out the oldest beams decay slower than machine-sawn replacements from the same species. The axe work matters. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y1.m4a",
-          "duration": 45.25,
+          "duration": 61.0,
           "voice_provider": "kokoro"
         }
       },
@@ -66,7 +66,7 @@
         "text": "Head down Lindsay Road. Burying ground on your left. Look at the lichen on the stones — that is where biology starts.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y1-cue.m4a",
-          "duration": 6.0,
+          "duration": 6.15,
           "voice_provider": "kokoro"
         }
       },
@@ -75,7 +75,7 @@
         "text": "This building was moved in nineteen thirty-nine — disassembled and reassembled on this site. From a material science perspective, that is interesting because moving a timber frame exposes interior surfaces that have been sealed for two hundred years. Every joint that was taken apart and put back together created new moisture pathways. The people who reassembled it had to decide: pack the joints with new material and hope it seals, or accept that the moved building will decay differently than the original. I have seen both approaches in historic timber frames. The ones packed with modern caulk often do worse because the caulk traps moisture against the wood instead of letting it breathe. The ones left open — counterintuitively — do better because airflow dries the joint before fungi can establish. Marcus and I surveyed twelve moved timber frames last summer. The ones moved before nineteen fifty, when people still used traditional joinery methods, show less decay than the ones moved after nineteen seventy with modern interventions. The old techniques worked because they were compatible with the material's biology. The new ones fight it. I do not know yet if that pattern holds at a larger sample size. But I suspect it does.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y1-deep.m4a",
-          "duration": 39.825,
+          "duration": 59.7,
           "voice_provider": "kokoro"
         }
       }
@@ -87,7 +87,7 @@
         "text": "Old Burying Ground. Look at the lichen on these headstones. That orange one is Xanthoria parietina — a foliose lichen that loves nitrogen-enriched surfaces. It grows on stone that has been fertilized by bird droppings, which means the stones with the most orange lichen are the ones birds perch on most frequently. The gray-green crust is Lecanora — a crustose lichen that bonds directly to the mineral surface and slowly dissolves it through acid secretion. These lichens are eating the headstones. Millimeters per century, but measurably. Lichenometry — using lichen diameter to date surfaces — works because growth rates are known: Rhizocarpon grows about half a millimeter per year in this climate. A lichen patch two centimeters across is roughly forty years old. Look for the largest patches on the oldest stones. They should correlate. Ozawa made me calibrate this on a known-date surface my first year — the foundation stone of a building dated eighteen sixty-three. The math worked within five percent. I still find that satisfying.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y2.m4a",
-          "duration": 40.525,
+          "duration": 50.45,
           "voice_provider": "kokoro"
         }
       },
@@ -96,7 +96,7 @@
         "text": "Keep down Lindsay Road. The Gaol is ahead — the fieldstone tells a different material story.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y2-cue.m4a",
-          "duration": 5.0,
+          "duration": 5.45,
           "voice_provider": "kokoro"
         }
       },
@@ -105,7 +105,7 @@
         "text": "The slate headstones deteriorate through exfoliation — water penetrates the foliation planes of the metamorphic rock, freezes, expands, and the surface peels in thin sheets. Three hundred years of Maine freeze-thaw cycles means thousands of expansions. The carving gets shallower with each one. The names literally disappear into the atmosphere as slate dust. I measured exfoliation rates on dated stones here two years ago — compared inscription depth on stones from the sixteen eighties versus the eighteen eighties. Average loss: point three millimeters per century. At that rate, the sixteen-eighties stones have lost about one millimeter of surface. The deepest carvings were originally three to four millimeters, so the oldest names are approaching illegibility right now, in our lifetime. Marcus asked me if there was a way to slow it. Consolidants help — penetrating sealers that fill the pore structure — but they change the surface chemistry and may accelerate other decay modes. I do not know the long-term answer yet. Nobody does. The stones are conducting a three-hundred-year experiment and we are watching the results in real time. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y2-deep.m4a",
-          "duration": 40.575,
+          "duration": 54.975,
           "voice_provider": "kokoro"
         }
       }
@@ -117,7 +117,7 @@
         "text": "The Old Gaol. Look at this fieldstone. These are glacial erratics — stones deposited by the retreating ice sheet, picked up from wherever the glacier scraped them and dropped here twelve thousand years ago. The builders did not quarry this stone. They collected it from the fields. Every farm in York cleared stones every spring — frost heave pushes new ones to the surface constantly — and the surplus became buildings. This wall is essentially a collection of geological samples from wherever the glacier traveled. Granite, gneiss, schist, quartzite — I can see four different lithologies without moving. Ozawa would have spent an hour identifying each one. The mortar between them is lime — burned seashells, most likely, mixed with sand. Lime mortar is softer than the stone, which is intentional. It absorbs the expansion and contraction forces. A rigid mortar cracks the stone. A soft one sacrifices itself. The mortar fails every few decades and gets repointed. The stones last forever. Somebody understood that trade-off in seventeen nineteen without knowing the word for thermal expansion. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y3.m4a",
-          "duration": 38.35,
+          "duration": 52.525,
           "voice_provider": "kokoro"
         }
       },
@@ -126,7 +126,7 @@
         "text": "Back toward York Street, turn right. First Parish Church ahead. Notice the wood versus the stone you just left.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y3-cue.m4a",
-          "duration": 5.5,
+          "duration": 6.25,
           "voice_provider": "kokoro"
         }
       },
@@ -135,7 +135,7 @@
         "text": "Below grade in this building — the dungeon cells — the stone is in permanent contact with groundwater. Fieldstone walls below the water table wick moisture continuously through capillary action. The mortar joints are the primary pathway — lime mortar is porous. In a modern building, you stop this with a damp-proof course. In seventeen nineteen, you accepted a wet floor. The biological consequence is interesting: the below-grade stone supports a different lichen and moss community than the above-grade stone. Below, you get endolithic organisms — things living inside the pore structure of the rock itself. Algae, fungi, cyanobacteria. They are invisible from outside but they are slowly disaggregating the mortar from within. Last spring I took samples from the mortar at grade level and from two feet below grade on a similar building in our study area. The below-grade sample had three times the fungal biomass. The building is being consumed from below at a rate nobody tracks because nobody looks. I want to sample this building specifically. I have not gotten permission yet. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y3-deep.m4a",
-          "duration": 40.375,
+          "duration": 53.675,
           "voice_provider": "kokoro"
         }
       }
@@ -147,7 +147,7 @@
         "text": "First Parish Church. Seventeen forty-seven. Wood frame, painted white. Notice how white paint serves a function beyond aesthetics — titanium dioxide in modern white paint reflects UV radiation that would otherwise degrade the wood lignin. Before titanium dioxide, they used lead white, which had antifungal properties. The building was not painted white for beauty. It was painted white because white paint lasted longest in this climate. The paint is the building's immune system. Without it, UV breaks down the surface lignin within two years, creating a gray fuzzy layer that holds moisture and invites fungal colonization. A painted building in coastal Maine needs repainting every five to seven years. An unpainted one begins decaying visibly within five. Ozawa used to say that every painted building is a race between the paint schedule and the weather. Miss one cycle and you spend three times as much catching up. I see that on research stations all the time — the ones with reliable funding stay white. The ones without turn gray and then soft.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y4.m4a",
-          "duration": 43.4,
+          "duration": 51.95,
           "voice_provider": "kokoro"
         }
       },
@@ -156,7 +156,7 @@
         "text": "Keep on York Street headed west. Red schoolhouse on your right. Notice the paint color — there is a reason it is red.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y4-cue.m4a",
-          "duration": 6.0,
+          "duration": 6.45,
           "voice_provider": "kokoro"
         }
       },
@@ -165,7 +165,7 @@
         "text": "The steeple creates a specific microhabitat. The peak collects more rain, more wind, more UV than any other surface on the building. It is the most stressed component. The wood at the steeple tip degrades faster than the wood at the eaves, which degrades faster than the wood at the foundation. That vertical gradient of weathering mirrors the intertidal zonation I study on headlands — harshest conditions at the top, most protected at the bottom. Life sorts itself accordingly. The steeple tip supports only lichen. The eaves support moss in the drip line. The foundation — if you look closely at the north side where it stays damp — supports a full community of moss, liverwort, and sometimes fern gametophytes tucked into mortar joints. Marcus documented a building with twenty-three species of bryophyte on its north foundation wall. A church in Kennebunk. I want to do the same survey here. The north side of a wooden building in coastal Maine is essentially a vertical wetland. The organisms do not know it is a church. They know it is wet and shaded and stable. That is all an organism needs to know. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y4-deep.m4a",
-          "duration": 41.075,
+          "duration": 54.175,
           "voice_provider": "kokoro"
         }
       }
@@ -177,7 +177,7 @@
         "text": "Schoolhouse. Eighteen forty-five. Red paint. Look at that color — that specific red tells you something. Traditional red paint was iron oxide mixed with linseed oil. Cheap, durable, and fungicidal. Farmers painted barns red because red was the cheapest pigment that also protected the wood. A schoolhouse painted red is a schoolhouse built on a barn-level budget, which it was. The iron oxide penetrates the wood surface and creates an environment hostile to the fungi that cause rot. Not because anyone understood the chemistry — because red paint lasted longer than no paint and cost less than white. Empirical knowledge operating centuries ahead of the explanation. Ozawa used to say half of what works in traditional construction works for reasons nobody understood until the twentieth century. This red paint worked because iron is toxic to Serpula lacrymans — dry rot fungus. The farmers did not know that name. They knew red barns lasted. Same thing. I notice a patch on the south wall where the paint is peeling. See it? That bare wood has been exposed maybe two summers. Already graying. Already hosting fungal hyphae if you looked with a lens. The race has started.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y5.m4a",
-          "duration": 43.025,
+          "duration": 56.85,
           "voice_provider": "kokoro"
         }
       },
@@ -186,7 +186,7 @@
         "text": "Continue toward the river. The vegetation changes as you approach the tidal zone. Notice the shift in species.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y5-cue.m4a",
-          "duration": 5.5,
+          "duration": 6.625,
           "voice_provider": "kokoro"
         }
       },
@@ -195,7 +195,7 @@
         "text": "The single woodstove that heated this room creates an interesting moisture dynamic. A burning stove dramatically lowers relative humidity near the center of the room while leaving the perimeter — especially the window glass — at dew-point conditions. Condensation forms on the cold glass and runs down into the window sill. Every winter, for a hundred sixty years, those sills received daily moisture from interior condensation. I would expect the window sills to be the most decayed structural element in this building. Not from rain on the outside — from breath and body heat on the inside, condensing on cold glass and pooling. Marcus and I measured this in a similar building last winter — placed humidity sensors at the stove, at two meters, and at the window. The gradient was dramatic: thirty percent humidity at the stove, seventy-five percent at the glass. That is a twenty-degree dew-point swing within a three-meter span. The building was attacking itself from inside all winter. But that is a different paper. Anyway — the sill material matters too. Pine sills in this environment I would predict at fifteen to twenty years before replacement. That is seven or eight sill replacements in this building's life.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y5-deep.m4a",
-          "duration": 45.725,
+          "duration": 58.5,
           "voice_provider": "kokoro"
         }
       }
@@ -207,7 +207,7 @@
         "text": "Elizabeth Perkins House. Right on the York River. Tidal river — look at the waterline on the bank. See the dark staining below the high-tide mark? That is biofilm — a complex community of bacteria, diatoms, and algae that coats every surface in the intertidal zone. The foundation of this house, if it extends below the high-tide line, is colonized by the same organisms I study on natural rock. The building does not know it is a house. It is a substrate. The river delivers salt water twice a day, and the foundation below the flood line receives the same chemical and biological treatment as any rock on the coast. Salt crystallization in the pore structure. Endolithic algae dissolving the mortar. Barnacles on any submerged surface smooth enough to attach to. Ozawa used to say that the ocean does not distinguish between a natural surface and a human one. It colonizes everything within reach. This house has been within reach for three hundred years. The organisms below the tide line are older residents than any human who lived here.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y6.m4a",
-          "duration": 42.95,
+          "duration": 50.15,
           "voice_provider": "kokoro"
         }
       },
@@ -216,7 +216,7 @@
         "text": "The tidal river creates a salt gradient that maps onto the vegetation around this house. At the waterline: salt marsh cordgrass (Spartina alterniflora) — the only grass that tolerates full-strength seawater immersion twice daily. Above that: salt marsh hay (Spartina patens), tolerates occasional flooding but not daily submersion. Above that: the terrestrial garden, which only survives because it is high enough to avoid salt contact. The house sits at the boundary between the salt marsh and the upland. That boundary has shifted in my lifetime — I have aerial photographs from nineteen sixty showing the marsh edge fifteen meters further from the house than it is now. The salt is advancing. Sea level rise, plus land subsidence — this coast is sinking at about two millimeters per year from post-glacial rebound of the continental interior. The house was built when the marsh was further away. In another fifty years, the salt will reach the garden. In a hundred, it reaches the foundation. I do not know if anyone maintaining this building is thinking on that timescale. I suspect not. But the marsh does not care about their planning horizon. Anyway — look at the bank. That erosion is measurable. Two centimeters per year of lateral retreat. Marcus mapped it. But that is a different paper.",
         "audio": {
           "path": "audio/fieldnaturalist/fn-y6-deep.m4a",
-          "duration": 46.375,
+          "duration": 61.75,
           "voice_provider": "kokoro"
         }
       }
